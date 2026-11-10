@@ -1,30 +1,99 @@
-# Partie II : Le corps comme condition
+# Partie II — Le corps et le tore
 
-## 1. La relation stéréophonique
+## Le point de départ : un corps situé
 
-La philosophie sartrienne a posé une distinction entre l'En-soi et le Pour-soi. Pour dépasser cette dualité, nous proposons l'hypothèse d'une **relation stéréophonique**. À l'image d'un signal audio spatialisé, où un canal apporte la profondeur et l'autre la figure, l'expérience humaine est constituée de deux registres asymétriques : la présence (ce qui résiste) et l'apparition (ce qui prend sens). La profondeur du vécu naît de leur **non-coïncidence**, qui n'est pas un défaut, mais la condition même de l'expérience.
+Nous ne percevons pas depuis un point extérieur au monde. Notre corps participe à ce qu’il perçoit : il peut voir et être vu, toucher et être touché. Cette réversibilité ne signifie pourtant pas que les deux positions se confondent.
 
-## 2. Le chiasme et le corps sentant
+Chez Merleau-Ponty, le chiasme permet de penser cet entrelacement du sentant et du sensible. Chez Sartre, le regard d’autrui fait apparaître une dimension de mon existence qui ne se donne pas à moi de la même manière. Ces deux analyses sont ici des points d’appui, non des démonstrations du modèle proposé plus bas.
 
-Cette relation trouve son ancrage dans la phénoménologie de Merleau-Ponty. Dans le chiasme, le corps est simultanément sentant et sensible. Cette réversibilité n'implique pas une fusion : le passage du touchant au touché implique un écart irréductible.
+## Une unité sans coïncidence
 
-## 3. Formalisation torique : support, croisement et circulation
+J’appelle « relation stéréophonique » une articulation dans laquelle des dimensions différentes contribuent à une même expérience sans devenir identiques. La métaphore n’implique pas que l’esprit possède littéralement deux canaux. Elle souligne que la profondeur d’une expérience peut dépendre d’un écart maintenu entre des positions.
 
-Pour donner une figure mathématique à cette structure, nous proposons de représenter le chiasme sur un tore abstrait \(\mathcal T = S^1 \times S^1\). Les deux coordonnées \((\theta, \varphi)\) représentent les dimensions du sentant et du sensible. 
+Ce qui rend la perception possible en limite aussi les passages. Notre organisation corporelle ouvre un monde à partir d’une situation physiologique, spatiale et temporelle. Elle n’est pas immobile : elle se développe, apprend et se transforme. Mais elle ne nous donne pas pour autant un accès libre à toutes les perspectives imaginables.
 
-**L'échange (Croisement) :** 
-L'application \(\chi(\theta,\varphi) = (\varphi,\theta)\) traduit la réversibilité des rôles. Elle est involutive (\(\chi^2 = \mathrm{id}\)). La coïncidence n'existe que sur la diagonale \(\Delta\) : pouvoir échanger les rôles ne signifie pas les vivre de façon identique.
+Le paradoxe n’est donc pas que le corps nous emprisonne dans une image fausse du monde. Il est que notre ouverture au monde possède une forme située : nous pouvons changer de perspective, sans cesser d’être engagés dans les conditions corporelles de ce changement.
 
-**La circulation (Dynamique) :** 
-Le flot \(F_t\) modélise l'évolution des états. Un modèle à vitesses égales maintient un écart constant. Un modèle couplé peut faire varier cet écart sans jamais l'annuler. Le tore décrit ainsi la dynamique d'une différence maintenue.
+## Le tore comme figure de circulation
 
-## 4. Le nœud de tore : la réalité comme intrication de paradoxes
+Je propose le tore comme **figure de travail** pour cette organisation. Il ne représente ni la forme du cerveau ni une géométrie physique démontrée de la conscience.
 
-Le tore ne doit pas être compris comme une surface vide. La trajectoire qui s'enroule autour de son axe et traverse son centre forme un **nœud de tore** (*torus knot*). 
+Le tore permet de distinguer une circulation et un centre. La circulation appartient au modèle ; aucun point intérieur n’est nécessaire pour jouer le rôle d’un spectateur qui regarderait toute l’expérience depuis l’extérieur.
 
-Cette figure décrit la nature de notre réalité vécue : un entrelacement de paradoxes à l'intérieur de paradoxes.
-1. **Le paradoxe de la limite** : Pour percevoir, le corps doit être fini ; mais cette limite est ce qui l'ouvre au monde. 
-2. **Le paradoxe de la stéréophonie** : Le sentant et le sensible ne coïncident jamais, pourtant c'est leur écart qui produit l'unité de l'expérience. 
-3. **Le paradoxe temporel** : Le présent n'est jamais un point, il est noué par le passé qu'il retient et le futur qu'il anticipe.
+Son ouverture centrale suggère une autre question : une organisation peut-elle se rendre entièrement présente à elle-même depuis la position où elle est vécue ? Le regard d’autrui rend sensible cette limite, puisqu’une dimension de mon apparition pour lui m’échappe. Cela ne veut pas dire qu’autrui possède une vision complète ou définitive de moi.
 
-Ce nœud n'est pas une erreur. C'est la structure même de l'invariance. Qu'on tire sur un brin, qu'on déforme le tore, le nœud reste un nœud. La topologie du paradoxe est indéformable. Le réel est cette tresse où l'observateur est à la fois le nœud et celui qui le contemple.
+Le « trou » reste ici une image philosophique. Il ne doit pas être confondu avec un lieu anatomique, une substance absente ou une propriété topologique déjà établie de la conscience.
+
+## Une formalisation minimale
+
+Pour préciser ce que le modèle affirme — et ce qu’il n’affirme pas —, considérons le tore abstrait :
+
+\[
+\mathcal T=S^1\times S^1,
+\qquad
+q=(\theta,\varphi).
+\]
+
+Nous proposons d’associer les deux coordonnées à des rôles dans la relation : le sentant et le sensible. Cette association est interprétative. Elle ne signifie pas que ces rôles disposent déjà de mesures angulaires empiriques.
+
+L’opération de croisement est :
+
+\[
+\chi(\theta,\varphi)=(\varphi,\theta).
+\]
+
+Elle échange les coordonnées et vérifie :
+
+\[
+\chi^2=\mathrm{id}.
+\]
+
+L’échange est donc réversible au sens mathématique. Il ne produit pas automatiquement une identité des positions : celle-ci n’apparaît dans le modèle que sur la diagonale \(\theta=\varphi\pmod{2\pi}\).
+
+Pour représenter une circulation, distincte de cet échange, nous pouvons choisir le flot minimal :
+
+\[
+F_t(\theta_0,\varphi_0)
+=
+(\theta_0+\Omega t,\varphi_0+\Omega t)
+\pmod{2\pi}.
+\]
+
+Il conserve l’écart relatif :
+
+\[
+\delta(t)=\theta(t)-\varphi(t)=\delta(0)\pmod{2\pi}.
+\]
+
+Si cet écart est initialement non nul, les deux coordonnées circulent sans coïncider. Cette propriété résulte du flot choisi : elle n’est pas une loi découverte de la perception humaine.
+
+## Le nœud comme changement de cadre
+
+La circulation ne suffit pas à décrire tous les passages qui nous intéressent. Dans une image, un détail peut devenir l’entrée vers une autre scène : l’œil d’un animal, par exemple, cesse d’être seulement un élément de la première image et ouvre un nouveau champ d’apparition.
+
+J’appelle provisoirement « nœud de passage » cette transformation de rôle :
+
+\[
+\text{élément d’un champ}
+\longrightarrow
+\text{accès à un autre champ}.
+\]
+
+Le terme « nœud » ne désigne pas encore un nœud au sens de la théorie mathématique des nœuds. Il nomme le problème à formaliser : comment un parcours peut-il se poursuivre lorsque le cadre dans lequel il prend sens change ?
+
+Notre perception ordinaire ne traverse pas librement de tels cadres comme le fait une image construite. L’hypothèse examinée ici est que ses possibilités de passage sont contraintes par notre organisation incarnée. Cette hypothèse demande une argumentation propre ; elle ne se déduit ni du tore ni de l’exemple artistique.
+
+## Portée de la proposition
+
+Le chiasme, le regard d’autrui et l’incarnation fournissent des ressources philosophiques pour penser une expérience qui ne coïncide pas entièrement avec elle-même. Le tore, le croisement des coordonnées, le flot et le nœud de passage sont des constructions proposées dans ce texte.
+
+Leur fonction est de rendre les distinctions plus nettes : échange et circulation ; écart et identité ; retour à un point et changement de cadre. Ils ne prouvent ni une topologie de la conscience ni une capacité physique de passage entre des réalités dimensionnelles.
+
+La thèse à défendre demeure plus précise : **les conditions incarnées qui rendent le monde perceptible déterminent aussi la forme et les limites de nos changements de perspective.**
+
+## Références de départ
+
+- Stanford Encyclopedia of Philosophy, « Maurice Merleau-Ponty », particulièrement les sections sur la perception, le corps et le chiasme : https://plato.stanford.edu/entries/merleau-ponty/
+- Stanford Encyclopedia of Philosophy, « Jean-Paul Sartre », particulièrement les sections sur la conscience préréflexive et le regard d’autrui : https://plato.stanford.edu/entries/sartre/
+
+Ces références étayent les points de départ philosophiques. Elles ne sont pas citées comme sources de la formalisation torique proposée ici.
