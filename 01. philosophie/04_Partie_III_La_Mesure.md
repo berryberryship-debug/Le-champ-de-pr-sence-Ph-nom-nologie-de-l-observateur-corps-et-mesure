@@ -202,3 +202,11 @@ C'est ici que le nombre \(1/64\) de notre instrument SHC cesse d'être une limit
  I(N) = \text{degré d'identifiabilité d'une configuration après } N \text{ étapes de mémoire.} 
 \]
 C'est cette loi qui fera le pont final entre notre instrument technique et la phénoménologie de l'adresse.
+
+def von_neumann_entropy_reduced(psi, dim_a, dim_b):
+    rho_a = np.zeros((dim_a, dim_a), dtype=complex)
+    # ... calcul de la matrice densité réduite ...
+    eigenvalues = np.linalg.eigvalsh(rho_a)
+    eigenvalues = eigenvalues[eigenvalues > 1e-12]
+    entropy = -np.sum(eigenvalues * np.log2(eigenvalues))
+    return float(entropy)
