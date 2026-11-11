@@ -1,4 +1,4 @@
-Script — Géométrie de l’allostasie : l’observateur comme invariant de jauge
+Géométrie de l’allostasie : l’observateur comme invariant de jauge
 Ouverture
 Nous avons l’habitude de penser l’observateur comme quelqu’un qui regarde le monde de l’extérieur.
 Il observe, il mesure, il enregistre. Le monde, lui, serait simplement là, avant l’observation, et l’observateur n’aurait qu’à en produire une description fidèle.
