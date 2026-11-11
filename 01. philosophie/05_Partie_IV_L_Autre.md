@@ -416,67 +416,44 @@ Cette continuité ne sera pleinement établie que lorsque les variables des diff
 
 ---
 
-## Conclusion de la Partie IV
-
-La Partie IV part de la présence phénoménale et examine les opérations par lesquelles un vécu devient adressable, entre en résonance avec d'autres configurations et conserve une singularité qui ne se résorbe pas dans la relation.
-
-Le champ linguistique décrit une dimension transindividuelle de l'adressage. Les modèles de transport et de compatibilité proposent une représentation formelle des relations entre configurations. Les oscillateurs de Kuramoto explorent la cohérence collective et ses limites. Le modèle régulatoire introduit une dynamique cumulative de coût et de récupération. Le SHC représente une capacité instrumentale finie de conservation explicite. Enfin, le Bloc 44 étudie une dynamique de champ couplée à une géométrie périodique.
-
-Ces constructions partagent une question : comment une organisation locale se maintient-elle, se transforme-t-elle et devient-elle identifiable dans un champ de relations plus vaste ?
-
-Leur unité est pour l'instant un programme de recherche. Elle devra être établie par la définition des variables communes, la cohérence des transformations, la reproductibilité des simulations et la confrontation des prédictions à des observations indépendantes.
-
-L'ordre implicite demeure ici une hypothèse ontologique. Sa dynamique est une construction mathématique. Sa simulation est une expérience numérique. Leur convergence constitue précisément le problème à établir.
-
----
-
-## Repères bibliographiques
-
-- Akaike, H. (1974). "A new look at the statistical model identification." *IEEE Transactions on Automatic Control*, 19(6), 716–723.
-- Acebrón, J. A., et al. (2005). "The Kuramoto model: A simple paradigm for synchronization phenomena." *Reviews of Modern Physics*, 77, 137–185.
-- Freud, S. (1919). "Das Unheimliche" [L'inquiétante étrangeté].
-- Husserl, E. (1928). *Vorlesungen zur Phänomenologie des inneren Zeitbewusstseins*.
-- Jung, C. G. (1951). *Aion: Beiträge zur Symbolik des Selbst*.
-- Kuramoto, Y. (1984). *Chemical Oscillations, Waves, and Turbulence*. Springer.
-- Lacan, J. (1964). *Le Séminaire, livre XI : Les quatre concepts fondamentaux de la psychanalyse*.
-- Lacan, J. (1966). *Écrits*. Seuil.
-- McEwen, B. S., & Stellar, E. (1993). "Stress and the individual: Mechanisms leading to disease." *Archives of Internal Medicine*, 153(18), 2093–2101.
-- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
-- Spinoza, B. (1677). *Éthique*.
-
-*Note éditoriale : les références bibliographiques ci-dessus sont des repères théoriques. Les valeurs numériques rapportées dans les chapitres 4 et 5 ainsi que les propriétés attribuées au Bloc 44 doivent être accompagnées, dans une version de recherche reproductible, des scripts, paramètres, données de sortie et protocoles de validation correspondants.*
-
 ## Chapitre 11 — L'organisme cognitif : une architecture de la métacognition
 
 ### 1. Le passage de la mesure à l'auto-observation
-Dans la Partie III, nous avons vu comment un système interagit avec son environnement (mesure, décohérence, trace). Mais la conscience ne se réduit pas à enregistrer des traces. Elle implique une capacité à *s'observer elle-même* : une **métacognition**. 
+
+Dans la Partie III, nous avons vu comment un système interagit avec son environnement (mesure, décohérence, trace). Mais la conscience ne se réduit pas à enregistrer des traces. Elle implique une capacité à *s'observer elle-même* : une **métacognition**.
 
 Pour explorer cette dimension, nous avons conçu un modèle informatique : `CognitiveOrganism`. Ce script ne prétend pas simuler une conscience phénoménale. Il implémente une architecture fonctionnelle qui relie la perception, la mémoire épisodique, la prédiction et l'auto-modélisation.
 
 ### 2. L'architecture de l'organisme
+
 Le système est structuré en plusieurs couches :
+
 - **Mémoire épisodique** : chaque observation est stockée avec un degré de saillance, une confiance et une priorité. Les souvenirs peuvent être renforcés ou consolidés.
-- **Graphe cognitif** : les concepts sont des nœuds, et leurs co-occurrences forment des arêtes (le réseau des adresses). 
+- **Graphe cognitif** : les concepts sont des nœuds, et leurs co-occurrences forment des arêtes (le réseau des adresses).
 - **Modèle du soi** : un ensemble de croyances, d'objectifs et d'un niveau de confiance en soi.
 - **État cognitif** : un ensemble de variables dynamiques (erreur de prédiction, incertitude, curiosité).
 
 ### 3. La loi de Zipf et la cohérence (UG)
+
 Le système calcule un indice de cohérence globale (`UG`) en comparant la distribution des fréquences des concepts (loi de Zipf) à différentes échelles (micro et macro). Si la distribution conserve la même pente (même exposant de Zipf) après agrégation, le système considère que sa structure cognitive est cohérente.
 
 $$
- \text{UG} = \frac{1}{3} \left( C_{\text{CG}} + Q_H + S_G \right) 
+\mathrm{UG} = \frac{1}{3}\left( C_{\mathrm{CG}} + Q_H + S_G \right)
 $$
-où \(C_{\text{CG}}\) est la cohérence du coarse-graining, \(Q_H\) la qualité des arêtes et \(S_G\) la stabilité structurelle.
+
+où $C_{\mathrm{CG}}$ est la cohérence du coarse-graining, $Q_H$ la qualité des arêtes et $S_G$ la stabilité structurelle. Il s'agit d'un indice interne du modèle : sa définition opérationnelle (calcul de chaque terme, normalisation) doit être documentée avec le script.
 
 ### 4. La boucle métacognitive
+
 Le cycle cognitif se déroule en cinq étapes :
+
 1. **Perception** : le système enregistre une observation dans sa mémoire.
 2. **Prédiction** : il génère une attente sur le monde.
 3. **Observation** : il compare sa prédiction à la réalité et calcule une **erreur de prédiction**.
-4. **Métacognition** : il génère une **question interne**. 
+4. **Métacognition** : il génère une **question interne**.
 5. **Consolidation** : il met à jour ses croyances et son modèle du soi.
 
-L'extrait de code suivant montre comment le système génère une question interne en fonction de son état d'incertitude et de son erreur de prédiction. C'est ici que l'auto-référence computationnelle se matérialise :
+L'extrait de code suivant montre comment le système sélectionne une question interne en fonction de son état d'incertitude et de son erreur de prédiction. C'est ici que se matérialise une forme fonctionnelle d'auto-référence : le système prend son propre état comme entrée de sa prochaine action. Les questions sont ici des chaînes prédéfinies choisies par seuils ; il ne s'agit pas d'une génération libre.
 
 ```python
     def generate_internal_question(self) -> str:
@@ -506,23 +483,63 @@ L'extrait de code suivant montre comment le système génère une question inter
             "Quelle est la prochaine observation "
             "qui pourrait modifier mon modèle ?"
         )
+```
 
-## Par ailleurs : la juxtaposition rétroactive du Soi (TSVF)
+---
 
-La description du Soi comme structure relationnelle et temporelle (développée dans les chapitres précédents) peut être éclairée par une lecture alternative de la mesure quantique : le **Formalisme des États Deux-Vecteurs (TSVF)** d'Aharonov et Vaidman. 
+## Chapitre 12 — La juxtaposition rétroactive du Soi (TSVF)
 
-Loin d'être une simple dissipation passive de l'information vers l'environnement (comme dans la décohérence standard), cette approche propose que le présent soit **co-déterminé** par deux ondes temporelles : un vecteur évoluant du passé vers le futur (\(|\psi\rangle\)), et un vecteur évoluant à rebours depuis le futur (\(\langle\phi|\)). 
+La description du Soi comme structure relationnelle et temporelle (développée dans les chapitres précédents) peut être éclairée par une lecture alternative de la mesure quantique : le **Formalisme des États Deux-Vecteurs (TSVF)**, développé à partir des travaux d'Aharonov, Bergmann et Lebowitz (1964), puis d'Aharonov et Vaidman.
 
-Mathématiquement, la réalité du système à l'instant \(t\) n'est plus définie par un seul état, mais par le couple \(\mathcal{R}(t) = \{|\psi(t)\rangle \,;\, \langle\phi(t)|\}\). La probabilité d'une transition dépend alors de la **valeur faible** (*weak value*) d'un opérateur \(A\) :
-\[
- A_w = \frac{\langle\phi(t)|A|\psi(t)\rangle}{\langle\phi(t)|\psi(t)\rangle} 
-\]
-Cette valeur, qui peut sortir de l'intervalle standard des valeurs propres, témoigne d'une co-détermination entre le point de départ et le point d'arrivée.
+Loin d'être présenté comme une simple dissipation passive de l'information vers l'environnement (comme dans la décohérence standard), le système est décrit, dans cette approche, par deux vecteurs : un état évoluant du passé vers le futur ($|\psi\rangle$), et un état évoluant à rebours depuis la post-sélection ($\langle\phi|$).
 
-Ce formalisme rejoint directement le script `v91_tsvf_codetermination.py` (dépôt *Panpsychisme informationnel*), qui calcule numériquement cette valeur faible pour un qubit post-sélectionné.
+Mathématiquement, le système à l'instant $t$ n'est plus défini par un seul état, mais par le couple $\mathcal{R}(t) = \{ |\psi(t)\rangle \,;\, \langle\phi(t)| \}$. Les probabilités de résultats entre deux mesures s'obtiennent par la règle ABL. La **valeur faible** (*weak value*) d'un opérateur $A$, quant à elle, s'écrit :
 
-**[Hypothèse]** : Dans cette perspective, le Soi local ne serait pas simplement le produit de son passé. Il serait le point d'interférence entre les états dont il vient et un état futur qui le "tire" rétroactivement. L'illusion du choix local serait alors la mesure de cette interférence.
+$$
+A_w = \frac{\langle \phi(t) | A | \psi(t) \rangle}{\langle \phi(t) | \psi(t) \rangle}
+$$
 
-**[Limite]** : Cette interprétation suppose souvent une structure de type "block-universe" (où l'espace-temps 4D est complet et statique). Le TSVF est mathématiquement valide, mais sa lecture rétrocausale reste une hypothèse philosophique et non un résultat physique établi.
+Cette valeur, qui peut sortir de l'intervalle des valeurs propres de $A$, caractérise la relation entre l'état de départ et l'état d'arrivée post-sélectionné.
+
+Ce formalisme est mis en relation avec le script `v91_tsvf_codetermination.py` (dépôt *Panpsychisme informationnel*), qui calcule numériquement cette valeur faible pour un qubit post-sélectionné.
+
+**[Hypothèse]** Dans cette perspective, le Soi local ne serait pas simplement le produit de son passé. Il serait le point d'interférence entre les états dont il vient et un état futur qui le « tire » rétroactivement. L'illusion du choix local serait alors la mesure de cette interférence.
+
+**[Limite]** Cette interprétation suppose souvent une structure de type « block-universe » (où l'espace-temps à quatre dimensions est complet et statique). Le TSVF est mathématiquement valide, mais sa lecture rétrocausale reste une hypothèse philosophique et non un résultat physique établi.
 
 Le Soi n'est donc pas une substance, mais une **interface entre deux vecteurs temporels** : le lieu exact où le présent ne coïncide jamais parfaitement avec lui-même.
+
+---
+
+## Conclusion de la Partie IV
+
+La Partie IV part de la présence phénoménale et examine les opérations par lesquelles un vécu devient adressable, entre en résonance avec d'autres configurations et conserve une singularité qui ne se résorbe pas dans la relation.
+
+Le champ linguistique décrit une dimension transindividuelle de l'adressage. Les modèles de transport et de compatibilité proposent une représentation formelle des relations entre configurations. Les oscillateurs de Kuramoto explorent la cohérence collective et ses limites. Le modèle régulatoire introduit une dynamique cumulative de coût et de récupération. Le SHC représente une capacité instrumentale finie de conservation explicite. Enfin, le Bloc 44 étudie une dynamique de champ couplée à une géométrie périodique.
+
+Ces constructions partagent une question : comment une organisation locale se maintient-elle, se transforme-t-elle et devient-elle identifiable dans un champ de relations plus vaste ?
+
+Leur unité est pour l'instant un programme de recherche. Elle devra être établie par la définition des variables communes, la cohérence des transformations, la reproductibilité des simulations et la confrontation des prédictions à des observations indépendantes.
+
+L'ordre implicite demeure ici une hypothèse ontologique. Sa dynamique est une construction mathématique. Sa simulation est une expérience numérique. Leur convergence constitue précisément le problème à établir.
+
+---
+
+## Repères bibliographiques
+
+- Aharonov, Y., Bergmann, P. G., & Lebowitz, J. L. (1964). "Time symmetry in the quantum process of measurement." *Physical Review*, 134, B1410.
+- Aharonov, Y., Albert, D. Z., & Vaidman, L. (1988). "How the result of a measurement of a component of the spin of a spin-1/2 particle can turn out to be 100." *Physical Review Letters*, 60, 1351.
+- Aharonov, Y., & Vaidman, L. (1990). "Properties of a quantum system during the time interval between two measurements." *Physical Review A*, 41, 11.
+- Akaike, H. (1974). "A new look at the statistical model identification." *IEEE Transactions on Automatic Control*, 19(6), 716–723.
+- Acebrón, J. A., et al. (2005). "The Kuramoto model: A simple paradigm for synchronization phenomena." *Reviews of Modern Physics*, 77, 137–185.
+- Freud, S. (1919). "Das Unheimliche" [L'inquiétante étrangeté].
+- Husserl, E. (1928). *Vorlesungen zur Phänomenologie des inneren Zeitbewusstseins*.
+- Jung, C. G. (1951). *Aion: Beiträge zur Symbolik des Selbst*.
+- Kuramoto, Y. (1984). *Chemical Oscillations, Waves, and Turbulence*. Springer.
+- Lacan, J. (1964). *Le Séminaire, livre XI : Les quatre concepts fondamentaux de la psychanalyse*.
+- Lacan, J. (1966). *Écrits*. Seuil.
+- McEwen, B. S., & Stellar, E. (1993). "Stress and the individual: Mechanisms leading to disease." *Archives of Internal Medicine*, 153(18), 2093–2101.
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Spinoza, B. (1677). *Éthique*.
+
+*Note éditoriale : les références bibliographiques ci-dessus sont des repères théoriques. Les valeurs numériques rapportées dans les chapitres 4 et 5 ainsi que les propriétés attribuées au Bloc 44 doivent être accompagnées, dans une version de recherche reproductible, des scripts, paramètres, données de sortie et protocoles de validation correspondants.*
