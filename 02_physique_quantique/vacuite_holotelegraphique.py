@@ -1155,4 +1155,1895 @@ Citations :
 [12] Differential_evolution https://docs.scipy.org/doc/scipy-1.15.2/reference/generated/scipy.optimize.differential_evolution.html
 [13] scipy.signal.butter¶ https://docs.scipy.org/doc//scipy-1.6.2/reference/generated/scipy.signal.butter.html
 [14] scipy.optimize.differential_evolution — SciPy v1.11.4 Manual https://docs.scipy.org/doc/scipy-1.11.4/reference/generated/scipy.optimize.differential_evolution.html
-[15] scipy.optimize.differential_evolution — SciPy v1.9.0 Manual https://docs.scipy.org/doc//scipy-1.9.0/reference/generated/scipy.optimize.differential_evolution.html
+[15] scipy.optimize.differential_evolution — SciPy v1.9.0 Manual https://docs.scipy.org/doc//scipy-1.9.0/
+
+```python#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+soit02_physique_quantique/vacuite_holotelegraphique.py
+=======================================================
+
+Système hybride spectral covariant et contrôle homéostatique.
+
+Architecture
+------------
+    Champ -> Phase -> Cohérence -> Mémoire -> Prédiction -> Précision -> Calibration
+
+Équation de base
+----------------
+    i ∂ψ/∂t = -½ D²ψ + g|ψ|²ψ + V(x)ψ
+
+    avec le couplage minimal de jauge U(1) :
+
+        D = ∂/∂x - iA(x)
+
+Méthode numérique
+-----------------
+    Strang splitting unitaire :
+
+        ψ(t + Δt) = e^{-iVΔt/2} e^{-iH_cin Δt} e^{-iVΔt/2} ψ(t)
+
+Propriétés
+----------
+    - Conservation exacte de la norme L2.
+    - Conservation approximative de l'énergie covariante.
+    - Contraste de cohérence hilbertien, distinct de l'interférence physique.
+    - Flux de jauge non trivial sur le tore.
+    - Prédiction adaptative par filtre RLS.
+    - Régulation homéostatique de précision.
+    - Calibration multidimensionnelle.
+
+Statut
+------
+    Prototype conceptuel.
+
+    Ce module ne prétend pas modéliser la conscience,
+    démontrer une mémoire phénoménologique,
+    établir une holonomie biologique,
+    ni fonder une théorie de jauge de l'esprit.
+
+    Il propose une analogie structurelle entre :
+        - dynamique de champ ;
+        - régulation allostatique ;
+        - mémoire dépendante du chemin ;
+        - anticipation ;
+        - cohérence relationnelle.
+
+Exemple
+-------
+    python vacuite_holotelegraphique.py --steps 100 --dt 0.01
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from dataclasses import dataclass, field
+from typing import Dict, List, Tuple
+
+import numpy as np
+import pandas as pd
+from numpy.fft import fft, ifft, fftfreq
+from scipy.special import ive, iv
+
+
+# ============================================================
+# Constants
+# ============================================================
+
+EPSILON = 1e-12
+LIGHT_SPEED = 3.0e8  # m/s, référence de calibration uniquement
+
+
+# ============================================================
+# 1. UTILITAIRES MATHÉMATIQUES
+# ============================================================
+
+def normaliser_L2(champ: np.ndarray, dx: float) -> np.ndarray:
+    """
+    Normalise un champ complexe selon sa norme L2 discrète.
+
+    Parameters
+    ----------
+    champ : np.ndarray
+        Champ complexe à normaliser.
+    dx : float
+        Pas spatial.
+
+    Returns
+    -------
+    np.ndarray
+        Champ normalisé.
+
+    Raises
+    ------
+    ValueError
+        Si la norme est nulle ou négative.
+    """
+    norme = np.sqrt(np.sum(np.abs(champ) ** 2) * dx)
+    if norme <= 1e-15:
+        raise ValueError("Norme du champ quasi-nulle.")
+    return champ / norme
+
+
+def plancher_lisse(
+    valeurs: np.ndarray,
+    seuil: float = 0.01,
+    largeur: float = 0.01,
+) -> np.ndarray:
+    """
+    Applique un plancher lisse afin d'éviter les valeurs nulles ou négatives.
+
+    Parameters
+    ----------
+    valeurs : np.ndarray
+        Valeurs d'entrée.
+    seuil : float
+        Valeur minimale souhaitée.
+    largeur : float
+        Largeur de la transition lisse.
+
+    Returns
+    -------
+    np.ndarray
+        Valeurs plafonnées lissées.
+    """
+    return seuil + largeur * np.logaddexp((valeurs - seuil) / largeur, 0.0)
+
+
+def kappa_bessel(x: float | np.ndarray) -> float | np.ndarray:
+    """
+    Rapport de concentration circulaire :
+
+        kappa(x) = I1(x) / I0(x)
+
+    Parameters
+    ----------
+    x : float or np.ndarray
+        Argument de la fonction de Bessel modifiée.
+
+    Returns
+    -------
+    float or np.ndarray
+        Rapport de concentration.
+    """
+    x = np.maximum(x, 1e-12)
+    i0 = np.maximum(ive(0, x), 1e-15)
+    return ive(1, x) / i0
+
+
+def inverser_kappa_newton(
+    target: float,
+    tol: float = 1e-10,
+    max_iter: int = 20,
+) -> float:
+    """
+    Inverse numériquement kappa(x) = I1(x)/I0(x) par Newton-Raphson.
+
+    La dérivée exacte est :
+
+        d/dx [I1/I0] = 1 - (I1/I0)/x - (I1/I0)²
+
+    Parameters
+    ----------
+    target : float
+        Valeur cible de kappa.
+    tol : float
+        Tolérance de convergence.
+    max_iter : int
+        Nombre maximal d'itérations.
+
+    Returns
+    -------
+    float
+        Valeur de x telle que kappa(x) ≈ target.
+    """
+    target = float(np.clip(target, 1e-6, 0.999))
+    x = 1.0
+
+    for _ in range(max_iter):
+        k = float(kappa_bessel(x))
+        diff = k - target
+
+        if abs(diff) < tol:
+            break
+
+        dk = 1.0 - (k / x) - k ** 2
+        dk = max(dk, 1e-10)
+
+        x = max(x - diff / dk, 1e-8)
+
+    return float(x)
+
+
+# ============================================================
+# 2. DYNAMIQUE SPECTRALE COVARIANTE
+# ============================================================
+
+@dataclass
+class DynamiqueJaugeCovarianteExacte:
+    """
+    Dynamique d'un champ complexe sur un tore, avec couplage minimal U(1).
+
+    Équation :
+
+        i ∂ψ/∂t = -½ D²ψ + g|ψ|²ψ + V(x)ψ
+
+    où :
+
+        D = ∂/∂x - iA(x)
+
+    La jauge est décomposée en :
+
+        A(x) = A_0 + d(phi_per)/dx
+
+    où A_0 porte l'holonomie globale et phi_per est périodique.
+    """
+
+    resolution: int = 1024
+    etendue_spatiale: float = 50.0
+    p: int = 2
+    q: int = 3
+    lambda_jauge: float = 2.0
+    g_kerr: float = 1.0
+    alpha_pot: float = 0.1
+    graine: int = 42
+
+    def __post_init__(self) -> None:
+        self.N = int(self.resolution)
+        self.L = float(self.etendue_spatiale)
+        self.dx = self.L / self.N
+        self.x = np.linspace(
+            -self.L / 2,
+            self.L / 2,
+            self.N,
+            endpoint=False,
+        )
+        self.k_base = 2.0 * np.pi * fftfreq(self.N, d=self.dx)
+
+        # Potentiel de jauge spatial
+        ang_p = 2.0 * np.pi * self.p * self.x / self.L
+        ang_q = 2.0 * np.pi * self.q * self.x / self.L
+        self.A = (2.0 * np.pi / self.lambda_jauge) * (
+            self.p * np.cos(ang_q) + self.q * np.sin(ang_p)
+        )
+
+        # Décomposition topologique
+        self.A_0 = float(np.mean(self.A))
+        self.flux_jauge = self.A_0 * self.L
+        A_flottant = self.A - self.A_0
+
+        # Phase périodique locale
+        A_k = fft(A_flottant)
+        denom_k = 1j * self.k_base
+        denom_k[0] = 1.0
+        phi_k = A_k / denom_k
+        phi_k[0] = 0.0
+        self.phi_jauge = ifft(phi_k).real
+
+        # Grille spectrale tordue
+        self.k_tordu = self.k_base - self.A_0
+
+        # Potentiel scalaire externe
+        self.V = self.alpha_pot * np.cos(
+            2.0 * np.pi * self.x / self.L
+        )
+
+        # Champ initial
+        rng = np.random.default_rng(self.graine)
+        enveloppe = np.exp(-(self.x ** 2) / 8.0)
+        phases = rng.uniform(0.0, 2.0 * np.pi, self.N)
+        self.psi = normaliser_L2(
+            enveloppe * np.exp(1j * phases),
+            self.dx,
+        )
+
+        # Phases unitaires pré-calculées
+        self.phase_gauge_plus = np.exp(1j * self.phi_jauge)
+        self.phase_gauge_moins = np.exp(-1j * self.phi_jauge)
+
+    # --------------------------------------------------------
+    # Pas de potentiel et Kerr
+    # --------------------------------------------------------
+
+    def pas_potentiel(self, dt_demi: float) -> None:
+        """
+        Applique exactement :
+
+            exp(-i dt (V + g|ψ|²))
+
+        Ce pas est unitaire car il s'agit d'une phase locale.
+        """
+        densite = np.abs(self.psi) ** 2
+        V_effectif = self.V + self.g_kerr * densite
+        self.psi *= np.exp(-1j * V_effectif * dt_demi)
+
+    # --------------------------------------------------------
+    # Pas cinétique covariant exact
+    # --------------------------------------------------------
+
+    def pas_cinetique_tordu(self, dt: float) -> None:
+        """
+        Applique exactement le pas cinétique covariant.
+
+        Méthode :
+            transformation de jauge
+            + FFT avec grille tordue
+            + exponentiation exacte
+            + retour de jauge.
+        """
+        chi = self.psi * self.phase_gauge_moins
+
+        chi_k = fft(chi)
+        chi_k *= np.exp(-0.5j * (self.k_tordu ** 2) * dt)
+        chi = ifft(chi_k)
+
+        self.psi = chi * self.phase_gauge_plus
+
+    # --------------------------------------------------------
+    # Strang splitting unitaire
+    # --------------------------------------------------------
+
+    def pas_strang(self, dt: float) -> np.ndarray:
+        """
+        Applique un pas de Strang splitting unitaire.
+
+        Schéma :
+
+            ψ(t+dt) = e^{-iVdt/2} e^{-iH_cin dt} e^{-iVdt/2} ψ(t)
+
+        Parameters
+        ----------
+        dt : float
+            Pas de temps.
+
+        Returns
+        -------
+        np.ndarray
+            Champ évolué.
+        """
+        self.pas_potentiel(dt * 0.5)
+        self.pas_cinetique_tordu(dt)
+        self.pas_potentiel(dt * 0.5)
+        return self.psi
+
+    # --------------------------------------------------------
+    # Observables
+    # --------------------------------------------------------
+
+    def densite(self) -> np.ndarray:
+        """Retourne la densité |ψ|²."""
+        return np.abs(self.psi) ** 2
+
+    def norme(self) -> float:
+        """Retourne la norme L2 discrète."""
+        return float(np.sum(np.abs(self.psi) ** 2) * self.dx)
+
+    def phase_moyenne(self) -> float:
+        """Retourne la phase moyenne globale."""
+        return float(np.angle(np.sum(self.psi) * self.dx))
+
+    def variance_phase(self) -> float:
+        """Retourne la variance de la phase locale."""
+        return float(np.var(np.angle(self.psi)))
+
+    def holonomie_boucle(self) -> float:
+        """Retourne le flux de jauge sur le tore."""
+        return self.flux_jauge
+
+    # --------------------------------------------------------
+    # Énergie covariante
+    # --------------------------------------------------------
+
+    def energie_covariante(self) -> float:
+        """
+        Calcule l'énergie covariante :
+
+            E = ∫ [ ½|Dψ|² + (g/2)|ψ|⁴ + V|ψ|² ] dx
+
+        Cette quantité est un diagnostic.
+        Elle n'est pas exactement conservée par le split-step Fourier.
+        """
+        dpsi_dx = ifft(1j * self.k_base * fft(self.psi))
+        dpsi_cov = dpsi_dx - 1j * self.A * self.psi
+
+        densite = np.abs(self.psi) ** 2
+
+        terme_cinetique = 0.5 * np.abs(dpsi_cov) ** 2
+        terme_kerr = 0.5 * self.g_kerr * densite ** 2
+        terme_potentiel = self.V * densite
+
+        energie = np.sum(
+            terme_cinetique + terme_kerr + terme_potentiel
+        ) * self.dx
+
+        return float(energie)
+
+
+# ============================================================
+# 3. CONTRASTE DE COHÉRENCE HILBERTIEN
+# ============================================================
+
+class ContrasteCoherenceHilbertien:
+    """
+    Mesure de cohérence de phase normalisée.
+
+    Cette quantité n'est pas une interférence physique.
+    C'est un contraste de recouvrement hilbertien.
+    """
+
+    @staticmethod
+    def mesure(psi: np.ndarray, dx: float) -> float:
+        """
+        Calcule le contraste de cohérence :
+
+            C = |⟨ψ, ψ_m⟩|² / (‖ψ‖² ‖ψ_m‖²)
+
+        Parameters
+        ----------
+        psi : np.ndarray
+            Champ complexe.
+        dx : float
+            Pas spatial.
+
+        Returns
+        -------
+        float
+            Contraste de cohérence, compris entre 0 et 1.
+        """
+        densite = np.abs(psi) ** 2
+        delta_phase = np.pi * densite
+        psi_miroir = psi * np.exp(1j * delta_phase)
+
+        norme_psi_sq = np.sum(np.abs(psi) ** 2) * dx
+        norme_m_sq = np.sum(np.abs(psi_miroir) ** 2) * dx
+
+        if norme_psi_sq * norme_m_sq <= 1e-15:
+            return 0.0
+
+        produit_scalaire = np.sum(np.conj(psi) * psi_miroir) * dx
+        return float(
+            (np.abs(produit_scalaire) ** 2)
+            / (norme_psi_sq * norme_m_sq)
+        )
+
+
+# ============================================================
+# 4. PRÉDICTEUR RLS ADAPTATIF
+# ============================================================
+
+class PredicteurAdaptatifRLS:
+    """
+    Filtre des moindres carrés récursifs (RLS) d'ordre M.
+
+    Ordre correct des opérations :
+        1. prédiction avec le tampon actuel ;
+        2. calcul de l'erreur ;
+        3. mise à jour des poids ;
+        4. décalage du tampon.
+    """
+
+    def __init__(
+        self,
+        ordre: int = 3,
+        lambda_oubli: float = 0.985,
+        delta: float = 10.0,
+    ) -> None:
+        self.ordre = int(ordre)
+        self.lam = float(lambda_oubli)
+        self.w = np.zeros(self.ordre)
+        self.P = np.eye(self.ordre) * float(delta)
+        self.tampon = np.zeros(self.ordre)
+
+    def predire(self) -> float:
+        """Retourne la prédiction courante."""
+        return float(np.dot(self.w, self.tampon))
+
+    def actualiser(self, valeur: float) -> float:
+        """
+        Met à jour le filtre avec une nouvelle observation.
+
+        Parameters
+        ----------
+        valeur : float
+            Nouvelle observation.
+
+        Returns
+        -------
+        float
+            Erreur absolue de prédiction.
+        """
+        x = self.tampon.copy()
+        prediction = float(np.dot(self.w, x))
+        erreur = float(valeur - prediction)
+
+        Px = self.P @ x
+        denominateur = self.lam + float(np.dot(x, Px))
+        g = Px / max(denominateur, 1e-12)
+
+        self.w += g * erreur
+        self.P = (self.P - np.outer(g, Px)) / self.lam
+
+        self.tampon = np.roll(self.tampon, 1)
+        self.tampon[0] = float(valeur)
+
+        return abs(erreur)
+
+
+# ============================================================
+# 5. RÉGULATEUR DE PRÉCISION
+# ============================================================
+
+@dataclass
+class RegulateurPrecisionRobuste:
+    """
+    Régulateur homéostatique de précision, de type PI.
+    """
+
+    target_kappa: float = 0.85
+    kp: float = 0.35
+    ki: float = 0.03
+    integrale: float = 0.0
+
+    def __post_init__(self) -> None:
+        self.x_consigne = inverser_kappa_newton(self.target_kappa)
+
+    def corriger(
+        self,
+        Pi: float,
+        D: float,
+        K: float,
+        incertitude: float,
+    ) -> Dict[str, float]:
+        """
+        Met à jour la précision en fonction du bruit, du couplage
+        et de l'incertitude prédictive.
+
+        Parameters
+        ----------
+        Pi : float
+            Précision courante.
+        D : float
+            Bruit environnemental.
+        K : float
+            Couplage structural.
+        incertitude : float
+            Erreur de prédiction normalisée.
+
+        Returns
+        -------
+        Dict[str, float]
+            État mis à jour du régulateur.
+        """
+        D = max(float(D), 1e-6)
+        K = max(float(K), 1e-6)
+
+        consigne = (self.x_consigne * D / K) * (1.0 + incertitude)
+        erreur = consigne - Pi
+        self.integrale = float(
+            np.clip(self.integrale + erreur, -5.0, 5.0)
+        )
+
+        Pi_nouveau = float(
+            np.clip(
+                Pi + self.kp * erreur + self.ki * self.integrale,
+                0.01,
+                20.0,
+            )
+        )
+
+        x_effectif = Pi_nouveau * K / D
+        k_mesure = float(kappa_bessel(x_effectif))
+
+        return {
+            "Pi": Pi_nouveau,
+            "x": x_effectif,
+            "kappa": k_mesure,
+            "erreur_kappa": self.target_kappa - k_mesure,
+        }
+
+
+# ============================================================
+# 6. CALIBRATION MULTIDIMENSIONNELLE
+# ============================================================
+
+@dataclass
+class CalibrationMultidimensionnelle:
+    """
+    Balayage multidimensionnel des paramètres de calibration.
+    """
+
+    omega_scales: np.ndarray = field(
+        default_factory=lambda: np.logspace(-5, 2, 30)
+    )
+    gamma_scales: np.ndarray = field(
+        default_factory=lambda: np.logspace(-2, 1, 15)
+    )
+    spatial_scales: np.ndarray = field(
+        default_factory=lambda: np.logspace(-2, 3, 15)
+    )
+
+    cible_min: float = 800.0
+    cible_max: float = 1200.0
+
+    def evaluer_longueur_onde(
+        self,
+        omega_scale: float,
+        gamma_scale: float,
+        spatial_scale: float,
+    ) -> float:
+        """
+        Évalue la longueur d'onde effective.
+
+        Parameters
+        ----------
+        omega_scale : float
+            Échelle de la pulsation.
+        gamma_scale : float
+            Échelle de l'amortissement.
+        spatial_scale : float
+            Facteur d'échelle spatial.
+
+        Returns
+        -------
+        float
+            Longueur d'onde effective, en mètres.
+        """
+        omega_0 = 1.0e6 * omega_scale
+        gamma = 1.2 * gamma_scale
+
+        discriminant = omega_0 ** 2 - (gamma / 2) ** 2
+        if discriminant <= 0:
+            return float("nan")
+
+        omega_eff = np.sqrt(discriminant)
+        lambda_physique = (2.0 * np.pi * LIGHT_SPEED) / omega_eff
+        return lambda_physique * spatial_scale
+
+    def executer_balayage(self) -> pd.DataFrame:
+        """
+        Exécute le balayage multidimensionnel.
+
+        Returns
+        -------
+        pd.DataFrame
+            Résultats du balayage.
+        """
+        resultats: List[Dict[str, float | bool]] = []
+
+        for omega_scale in self.omega_scales:
+            for gamma_scale in self.gamma_scales:
+                for spatial_scale in self.spatial_scales:
+                    lam = self.evaluer_longueur_onde(
+                        omega_scale,
+                        gamma_scale,
+                        spatial_scale,
+                    )
+                    resultats.append(
+                        {
+                            "omega_scale": omega_scale,
+                            "gamma_scale": gamma_scale,
+                            "spatial_scale": spatial_scale,
+                            "lambda_m": lam,
+                            "dans_cible": (
+                                self.cible_min <= lam <= self.cible_max
+                            ),
+                        }
+                    )
+
+        return pd.DataFrame(resultats)
+
+
+# ============================================================
+# 7. SYSTÈME HYBRIDE UNIFIÉ
+# ============================================================
+
+@dataclass
+class SystemeHybrideUnifie:
+    """
+    Système hybride unifiant champ, phase, cohérence, mémoire,
+    prédiction et précision.
+    """
+
+    champ: DynamiqueJaugeCovarianteExacte = field(
+        default_factory=DynamiqueJaugeCovarianteExacte
+    )
+    rls_densite: PredicteurAdaptatifRLS = field(
+        default_factory=lambda: PredicteurAdaptatifRLS(ordre=3)
+    )
+    rls_phase: PredicteurAdaptatifRLS = field(
+        default_factory=lambda: PredicteurAdaptatifRLS(ordre=3)
+    )
+    regulateur: RegulateurPrecisionRobuste = field(
+        default_factory=RegulateurPrecisionRobuste
+    )
+
+    Pi: float = 1.0
+    K: float = 1.2
+    D: float = 1.0
+
+    def pas_temporel(self, dt: float = 0.01) -> Dict[str, float]:
+        """
+        Exécute un pas temporel complet du système hybride.
+
+        Parameters
+        ----------
+        dt : float
+            Pas de temps.
+
+        Returns
+        -------
+        Dict[str, float]
+            Observables et état du système.
+        """
+        # 1. Évolution unitaire du champ
+        psi = self.champ.pas_strang(dt)
+        dx = self.champ.dx
+
+        # 2. Observables
+        densite = self.champ.densite()
+        densite_moyenne = float(np.sum(densite) * dx / self.champ.L)
+        phase_globale = self.champ.phase_moyenne()
+
+        # 3. Contraste de cohérence hilbertien
+        contraste = ContrasteCoherenceHilbertien.mesure(psi, dx)
+
+        # 4. Prédiction RLS
+        err_dens = self.rls_densite.actualiser(densite_moyenne)
+        err_phas = self.rls_phase.actualiser(phase_globale)
+        erreur_globale = 0.5 * (err_dens + err_phas)
+
+        # 5. Couplage dynamique
+        K_dynamique = self.K * (1.0 + 0.05 * contraste)
+
+        # 6. Régulation
+        etat_reg = self.regulateur.corriger(
+            self.Pi,
+            self.D,
+            K_dynamique,
+            erreur_globale,
+        )
+        self.Pi = etat_reg["Pi"]
+
+        return {
+            "norme_L2": self.champ.norme(),
+            "energie_covariante": self.champ.energie_covariante(),
+            "densite": densite_moyenne,
+            "phase": phase_globale,
+            "contraste_cohérence": contraste,
+            "erreur_pred": erreur_globale,
+            "Pi": self.Pi,
+            "kappa": etat_reg["kappa"],
+            "holonomie": self.champ.holonomie_boucle(),
+        }
+
+
+# ============================================================
+# 8. EXÉCUTION
+# ============================================================
+
+def executer_simulation(
+    steps: int = 100,
+    dt: float = 0.01,
+) -> List[Dict[str, float]]:
+    """
+    Exécute une simulation complète.
+
+    Parameters
+    ----------
+    steps : int
+        Nombre de pas temporels.
+    dt : float
+        Pas de temps.
+
+    Returns
+    -------
+    List[Dict[str, float]]
+        Historique des observables.
+    """
+    systeme = SystemeHybrideUnifie()
+    resultats: List[Dict[str, float]] = []
+
+    for _ in range(steps):
+        resultat = systeme.pas_temporel(dt)
+        resultats.append(resultat)
+
+    return resultats
+
+
+def construire_parser() -> argparse.ArgumentParser:
+    """Construit le parseur d'arguments en ligne de commande."""
+    parser = argparse.ArgumentParser(
+        description=(
+            "Simulation hybride spectrale covariante "
+            "avec contrôle homéostatique."
+        )
+    )
+    parser.add_argument(
+        "--steps",
+        type=int,
+        default=100,
+        help="Nombre de pas temporels.",
+    )
+    parser.add_argument(
+        "--dt",
+        type=float,
+        default=0.01,
+        help="Pas de temps.",
+    )
+    parser.add_argument(
+        "--resolution",
+        type=int,
+        default=1024,
+        help="Résolution spatiale.",
+    )
+    parser.add_argument(
+        "--calibration",
+        action="store_true",
+        help="Exécute la calibration multidimensionnelle.",
+    )
+    parser.add_argument(
+        "--json",
+        action="store_true",
+        help="Affiche le dernier état au format JSON.",
+    )
+    return parser
+
+
+def main() -> int:
+    """Point d'entrée principal."""
+    parser = construire_parser()
+    args = parser.parse_args()
+
+    if args.calibration:
+        calibration = CalibrationMultidimensionnelle()
+        df = calibration.executer_balayage()
+        cible = df[df["dans_cible"]]
+        if not cible.empty:
+            print(cible.head(10))
+        else:
+            print(
+                "[!] Aucune configuration dans la cible "
+                f"[{calibration.cible_min}, {calibration.cible_max}] m."
+            )
+        return 0
+
+    print(
+        f"[INIT] Simulation hybride : "
+        f"{args.steps} pas, dt = {args.dt}, "
+        f"résolution = {args.resolution}."
+    )
+
+    systeme = SystemeHybrideUnifie(
+        champ=DynamiqueJaugeCovarianteExacte(
+            resolution=args.resolution
+        )
+    )
+
+    dernier: Dict[str, float] = {}
+
+    for i in range(args.steps):
+        dernier = systeme.pas_temporel(args.dt)
+
+        if (i + 1) % 20 == 0:
+            print(
+                f"  Pas {i + 1:03d} | "
+                f"Norme L2: {dernier['norme_L2']:.10f} | "
+                f"Énergie: {dernier['energie_covariante']:.6f} | "
+                f"Cohérence: {dernier['contraste_cohérence']:.6f} | "
+                f"Kappa: {dernier['kappa']:.4f} | "
+                f"Err RLS: {dernier['erreur_pred']:.3e}"
+            )
+
+    print("\n[BILAN FINAL]")
+    for cle, val in dernier.items():
+        print(f"  {cle:20s}: {val:14.8f}")
+
+    if args.json:
+        print(json.dumps(dernier, indent=2, ensure_ascii=False))
+
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
+```
+
+***
+
+## Points de robustesse
+
+- Le schéma de Strang applique chaque sous-flux par une exponentielle exacte, ce qui garantit l’unitarité et la conservation structurelle de la norme $$L^2$$, sans renormalisation artificielle. 
+- La grille spectrale tordue utilise correctement la convention de `fftfreq`, incluant les modes négatifs repliés. 
+- La décomposition de la jauge sépare proprement la composante topologique $$A_0$$, porteuse de l’holonomie, de la composante périodique absorbée par la transformation de jauge. 
+- L’énergie covariante est calculée explicitement comme diagnostic, sans être annoncée comme exactement conservée. 
+- Le contraste de cohérence hilbertien est clairement distingué de l’interférence physique. 
+- Le filtre RLS applique l’ordre correct : prédiction, erreur, mise à jour, décalage. 
+- La calibration est multidimensionnelle, couvrant `omega_scale`, `gamma_scale` et `spatial_scale`. 
+- Le script est exécutable en ligne de commande, avec options `--steps`, `--dt`, `--resolution`, `--calibration` et `--json`.
+
+***
+
+## Limites explicites
+
+Ce module ne prétend pas :
+
+- démontrer l’émergence de la conscience ;
+- démontrer l’existence d’une mémoire phénoménologique ;
+- démontrer une holonomie biologique ;
+- démontrer une théorie de jauge de la conscience ;
+- démontrer une autopoïèse réelle ;
+- démontrer une physique quantique de l’esprit.
+
+Il construit un prototype cohérent, testable et non surinterprété.
+
+$$
+\boxed{
+\text{Prototype}
+\neq
+
+02_physique_quantique/vacuite_holotelegraphique.py
+
+Il intègre la dynamique spectrale covariante, la cohérence hilbertienne, la mémoire, la prédiction RLS, la régulation de précision et la calibration multidimensionnelle.
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+soit02_physique_quantique/vacuite_holotelegraphique.py
+=======================================================
+
+Système hybride spectral covariant et contrôle homéostatique.
+
+Architecture
+------------
+    Champ -> Phase -> Cohérence -> Mémoire -> Prédiction -> Précision -> Calibration
+
+Équation de base
+----------------
+    i ∂ψ/∂t = -½ D²ψ + g|ψ|²ψ + V(x)ψ
+
+    avec le couplage minimal de jauge U(1) :
+
+        D = ∂/∂x - iA(x)
+
+Méthode numérique
+-----------------
+    Strang splitting unitaire :
+
+        ψ(t + Δt) = e^{-iVΔt/2} e^{-iH_cin Δt} e^{-iVΔt/2} ψ(t)
+
+Propriétés
+----------
+    - Conservation exacte de la norme L2.
+    - Conservation approximative de l'énergie covariante.
+    - Contraste de cohérence hilbertien, distinct de l'interférence physique.
+    - Flux de jauge non trivial sur le tore.
+    - Prédiction adaptative par filtre RLS.
+    - Régulation homéostatique de précision.
+    - Calibration multidimensionnelle.
+
+Statut
+------
+    Prototype conceptuel.
+
+    Ce module ne prétend pas modéliser la conscience,
+    démontrer une mémoire phénoménologique,
+    établir une holonomie biologique,
+    ni fonder une théorie de jauge de l'esprit.
+
+    Il propose une analogie structurelle entre :
+        - dynamique de champ ;
+        - régulation allostatique ;
+        - mémoire dépendante du chemin ;
+        - anticipation ;
+        - cohérence relationnelle.
+
+Exemple
+-------
+    python vacuite_holotelegraphique.py --steps 100 --dt 0.01
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from dataclasses import dataclass, field
+from typing import Dict, List, Tuple
+
+import numpy as np
+import pandas as pd
+from numpy.fft import fft, ifft, fftfreq
+from scipy.special import ive, iv
+
+
+# ============================================================
+# Constants
+# ============================================================
+
+EPSILON = 1e-12
+LIGHT_SPEED = 3.0e8  # m/s, référence de calibration uniquement
+
+
+# ============================================================
+# 1. UTILITAIRES MATHÉMATIQUES
+# ============================================================
+
+def normaliser_L2(champ: np.ndarray, dx: float) -> np.ndarray:
+    """
+    Normalise un champ complexe selon sa norme L2 discrète.
+
+    Parameters
+    ----------
+    champ : np.ndarray
+        Champ complexe à normaliser.
+    dx : float
+        Pas spatial.
+
+    Returns
+    -------
+    np.ndarray
+        Champ normalisé.
+
+    Raises
+    ------
+    ValueError
+        Si la norme est nulle ou négative.
+    """
+    norme = np.sqrt(np.sum(np.abs(champ) ** 2) * dx)
+    if norme <= 1e-15:
+        raise ValueError("Norme du champ quasi-nulle.")
+    return champ / norme
+
+
+def plancher_lisse(
+    valeurs: np.ndarray,
+    seuil: float = 0.01,
+    largeur: float = 0.01,
+) -> np.ndarray:
+    """
+    Applique un plancher lisse afin d'éviter les valeurs nulles ou négatives.
+
+    Parameters
+    ----------
+    valeurs : np.ndarray
+        Valeurs d'entrée.
+    seuil : float
+        Valeur minimale souhaitée.
+    largeur : float
+        Largeur de la transition lisse.
+
+    Returns
+    -------
+    np.ndarray
+        Valeurs plafonnées lissées.
+    """
+    return seuil + largeur * np.logaddexp((valeurs - seuil) / largeur, 0.0)
+
+
+def kappa_bessel(x: float | np.ndarray) -> float | np.ndarray:
+    """
+    Rapport de concentration circulaire :
+
+        kappa(x) = I1(x) / I0(x)
+
+    Parameters
+    ----------
+    x : float or np.ndarray
+        Argument de la fonction de Bessel modifiée.
+
+    Returns
+    -------
+    float or np.ndarray
+        Rapport de concentration.
+    """
+    x = np.maximum(x, 1e-12)
+    i0 = np.maximum(ive(0, x), 1e-15)
+    return ive(1, x) / i0
+
+
+def inverser_kappa_newton(
+    target: float,
+    tol: float = 1e-10,
+    max_iter: int = 20,
+) -> float:
+    """
+    Inverse numériquement kappa(x) = I1(x)/I0(x) par Newton-Raphson.
+
+    La dérivée exacte est :
+
+        d/dx [I1/I0] = 1 - (I1/I0)/x - (I1/I0)²
+
+    Parameters
+    ----------
+    target : float
+        Valeur cible de kappa.
+    tol : float
+        Tolérance de convergence.
+    max_iter : int
+        Nombre maximal d'itérations.
+
+    Returns
+    -------
+    float
+        Valeur de x telle que kappa(x) ≈ target.
+    """
+    target = float(np.clip(target, 1e-6, 0.999))
+    x = 1.0
+
+    for _ in range(max_iter):
+        k = float(kappa_bessel(x))
+        diff = k - target
+
+        if abs(diff) < tol:
+            break
+
+        dk = 1.0 - (k / x) - k ** 2
+        dk = max(dk, 1e-10)
+
+        x = max(x - diff / dk, 1e-8)
+
+    return float(x)
+
+
+# ============================================================
+# 2. DYNAMIQUE SPECTRALE COVARIANTE
+# ============================================================
+
+@dataclass
+class DynamiqueJaugeCovarianteExacte:
+    """
+    Dynamique d'un champ complexe sur un tore, avec couplage minimal U(1).
+
+    Équation :
+
+        i ∂ψ/∂t = -½ D²ψ + g|ψ|²ψ + V(x)ψ
+
+    où :
+
+        D = ∂/∂x - iA(x)
+
+    La jauge est décomposée en :
+
+        A(x) = A_0 + d(phi_per)/dx
+
+    où A_0 porte l'holonomie globale et phi_per est périodique.
+    """
+
+    resolution: int = 1024
+    etendue_spatiale: float = 50.0
+    p: int = 2
+    q: int = 3
+    lambda_jauge: float = 2.0
+    g_kerr: float = 1.0
+    alpha_pot: float = 0.1
+    graine: int = 42
+
+    def __post_init__(self) -> None:
+        self.N = int(self.resolution)
+        self.L = float(self.etendue_spatiale)
+        self.dx = self.L / self.N
+        self.x = np.linspace(
+            -self.L / 2,
+            self.L / 2,
+            self.N,
+            endpoint=False,
+        )
+        self.k_base = 2.0 * np.pi * fftfreq(self.N, d=self.dx)
+
+        # Potentiel de jauge spatial
+        ang_p = 2.0 * np.pi * self.p * self.x / self.L
+        ang_q = 2.0 * np.pi * self.q * self.x / self.L
+        self.A = (2.0 * np.pi / self.lambda_jauge) * (
+            self.p * np.cos(ang_q) + self.q * np.sin(ang_p)
+        )
+
+        # Décomposition topologique
+        self.A_0 = float(np.mean(self.A))
+        self.flux_jauge = self.A_0 * self.L
+        A_flottant = self.A - self.A_0
+
+        # Phase périodique locale
+        A_k = fft(A_flottant)
+        denom_k = 1j * self.k_base
+        denom_k[0] = 1.0
+        phi_k = A_k / denom_k
+        phi_k[0] = 0.0
+        self.phi_jauge = ifft(phi_k).real
+
+        # Grille spectrale tordue
+        self.k_tordu = self.k_base - self.A_0
+
+        # Potentiel scalaire externe
+        self.V = self.alpha_pot * np.cos(
+            2.0 * np.pi * self.x / self.L
+        )
+
+        # Champ initial
+        rng = np.random.default_rng(self.graine)
+        enveloppe = np.exp(-(self.x ** 2) / 8.0)
+        phases = rng.uniform(0.0, 2.0 * np.pi, self.N)
+        self.psi = normaliser_L2(
+            enveloppe * np.exp(1j * phases),
+            self.dx,
+        )
+
+        # Phases unitaires pré-calculées
+        self.phase_gauge_plus = np.exp(1j * self.phi_jauge)
+        self.phase_gauge_moins = np.exp(-1j * self.phi_jauge)
+
+    # --------------------------------------------------------
+    # Pas de potentiel et Kerr
+    # --------------------------------------------------------
+
+    def pas_potentiel(self, dt_demi: float) -> None:
+        """
+        Applique exactement :
+
+            exp(-i dt (V + g|ψ|²))
+
+        Ce pas est unitaire car il s'agit d'une phase locale.
+        """
+        densite = np.abs(self.psi) ** 2
+        V_effectif = self.V + self.g_kerr * densite
+        self.psi *= np.exp(-1j * V_effectif * dt_demi)
+
+    # --------------------------------------------------------
+    # Pas cinétique covariant exact
+    # --------------------------------------------------------
+
+    def pas_cinetique_tordu(self, dt: float) -> None:
+        """
+        Applique exactement le pas cinétique covariant.
+
+        Méthode :
+            transformation de jauge
+            + FFT avec grille tordue
+            + exponentiation exacte
+            + retour de jauge.
+        """
+        chi = self.psi * self.phase_gauge_moins
+
+        chi_k = fft(chi)
+        chi_k *= np.exp(-0.5j * (self.k_tordu ** 2) * dt)
+        chi = ifft(chi_k)
+
+        self.psi = chi * self.phase_gauge_plus
+
+    # --------------------------------------------------------
+    # Strang splitting unitaire
+    # --------------------------------------------------------
+
+    def pas_strang(self, dt: float) -> np.ndarray:
+        """
+        Applique un pas de Strang splitting unitaire.
+
+        Schéma :
+
+            ψ(t+dt) = e^{-iVdt/2} e^{-iH_cin dt} e^{-iVdt/2} ψ(t)
+
+        Parameters
+        ----------
+        dt : float
+            Pas de temps.
+
+        Returns
+        -------
+        np.ndarray
+            Champ évolué.
+        """
+        self.pas_potentiel(dt * 0.5)
+        self.pas_cinetique_tordu(dt)
+        self.pas_potentiel(dt * 0.5)
+        return self.psi
+
+    # --------------------------------------------------------
+    # Observables
+    # --------------------------------------------------------
+
+    def densite(self) -> np.ndarray:
+        """Retourne la densité |ψ|²."""
+        return np.abs(self.psi) ** 2
+
+    def norme(self) -> float:
+        """Retourne la norme L2 discrète."""
+        return float(np.sum(np.abs(self.psi) ** 2) * self.dx)
+
+    def phase_moyenne(self) -> float:
+        """Retourne la phase moyenne globale."""
+        return float(np.angle(np.sum(self.psi) * self.dx))
+
+    def variance_phase(self) -> float:
+        """Retourne la variance de la phase locale."""
+        return float(np.var(np.angle(self.psi)))
+
+    def holonomie_boucle(self) -> float:
+        """Retourne le flux de jauge sur le tore."""
+        return self.flux_jauge
+
+    # --------------------------------------------------------
+    # Énergie covariante
+    # --------------------------------------------------------
+
+    def energie_covariante(self) -> float:
+        """
+        Calcule l'énergie covariante :
+
+            E = ∫ [ ½|Dψ|² + (g/2)|ψ|⁴ + V|ψ|² ] dx
+
+        Cette quantité est un diagnostic.
+        Elle n'est pas exactement conservée par le split-step Fourier.
+        """
+        dpsi_dx = ifft(1j * self.k_base * fft(self.psi))
+        dpsi_cov = dpsi_dx - 1j * self.A * self.psi
+
+        densite = np.abs(self.psi) ** 2
+
+        terme_cinetique = 0.5 * np.abs(dpsi_cov) ** 2
+        terme_kerr = 0.5 * self.g_kerr * densite ** 2
+        terme_potentiel = self.V * densite
+
+        energie = np.sum(
+            terme_cinetique + terme_kerr + terme_potentiel
+        ) * self.dx
+
+        return float(energie)
+
+
+# ============================================================
+# 3. CONTRASTE DE COHÉRENCE HILBERTIEN
+# ============================================================
+
+class ContrasteCoherenceHilbertien:
+    """
+    Mesure de cohérence de phase normalisée.
+
+    Cette quantité n'est pas une interférence physique.
+    C'est un contraste de recouvrement hilbertien.
+    """
+
+    @staticmethod
+    def mesure(psi: np.ndarray, dx: float) -> float:
+        """
+        Calcule le contraste de cohérence :
+
+            C = |⟨ψ, ψ_m⟩|² / (‖ψ‖² ‖ψ_m‖²)
+
+        Parameters
+        ----------
+        psi : np.ndarray
+            Champ complexe.
+        dx : float
+            Pas spatial.
+
+        Returns
+        -------
+        float
+            Contraste de cohérence, compris entre 0 et 1.
+        """
+        densite = np.abs(psi) ** 2
+        delta_phase = np.pi * densite
+        psi_miroir = psi * np.exp(1j * delta_phase)
+
+        norme_psi_sq = np.sum(np.abs(psi) ** 2) * dx
+        norme_m_sq = np.sum(np.abs(psi_miroir) ** 2) * dx
+
+        if norme_psi_sq * norme_m_sq <= 1e-15:
+            return 0.0
+
+        produit_scalaire = np.sum(np.conj(psi) * psi_miroir) * dx
+        return float(
+            (np.abs(produit_scalaire) ** 2)
+            / (norme_psi_sq * norme_m_sq)
+        )
+
+
+# ============================================================
+# 4. PRÉDICTEUR RLS ADAPTATIF
+# ============================================================
+
+class PredicteurAdaptatifRLS:
+    """
+    Filtre des moindres carrés récursifs (RLS) d'ordre M.
+
+    Ordre correct des opérations :
+        1. prédiction avec le tampon actuel ;
+        2. calcul de l'erreur ;
+        3. mise à jour des poids ;
+        4. décalage du tampon.
+    """
+
+    def __init__(
+        self,
+        ordre: int = 3,
+        lambda_oubli: float = 0.985,
+        delta: float = 10.0,
+    ) -> None:
+        self.ordre = int(ordre)
+        self.lam = float(lambda_oubli)
+        self.w = np.zeros(self.ordre)
+        self.P = np.eye(self.ordre) * float(delta)
+        self.tampon = np.zeros(self.ordre)
+
+    def predire(self) -> float:
+        """Retourne la prédiction courante."""
+        return float(np.dot(self.w, self.tampon))
+
+    def actualiser(self, valeur: float) -> float:
+        """
+        Met à jour le filtre avec une nouvelle observation.
+
+        Parameters
+        ----------
+        valeur : float
+            Nouvelle observation.
+
+        Returns
+        -------
+        float
+            Erreur absolue de prédiction.
+        """
+        x = self.tampon.copy()
+        prediction = float(np.dot(self.w, x))
+        erreur = float(valeur - prediction)
+
+        Px = self.P @ x
+        denominateur = self.lam + float(np.dot(x, Px))
+        g = Px / max(denominateur, 1e-12)
+
+        self.w += g * erreur
+        self.P = (self.P - np.outer(g, Px)) / self.lam
+
+        self.tampon = np.roll(self.tampon, 1)
+        self.tampon[0] = float(valeur)
+
+        return abs(erreur)
+
+
+# ============================================================
+# 5. RÉGULATEUR DE PRÉCISION
+# ============================================================
+
+@dataclass
+class RegulateurPrecisionRobuste:
+    """
+    Régulateur homéostatique de précision, de type PI.
+    """
+
+    target_kappa: float = 0.85
+    kp: float = 0.35
+    ki: float = 0.03
+    integrale: float = 0.0
+
+    def __post_init__(self) -> None:
+        self.x_consigne = inverser_kappa_newton(self.target_kappa)
+
+    def corriger(
+        self,
+        Pi: float,
+        D: float,
+        K: float,
+        incertitude: float,
+    ) -> Dict[str, float]:
+        """
+        Met à jour la précision en fonction du bruit, du couplage
+        et de l'incertitude prédictive.
+
+        Parameters
+        ----------
+        Pi : float
+            Précision courante.
+        D : float
+            Bruit environnemental.
+        K : float
+            Couplage structural.
+        incertitude : float
+            Erreur de prédiction normalisée.
+
+        Returns
+        -------
+        Dict[str, float]
+            État mis à jour du régulateur.
+        """
+        D = max(float(D), 1e-6)
+        K = max(float(K), 1e-6)
+
+        consigne = (self.x_consigne * D / K) * (1.0 + incertitude)
+        erreur = consigne - Pi
+        self.integrale = float(
+            np.clip(self.integrale + erreur, -5.0, 5.0)
+        )
+
+        Pi_nouveau = float(
+            np.clip(
+                Pi + self.kp * erreur + self.ki * self.integrale,
+                0.01,
+                20.0,
+            )
+        )
+
+        x_effectif = Pi_nouveau * K / D
+        k_mesure = float(kappa_bessel(x_effectif))
+
+        return {
+            "Pi": Pi_nouveau,
+            "x": x_effectif,
+            "kappa": k_mesure,
+            "erreur_kappa": self.target_kappa - k_mesure,
+        }
+
+
+# ============================================================
+# 6. CALIBRATION MULTIDIMENSIONNELLE
+# ============================================================
+
+@dataclass
+class CalibrationMultidimensionnelle:
+    """
+    Balayage multidimensionnel des paramètres de calibration.
+    """
+
+    omega_scales: np.ndarray = field(
+        default_factory=lambda: np.logspace(-5, 2, 30)
+    )
+    gamma_scales: np.ndarray = field(
+        default_factory=lambda: np.logspace(-2, 1, 15)
+    )
+    spatial_scales: np.ndarray = field(
+        default_factory=lambda: np.logspace(-2, 3, 15)
+    )
+
+    cible_min: float = 800.0
+    cible_max: float = 1200.0
+
+    def evaluer_longueur_onde(
+        self,
+        omega_scale: float,
+        gamma_scale: float,
+        spatial_scale: float,
+    ) -> float:
+        """
+        Évalue la longueur d'onde effective.
+
+        Parameters
+        ----------
+        omega_scale : float
+            Échelle de la pulsation.
+        gamma_scale : float
+            Échelle de l'amortissement.
+        spatial_scale : float
+            Facteur d'échelle spatial.
+
+        Returns
+        -------
+        float
+            Longueur d'onde effective, en mètres.
+        """
+        omega_0 = 1.0e6 * omega_scale
+        gamma = 1.2 * gamma_scale
+
+        discriminant = omega_0 ** 2 - (gamma / 2) ** 2
+        if discriminant <= 0:
+            return float("nan")
+
+        omega_eff = np.sqrt(discriminant)
+        lambda_physique = (2.0 * np.pi * LIGHT_SPEED) / omega_eff
+        return lambda_physique * spatial_scale
+
+    def executer_balayage(self) -> pd.DataFrame:
+        """
+        Exécute le balayage multidimensionnel.
+
+        Returns
+        -------
+        pd.DataFrame
+            Résultats du balayage.
+        """
+        resultats: List[Dict[str, float | bool]] = []
+
+        for omega_scale in self.omega_scales:
+            for gamma_scale in self.gamma_scales:
+                for spatial_scale in self.spatial_scales:
+                    lam = self.evaluer_longueur_onde(
+                        omega_scale,
+                        gamma_scale,
+                        spatial_scale,
+                    )
+                    resultats.append(
+                        {
+                            "omega_scale": omega_scale,
+                            "gamma_scale": gamma_scale,
+                            "spatial_scale": spatial_scale,
+                            "lambda_m": lam,
+                            "dans_cible": (
+                                self.cible_min <= lam <= self.cible_max
+                            ),
+                        }
+                    )
+
+        return pd.DataFrame(resultats)
+
+
+# ============================================================
+# 7. SYSTÈME HYBRIDE UNIFIÉ
+# ============================================================
+
+@dataclass
+class SystemeHybrideUnifie:
+    """
+    Système hybride unifiant champ, phase, cohérence, mémoire,
+    prédiction et précision.
+    """
+
+    champ: DynamiqueJaugeCovarianteExacte = field(
+        default_factory=DynamiqueJaugeCovarianteExacte
+    )
+    rls_densite: PredicteurAdaptatifRLS = field(
+        default_factory=lambda: PredicteurAdaptatifRLS(ordre=3)
+    )
+    rls_phase: PredicteurAdaptatifRLS = field(
+        default_factory=lambda: PredicteurAdaptatifRLS(ordre=3)
+    )
+    regulateur: RegulateurPrecisionRobuste = field(
+        default_factory=RegulateurPrecisionRobuste
+    )
+
+    Pi: float = 1.0
+    K: float = 1.2
+    D: float = 1.0
+
+    def pas_temporel(self, dt: float = 0.01) -> Dict[str, float]:
+        """
+        Exécute un pas temporel complet du système hybride.
+
+        Parameters
+        ----------
+        dt : float
+            Pas de temps.
+
+        Returns
+        -------
+        Dict[str, float]
+            Observables et état du système.
+        """
+        # 1. Évolution unitaire du champ
+        psi = self.champ.pas_strang(dt)
+        dx = self.champ.dx
+
+        # 2. Observables
+        densite = self.champ.densite()
+        densite_moyenne = float(np.sum(densite) * dx / self.champ.L)
+        phase_globale = self.champ.phase_moyenne()
+
+        # 3. Contraste de cohérence hilbertien
+        contraste = ContrasteCoherenceHilbertien.mesure(psi, dx)
+
+        # 4. Prédiction RLS
+        err_dens = self.rls_densite.actualiser(densite_moyenne)
+        err_phas = self.rls_phase.actualiser(phase_globale)
+        erreur_globale = 0.5 * (err_dens + err_phas)
+
+        # 5. Couplage dynamique
+        K_dynamique = self.K * (1.0 + 0.05 * contraste)
+
+        # 6. Régulation
+        etat_reg = self.regulateur.corriger(
+            self.Pi,
+            self.D,
+            K_dynamique,
+            erreur_globale,
+        )
+        self.Pi = etat_reg["Pi"]
+
+        return {
+            "norme_L2": self.champ.norme(),
+            "energie_covariante": self.champ.energie_covariante(),
+            "densite": densite_moyenne,
+            "phase": phase_globale,
+            "contraste_cohérence": contraste,
+            "erreur_pred": erreur_globale,
+            "Pi": self.Pi,
+            "kappa": etat_reg["kappa"],
+            "holonomie": self.champ.holonomie_boucle(),
+        }
+
+
+# ============================================================
+# 8. EXÉCUTION
+# ============================================================
+
+def executer_simulation(
+    steps: int = 100,
+    dt: float = 0.01,
+) -> List[Dict[str, float]]:
+    """
+    Exécute une simulation complète.
+
+    Parameters
+    ----------
+    steps : int
+        Nombre de pas temporels.
+    dt : float
+        Pas de temps.
+
+    Returns
+    -------
+    List[Dict[str, float]]
+        Historique des observables.
+    """
+    systeme = SystemeHybrideUnifie()
+    resultats: List[Dict[str, float]] = []
+
+    for _ in range(steps):
+        resultat = systeme.pas_temporel(dt)
+        resultats.append(resultat)
+
+    return resultats
+
+
+def construire_parser() -> argparse.ArgumentParser:
+    """Construit le parseur d'arguments en ligne de commande."""
+    parser = argparse.ArgumentParser(
+        description=(
+            "Simulation hybride spectrale covariante "
+            "avec contrôle homéostatique."
+        )
+    )
+    parser.add_argument(
+        "--steps",
+        type=int,
+        default=100,
+        help="Nombre de pas temporels.",
+    )
+    parser.add_argument(
+        "--dt",
+        type=float,
+        default=0.01,
+        help="Pas de temps.",
+    )
+    parser.add_argument(
+        "--resolution",
+        type=int,
+        default=1024,
+        help="Résolution spatiale.",
+    )
+    parser.add_argument(
+        "--calibration",
+        action="store_true",
+        help="Exécute la calibration multidimensionnelle.",
+    )
+    parser.add_argument(
+        "--json",
+        action="store_true",
+        help="Affiche le dernier état au format JSON.",
+    )
+    return parser
+
+
+def main() -> int:
+    """Point d'entrée principal."""
+    parser = construire_parser()
+    args = parser.parse_args()
+
+    if args.calibration:
+        calibration = CalibrationMultidimensionnelle()
+        df = calibration.executer_balayage()
+        cible = df[df["dans_cible"]]
+        if not cible.empty:
+            print(cible.head(10))
+        else:
+            print(
+                "[!] Aucune configuration dans la cible "
+                f"[{calibration.cible_min}, {calibration.cible_max}] m."
+            )
+        return 0
+
+    print(
+        f"[INIT] Simulation hybride : "
+        f"{args.steps} pas, dt = {args.dt}, "
+        f"résolution = {args.resolution}."
+    )
+
+    systeme = SystemeHybrideUnifie(
+        champ=DynamiqueJaugeCovarianteExacte(
+            resolution=args.resolution
+        )
+    )
+
+    dernier: Dict[str, float] = {}
+
+    for i in range(args.steps):
+        dernier = systeme.pas_temporel(args.dt)
+
+        if (i + 1) % 20 == 0:
+            print(
+                f"  Pas {i + 1:03d} | "
+                f"Norme L2: {dernier['norme_L2']:.10f} | "
+                f"Énergie: {dernier['energie_covariante']:.6f} | "
+                f"Cohérence: {dernier['contraste_cohérence']:.6f} | "
+                f"Kappa: {dernier['kappa']:.4f} | "
+                f"Err RLS: {dernier['erreur_pred']:.3e}"
+            )
+
+    print("\n[BILAN FINAL]")
+    for cle, val in dernier.items():
+        print(f"  {cle:20s}: {val:14.8f}")
+
+    if args.json:
+        print(json.dumps(dernier, indent=2, ensure_ascii=False))
+
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
+```
+
+***
+
+## Points de robustesse
+
+- Le schéma de Strang applique chaque sous-flux par une exponentielle exacte, ce qui garantit l’unitarité et la conservation structurelle de la norme $$L^2$$, sans renormalisation artificielle. 
+- La grille spectrale tordue utilise correctement la convention de `fftfreq`, incluant les modes négatifs repliés. 
+- La décomposition de la jauge sépare proprement la composante topologique $$A_0$$, porteuse de l’holonomie, de la composante périodique absorbée par la transformation de jauge. 
+- L’énergie covariante est calculée explicitement comme diagnostic, sans être annoncée comme exactement conservée. 
+- Le contraste de cohérence hilbertien est clairement distingué de l’interférence physique. 
+- Le filtre RLS applique l’ordre correct : prédiction, erreur, mise à jour, décalage. 
+- La calibration est multidimensionnelle, couvrant `omega_scale`, `gamma_scale` et `spatial_scale`. 
+- Le script est exécutable en ligne de commande, avec options `--steps`, `--dt`, `--resolution`, `--calibration` et `--json`.
+
+***
+
+## Limites explicites
+
+Ce module ne prétend pas :
+
+- démontrer l’émergence de la conscience ;
+- démontrer l’existence d’une mémoire phénoménologique ;
+- démontrer une holonomie biologique ;
+- démontrer une théorie de jauge de la conscience ;
+- démontrer une autopoïèse réelle ;
+- démontrer une physique quantique de l’esprit.
+
+Il construit un prototype cohérent, testable et non surinterprété.
+
+$$
+\boxed{
+\text{Prototype}
+\neq
+\text{Démonstration}.
+}
+$$
+
+$$
+\boxed{
+\text{Simulation}
+\neq
+\text{Explication}.
+}
+$$
+
+$$
+\boxed{
+\text{Stabilisation numérique}
+\neq
+\text{Expérience vécue}.
+}
+$$
+
+C’est cette clarté qui constitue la robustesse du module.
+
+Citations :
+[1] Scipy.Special https://docs.scipy.org/doc/scipy/reference/special.html
+[2] scipy.special.ive¶ https://docs.scipy.org/doc//scipy-1.5.1/reference/generated/scipy.special.ive.html
+[3] scipy.special.iv¶ https://docs.scipy.org/doc//scipy-1.6.0/reference/generated/scipy.special.iv.html
+[4] scipy.special.ive¶ https://docs.scipy.org/doc//scipy-1.2.1/reference/generated/scipy.special.ive.html
+[5] scipy.special.ive# https://docs.scipy.org/doc//scipy-1.17.0/reference/generated/scipy.special.ive.html
+[6] Special functions (scipy.special)¶ https://docs.scipy.org/doc/scipy-1.3.3/reference/special.html
+[7] scipy.special.ive# https://docs.scipy.org/doc/scipy-1.18.0/reference/generated/scipy.special.ive.html
+[8] scipy.special.iv# https://docs.scipy.org/doc//scipy-1.18.0/reference/generated/scipy.special.iv.html
+[9] scipy.special.iv — SciPy v1.15.1 Manual https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.special.iv.html
