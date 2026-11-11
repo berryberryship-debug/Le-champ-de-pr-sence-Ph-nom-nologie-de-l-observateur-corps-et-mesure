@@ -1,4 +1,4 @@
-nuGéométrie de l’allostasie : l’observateur comme invariant de jauge
+Géométrie de l’allostasie : l’observateur comme invariant de jauge
 Ouverture
 
 Nous avons l’habitude de penser l’observateur comme quelqu’un qui regarde le monde de l’extérieur.
