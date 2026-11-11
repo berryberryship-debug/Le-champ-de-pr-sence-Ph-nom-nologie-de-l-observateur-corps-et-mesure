@@ -49,3 +49,61 @@ Le fait d’observer (le dispositif de mesure) agit comme une **impression origi
 Ainsi, la mesure détruit la superposition (la protention infinie) pour créer une trace (la rétention). L’observateur ne peut jamais voir la superposition elle-même ; il ne voit que l’ombre qu’elle projette sur l’appareil. La fente nous enseigne que le réel n’est accessible que par ses limites.
 
 > **Formulation synthétique** : La fente n’est pas un simple orifice. Elle est un trou de non-coïncidence qui oblige le réel quantique à se tenir dans une superposition — c’est-à-dire dans une ombre interne. La mesure « which-path » est l’acte qui dissipe cette ombre en forçant la particule à coïncider avec une seule adresse. Ce faisant, elle détruit la profondeur (les franges) et rend le phénomène plat, tout en laissant une trace dans la mémoire de l'appareil.
+
+## Chapitre 6 — L'intention, le bruit et la fidélité : une structure de l'action
+
+### 1. Une action n'est pas une simple causalité
+Le pipeline du code quantique ne décrit pas seulement une porte logique. Il met en scène une structure de l'action : une intention se forme, se traduit en un moyen, rencontre les conditions du milieu, puis se mesure à l'écart entre ce qui était visé et ce qui advient.
+
+Dans le modèle, l'intention est représentée par la rotation cible : \(|0\rangle \rightarrow |1\rangle\). Le moyen est l'impulsion gaussienne, dont l'amplitude est calibrée pour produire une rotation de \(\pi\). Agir, ce n'est pas seulement viser une fin ; c'est construire un moyen capable de produire la transformation recherchée. L'intention devient opération lorsqu'elle trouve une forme de réalisation.
+
+### 2. Le bruit comme résistance
+Le bruit n'est pas un simple décor expérimental. Il module l'amplitude du contrôle : \(\Omega(t) \rightarrow \Omega(t)(1+\eta, \xi(t))\). Il introduit une dispersion entre les réalisations. Même lorsque le protocole nominal reste identique, les trajectoires effectives diffèrent.
+
+Le bruit ne supprime pas nécessairement l'action, mais il rend visible une propriété fondamentale de toute réalisation : le moyen n'agit jamais dans l'abstraction de sa seule définition, mais dans un milieu dont les conditions modifient le résultat. La résistance transforme une intention idéale en action située. Sans résistance, il n'y aurait pas nécessairement moins d'action ; il y aurait surtout moins de possibilité de distinguer l'intention de son accomplissement.
+
+### 3. La fidélité comme mesure de correspondance
+La fidélité mesure la correspondance entre l'état visé et l'état obtenu :
+\[
+ F = |\langle\psi_{\text{cible}}|\psi_{\text{final}}\rangle|^2 
+\]
+Elle ne mesure ni la vérité du monde, ni la vérité de l'intention. Elle mesure la proximité entre une réalisation et une cible définie. La fidélité n'est pas une identité, elle est une relation. Elle indique jusqu'à quel point ce qui advient demeure conforme à ce qui était visé, sans que les deux soient confondus.
+
+La structure minimale devient :
+\[
+ \text{Intention} \rightarrow \text{Moyen} \rightarrow \text{Réalisation} \rightarrow \text{Fidélité} 
+\]
+Le bruit intervient entre le moyen et la réalisation : \(\text{Intention} \rightarrow \text{Moyen} \xrightarrow{\text{bruit}} \text{Réalisation} \rightarrow F\).
+
+### 4. Le contrôle n'est pas la maîtrise
+Contrôler une variable n'équivaut pas à contrôler le réel dans son ensemble. Le contrôle est la capacité de produire une transformation visée dans un milieu dont les conditions ne sont pas entièrement déterminées par le contrôleur. Dans le pipeline, l'impulsion est contrôlée, le bruit perturbe son amplitude, et la fidélité mesure la conséquence de cette perturbation.
+
+La structure obtenue est :
+\[
+ \text{intention} \rightarrow \text{calibration} \rightarrow \text{interaction} \rightarrow \text{dispersion} \rightarrow \text{fidélité} 
+\]
+Cette structure ne signifie pas que le cerveau est un qubit. Elle propose une chose plus défendable : une même structure relationnelle peut être étudiée dans un modèle physique et reprise comme schème philosophique de l'action.
+
+### 5. Ce que le code porte
+Le code porte déjà cette structure :
+- L'**intention** : la rotation cible.
+- La **mise en forme** : l'impulsion calibrée.
+- La **résistance** : le bruit appliqué au contrôle.
+- La **singularisation** : les réalisations distinctes produites par les fluctuations.
+- La **mesure** : la fidélité à l'état cible.
+- La **limite épistémique** : le modèle numérique ne constitue pas une validation expérimentale de la conscience.
+
+L'intérêt philosophique réside dans l'isomorphisme partiel de structure :
+\[ \text{viser} \rightarrow \text{configurer} \rightarrow \text{rencontrer} \rightarrow \text{dévier} \rightarrow \text{mesurer} \]
+Le code devient un laboratoire formel de l'action : non pas parce qu'il reproduit l'expérience, mais parce qu'il permet d'en isoler certaines relations.
+
+### 6. Ce que cela ouvre
+La question devient plus large : qu'est-ce qui, dans l'expérience vécue, joue le rôle de la résistance ? Qu'est-ce qui, dans une intention, joue le rôle de la calibration ? Et qu'est-ce qui, dans une existence, permet de mesurer la fidélité entre ce qui était visé et ce qui advient ?
+
+L'action apparaît alors non comme le passage direct d'une volonté à un résultat, mais comme une relation entre une visée, un dispositif, un milieu et un écart.
+\[
+ \text{Action} = \text{Visée} + \text{Médiation} + \text{Résistance} + \text{Écart} 
+\]
+La fidélité devient la mesure de cet écart — non pour supprimer la différence entre intention et réalisation, mais pour la rendre intelligible. 
+
+Ce chapitre prépare le raccord avec la Partie IV : l'**adresse** est ce qui détermine où l'intention rencontre le milieu, tandis que la **fidélité** mesure ce qui demeure identifiable entre la configuration visée et la configuration réalisée.
