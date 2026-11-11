@@ -78,3 +78,16 @@ Pour qu’il y ait mesure, il faut qu’il y ait un invariant. Dans la physique 
 
 L’observateur est la structure qui maintient cette invariance à travers le temps. Il n’est pas un point qui regarde le monde ; il est la **courbure** qui permet au monde de prendre forme. 
 C’est en ce sens que l’observateur est un **invariant de jauge** : sa présence définit le référentiel par rapport auquel la réalité devient mesurable. Mais contrairement au référentiel galiléen de la physique classique, ce référentiel est **vivant, dissipatif et historiquement situé**.
+
+### E. L'observateur comme structure de continuité relationnelle
+
+Si nous devons résumer ce chapitre, nous dirons que l'observateur n'est pas un point de vue, ni un objet, ni même une substance. Il est une **structure qui transforme une succession de perturbations en continuité relationnelle**. 
+
+Il reçoit, intègre, anticipe, agit et réintègre. La mesure devient alors une boucle, et non un point. C'est en cela que ce chapitre rejoint Merleau-Ponty : le corps est déjà pris dans l'entrelacs du sensible et du sentant. La phénoménologie n'est pas une interprétation psychologique superposée à la physique. Elle est le versant vécu du même processus décrit extérieurement comme dynamique physiologique.
+
+La chaîne conceptuelle est la suivante :
+\[
+ \text{perturbation} \rightarrow \text{couplage} \rightarrow \text{régulation} \rightarrow \text{trajectoire} \rightarrow \text{holonomie} \rightarrow \text{invariant relationnel} \rightarrow \text{expérience intentionnelle} 
+\]
+
+Cette correspondance est **structurale**, non physique. Elle ouvre un programme de recherche : montrer comment la géométrie de l'allostasie peut devenir une théorie opératoire de la mesure incarnée.
