@@ -182,3 +182,28 @@ def run_v78_nonmarkov_physical():
     # ... construction de rho ...
     purities = np.real(np.einsum("tij,tji->t", rho, rho))
     # ... assertions ...
+
+### 4. Contrôle méthodologique : l'absence de mémoire dans un système markovien
+
+Pour valider la robustesse de nos outils de détection, nous avons implémenté un **contrôle négatif** : le script `v82_test_memoire_historique.py`. Ce script génère une série temporelle issue d'une dynamique purement markovienne (un processus autorégressif d'ordre 1, AR(1)) et lui applique un test de permutation.
+
+L'algorithme du test de permutation est le suivant :
+
+```python
+def test_permutation_memoire(x, n_permutations=1000):
+    lag = 5
+    # Statistique observée (autocorrélation)
+    obs_stat = np.corrcoef(x[:-lag], x[lag:])[0, 1]
+    
+    # Statistiques sous permutations (mélange de l'ordre temporel)
+    perm_stats = []
+    for _ in range(n_permutations):
+        x_perm = np.random.permutation(x)
+        perm_stat = np.corrcoef(x_perm[:-lag], x_perm[lag:])[0, 1]
+        perm_stats.append(perm_stat)
+        
+    perm_stats = np.array(perm_stats)
+    
+    # Calcul de la p-valeur (test bilatéral)
+    p_value = np.mean(np.abs(perm_stats) >= np.abs(obs_stat))
+    return obs_stat, p_value
