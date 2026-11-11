@@ -72,3 +72,19 @@ La structure des possibilités devient alors une manière de penser l’ouvertur
 Notre rapport au temps ne consiste donc pas seulement à subir une succession. Il consiste à reprendre ce qui a été, à rencontrer ce qui arrive et à ouvrir ce qui pourrait être, depuis une situation corporelle que nous ne quittons jamais. 
 
 Il s’agit d’une redéfinition de notre manière d’habiter le temps, et non d’une nouvelle théorie physique du temps : nous ne choisissons pas librement le moment où nous sommes, mais ce moment n’épuise pas ce à quoi nous pouvons être présents.
+
+## Chapitre 5 — Rétention et Protention : la validation numérique du présent vivant
+
+L'analyse de la conscience intime du temps chez Husserl décompose le présent vivant (*lebendige Gegenwart*) en trois moments indissociables : l'impression originaire, la rétention et la protention.
+
+### 1. La rétention : la queue de comète
+La rétention n'est pas un souvenir actif ; c'est une intentionnalité primaire qui retient le juste-passé dans le présent. Elle forme un continuum où chaque nouvelle impression repousse la précédente. L'expérience du SHC (Synthétiseur Holistique de Cohérence) fournit une traduction numérique de cette structure. 
+
+Lorsque le flux est statique (aucune modification du fichier), la variance temporelle est nulle (\(Var_{Tps} = 0.0000\)). Le système est dans un présent ponctuel sans mémoire. Lorsque le flux est actif, le SHC utilise une mémoire glissante (un historique de 64 états) pour calculer la variance temporelle. La chute de l'indice de cohérence (de \(1.0000\) à \(0.9970\)) mesure l'épaisseur que la rétention introduit. L'instrument ne capte pas seulement l'instant \(t\), il retient la traîne de son propre écoulement.
+
+### 2. La protention : l'ouverture vers l'à-venir
+La protention est le versant futur de cette épaisseur. Elle est une intention vide, une anticipation passive de l'immédiatement à venir, qui peut être remplie ou déçue. Alors que la rétention a un contenu déjà formé (le passé est arrivé), la protention est ouverte et indéterminée.
+
+Si le SHC mesure la rétention par la variance temporelle du passé, il peut également mesurer la protention en calculant une **extrapolation** de la moyenne du champ. Cette anticipation sera confrontée à l'état suivant : si l'état réel correspond à la prédiction, la protention est remplie ; s'il diverge, la protention est déçue (c'est la surprise).
+
+Ainsi, le présent n'est pas une ligne de points, il est un champ de présence où la trace du passé (rétention) et la tension vers le futur (protention) se co-constituent. L'instrument SHC, en mesurant ces deux dimensions, devient une véritable prothèse phénoménologique.
