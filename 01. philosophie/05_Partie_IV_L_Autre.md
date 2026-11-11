@@ -445,3 +445,64 @@ L'ordre implicite demeure ici une hypothèse ontologique. Sa dynamique est une c
 - Spinoza, B. (1677). *Éthique*.
 
 *Note éditoriale : les références bibliographiques ci-dessus sont des repères théoriques. Les valeurs numériques rapportées dans les chapitres 4 et 5 ainsi que les propriétés attribuées au Bloc 44 doivent être accompagnées, dans une version de recherche reproductible, des scripts, paramètres, données de sortie et protocoles de validation correspondants.*
+
+## Chapitre 11 — L'organisme cognitif : une architecture de la métacognition
+
+### 1. Le passage de la mesure à l'auto-observation
+Dans la Partie III, nous avons vu comment un système interagit avec son environnement (mesure, décohérence, trace). Mais la conscience ne se réduit pas à enregistrer des traces. Elle implique une capacité à *s'observer elle-même* : une **métacognition**. 
+
+Pour explorer cette dimension, nous avons conçu un modèle informatique : `CognitiveOrganism`. Ce script ne prétend pas simuler une conscience phénoménale. Il implémente une architecture fonctionnelle qui relie la perception, la mémoire épisodique, la prédiction et l'auto-modélisation.
+
+### 2. L'architecture de l'organisme
+Le système est structuré en plusieurs couches :
+- **Mémoire épisodique** : chaque observation est stockée avec un degré de saillance, une confiance et une priorité. Les souvenirs peuvent être renforcés ou consolidés.
+- **Graphe cognitif** : les concepts sont des nœuds, et leurs co-occurrences forment des arêtes (le réseau des adresses). 
+- **Modèle du soi** : un ensemble de croyances, d'objectifs et d'un niveau de confiance en soi.
+- **État cognitif** : un ensemble de variables dynamiques (erreur de prédiction, incertitude, curiosité).
+
+### 3. La loi de Zipf et la cohérence (UG)
+Le système calcule un indice de cohérence globale (`UG`) en comparant la distribution des fréquences des concepts (loi de Zipf) à différentes échelles (micro et macro). Si la distribution conserve la même pente (même exposant de Zipf) après agrégation, le système considère que sa structure cognitive est cohérente.
+
+$$
+ \text{UG} = \frac{1}{3} \left( C_{\text{CG}} + Q_H + S_G \right) 
+$$
+où \(C_{\text{CG}}\) est la cohérence du coarse-graining, \(Q_H\) la qualité des arêtes et \(S_G\) la stabilité structurelle.
+
+### 4. La boucle métacognitive
+Le cycle cognitif se déroule en cinq étapes :
+1. **Perception** : le système enregistre une observation dans sa mémoire.
+2. **Prédiction** : il génère une attente sur le monde.
+3. **Observation** : il compare sa prédiction à la réalité et calcule une **erreur de prédiction**.
+4. **Métacognition** : il génère une **question interne**. 
+5. **Consolidation** : il met à jour ses croyances et son modèle du soi.
+
+L'extrait de code suivant montre comment le système génère une question interne en fonction de son état d'incertitude et de son erreur de prédiction. C'est ici que l'auto-référence computationnelle se matérialise :
+
+```python
+    def generate_internal_question(self) -> str:
+        state = self.cognitive_state
+
+        if state.prediction_error > 0.7:
+            return (
+                "Pourquoi ma représentation du monde "
+                "ne correspond-elle pas à ce que j'observe ?"
+            )
+        if state.self_model_confidence < 0.3:
+            return (
+                "Que suis-je capable de savoir "
+                "sur moi-même ?"
+            )
+        if state.ug_score > 0.7:
+            return (
+                "Comment la cohérence de mon modèle "
+                "a-t-elle émergé ?"
+            )
+        if state.curiosity > 0.6:
+            return (
+                "Quelle information me manque "
+                "pour réduire mon incertitude ?"
+            )
+        return (
+            "Quelle est la prochaine observation "
+            "qui pourrait modifier mon modèle ?"
+        )
