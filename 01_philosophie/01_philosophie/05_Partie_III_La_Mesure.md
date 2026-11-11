@@ -1,17 +1,16 @@
-# PARTIE III : La mesure comme limite et comme actualisation
+## 3. Explorer la structure des possibilités
 
-## 1. L'expérience de Young et le cadre des moments présents
+Explorer la structure des possibilités ne consiste pas seulement à demander « qu’est-ce qui peut arriver ? », mais à se demander : quels possibles peuvent se combiner, interférer, devenir accessibles ou cesser de l’être ?
 
-L'expérience des deux fentes de Young, que nous avions annoncée comme une ouverture dès le premier chapitre, permet de saisir la différence entre ce qui est actualisé et ce qui reste potentiel. 
+Dans l'expérience de Young, les contributions des deux chemins interfèrent. On additionne leurs amplitudes avant de calculer la probabilité : \(P(x) = |\psi_1(x) + \psi_2(x)|^2\). Le résultat dépend de leur relation de phase, et non d'une simple liste de probabilités séparées. Lorsque l’environnement rend les chemins distinguables, l’interférence est supprimée localement. La structure comprend donc les *relations* entre les possibilités, et pas seulement leur nombre.
 
-Il est tentant d'interpréter les résultats quantiques (notamment les expériences à choix retardé) comme la preuve qu'un événement futur pourrait "perturber" le champ présent. Mais la physique rigoureuse nous invite à la prudence : le futur n'envoie pas de signal vers le passé. 
+De plus, le contexte détermine la question posée. Certaines mesures sont incompatibles : on ne peut pas réunir leurs résultats possibles comme s’ils étaient des propriétés déjà déterminées. Le « champ plus large » n'est donc pas un contenant où tous les événements existeraient déjà, mais **une structure reliant plusieurs contextes possibles**.
 
-Ce que l'expérience de Young révèle, c'est que le cadre de l'interaction présente (le dispositif de mesure, l'observateur incarné) détermine la manière dont le réel se manifeste. Ce qui se manifeste dans une interaction présente n'épuise pas la structure des possibilités à laquelle cette interaction appartient. 
+Lors de la décohérence, les relations de phase peuvent ne plus être accessibles dans le système local, tout en demeurant décrites à l’échelle du système et de son environnement. Cela concerne des corrélations physiques présentes, et non une intervention du futur dans le présent.
 
-## 2. Potentialité et actualisation
+> **Formulation pour la thèse :** Le réel manifesté n’est pas une image réduite d’un catalogue de mondes déjà accomplis. Il est rencontré dans des conditions qui rendent certaines relations accessibles et en laissent d’autres hors de portée.
 
-Il ne s'agit donc pas de dire que le passé ou le futur modifient physiquement la matière aujourd'hui. Il s'agit de reconnaître que **la manifestation locale n'épuise pas les potentialités du réel**. 
-
-Une manifestation située (un point sur l'écran, un état mesuré) ne suffit pas à définir la totalité du réel. Le réel n'est pas réductible à la somme de ses actualisations présentes. Les potentialités n'existent pas nécessairement "en même temps" dans un temps global (ce qui serait une hypothèse ontologique forte), mais elles **appartiennent à une structure plus large que l'événement manifesté**.
-
-C'est ici que la topologie rejoint la phénoménologie. Le champ des potentialités est structuré (il a des invariants topologiques, comme nous l'avons vu avec le nœud de tore), et l'observateur, par sa mesure, actualise un chemin à travers ce champ. L'observation n'est pas la création de la réalité ex nihilo, mais l'actualisation d'un rapport où quelque chose peut apparaître comme objet.
+Cette distinction permet d'organiser notre exploration autour de trois questions fondamentales :
+- **Qu’est-ce qui est possible** selon le modèle physique ?
+- **Qu’est-ce qui est accessible** dans cette situation incarnée ?
+- **Qu’est-ce qui est effectivement manifesté** par l'acte d'observation ?
