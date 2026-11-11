@@ -80,3 +80,15 @@ Ce saut est une disruption. L'observateur, à un moment donné, ne peut plus res
 L'angoisse (*Angst*) est le vertige de la liberté, le vertige du possible. Dans notre vocabulaire, l'angoisse est le signal que le système perceptif est saturé : les adresses habituelles ne suffisent plus à donner sens au réel. C'est le moment où l'esprit devient disruptif. 
 
 Ainsi, l'apport de Kierkegaard complète notre analyse de l'hyperesthésie : l'hypersensibilité n'est pas seulement une capacité de captation, c'est aussi une source d'angoisse existentielle. Le corps qui perçoit trop perçoit aussi les failles de sa propre structure. Et c'est précisément dans cette faille que l'esprit trouve la possibilité d'un saut vers une nouvelle couche d'être.
+## Chapitre 8 — Le parallélisme spinoziste : une seule structure, deux registres
+
+L'analyse phénoménologique du corps et de l'adresse trouve son ancrage métaphysique dans le parallélisme de Spinoza (*Éthique*, Partie II). Contrairement à Descartes qui sépare l'âme et le corps, Spinoza affirme qu'il n'existe qu'une seule substance, la Nature, qui s'exprime sous une infinité d'attributs, dont deux nous sont accessibles : l'Étendue (le corps, le physique) et la Pensée (l'esprit, les idées).
+
+### 1. L'identité d'ordre
+Le principe fondamental est le suivant : *« L'ordre et la connexion des idées sont les mêmes que l'ordre et la connexion des choses »*. Cela signifie que l'esprit et le corps ne sont pas deux réalités qui interagissent, mais **une seule et même réalité** vue sous deux attributs. Ce qui est ordonné d'une certaine manière dans le corps l'est de la même manière dans l'esprit.
+
+### 2. L'adresse comme structure commune
+Dans la perspective spinoziste, l'adresse que nous avons définie (la position relationnelle) n'est jamais purement mentale ni purement corporelle. Elle est **l'expression simultanée de cette structure relationnelle** dans les deux registres. L'hyperesthésie (le nerf vague, la perception des UV) n'est pas un phénomène biologique qui produirait une idée mentale ; c'est la même structure d'accueil qui s'exprime dans l'Étendue et dans la Pensée.
+
+### 3. L'esprit comme idée du corps
+Spinoza définit l'esprit humain comme *l'idée d'un corps existant en acte*. L'esprit n'est pas une substance immatérielle qui piloterait le corps : il est la face pensante de la même organisation. Cette vision résout l'aporie du dualisme et fonde notre concept de *structure relationnelle commune*. Ce qui persiste à travers les changements (la rétention, l'invariance), c'est l'organisation de ce rapport de mouvement et de repos, simultanément vécu comme mémoire (Pensée) et comme trace physiologique (Étendue).
