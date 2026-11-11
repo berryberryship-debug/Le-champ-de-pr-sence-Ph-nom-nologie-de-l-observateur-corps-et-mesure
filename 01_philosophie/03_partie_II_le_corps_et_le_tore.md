@@ -1,4 +1,4 @@
-# Partie II — Le corps et le tore
+9# Partie II — Le corps et le tore
 
 ## Le point de départ : un corps situé
 
@@ -114,3 +114,15 @@ Comme le note la philosophie de l'imagination, l'esprit a la capacité de viser 
 Cette distinction nous amène à une différence fondamentale dans l'ordre de la connaissance. Il existe un consensus intersubjectif sur les choses que nous voyons : nous pouvons confronter nos perceptions d'un même objet. Mais il n'y a pas de consensus sur la manière dont nous nous vivons intérieurement.
 
 Nous ne pouvons pas accéder au vécu d'autrui exactement comme à notre propre expérience. Cette impossibilité n'est pas un défaut, c'est la condition même de la phénoménologie : la vie de l'esprit est incarnée sans être limitée au présent immédiat, et son exploration ne se partage ni ne se vérifie exactement comme la perception d'un objet commun. C'est précisément dans cet écart que réside la profondeur du sujet.
+
+### 4. L'hyperesthésie : le corps comme capteur élargi
+
+Si le corps est un véhicule qui capte l'immédiat, il faut préciser que ce véhicule n'est pas standardisé. Son calibrage dépend de son histoire. Un enfant qui grandit dans le chaos — côtoyant la violence, l'alcoolisme, les séparations et la mort — ne développe pas la même structure d'accueil qu'un enfant dans un environnement stable.
+
+Ce que les neurosciences nomment le **cerveau prédictif** (*predictive processing*) et ce que Carl Jung avait pressenti avec l'étude des enfants précoces décrivent cette optimisation forcée. Confronté à l'imprévisibilité, le cerveau calibre ses anticipations avec une précision redoutable. Cette hypervigilance n'est pas une pathologie de l'attention ; elle est une **hyperesthésie** : une modification profonde de la rétention et de la protention, où le passé pèse sur le présent pour anticiper les failles de l'environnement. 
+
+Cette acuité s'ancre dans la physiologie. Elle est soutenue par une sensibilité accrue du **nerf vague**, médiateur de l'intéroception et de la régulation émotionnelle, qui rend le corps extrêmement réactif à ce qui se passe en lui et autour de lui. Elle se manifeste aussi par une plasticité perceptive atypique : sensibilité aux spectres de l'ultraviolet proche et de l'infrarouge (dont la tétrachromatie offre un exemple scientifique), perception des ondulations de l'air, acuité pour des photons uniques.
+
+Cette structure d'accueil élargie n'est pas une anomalie à écarter, mais une variation de l'**Umwelt** (le monde propre). Ma cohabitation avec des perruches (*Melopsittacus undulatus*), dont la vision tétrachromatique et la fréquence de fusion critique dépassent largement celles des humains, m'a confirmé que le temps et l'espace ne sont pas des absolus, mais des épaisseurs perçues à travers un corps.
+
+L'hyperesthésie devient alors un instrument de connaissance : un corps marqué, contraint de percevoir l'invisible pour survivre, devient capable de poser les questions philosophiques les plus radicales. *Qu'est-ce qui se cache derrière le voile des perceptions ?*
