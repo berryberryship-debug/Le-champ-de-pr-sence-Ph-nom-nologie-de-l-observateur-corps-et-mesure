@@ -1,4 +1,4 @@
-Géométrie de l’allostasie : l’observateur comme invariant de jauge
+nuGéométrie de l’allostasie : l’observateur comme invariant de jauge
 Ouverture
 
 Nous avons l’habitude de penser l’observateur comme quelqu’un qui regarde le monde de l’extérieur.
@@ -162,6 +162,7 @@ Elle mesure comment il y est arrivé.
 IV. L’articulation phénoménologique
 
 A. L’intentionnalité comme orientation
+
 La phénoménologie husserlienne décrit la conscience comme intentionnelle.
 Elle est toujours conscience de quelque chose.
 Il n’y a pas d’abord une conscience vide, puis un objet qui viendrait s’y déposer.
@@ -177,7 +178,9 @@ La chaise n’est pas seulement une forme visuelle.
 Elle est une possibilité de m’asseoir, de me relever, de me déplacer, de m’orienter autrement.
 La perception possède donc une dimension d’action.
 Elle est inséparable d’un corps qui peut agir.
+
 B. La protention comme direction locale
+
 Chez Husserl, la protention désigne l’ouverture anticipative vers ce qui vient.
 Le présent vécu n’est pas un instant ponctuel.
 Il porte en lui une rétention du passé immédiat et une protention du futur immédiat.
@@ -185,15 +188,20 @@ Dans notre modèle, nous proposons un analogue géométrique.
 Si [\gamma(t)] représente la trajectoire du système, alors sa direction locale peut être représentée par :
 La protention peut être modélisée, par analogie, comme une orientation locale vers les configurations attendues.
 Mais nous devons être prudents.
+
 Il ne faut pas écrire :
+
 Il faut écrire :
+
 La flèche large indique une correspondance, non une identité.
 La déception protentionnelle peut alors être rapprochée d’un écart entre la trajectoire attendue et la trajectoire effective :
 Cette formulation ouvre un pont avec les modèles prédictifs, notamment ceux inspirés du principe de l’énergie libre.
 Mais elle ne réduit pas la protention phénoménologique à une simple erreur de prédiction.
 La protention n’est pas seulement un calcul.
 Elle est une structure vécue du temps.
+
 C. Temps vécu et irréversibilité
+
 La temporalité vécue et la flèche thermodynamique du temps doivent être distinguées.
 La dissipation fournit une asymétrie physique des processus irréversibles.
 La rétention et la protention décrivent une structure phénoménologique du présent vécu.
@@ -203,8 +211,11 @@ La relation entre ces deux niveaux constitue une question théorique ouverte.
 Elle ne doit pas être présupposée comme une identité.
 L’irréversibilité physique ne produit pas automatiquement le temps vécu.
 Mais elle peut en constituer une condition dynamique.
+
 V. La chair comme mémoire relationnelle
+
 A. Le corps historiquement configuré
+
 Chaque interaction avec le monde modifie potentiellement les conditions futures d’interaction.
 Dans notre modèle :
 Le corps n’est pas un récepteur neutre.
@@ -213,10 +224,13 @@ Une même situation peut être vécue différemment selon l’histoire corporell
 Deux observateurs confrontés au même environnement peuvent répondre différemment, sans que l’environnement lui-même ait nécessairement changé.
 Dans le modèle, cela signifie que :
 ou, plus précisément :
+
 Ici, [\mathcal{G}_i] représente la géométrie relationnelle effective du système [i].
 Il devient alors possible de parler, avec prudence, de trajectoires plus ou moins flexibles, de contraintes plus ou moins fortes, ou de régimes de régulation différents.
 Les termes « courbure lisse » et « courbure singulière » doivent toutefois rester des catégories du modèle tant qu’une définition mathématique précise n’a pas été donnée.
+
 B. L’observation comme actualisation
+
 L’observation n’est donc plus une contemplation extérieure.
 Elle devient :
 L’objet n’est pas seulement quelque chose qui apparaît devant le sujet.
@@ -224,11 +238,16 @@ Il apparaît à travers un ensemble de possibilités d’action, de contraintes 
 L’expérience vécue constitue le versant phénoménologique de cette dynamique relationnelle.
 Elle n’est pas ajoutée après coup à la physique.
 Elle est la manière dont un organisme vivant participe à la constitution de son monde.
+
 VI. L’invariant de jauge biologique
+
 A. L’invariant n’est plus une propriété isolée
+
 Dans une description classique simplifiée, nous cherchons souvent des propriétés attribuables à un objet :
 Mais dans notre modèle, l’invariant pertinent est relationnel :
+
 Ici :
+
 [S] désigne l’organisme ;
 [O] désigne l’objet ou l’événement ;
 [C] désigne le contexte ;
@@ -247,7 +266,9 @@ Il ne s’agit plus de dire que l’observateur est la courbure.
 La formulation plus précise est :
 Autrement dit :
 Cette chaîne constitue l’architecture mathématique proposée par le modèle.
+
 VII. La mesure comme opération incarnée
+
 L’appareil de mesure est toujours un système physique.
 Il possède :
 des degrés de liberté ;
@@ -262,10 +283,14 @@ Le deuxième relève de la physique de l’appareil et de la théorie de l’inf
 Le troisième implique des mécanismes de robustesse et de dissipation.
 Le quatrième introduit l’organisme interprétant.
 Cette stratification évite de réduire la mesure à un seul phénomène thermodynamique.
+
 Le principe de Landauer fournit, dans un contexte précis, une limite thermodynamique associée à l’effacement logique irréversible d’information.
 Mais il ne permet pas, à lui seul, d’établir une identité générale entre mesure et dissipation.
+
 Notre modèle pose donc une question plus circonscrite :
+
 La réponse proposée est :
+
 VIII. Synthèse : de la chair à l’observateur relationnel
 La proposition générale peut être résumée ainsi :
 La phénoménologie décrit cette même dynamique depuis son versant vécu :
@@ -278,7 +303,9 @@ Sa validité devra être évaluée selon trois critères :
 Cohérence mathématique : la notion d’invariance doit être définie formellement.
 Cohérence phénoménologique : le formalisme ne doit pas réduire abusivement l’expérience vécue à une variable physique.
 Testabilité empirique : les invariants proposés doivent pouvoir être reliés, au moins en principe, à des observables physiologiques, comportementales ou informationnelles.
+
 IX. Irréductibilité explicative
+
 Notre modèle soulève une question philosophique centrale :
 Le corps vécu est-il réductible à une description physique ?
 La réponse proposée est nuancée.
@@ -294,7 +321,9 @@ Le problème est de comprendre comment le corps vivant est aussi corps vécu.
 La distinction entre le corps objectif, Körper, et le corps vécu, Leib, ne désigne pas deux substances séparées. Elle désigne deux dimensions inséparables d’un même organisme.�
 Le corps vécu n’est pas un second corps derrière le corps physique.
 Il est ce même corps en tant qu’il sent, agit, perçoit et ouvre un monde.
+
 A. La critique du réductionnisme
+
 Cette critique ne s’adresse pas à l’existence de la matière.
 Elle s’adresse à la prétention d’une description objectivante à épuiser l’expérience.
 La matière existe.
@@ -304,7 +333,9 @@ Mais la question est de savoir si leur description formelle épuise la dimension
 Notre réponse est non.
 La signification n’est pas une substance étrangère ajoutée à la matière.
 Elle émerge de l’organisation vivante d’un système pour lequel les interactions possèdent des enjeux.
+
 B. La distinction avec Rovelli
+
 Cette distinction permet de préciser la confrontation avec la mécanique quantique relationnelle de Carlo Rovelli.
 Dans la mécanique quantique relationnelle, les états et les variables physiques sont relatifs aux systèmes qui interagissent. Toute interaction peut jouer le rôle d’une mesure, et l’observateur n’a pas besoin d’être conscient.�
 Il faut donc distinguer deux questions :
@@ -318,8 +349,11 @@ Ce n’est pas seulement une différence de complexité.
 C’est une différence de mode d’organisation.
 La géométrie de l’allostasie ne remplace pas l’expérience vécue.
 Elle propose l’espace mathématique au sein duquel la normativité du vivant peut être formalisée sans être dissoute.
+
 X. Conclusion
+
 Nous sommes partis d’une question simple :
+
 Où se trouve l’observateur ?
 Nous arrivons à une réponse plus complexe.
 L’observateur n’est pas un point extérieur au monde.
@@ -336,14 +370,18 @@ La géométrie de l’allostasie ne remplace pas la phénoménologie.
 Elle lui offre un langage formel.
 Et la phénoménologie ne remplace pas la biologie.
 Elle lui rappelle que toute formalisation doit encore rendre compte de ce qui, dans l’expérience, fait qu’un monde peut être habité, reconnu et signifiant.
+
 La question finale n’est donc plus :
 « Où se trouve l’observateur ? »
 Mais :
 C’est cette question qui constitue le véritable point de jonction entre géométrie, allostasie et phénoménologie.
+
 Remarques de robustesse
 Pour renforcer la robustesse du chapitre, il est essentiel de maintenir trois distinctions.
-La mécanique quantique relationnelle soutient l’idée que les descriptions physiques peuvent être relatives aux systèmes qui interagissent, mais elle ne postule pas la conscience ni ne confère automatiquement une signification phénoménologique à toute interaction.�
-La phénoménologie de Merleau-Ponty soutient, quant à elle, que la chair exprime la réversibilité du sentant et du sensible, sans être une substance mystique ou une force vitale.�
+La mécanique quantique relationnelle soutient l’idée que les descriptions physiques peuvent être relatives aux systèmes qui interagissent, mais elle ne postule pas la conscience ni ne confère automatiquement une signification phénoménologique à toute interaction.
+
+La phénoménologie de Merleau-Ponty soutient, quant à elle, que la chair exprime la réversibilité du sentant et du sensible, sans être une substance mystique ou une force vitale.
+
 L’approche énactive de Thompson soutient que l’esprit est incarné dans l’organisme entier et engagé dans le monde, plutôt que réductible à des structures internes au cerveau.�
 Le modèle proposé se situe donc à l’intersection de ces trois exigences :
 une exigence physique de formalisation ;
