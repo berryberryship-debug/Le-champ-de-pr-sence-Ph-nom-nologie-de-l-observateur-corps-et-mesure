@@ -76,7 +76,9 @@ La superposition maintient un écart, une profondeur, une ombre interne à l’�
 
 ### 3. La mesure comme distinction
 
-Lorsque l’on mesure « quelle fente » (*which-path*), on rend les alternatives distinguables. L’information de chemin devient disponible pour le dispositif, et les termes de cohérence cessent d’être accessibles localement. Les franges disparaissent ou diminuent de visibilité.
+Lorsque l’on mesure « quelle fente » (*which-path*), on rend les alternatives distinguables. L’information de chemin devient disponible pour le dispositif, et les termes de cohérence cessent d’être accessibles localement. 
+
+La visibilité des franges diminue, jusqu’à disparaître dans le cas limite où l’information de chemin devient parfaitement distinguable. 
 
 Il ne faut donc pas dire que la mesure « détruit la superposition » au sens ontologique. Elle induit une décohérence : l’état du système devient corrélé à l’appareil ou à son environnement, si bien que les phases relatives ne sont plus accessibles dans le sous-système observé. La perte d’interférence correspond mathématiquement à l’élimination des éléments non diagonaux de la matrice densité réduite.
 
