@@ -1,454 +1,272 @@
-# PARTIE IV — L'autre comme résonance et le champ linguistique
-
-## Introduction — De la présence à la configuration
-
-Cette partie examine les conditions relationnelles par lesquelles un vécu devient différenciable, identifiable, transmissible et transformable. Elle articule une proposition phénoménologique — la conscience comme configuration et adressage — avec des formalismes mathématiques destinés à représenter certaines relations entre états.
-
+PARTIE IV — L’autre comme résonance et le champ linguistique
+Introduction — De la présence à la configuration
+Cette partie examine les conditions relationnelles par lesquelles un vécu devient différenciable, identifiable, transmissible et transformable. Elle articule une proposition phénoménologique — la conscience envisagée sous l’angle de la configuration et de l’adressage — avec des formalismes mathématiques destinés à représenter certaines relations entre états.
 Trois niveaux doivent rester distincts tout au long du texte :
-
-1. **Le niveau phénoménologique** décrit les conditions d'apparition, de différenciation et de reconnaissance du vécu.
-2. **Le niveau mathématique** construit des espaces, des relations et des dynamiques susceptibles de représenter certaines propriétés du modèle.
-3. **Le niveau numérique** étudie le comportement des équations discrétisées dans des conditions déterminées.
-
-Le passage d'un niveau à l'autre est une opération de modélisation. Une analogie entre deux domaines ne constitue pas, à elle seule, une identité mathématique ou une preuve physique.
-
----
-
-## Chapitre 1 — La conscience comme adresse : le champ linguistique étendu
-
-### 1. De la vibration à l'adresse
-
-Pour comprendre la nature de la conscience, il faut distinguer l'événement phénoménal de sa situation relationnelle.
-
-Une vibration — sensation, perception immédiate ou variation corporelle — peut être vécue avant d'être explicitement pensée. Elle possède une présence phénoménale, tandis que son identification, sa comparaison et son inscription dans un réseau de significations supposent des opérations relationnelles supplémentaires.
-
-L'opération fondamentale étudiée ici est la **juxtaposition**. Par elle, une vibration entre dans un espace de relations. Elle acquiert des voisins : d'autres sensations, des mots, des concepts, des souvenirs et des anticipations. Ce voisinage rend le vécu différenciable, identifiable et pensable.
-
-Un organisme peut être sensible à des variations sans que nous puissions lui attribuer la même architecture d'adressage symbolique que celle dont dispose l'humain. La différence ne réside donc pas nécessairement dans la richesse intrinsèque de la vibration, mais dans les possibilités de différenciation et de mise en relation dont dispose l'organisme.
-
-Dans ce modèle, la conscience est envisagée non seulement comme présence de vibrations, mais comme capacité de situer des contenus vécus dans un espace relationnel. L'**adresse** désigne cette position différenciable : un élément n'est pas seulement présent, il devient repérable par sa relation à plusieurs configurations possibles.
-
-Cette proposition ne signifie pas que toute expérience consciente doive être linguistique. Le champ linguistique constitue une modalité particulièrement élaborée de l'adressage, sans épuiser les formes corporelles, perceptives ou préverbales de différenciation.
-
-### 2. Qu'est-ce qui constitue une adresse ?
-
-Une adresse n'est pas une substance, mais une **position relationnelle**. Elle désigne la place qu'occupe un vécu dans la structure topologique de l'expérience, représentée ici par le tore.
-
+Le niveau phénoménologique décrit les conditions d’apparition, de différenciation et de reconnaissance du vécu.
+Le niveau mathématique construit des espaces, des relations et des dynamiques susceptibles de représenter certaines propriétés du modèle.
+Le niveau numérique étudie le comportement des équations discrétisées dans des conditions déterminées.
+Le passage d’un niveau à l’autre est une opération de modélisation. Une analogie entre deux domaines ne constitue pas, à elle seule, une identité mathématique ou une preuve physique.
+Le fil conducteur est le suivant : une présence ne devient pas identifiable par sa seule intensité. Elle se différencie dans un ensemble de relations corporelles, temporelles et intersubjectives. Le langage prolonge cette différenciation, mais ne la crée pas nécessairement de toutes pièces.
+L’autre intervient dans ce processus comme partenaire de reconnaissance et de transformation. Il permet la constitution d’un champ commun sans abolir la différence des expériences.
+Chapitre 1 — La conscience comme adresse : le champ linguistique étendu
+1. De la vibration à l’adresse
+Pour examiner la conscience sous l’angle de l’identification, il faut distinguer l’événement phénoménal de sa situation relationnelle.
+Une vibration — sensation, perception immédiate ou variation corporelle — peut être vécue avant d’être explicitement pensée. Le terme « vibration » désigne ici une variation éprouvée ; il n’implique pas qu’un phénomène oscillatoire physique ait été mesuré.
+Cette variation possède une présence phénoménale, tandis que son identification explicite, sa comparaison et son inscription dans un réseau de significations supposent des opérations relationnelles supplémentaires.
+L’opération fondamentale étudiée ici est la juxtaposition. Par elle, un vécu entre dans un espace de relations. Il acquiert des voisins : d’autres sensations, des mots, des concepts, des souvenirs et des anticipations. Ce voisinage contribue à le rendre différenciable, identifiable et pensable.
+Un organisme peut être sensible à des variations sans que nous puissions lui attribuer la même architecture d’adressage symbolique que celle dont dispose l’humain. La différence ne réside donc pas nécessairement dans la richesse intrinsèque du vécu, mais dans les possibilités de différenciation et de mise en relation.
+Dans ce modèle, la conscience est envisagée non seulement comme présence de vécus, mais aussi comme capacité de situer certains contenus dans un espace relationnel. L’adresse désigne cette position différenciable : un élément n’est pas seulement présent, il devient repérable relativement à plusieurs configurations possibles.
+Cette proposition ne signifie pas que toute expérience consciente doive être linguistique, réflexive ou explicitement identifiable. Le champ linguistique constitue une modalité élaborée de l’adressage, sans épuiser les formes corporelles, perceptives ou préverbales de différenciation.
+2. Qu’est-ce qui constitue une adresse ?
+Une adresse n’est pas une substance, mais une position relationnelle. Elle désigne la place qu’occupe un vécu dans une organisation de l’expérience.
 Cette adresse comporte trois dimensions complémentaires :
-
-- **Dimension corporelle** : position du vécu dans le schéma corporel, les systèmes sensoriels, la proprioception et l'intéroception.
-- **Dimension temporelle** : position du vécu dans le flux de la rétention et de la protention, constituant l'épaisseur phénoménologique du présent.
-- **Dimension intersubjective** : position du vécu dans le champ linguistique, culturel et symbolique partagé.
-
-Ces dimensions constituent des coordonnées relationnelles. Leur représentation sur un tore est une proposition géométrique du modèle, et non l'affirmation que l'expérience possède littéralement trois dimensions indépendantes inscrites dans une surface torique.
-
-La dimension temporelle mérite une attention particulière. La rétention conserve le tout-juste-passé dans l'expérience présente, tandis que la protention ouvre celle-ci vers ce qui est anticipé. L'adresse n'est donc pas uniquement spatiale : elle est corporelle, temporelle et intersubjective.
-
-### 3. Le champ des adresses et la transposition spinoziste
-
-Soit \(X\) l'espace des adresses. À chaque adresse \(x \in X\), associons un espace de configurations \(\mathcal{H}_x\). L'état associé à cette adresse est noté \(\Psi(x) \in \mathcal{H}_x\).
-
+La dimension corporelle : situation du vécu dans le schéma corporel, les modalités sensorielles, la proprioception et l’intéroception.
+La dimension temporelle : inscription dans la rétention et la protention, constituant l’épaisseur du présent.
+La dimension intersubjective : inscription dans les relations, les pratiques et le champ symbolique partagé.
+Ces dimensions constituent des axes descriptifs. Elles ne sont pas nécessairement indépendantes et ne définissent pas, à elles seules, trois coordonnées géométriques.
+Le tore intervient comme support géométrique proposé pour certaines relations du modèle. Sa pertinence doit être établie par les propriétés que l’on souhaite représenter : périodicité, parcours fermés, transport ou non-contractibilité. Elle ne découle pas du seul fait que trois dimensions descriptives ont été distinguées.
+La rétention maintient le tout-juste-passé dans l’expérience présente, tandis que la protention ouvre celle-ci vers ce qui est attendu. L’adresse n’est donc pas une localisation immobile : elle se transforme avec l’activité corporelle, le contexte et l’histoire des relations.
+3. Le champ des adresses et la transposition spinoziste
+Soit [X] l’espace des adresses. À chaque adresse [x\in X], associons un espace de Hilbert [\mathcal H_x]. Une configuration associée à cette adresse est représentée par :
+Cette association constitue un choix de représentation. La structure de Hilbert n’établit pas, à elle seule, que les configurations représentées soient des états quantiques physiques.
 Lorsque les espaces associés à deux adresses sont distincts, on introduit une application de transport :
-
-$$
-U_{xy} : \mathcal{H}_y \longrightarrow \mathcal{H}_x .
-$$
-
-Si ce transport est unitaire et si les états sont non nuls, on peut définir une compatibilité normalisée :
-
-$$
-R(x,y) = \frac{\left| \langle \Psi(x),\, U_{xy}\Psi(y) \rangle \right|^2}{\lVert \Psi(x) \rVert^2 \, \lVert \Psi(y) \rVert^2} .
-$$
-
-Cette quantité appartient à l'intervalle $[0,1]$. Elle mesure le recouvrement entre deux configurations après transport. Elle ne mesure pas, à elle seule, une distance : une proximité métrique exigerait de définir une fonction de distance et de vérifier ses propriétés.
-
-La définition suppose que les deux états peuvent être comparés dans un même espace après application de $U_{xy}$. Si le transport dépend d'un chemin, cette dépendance doit être explicitée. La composition des transports et leur éventuelle holonomie deviennent alors des éléments structurants du modèle.
-
-Le parallélisme spinoziste trouve ici sa place philosophique : le corps (Étendue) et l'esprit (Pensée) ne sont pas deux objets qui communiquent, mais deux expressions d'une même réalité sous deux attributs. L'adresse décrit *où* une organisation devient distinguable, tandis que l'état décrit *ce qui* est vécu ou représenté. Cette formalisation constitue une transposition mathématique proposée par le modèle, et non une conséquence démontrée de la philosophie de Spinoza.
-
----
-
-## Chapitre 2 — L'autre comme résonance
-
-### 1. La convergence incarnée
-
-Puisque l'autre n'est pas simplement un objet, mais une présence incarnée, entrer en relation avec lui ne signifie pas fusionner avec lui. C'est construire une convergence incarnée à partir de ses manifestations : gestes, paroles, expressions, comportements et traces perceptibles.
-
-L'intersubjectivité n'est pas une simple addition de sujets isolés. Elle constitue un champ partagé dans lequel les expériences individuelles peuvent se rencontrer sans devenir identiques. Dans la perspective de Merleau-Ponty, le corps propre est déjà engagé dans un monde commun. La perception de l'autre s'effectue à partir de cette appartenance corporelle et perceptive partagée.
-
-La résonance permet alors de reconnaître une organisation chez l'autre, même si l'on ne vit pas son expérience de l'intérieur. Elle désigne une compatibilité ou une correspondance entre manifestations, et non un accès direct à la première personne d'autrui.
-
-### 2. La limite de la résonance
-
-Il demeure une part de l'autre qui échappe à toute appropriation complète. Dans la représentation torique du modèle, le « trou » figure un espace de non-coïncidence entre deux expériences. Cette image est topologique et phénoménologique : elle ne signifie pas que le tore géométrique contienne littéralement une région physique correspondant à l'expérience inaccessible.
-
-Cette limite n'est pas nécessairement un échec de la communication. Elle constitue une condition de l'altérité. On peut reconnaître une structure chez l'autre, comprendre certaines de ses manifestations et construire une relation avec lui, sans accéder intégralement à son expérience de première personne :
-
-$$
-\text{Résonance} \neq \text{Identité}, \qquad \text{Reconnaissance} \neq \text{Coïncidence}.
-$$
-
-La limite de la résonance devient alors une condition de la relation éthique : reconnaître l'autre suppose de reconnaître ce qui, en lui, ne peut être entièrement ramené à soi.
-
----
-
-## Chapitre 3 — Le champ symbolique transindividuel et la faille du signifiant
-
-L'inconscient lacanien est structuré comme un langage. Cette proposition ne signifie pas qu'il soit un simple ensemble de mots, mais que ses manifestations s'organisent selon des relations signifiantes.
-
-Le champ symbolique précède en partie le sujet parlant : celui-ci naît dans un réseau de significations, de relations et de discours qui ne lui appartient pas individuellement. Le Réel, chez Lacan, désigne ce qui résiste à la symbolisation. Il ne se réduit ni à l'inconnu provisoire ni à un simple manque de connaissance.
-
-Le passé, en tant qu'événement vécu, ne peut être reproduit à l'identique. Cependant, ses traces persistent sous différentes formes : mémoire, dispositions corporelles, habitudes, rétentions et reconstructions. Ce qui persiste n'est donc pas nécessairement l'état initial, mais une organisation de traces et de relations susceptibles d'être réactivées.
-
-Le signifiant acquiert sa valeur dans sa relation aux autres signifiants. Il n'est pas une substance autonome portant un sens entièrement constitué. Dans notre modèle, nous proposons de comprendre le signifiant comme une adresse relationnelle, dont l'identification dépend de son inscription dans une chaîne et de sa rencontre avec l'Autre.
-
-L'inquiétante étrangeté (*Unheimliche*) permet d'éclairer une dimension supplémentaire de cette relation : ce qui semblait familier peut soudainement devenir étranger lorsque les conditions habituelles de reconnaissance se transforment. La **faille du signifiant** désigne ici la non-coïncidence entre l'expérience, sa représentation et les relations symboliques qui permettent de l'identifier. Elle constitue une interprétation phénoménologique du problème lacanien, et non une définition littérale du Réel.
-
-Le terme « inconscient collectif » n'est donc pas employé ici comme synonyme de l'inconscient collectif jungien. Le propos concerne le caractère transindividuel du champ symbolique et la manière dont le sujet est inscrit dans un ordre signifiant qui le précède.
-
----
-
-## Chapitre 4 — La dynamique des adresses collectives : synchronisation et hystérésis
-
-### 1. Équation d'évolution des phases
-
-Pour modéliser la dynamique des adresses collectives, nous utilisons un système de \(N\) oscillateurs de phase. Chaque oscillateur représente une strate linguistique. Son évolution dépend de sa fréquence naturelle et de ses interactions avec les autres oscillateurs :
-
-$$
-\frac{d\theta_i}{dt} = \omega_i + g_R \sum_{j=1}^{N} W_{ij}^{(R)} \sin(\theta_j - \theta_i) + g_A \sum_{j=1}^{N} W_{ij}^{(A)} \sin(\theta_j - \theta_i) .
-$$
-
-Ici, \(\theta_i\) est la phase de la strate \(i\), \(\omega_i\) sa fréquence naturelle, \(W_{ij}^{(R)}\) la structure du couplage local, \(W_{ij}^{(A)}\) la structure du couplage global, \(g_R\) l'intensité du couplage local et \(g_A\) celle du couplage global. Les matrices de couplage doivent être définies et normalisées explicitement dans l'implémentation.
-
-La convention de normalisation n'est pas un détail secondaire : selon que les sommes sont divisées ou non par le nombre de voisins, par \(N\), ou par une norme de matrice, la signification numérique de \(g_R\) et \(g_A\) change. Toute comparaison de simulations doit conserver la même convention ou documenter le changement.
-
-### 2. Paramètre d'ordre et cohérence collective
-
-La synchronisation est mesurée par le paramètre d'ordre complexe :
-
-$$
-Z(t) = R(t)\, e^{i\psi(t)} = \frac{1}{N} \sum_{j=1}^{N} e^{i\theta_j(t)}, \qquad R(t) = |Z(t)| \in [0,1] .
-$$
-
-Une valeur proche de zéro indique une faible concentration collective des phases, tandis qu'une valeur proche de un indique une forte concentration.
-
-Pour un réseau fini de \(N=14\) oscillateurs indépendants dont les phases sont uniformes, la cohérence n'est pas exactement nulle en général. On obtient :
-
-$$
-\mathbb{E}[R^2] = \frac{1}{N} = \frac{1}{14},
-$$
-
-et, pour \(N\) suffisamment grand, une approximation usuelle donne \(\mathbb{E}[R] \approx \sqrt{\pi}\,/\,(2\sqrt{N})\). Pour \(N=14\), cette dernière expression n'est qu'une approximation. Les résultats doivent donc être comparés à une distribution de référence obtenue par simulation ou par une analyse statistique adaptée, plutôt qu'à un zéro idéal.
-
-### 3. Élasticité et comportement spectral
-
-Les simulations rapportent les résultats suivants :
-
-$$
-\alpha_{\mathrm{eff}} \approx -1{,}642 \quad \text{pour } g_R = 1, \qquad \alpha_{\mathrm{eff}} \approx -1{,}221 \quad \text{pour } g_A = 1 .
-$$
-
-Ces valeurs indiquent une différence de pente spectrale entre les deux configurations étudiées. Dans l'interprétation du modèle, le couplage local accentue la pente, tandis que le couplage global produit une pente moins accentuée.
-
-La qualification d'invariance d'échelle nécessite cependant des vérifications supplémentaires : stabilité de l'ajustement sur plusieurs plages, incertitudes statistiques, sensibilité à la fenêtre d'analyse et comparaison avec des modèles spectraux concurrents. Une pente estimée sur une plage limitée ne suffit pas à établir une loi d'échelle. Ces valeurs sont donc des résultats numériques rapportés, dont la reproductibilité reste à documenter.
-
-### 4. Hystérésis et mémoire collective
-
-L'hystérésis désigne la dépendance de l'état présent à l'histoire du système. Dans cette architecture, elle doit être étudiée en comparant les trajectoires obtenues lors de balayages croissants et décroissants du couplage, avec des protocoles comparables et des temps de stabilisation définis.
-
-La différence entre les branches peut révéler une dépendance historique. Il faut toutefois distinguer une boucle d'hystérésis réelle des effets transitoires, du retard de relaxation, du bruit et de la dépendance aux conditions initiales. La simple présence d'une synchronisation ne démontre pas l'existence d'une hystérésis.
-
-### 5. Le résidu de transmission : la faille du signifiant
-
-Les simulations rapportent \(R_{\mathrm{trans}} \approx 0{,}37\), valeur observée dans la configuration utilisant `double_neg`. Ce résidu est interprété comme une fraction de l'information qui ne participe pas à la synchronisation.
-
-Si l'information totale est normalisée à l'unité, la relation proposée est :
-
-$$
-1 = I_{\mathrm{sync}} + R_{\mathrm{trans}},
-$$
-
-d'où \(I_{\mathrm{sync}} \approx 0{,}63\). Cette égalité suppose que les deux termes constituent une partition exhaustive et non redondante de l'information considérée. Il faut donc définir précisément leur mode de calcul, leur unité, leur domaine de normalisation et vérifier qu'aucune composante n'est comptée deux fois ou laissée hors bilan.
-
-Sous cette condition, le résidu représente une limite de synchronisation dans les conditions du modèle. Il constitue une analogie mathématique de la faille du signifiant : une organisation collective peut comporter une fraction qui ne s'intègre pas à son état synchronisé. Cette interprétation ne permet pas de conclure à une inaccessibilité universelle de l'information.
-
----
-
-## Chapitre 5 — Régulation, charge allostatique et identifiabilité
-
-### 1. Formalisation de la charge régulatoire
-
-Dans le cadre du modèle ST, nous définissons la charge régulatoire cumulée par :
-
-$$
-AL(t) = AL_0 + \int_0^t C_{\mathrm{reg}}(\tau)\, d\tau - \int_0^t C_{\mathrm{rec}}(\tau)\, d\tau,
-$$
-
-où \(C_{\mathrm{reg}}\) représente le coût de régulation, \(C_{\mathrm{rec}}\) la capacité de récupération et \(AL_0\) la charge initiale. La dynamique correspondante est :
-
-$$
-\frac{dAL}{dt} = C_{\mathrm{reg}}(t) - C_{\mathrm{rec}}(t).
-$$
-
-Cette formalisation mesure le bilan cumulatif entre les coûts de maintenance et les capacités de récupération. Elle constitue une variable interne du modèle ST. Pour que \(AL\) soit interprétable quantitativement, les unités de \(C_{\mathrm{reg}}\), \(C_{\mathrm{rec}}\) et du temps doivent être compatibles. Si les termes représentent des indices sans unité physiologique directe, \(AL\) doit être présenté comme un indice régulatoire interne.
-
-Son rapprochement avec la charge allostatique physiologique nécessite une validation par des mesures biologiques indépendantes et une justification de la correspondance entre les variables du modèle et les indicateurs physiologiques retenus.
-
-### 2. Les critères d'identifiabilité : AIC et BIC
-
-Pour distinguer les structures d'adresses représentées par les modèles A, B et C, nous utilisons deux critères d'information :
-
-$$
-\mathrm{AIC} = 2k - 2\ln(\widehat{L}), \qquad \mathrm{BIC} = k\ln(n) - 2\ln(\widehat{L}),
-$$
-
-où \(k\) est le nombre de paramètres estimés, \(n\) le nombre d'observations et \(\widehat{L}\) la vraisemblance maximisée. Ces critères comparent des modèles ajustés aux mêmes données selon une vraisemblance et un protocole cohérents. Une valeur plus faible indique un meilleur compromis relatif entre ajustement et complexité parmi les modèles comparés ; elle ne prouve pas que le modèle retenu soit vrai.
-
-Dans le scénario difficile, avec un bruit relatif de \(0{,}30\), les simulations antérieures rapportent des taux de sélection correcte de 76 % (passif) à 94 % (intervention) pour l'AIC, et de 81,3 % à 92 % pour le BIC. Ces pourcentages désignent les taux de sélection correcte des modèles, et non les valeurs des critères AIC et BIC.
-
-L'intervention sur \(\gamma\) améliore la discrimination dans les conditions expérimentales étudiées. Elle suggère que la modification des conditions d'observation peut rendre certaines structures plus identifiables. Pour évaluer la portée du résultat, il faut documenter le nombre de répétitions, les matrices de confusion, les règles de génération des données, la spécification des modèles et les intervalles d'incertitude des taux rapportés.
-
----
-
-## Chapitre 6 — Antithèse de l'ombre : la noirceur comme matrice
-
-L'idée selon laquelle la noirceur n'offre pas d'ombre repose sur une conception purement optique de la relation entre lumière et obscurité. Cette conception ne suffit pas à rendre compte de la portée phénoménologique de la noirceur. L'antithèse proposée est la suivante : **la noirceur n'est pas l'absence d'ombre, elle est la condition de sa profondeur.**
-
-Cette proposition est d'abord phénoménologique et métaphorique. Elle ne doit pas être confondue avec une loi physique sur la lumière.
-
-### 1. La physique du corps noir
-
-En physique, le corps noir est un système idéal qui absorbe intégralement le rayonnement incident. Il possède également une propriété fondamentale : il émet un rayonnement thermique dont le spectre dépend de sa température. L'ombre, quant à elle, résulte de l'interception du rayonnement par un obstacle, dans une configuration comprenant une source et une surface de projection.
-
-Il faut donc distinguer les deux phénomènes : l'absorption caractérise le comportement radiatif d'un corps, tandis que l'ombre caractérise une relation géométrique entre une source, un obstacle et une surface. La noirceur ne constitue donc pas la cause physique de l'ombre. Dans notre interprétation, elle devient néanmoins une métaphore de l'absorption, de la délimitation et de la profondeur des configurations.
-
-### 2. La topologie du trou
-
-Dans notre représentation du tore, le trou central n'est pas conçu comme un vide simplement inerte. Il représente un espace de non-coïncidence. L'ombre n'est plus uniquement l'opposé de la lumière : elle devient la trace d'une limite, le signe qu'une configuration possède une frontière.
-
-Un monde sans ombre représenterait symboliquement un monde sans différenciation. Cette proposition relève de l'interprétation phénoménologique du modèle ; elle ne découle pas d'un théorème topologique relatif au tore.
-
-### 3. La psychanalyse de l'ombre : Jung et Lacan
-
-Dans la psychologie analytique de Jung, l'Ombre (*Schatten*) désigne les aspects de la personnalité insuffisamment reconnus ou intégrés à l'image consciente de soi. Chez Lacan, le Réel désigne ce qui résiste à la symbolisation. Ces deux concepts ne sont pas identiques. Ils peuvent néanmoins être rapprochés autour d'une question commune : celle des limites de la représentation consciente.
-
-Dans notre modèle, la noirceur représente cette dimension qui ne se laisse pas entièrement absorber par la représentation. Il s'agit d'un rapprochement interprétatif et non d'une équivalence doctrinale entre Jung et Lacan.
-
-### 4. La fente comme trou de non-coïncidence
-
-L'expérience des deux fentes de Young permet d'examiner physiquement la relation entre indistinction et information. Lorsque les chemins restent indiscernables et que la cohérence est préservée, les amplitudes associées aux alternatives peuvent interférer. Lorsque l'information de chemin devient disponible par une interaction avec un dispositif ou un environnement, la visibilité des franges peut diminuer. L'ampleur de cette diminution dépend notamment de la distinction effectivement acquise et de la décohérence.
-
-La mesure ne force pas une coïncidence. Elle introduit une interaction qui modifie les conditions de cohérence du système et peut rendre les alternatives distinguables. Cette expérience fournit une analogie physique pertinente pour le concept de distinction, sans établir une équivalence entre la mécanique quantique et la conscience phénoménologique.
-
----
-
-## Chapitre 7 — Zénon, la division infinie et la limite de l'observateur
-
-### 1. La division infinie
-
-La formulation « le Réel est 1/2 de 1/4 de 1/8 » trouve un écho dans les paradoxes de Zénon, à condition de distinguer une formulation métaphorique d'une expression mathématique. La série additive
-
-$$
-\frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \cdots
-$$
-
-converge vers 1. Sa somme partielle est :
-
-$$
-S_n = \sum_{k=1}^{n} 2^{-k} = 1 - 2^{-n}.
-$$
-
-Aucune somme partielle finie n'atteint exactement la limite. La division produit ainsi une succession de configurations de plus en plus proches de leur limite.
-
-Dans notre lecture phénoménologique, cette progression représente une régression de l'identification : chaque opération de distinction peut devenir elle-même l'objet d'une nouvelle distinction. Cette transposition est conceptuelle ; elle ne constitue pas une résolution mathématique des paradoxes de Zénon.
-
-### 2. Le point d'échappement et la régression noétique
-
-Le paradoxe est transposé à l'acte de conscience. Chaque fois que la conscience tente de se saisir réflexivement, elle peut constituer son propre acte comme objet d'une nouvelle visée. C'est le point d'échappement : l'acte de conscience et son objet ne se confondent pas intégralement dans une même opération réflexive.
-
-Cette non-coïncidence constitue une proposition phénoménologique sur la réflexivité. Elle ne se déduit pas de la convergence de la série géométrique ; la série fournit une structure formelle illustrative, non une preuve de la thèse phénoménologique.
-
-### 3. La fenêtre SHC : la finitude instrumentale
-
-Cette régression rencontre une limite structurelle dans l'instrument SHC : la fenêtre de mémoire de 64 états, soit
-
-$$
-N_{\mathrm{mem}} = 64.
-$$
-
-Cette fenêtre représente une capacité de conservation explicite dans le registre considéré. Le seuil $1/64$ peut représenter une granularité normalisée associée à cette capacité, si la normalisation de l'instrument le définit ainsi. Il ne doit pas être confondu avec le résidu de la série géométrique.
-
-### 4. Le résidu noétique
-
-L'écart entre la noèse et le noème constitue une distinction fondamentale de la phénoménologie. Dans notre instrument, nous proposons une représentation numérique de la limite d'une somme tronquée :
-
-$$
-\epsilon_{\mathrm{SHC}} = \sum_{k=1}^{64} \frac{1}{2^k} = 1 - 2^{-64}.
-$$
-
-Le résidu non atteint est :
-
-$$
-\delta_{64} = 2^{-64}.
-$$
-
-Il faut donc distinguer $1/64$, granularité instrumentale éventuelle, et $2^{-64}$, résidu mathématique de la série géométrique tronquée.
-
-Le SHC fournit ainsi une représentation instrumentale de la finitude de la conservation explicite. Cette limite computationnelle ne doit pas être confondue avec une limite ontologique de la conscience. En particulier, le résidu $2^{-64}$ ne mesure ni l'écart réel entre noèse et noème, ni une quantité empirique de conscience.
-
----
-
-## Chapitre 8 — Articulation des structures : de l'adresse à la dynamique
-
-Les chapitres précédents font apparaître plusieurs objets mathématiques : l'espace des adresses $X$, les espaces de configurations $\mathcal{H}_x$, les transports $U_{xy}$, la compatibilité $R(x,y)$, les phases $\theta_i$, le paramètre d'ordre collectif $Z(t)$, la variable régulatoire $AL(t)$ et la fenêtre instrumentale du SHC.
-
-Ces objets ne sont pas encore les composantes d'un système mathématique unique. Leur articulation demande de préciser les applications qui les relient.
-
-Une première articulation possible est la suivante :
-
-$$
-\text{Adresse } x \longrightarrow \text{Configuration } \Psi(x) \longrightarrow \text{Transport } U_{xy} \longrightarrow \text{Compatibilité } R(x,y).
-$$
-
-Une deuxième concerne la dynamique collective :
-
-$$
-\{\theta_i(t)\}_{i=1}^{N} \longrightarrow Z(t) \longrightarrow R(t) = |Z(t)|.
-$$
-
-Une troisième concerne la régulation :
-
-$$
-C_{\mathrm{reg}}(t) - C_{\mathrm{rec}}(t) \longrightarrow AL(t).
-$$
-
-Enfin, la simulation du Bloc 44 explore une dynamique de champ sur un domaine périodique. Elle peut être rapprochée des structures précédentes si les variables de champ, les adresses et les observables sont reliées par des définitions explicites. Sans ces applications, les différents formalismes demeurent des modèles apparentés plutôt que les secteurs démontrés d'une théorie unifiée.
-
-Le point de jonction à développer est donc le passage entre une configuration locale, son transport dans la structure globale et les observables qui permettent d'en mesurer la cohérence ou la transformation.
-
----
-
-## Chapitre 9 — Synthèse phénoménologique et mathématique
-
-L'architecture théorique de cette partie se déploie selon la chaîne suivante :
-
-$$
-\text{Vibration} \rightarrow \text{Juxtaposition} \rightarrow \text{Adresse} \rightarrow \text{Résonance} \rightarrow \text{Distinction} \rightarrow \text{Limite}.
-$$
-
-La vibration constitue la présence phénoménale initiale. La juxtaposition introduit la relation. L'adresse permet la différenciation et l'identification. La résonance rend possible la convergence entre configurations. La distinction maintient leur singularité. La limite préserve la non-coïncidence et l'ouverture du champ.
-
-Le champ de Hilbert fournit ici un langage mathématique intermédiaire pour représenter certaines relations entre configurations, tandis que la phénoménologie décrit les conditions de leur apparition et de leur identification. La conscience est alors abordée comme un problème de configuration, d'adressage et de persistance de l'identifiable.
-
-La question n'est donc plus simplement « Où est la conscience ? ». Elle devient : **À quelle profondeur une configuration reste-t-elle identifiable, transmissible et transformable sans perdre sa singularité ?**
-
----
-
-## Chapitre 10 — La simulation numérique de l'ordre implicite (Bloc 44)
-
-Le script `vacuite_holotelegraphique.py` implémente une simulation numérique destinée à explorer la dynamique proposée dans la boucle A2. Le modèle évolue sur une grille périodique de topologie torique et repose sur une équation d'onde complexe, non linéaire et amortie, dans laquelle interviennent un champ métrique et une connexion de jauge.
-
-Trois mécanismes structurent cette architecture.
-
-### 1. Couplage métrique-densité
-
-Le champ métrique \(L_{\mathrm{field}}\) est mis en relation avec la distribution de densité d'énergie au moyen d'un terme de courbure. Dans le modèle décrit, cette rétroaction représente une interaction entre la distribution locale du champ et la structure géométrique qui conditionne sa propagation.
-
-Pour établir précisément ce couplage, le script doit permettre d'identifier la définition de la densité d'énergie, le terme de courbure, la dépendance fonctionnelle de \(L_{\mathrm{field}}\) et les conditions aux limites. Le vocabulaire de « rétroaction métrique » est justifié si la métrique évolue effectivement en fonction de la densité et si cette métrique intervient en retour dans l'équation de propagation.
-
-### 2. Connexion de jauge
-
-Le champ \(A_{\mathrm{torus}}\) intervient dans la dérivée covariante. Il introduit une structure de connexion dans le calcul des variations spatiales et permet, selon sa définition, de prendre en compte les relations de phase sur le domaine périodique.
-
-Le rôle précis de ce champ dépend de la forme de la dérivée covariante, de la transformation de jauge retenue et des conditions de périodicité. Le caractère torique du domaine ne suffit pas, à lui seul, à établir une structure de jauge : celle-ci dépend de la connexion et de ses règles de transformation. Si le transport dépend du chemin, une holonomie peut être étudiée en comparant les transports le long de chemins fermés.
-
-Cette connexion fournit un point de raccord potentiel avec les applications \(U_{xy}\) du Chapitre 1. Pour que le raccord soit mathématiquement effectif, il faut définir les espaces sur lesquels agit le transport et montrer comment la connexion du Bloc 44 engendre ce transport.
-
-### 3. Intégration temporelle
-
-Le schéma de Verlet est associé à l'évolution de la partie conservative du système, lorsque celle-ci admet une formulation compatible avec cet intégrateur. L'amortissement, représenté par \(\gamma\), doit être traité distinctement si l'on souhaite préserver les propriétés géométriques de l'intégration conservative, par exemple au moyen d'une méthode de séparation (*splitting*).
-
-La symplecticité et la réversibilité temporelle ne peuvent donc pas être attribuées automatiquement à la dynamique amortie dans son ensemble. Elles concernent la partie conservative et dépendent de la formulation exacte ainsi que du schéma effectivement codé.
-
-### 4. Stabilité et convergence numériques
-
-La stabilité numérique dépend du pas de temps, de la résolution spatiale, des fréquences représentées par la discrétisation, de l'opérateur spatial et des paramètres non linéaires. Une condition de stabilité adaptée au schéma utilisé doit être établie. Dans le cas d'une discrétisation explicite d'une équation d'onde, elle peut notamment prendre la forme d'une condition de type CFL. La forme précise de cette condition dépend de l'équation et de la discrétisation ; elle ne peut être affirmée sans examiner le schéma.
-
-La simulation permet d'examiner une dynamique de sédimentation proposée : dans les conditions initiales et les paramètres explorés, les fluctuations peuvent évoluer vers une configuration apparemment stationnaire. Cette observation numérique doit être distinguée d'une convergence démontrée.
-
-La validation numérique demande notamment :
-
-- des tests de raffinement du pas de temps et de la grille spatiale ;
-- une vérification de la périodicité et de la fermeture du domaine torique ;
-- une étude de la sensibilité aux conditions initiales et aux perturbations ;
-- un contrôle des bilans pertinents, notamment de l'énergie lorsque le modèle en définit un ;
-- une comparaison entre plusieurs résolutions afin de vérifier que la configuration stationnaire ne résulte pas d'un artefact de discrétisation ;
-- une vérification de la robustesse des résultats sous variation des paramètres.
-
-Un état stationnaire observé sur une seule grille et pour une seule condition initiale ne suffit pas à établir la robustesse de la dynamique.
-
-### 5. Portée du Bloc 44 dans la boucle A2
-
-Le Bloc 44 donne une forme calculable à une hypothèse de la boucle A2 : le local et le global sont mis en relation par une dynamique de couplage et de rétroaction. Il permet d'explorer cette relation dans un environnement numérique, sans établir à lui seul sa validité physique ou ontologique.
-
-La chaîne conceptuelle explorée peut être représentée ainsi :
-
-$$
-\text{Ordre implicite} \rightarrow \text{Géométrie dynamique} \rightarrow \text{Propagation et couplage} \rightarrow \text{Configuration stationnaire}.
-$$
-
-Cette chaîne constitue une proposition de modélisation. Sa portée dépend de la cohérence des équations, de la fidélité de leur implémentation et de la robustesse des résultats numériques obtenus.
-
-Le raccord avec les chapitres précédents peut être formulé comme une hypothèse de travail :
-
-$$
-\text{Adresse} \rightarrow \text{Transport} \rightarrow \text{Résonance} \rightarrow \text{Couplage} \rightarrow \text{Dynamique} \rightarrow \text{Stabilité}.
-$$
-
-Cette continuité ne sera pleinement établie que lorsque les variables des différents modèles seront reliées par des définitions et des transformations explicites. Le Bloc 44 constitue donc une étape de formalisation et d'expérimentation numérique, non la validation finale de l'ensemble de l'architecture.
-
----
-
-## Chapitre 11 — L'organisme cognitif : une architecture de la métacognition
-
-### 1. Le passage de la mesure à l'auto-observation
-
-Dans la Partie III, nous avons vu comment un système interagit avec son environnement (mesure, décohérence, trace). Mais la conscience ne se réduit pas à enregistrer des traces. Elle implique une capacité à *s'observer elle-même* : une **métacognition**.
-
-Pour explorer cette dimension, nous avons conçu un modèle informatique : `CognitiveOrganism`. Ce script ne prétend pas simuler une conscience phénoménale. Il implémente une architecture fonctionnelle qui relie la perception, la mémoire épisodique, la prédiction et l'auto-modélisation.
-
-### 2. L'architecture de l'organisme
-
-Le système est structuré en plusieurs couches :
-
-- **Mémoire épisodique** : chaque observation est stockée avec un degré de saillance, une confiance et une priorité. Les souvenirs peuvent être renforcés ou consolidés.
-- **Graphe cognitif** : les concepts sont des nœuds, et leurs co-occurrences forment des arêtes (le réseau des adresses).
-- **Modèle du soi** : un ensemble de croyances, d'objectifs et d'un niveau de confiance en soi.
-- **État cognitif** : un ensemble de variables dynamiques (erreur de prédiction, incertitude, curiosité).
-
-### 3. La loi de Zipf et la cohérence (UG)
-
-Le système calcule un indice de cohérence globale (`UG`) en comparant la distribution des fréquences des concepts (loi de Zipf) à différentes échelles (micro et macro). Si la distribution conserve la même pente (même exposant de Zipf) après agrégation, le système considère que sa structure cognitive est cohérente.
-
-$$
-\mathrm{UG} = \frac{1}{3} \left( C_{\mathrm{CG}} + Q_H + S_G \right)
-$$
-
-où \(C_{\mathrm{CG}}\) est la cohérence du coarse-graining, \(Q_H\) la qualité des arêtes et \(S_G\) la stabilité structurelle. Il s'agit d'un indice interne du modèle : sa définition opérationnelle doit être documentée avec le script.
-
-### 4. La boucle métacognitive
-
-Le cycle cognitif se déroule en cinq étapes :
-
-1. **Perception** : le système enregistre une observation dans sa mémoire.
-2. **Prédiction** : il génère une attente sur le monde.
-3. **Observation** : il compare sa prédiction à la réalité et calcule une **erreur de prédiction**.
-4. **Métacognition** : il génère une **question interne**.
-5. **Consolidation** : il met à jour ses croyances et son modèle du soi.
-
-L'extrait de code suivant montre comment le système sélectionne une question interne en fonction de son état d'incertitude et de son erreur de prédiction. Les questions sont ici des chaînes prédéfinies choisies par seuils ; il ne s'agit pas d'une génération libre.
-
-```python
+Si ce transport est unitaire et si les états sont non nuls, on définit une compatibilité normalisée :
+Cette quantité appartient à [[0,1]]. Elle mesure un recouvrement après transport, non une compréhension, une proximité vécue ou une distance métrique par définition.
+La comparaison suppose que les configurations soient exprimables dans un même espace après transport. Si celui-ci dépend d’un chemin [\gamma], la notation doit le signaler :
+La composition des transports et leur éventuelle holonomie deviennent alors des propriétés à définir.
+Le parallélisme spinoziste fournit un rapprochement philosophique : le corps sous l’attribut de l’Étendue et l’esprit sous l’attribut de la Pensée ne sont pas deux objets échangeant des messages, mais deux expressions d’une même réalité.
+Cette référence ne permet toutefois pas d’identifier l’adresse au corps et l’état à l’esprit. Adresse et configuration appartiennent au même dispositif de représentation. Leur rapprochement avec Spinoza demeure une transposition interprétative, non une déduction mathématique de sa philosophie.
+Chapitre 2 — L’autre comme résonance
+1. La convergence incarnée
+Puisque l’autre n’est pas simplement un objet, mais une présence incarnée, entrer en relation avec lui ne signifie pas fusionner avec lui. C’est construire une convergence à partir de ses manifestations : gestes, paroles, expressions, comportements et traces perceptibles.
+L’intersubjectivité n’est pas une simple addition de sujets isolés. Elle comporte un champ partagé dans lequel les expériences peuvent se rencontrer sans devenir identiques.
+Dans la perspective de Merleau-Ponty, le corps propre est déjà engagé dans un monde commun. La perception de l’autre s’inscrit dans cette appartenance corporelle et perceptive. Elle ne demande pas nécessairement de reconstruire un esprit caché derrière un corps entièrement neutre.
+La résonance désigne ici la possibilité de reconnaître une organisation chez l’autre sans vivre son expérience de l’intérieur. Elle concerne des correspondances entre manifestations et possibilités de réponse, non un accès direct à sa première personne.
+2. La limite de la résonance
+Il demeure une part de l’autre qui échappe à toute appropriation complète. Dans l’image torique du modèle, le « trou » figure cette non-coïncidence.
+Cette image doit rester distincte de la construction mathématique : le trou visible dans une représentation usuelle du tore n’est pas une région de sa surface dans laquelle on pourrait localiser une expérience inaccessible.
+La limite n’est pas nécessairement un échec de la communication. Elle constitue une condition de l’altérité :
+On peut comprendre certaines manifestations d’autrui, corriger ses interprétations et construire une relation sans accéder intégralement à son expérience.
+La conséquence éthique proposée est la suivante : reconnaître l’autre suppose aussi de reconnaître ce qui, en lui, ne peut être entièrement ramené à soi.
+3. Résonance et désaccord
+Une relation significative ne suppose pas une synchronisation maximale. Le désaccord peut rendre une différence identifiable et enrichir le champ commun.
+La résonance ne doit donc pas être confondue avec l’uniformité. Deux configurations peuvent être compatibles sur certains aspects et divergentes sur d’autres. Une mesure globale de cohérence ne suffit pas à décrire cette organisation.
+L’enjeu n’est pas seulement de produire un état commun, mais de préserver les distinctions qui permettent encore de répondre les uns aux autres.
+Chapitre 3 — Le champ symbolique transindividuel et la faille du signifiant
+1. Le sujet dans un champ qui le précède
+La proposition lacanienne selon laquelle l’inconscient est structuré comme un langage ne signifie pas qu’il soit un simple ensemble de mots. Elle concerne l’organisation de ses manifestations selon des relations signifiantes.
+Le sujet parlant naît dans un réseau de discours, de places et de significations qui ne lui appartient pas individuellement. Le champ symbolique le précède en partie, tout en étant repris et transformé dans ses actes.
+Le terme « transindividuel » désigne ici cette dimension non exclusivement privée du symbolique. Il ne suppose pas une conscience collective qui éprouverait les expériences à la place des individus.
+2. Trace et réactivation
+Le passé, en tant qu’événement, ne peut être reproduit à l’identique par son évocation. Ses traces persistent cependant sous différentes formes : mémoire, dispositions corporelles, habitudes et reconstructions.
+Il faut distinguer la rétention du tout-juste-passé, qui participe au présent vécu, du souvenir qui réactualise un épisode plus éloigné.
+Ce qui persiste n’est pas nécessairement un état initial intégralement conservé. Il peut s’agir d’une organisation de traces susceptible d’être réactivée et reconfigurée.
+3. Le signifiant comme adresse relationnelle
+Le signifiant acquiert sa valeur dans ses relations aux autres signifiants. Il n’est pas une substance autonome portant un sens entièrement constitué.
+Dans notre modèle, nous proposons de le comprendre comme une adresse relationnelle. Son identification dépend de son inscription dans une chaîne, d’un contexte d’énonciation et de son rapport à l’Autre.
+Ce rapprochement ne réduit pas la théorie lacanienne à une théorie de graphes. Il propose une manière de représenter certaines dépendances relationnelles sans prétendre épuiser leur portée psychanalytique.
+4. La faille et l’étrangeté
+L’inquiétante étrangeté, ou Unheimliche, éclaire une possibilité : ce qui paraissait familier peut devenir étranger lorsque les conditions de reconnaissance se transforment.
+La faille du signifiant désigne ici la non-coïncidence entre l’expérience, sa représentation et les relations symboliques qui permettent de l’identifier.
+Le Réel lacanien ne se réduit ni à l’inconnu provisoire ni à une information manquante que l’on pourrait nécessairement récupérer. Notre usage de la faille est une interprétation propre au modèle, non une définition littérale du Réel.
+Enfin, le champ symbolique transindividuel ne doit pas être identifié à l’inconscient collectif jungien. Les deux notions appartiennent à des architectures théoriques différentes.
+Chapitre 4 — La dynamique des adresses collectives : synchronisation et hystérésis
+1. Équation d’évolution des phases
+Pour explorer une dynamique collective, nous utilisons un système de [N] oscillateurs de phase. Chaque oscillateur représente, par convention, une strate linguistique :
+Ici :
+[\theta_i] est la phase de la strate [i] ;
+[\omega_i] est sa fréquence naturelle ;
+[W^{(R)}] représente la structure du couplage local ;
+[W^{(A)}] représente la structure du couplage global ;
+[g_R] et [g_A] sont leurs intensités respectives.
+La correspondance entre « strate linguistique » et oscillateur doit être documentée. Il faut préciser ce qu’une phase représente et ce qui permettrait de l’estimer à partir de données.
+Les matrices de couplage doivent également être définies et normalisées. Une division par [N], par le nombre de voisins ou par une norme de matrice modifie la signification numérique des couplages.
+2. Paramètre d’ordre et cohérence collective
+La concentration des phases est mesurée par :
+Une valeur proche de un indique une forte concentration. Une valeur proche de zéro indique une faible résultante globale, mais peut aussi masquer des sous-groupes organisés dont les contributions se compensent.
+Pour [N=14] phases indépendantes uniformément distribuées :
+L’approximation asymptotique :
+ne doit pas être traitée comme une égalité exacte pour ce petit réseau.
+Les résultats doivent être comparés à une distribution de référence adaptée plutôt qu’à un zéro idéal.
+3. Élasticité et comportement spectral
+Les résultats numériques rapportés sont :
+Le signal analysé, la convention spectrale et les autres paramètres doivent être précisés. Si la convention retenue est :
+ces valeurs décrivent des pentes différentes sur les plages ajustées.
+Leur interprétation en termes d’élasticité exige une définition propre de cette grandeur et un lien explicite avec le spectre. La pente ne mesure pas automatiquement une élasticité.
+L’invariance d’échelle demanderait des vérifications supplémentaires : plages d’ajustement, incertitudes, effets de fenêtre, durée des séries et comparaison avec des modèles concurrents.
+4. Hystérésis et mémoire collective
+L’hystérésis désigne une dépendance de la réponse à l’histoire du système. Elle doit être étudiée par des balayages croissants et décroissants du couplage, avec des conditions et des temps de stabilisation comparables.
+Une différence entre branches ne suffit pas immédiatement : elle peut provenir de transitoires ou d’un retard de relaxation. Il faut notamment examiner sa persistance lorsque le balayage ralentit et lorsque le temps d’observation augmente.
+La synchronisation ne démontre donc pas, à elle seule, une mémoire collective ou une hystérésis robuste.
+5. Le résidu de transmission
+La configuration double_neg est associée à une valeur rapportée :
+Tant que son calcul n’est pas spécifié, cette valeur demeure un résidu numérique. Elle ne peut être identifiée automatiquement à une fraction d’information.
+Si une mesure d’information normalisée est effectivement définie, et si le résidu et la part synchronisée forment une partition exhaustive sans redondance, on peut écrire :
+d’où :
+Cette interprétation exige de préciser les unités, la normalisation et le bilan.
+Le rapprochement avec la faille du signifiant reste analogique : une composante non synchronisée du modèle ne mesure ni le Réel lacanien ni une incommunicabilité universelle.
+Chapitre 5 — Régulation, charge allostatique et identifiabilité
+1. Formalisation de la charge régulatoire
+Dans le modèle ST, la charge régulatoire cumulée est définie par :
+La dynamique correspondante est :
+[C_{\mathrm{reg}}] représente un taux de coût et [C_{\mathrm{rec}}] un taux de récupération dans les unités choisies.
+Si ces termes sont des indices sans unité physiologique directe, [AL] doit être présenté comme un indice interne. Son rapprochement avec la charge allostatique biologique nécessite une validation indépendante.
+L’équation autorise également des valeurs négatives. Si celles-ci sont incompatibles avec l’interprétation retenue, une contrainte ou une règle de récupération doit être définie explicitement. Le modèle ne doit pas imposer silencieusement une saturation absente des équations.
+2. Comparaison des modèles : AIC et BIC
+Pour comparer les modèles A, B et C, nous utilisons :
+où [k] est le nombre de paramètres estimés, [n] le nombre d’observations selon la convention retenue, et [\widehat L] la vraisemblance maximisée.
+Ces critères comparent des modèles ajustés aux mêmes données dans un cadre cohérent. Une valeur plus faible indique une préférence relative, non la vérité du modèle.
+Dans le scénario de bruit relatif [0{,}30], les résultats antérieurs rapportent :
+pour l’AIC, une sélection correcte passant de 76 % en condition passive à 94 % avec intervention ;
+pour le BIC, une sélection correcte passant de 81,3 % à 92 %.
+Ces pourcentages sont des taux de sélection correcte, non les valeurs des critères.
+3. Intervention et identifiabilité
+L’intervention sur [\gamma] améliore la discrimination dans les conditions rapportées. Ce résultat suggère qu’une modification contrôlée du protocole peut rendre les modèles plus faciles à distinguer.
+L’AIC et le BIC ne constituent cependant pas, à eux seuls, des tests d’identifiabilité. Il faut distinguer :
+la possibilité théorique de distinguer des paramètres ou des modèles ;
+leur estimation avec des données finies et bruitées ;
+la sélection relative parmi les candidats effectivement comparés.
+L’évaluation nécessite les répétitions, les matrices de confusion, les intervalles d’incertitude, les règles de génération des données et les diagnostics d’ajustement.
+Chapitre 6 — Antithèse de l’ombre : la noirceur comme matrice
+La proposition directrice est la suivante : la noirceur n’est pas seulement envisagée comme absence de lumière, mais comme figure de profondeur et de non-transparence.
+Cette proposition est phénoménologique et métaphorique. Elle n’est pas une loi physique sur l’ombre.
+1. La physique du corps noir
+Un corps noir est un système idéal absorbant intégralement le rayonnement incident et émettant un rayonnement thermique dépendant de sa température.
+L’ombre relève d’une autre relation : l’interception du rayonnement dans une configuration comportant une source, un obstacle et une région moins éclairée.
+L’absorption et l’ombre ne sont donc pas identiques. La noirceur n’est pas leur cause physique commune. Dans le modèle, elle devient une métaphore de ce qui ne se laisse pas réduire à une transparence intégrale.
+2. La topologie du trou
+Dans la représentation torique, le trou figure une non-coïncidence. Cette lecture ne signifie pas qu’une région manquante soit une composante cachée de la surface.
+Le tore peut être étudié mathématiquement par ses cycles et ses propriétés de parcours. Son interprétation comme figure d’altérité reste une opération philosophique supplémentaire.
+Dire qu’un monde sans ombre symboliserait un monde sans différenciation ne revient donc pas à établir un théorème sur le tore.
+3. Jung et Lacan : deux limites distinctes
+Dans la psychologie analytique de Jung, l’Ombre concerne des aspects de la personnalité insuffisamment reconnus ou intégrés à l’image consciente de soi.
+Chez Lacan, le Réel désigne ce qui résiste à la symbolisation. Il ne doit pas être identifié à un contenu psychique simplement caché et intégrable.
+Le rapprochement porte ici sur les limites de la représentation consciente, sans assimilation des doctrines.
+4. Les deux fentes : distinction et cohérence
+Dans l’expérience des deux fentes, des alternatives peuvent interférer lorsque les conditions de cohérence sont préservées. Lorsque l’information de chemin devient physiquement distinguable, la visibilité des interférences peut diminuer.
+Aucune prise de conscience humaine de cette information n’est requise pour décrire cette modification.
+L’expérience fournit une comparaison limitée : rendre des alternatives distinguables modifie les relations observables. Elle ne démontre ni une théorie de l’altérité ni un rôle constitutif de la conscience dans la production du résultat physique.
+Chapitre 7 — Zénon, la division infinie et la limite de l’observateur
+1. La division infinie
+La formulation « le Réel est 1/2 de 1/4 de 1/8 » est retenue comme image de différenciation progressive, non comme expression mathématique univoque.
+La série additive :
+converge vers un. Sa somme partielle est :
+Aucune somme partielle finie n’atteint exactement la limite.
+Dans la lecture proposée, cette structure illustre la possibilité qu’une opération de distinction devienne elle-même l’objet d’une nouvelle distinction. Elle ne prouve pas une thèse sur la conscience.
+2. Le point d’échappement
+Lorsqu’un acte devient objet de réflexion, cette réflexion constitue une nouvelle opération. Le modèle nomme « point d’échappement » cette non-coïncidence entre l’acte en cours et sa représentation.
+Cette proposition ne signifie pas que toute conscience de soi exige une régression infinie. Elle concerne la réflexion explicite, non l’ensemble des formes pré-réflexives de présence à soi.
+3. La fenêtre SHC
+L’instrument SHC possède, selon sa spécification annoncée, une fenêtre :
+Cette capacité désigne un nombre d’états conservés dans un registre. Elle ne détermine pas automatiquement une résolution universelle de [1/64].
+Une telle granularité n’a de sens que si la règle de codage et la normalisation de l’instrument la définissent.
+4. Somme tronquée et résidu
+Pour la série considérée :
+et :
+Il faut distinguer :
+La première quantité peut être une granularité conventionnelle ; la seconde est le résidu exact de la somme tronquée.
+La distinction phénoménologique entre noèse et noème ne doit pas être traitée comme une soustraction entre deux quantités. Le résidu numérique ne mesure pas leur rapport.
+Le SHC représente ainsi une finitude instrumentale. Il ne démontre pas une limite ontologique de la conscience.
+Chapitre 8 — Articulation des structures : de l’adresse à la dynamique
+Les objets introduits ne constituent pas encore un système mathématique unique. Leur articulation demande des définitions supplémentaires.
+1. Configuration et transport
+Une première chaîne est :
+Elle représente l’association d’une adresse à une configuration et la comparaison de configurations après transport.
+Pour devenir opérationnelle, elle doit préciser comment les données ou descriptions sont encodées dans [\mathcal H_x].
+2. Configuration et phase
+Une deuxième chaîne est :
+Pour la relier à la première, il faudrait définir une application permettant d’extraire une phase pertinente d’une configuration.
+Une telle application n’est pas automatique : la phase globale d’un vecteur peut être conventionnelle et ne pas porter de contenu représentatif. Le modèle doit justifier ce que représentent les différences de phase retenues.
+3. Dynamique et régulation
+Le raccord régulatoire exigerait une définition du type :
+où [\mathcal C] serait une fonction explicitement spécifiée.
+Cette écriture indique une tâche de construction. Elle n’ajoute pas une équation déjà validée au modèle ST.
+4. Le point de jonction
+Le Bloc 44 peut être rapproché de cette architecture si :
+les valeurs du champ correspondent à des configurations définies ;
+la connexion engendre des transports identifiés ;
+les observables sont calculées à partir de ces mêmes variables ;
+le lien avec les phases collectives est établi.
+Sans ces raccords, les formalismes restent apparentés, non unifiés.
+Chapitre 9 — Synthèse phénoménologique et mathématique
+L’architecture conceptuelle peut être résumée par :
+Cette chaîne indique un ordre d’exposition, non une succession chronologique universelle.
+La présence constitue le point de départ descriptif. La relation permet la différenciation. L’adresse rend certaines configurations repérables. La résonance ouvre une convergence. La distinction maintient les singularités. La limite empêche de confondre relation et transparence.
+La famille d’espaces de Hilbert fournit un langage possible de représentation. La phénoménologie décrit, quant à elle, les conditions d’apparition et de reconnaissance du vécu.
+La question directrice devient :
+Dans quelles conditions une configuration demeure-t-elle identifiable, transmissible et transformable sans devenir entièrement interchangeable ?
+Le terme « profondeur », lorsqu’il est employé, doit être précisé : profondeur temporelle, niveau d’agrégation, nombre de transformations ou robustesse de l’identification. Sans cette définition, il conserve un sens philosophique, non une mesure.
+Chapitre 10 — La simulation numérique de l’ordre implicite : Bloc 44
+Le script vacuite_holotelegraphique.py est présenté comme une exploration de la dynamique proposée dans la boucle A2. Selon la description disponible, il fait évoluer un champ complexe non linéaire et amorti sur un domaine périodique, avec un champ métrique et une connexion.
+Les affirmations sur son fonctionnement doivent être vérifiées sur la version effectivement utilisée.
+1. Couplage métrique-densité
+Le champ [L_{\mathrm{field}}] est annoncé comme dépendant d’une distribution de densité et d’un terme de courbure.
+Pour parler de rétroaction métrique, il faut établir :
+la définition de la densité ;
+l’équation d’évolution ou la règle de calcul du champ métrique ;
+son intervention en retour dans la propagation ;
+la nature de la courbure calculée.
+Un champ scalaire modulant une vitesse ou un coefficient de propagation ne constitue pas, sans construction supplémentaire, une métrique complète.
+2. Connexion de jauge
+Le champ [A_{\mathrm{torus}}] intervient, selon la description, dans une dérivée covariante.
+Il faut préciser la convention de signe, le groupe de jauge, les règles de transformation et la discrétisation. La périodicité du domaine ne suffit pas à établir une invariance de jauge.
+Un raccord avec [U_{xy}] exige de montrer comment la connexion engendre le transport entre les espaces considérés. L’holonomie peut ensuite être étudiée le long de chemins fermés, en distinguant contribution locale de la courbure et propriétés globales du domaine.
+3. Intégration temporelle
+Le schéma de Verlet possède des propriétés géométriques dans des cadres conservatifs appropriés. Leur conservation dépend de la formulation et du schéma réellement employés.
+L’amortissement [\gamma] modifie la dynamique. Une séparation entre évolution conservative et dissipation peut être utilisée, mais elle doit être décrite explicitement.
+La symplecticité et la réversibilité ne peuvent pas être attribuées automatiquement à l’évolution amortie complète.
+4. Stabilité et convergence
+La stabilité dépend du pas de temps, de la grille, de l’opérateur spatial et des non-linéarités.
+Une condition de type CFL peut intervenir pour certaines discrétisations explicites d’équations d’onde. Sa forme ne doit pas être affirmée sans examiner l’équation et le schéma.
+La validation demande :
+des raffinements temporels et spatiaux ;
+des tests de périodicité ;
+une sensibilité aux conditions initiales ;
+des contrôles de bilan ;
+une comparaison entre résolutions ;
+une variation des paramètres ;
+un critère explicite de stationnarité.
+Une configuration apparemment immobile peut être un état stationnaire, une évolution lente ou un artefact numérique. Ces possibilités doivent être départagées.
+5. Portée dans la boucle A2
+La chaîne explorée est :
+Le terme « ordre implicite » désigne ici une inspiration conceptuelle. Il ne transforme pas la simulation en validation de l’ontologie de Bohm.
+Le Bloc 44 constitue une étape de formalisation. Sa portée dépend des équations, de leur implémentation et de la robustesse des résultats.
+Chapitre 11 — L’organisme cognitif : auto-modélisation et métacognition fonctionnelle
+1. De la mesure à l’auto-observation
+L’enregistrement de traces ne suffit pas à établir une expérience ou une capacité réflexive.
+Le modèle CognitiveOrganism explore une question plus restreinte : comment un système peut-il représenter certains de ses états, détecter un écart entre attente et observation, puis modifier son fonctionnement ?
+Trois niveaux doivent être distingués :
+la conscience phénoménale : le caractère vécu d’une expérience ;
+la métacognition humaine : le suivi et la régulation de ses propres processus cognitifs, pouvant notamment donner lieu à des jugements de confiance ;
+l’auto-modélisation informatique : le calcul explicite de représentations partielles de l’état du système.
+Le script est décrit au troisième niveau. Le terme « métacognition fonctionnelle » n’est retenu que si les états suivis interviennent effectivement dans le contrôle du traitement.
+2. L’architecture
+Quatre composantes sont distinguées :
+une mémoire dite épisodique, stockant les observations avec saillance, confiance et priorité ;
+un graphe cognitif, où les concepts sont des nœuds et leurs co-occurrences des arêtes ;
+un modèle du soi, comprenant croyances, objectifs et estimations de capacité ;
+un état cognitif, comprenant erreur de prédiction, incertitude et variables de contrôle.
+Ces noms décrivent des fonctions du programme. Ils ne démontrent ni souvenir vécu, ni curiosité ressentie, ni identité personnelle.
+Les opérations de renforcement et de consolidation doivent être documentées sur le code.
+3. Cohérence globale et loi de Zipf
+L’indice annoncé est :
+[C_{\mathrm{CG}}] représente un score de cohérence entre distributions à plusieurs échelles ; [Q_H], une qualité moyenne des arêtes ; [S_G], une propriété structurelle du graphe.
+La définition doit préciser :
+les règles d’agrégation ;
+la méthode d’estimation des exposants ;
+la conversion des écarts en scores ;
+la normalisation de chaque terme ;
+le traitement des graphes peu fournis.
+Une densité d’arêtes n’est pas, à elle seule, une mesure de stabilité temporelle. Si [S_G] repose sur la densité, il faut le nommer en conséquence ou justifier son rôle comme indicateur indirect.
+Une valeur élevée de UG est une valeur élevée de cet agrégat. Elle ne garantit pas que chaque composante soit élevée et ne mesure ni vérité, ni intelligence générale, ni expérience.
+4. La boucle fonctionnelle
+Le cycle décrit comprend :
+l’enregistrement d’une observation ;
+la génération d’une attente ;
+la comparaison avec une observation ultérieure ;
+la sélection d’un signal interne ;
+la mise à jour du modèle.
+La fonction suivante sélectionne une question prédéfinie :
 def generate_internal_question(self) -> str:
     state = self.cognitive_state
 
@@ -476,3 +294,115 @@ def generate_internal_question(self) -> str:
         "Quelle est la prochaine observation "
         "qui pourrait modifier mon modèle ?"
     )
+L’ordre des conditions définit une priorité : lorsqu’une condition est satisfaite, les suivantes ne sont pas examinées. Ce choix doit être pris en compte dans l’analyse du comportement.
+5. Une question affichée n’est pas encore une interrogation vécue
+La formulation linguistique peut évoquer une réflexion humaine. Son mécanisme est ici une sélection par seuils :
+Le signal peut néanmoins jouer un rôle fonctionnel s’il modifie la sélection des observations, les ressources allouées, la stratégie ou la mise à jour.
+S’il est uniquement affiché, il ne suffit pas à démontrer une boucle métacognitive active.
+6. Un modèle partiel de soi
+Soit [s_t] l’état du système et [\widehat s_t] sa représentation interne :
+La fonction [M] sélectionne certains aspects. Le modèle de soi n’est donc pas, par construction, une copie exhaustive de l’état complet.
+Cette limitation ne prouve pas une impossibilité universelle de se connaître. Elle indique la portée du dispositif retenu.
+Une mise à jour pourrait être décrite schématiquement par :
+Cette expression reste une proposition descriptive tant que sa correspondance au code n’est pas établie.
+7. Évaluation et portée
+Une évaluation devrait comparer le système complet à des variantes :
+sans modèle du soi ;
+sans rétroaction des signaux internes ;
+avec signaux aléatoires comparables ;
+avec règles de mise à jour simplifiées.
+Les critères pourraient porter sur la prédiction, l’adaptation, la calibration de la confiance et le coût computationnel.
+Le nom CognitiveOrganism ne démontre pas que le programme soit un organisme au sens biologique. Il désigne ici une architecture fonctionnelle.
+Ce chapitre montre comment une auto-référence limitée peut être implémentée et évaluée. Il ne démontre pas qu’elle soit vécue.
+Chapitre 12 — Temporalité, rétrospection et formalisme à deux vecteurs d’état
+1. Trois rapports distincts au futur
+Il faut distinguer :
+la protention : ouverture du présent vécu vers ce qui est attendu ;
+la révision rétrospective : transformation présente de l’interprétation d’un épisode passé ;
+le conditionnement quantique : calcul de probabilités tenant compte de résultats antérieurs et ultérieurs.
+Aucune équivalence entre ces opérations n’est postulée.
+Un événement ultérieur peut transformer le sens attribué à une trace sans modifier l’événement passé qui l’a produite.
+2. Pré-sélection et post-sélection
+Le TSVF décrit notamment des systèmes quantiques pré- et post-sélectionnés : une préparation initiale est associée à une sélection fondée sur un résultat final.
+Pour :
+on considère un état initial [\lvert i\rangle], un état final sélectionné [\lvert f\rangle] et une évolution unitaire [U].
+À l’instant intermédiaire :
+Ces deux expressions représentent les deux conditions intervenant dans la description. L’évolution formelle d’un état vers le passé ne doit pas être confondue avec la possibilité de transmettre un message contrôlé au passé.
+3. La règle ABL
+Pour une mesure projective idéale à l’instant [t], représentée par les projecteurs [\{P_k\}], la règle d’Aharonov–Bergmann–Lebowitz donne :
+Le dénominateur doit être non nul et le protocole intermédiaire spécifié. Il s’agit d’une probabilité conditionnelle relative à l’ensemble pré- et post-sélectionné.
+La post-sélection retient les réalisations présentant un résultat donné ; elle ne garantit pas que ce résultat soit obtenu à chaque réalisation.
+4. Le raccord avec l’adresse
+Dans notre modèle, une adresse interprétative peut dépendre d’un contexte ultérieur :
+où [\tau_t] est une trace, [c_{\leq t_f}] le contexte disponible et [a_t^{[t_f]}] son identification depuis ce contexte.
+Cette formule appartient au modèle d’adressage. Elle n’est pas une équation quantique.
+La parenté avec le TSVF est limitée : plusieurs conditions participent à la caractérisation d’un épisode intermédiaire. Cela ne suffit pas à établir une identité des mécanismes.
+5. Rétrospection et hystérésis
+L’hystérésis concerne la réponse d’un système en fonction de son histoire. La rétrospection concerne sa représentation présente de cette histoire.
+On distingue donc :
+Modifier [\widehat h_{t_f}(t)] n’est pas modifier [s(t)] dans le passé.
+6. Limites de l’analogie
+Le TSVF ne fournit pas, dans cette partie, de démonstration :
+d’une sélection des résultats par la conscience ;
+d’une action de l’intention future sur le souvenir passé ;
+d’une identité entre protention et vecteur évoluant formellement vers le passé ;
+d’une nature quantique des oscillateurs linguistiques ;
+d’une communication contrôlée vers le passé.
+Le gain retenu est une distinction :
+L’adresse peut évoluer sans que l’événement soit réécrit physiquement.
+Conclusion — La relation sans abolition de la singularité
+Cette partie a examiné l’identification du vécu à partir d’opérations relationnelles : juxtaposition, adressage, transport, résonance et transformation.
+Sa proposition centrale est qu’un vécu devient identifiable dans une organisation corporelle, temporelle et intersubjective. Cette organisation n’est pas nécessairement verbale, mais le langage en développe certaines possibilités.
+L’autre intervient comme partenaire de différenciation. Il transforme les conditions dans lesquelles mon expérience devient intelligible sans se confondre avec elle :
+1. Articuler les niveaux sans les confondre
+Merleau-Ponty permet de poser le corps comme ouverture au monde, non comme simple objet.
+Thompson propose d’articuler corps vivant et corps vécu dans une approche incarnée de l’esprit. Cette orientation transforme le problème corps-esprit sans annoncer sa résolution définitive.
+Pribram fournit des modèles possibles de certains traitements distribués. Leur portée neurofonctionnelle ne doit pas être identifiée à une explication exhaustive du vécu.
+Le principe de la synthèse est donc :
+sans que cette différence interdise des correspondances explicites.
+2. Portée des formalismes
+Un recouvrement ne mesure pas automatiquement une compréhension. Une synchronisation ne démontre pas une communauté de sens. Un résidu ne quantifie pas l’altérité. Une auto-description ne prouve pas une expérience de soi.
+Ces limites définissent le travail restant : établir les opérations qui relient les représentations aux phénomènes, construire des observables et préciser ce qui pourrait contredire les hypothèses.
+3. Programme de consolidation
+Quatre tâches structurent la suite :
+Stabiliser les définitions et distinguer leurs usages descriptifs, mathématiques et métaphoriques.
+Construire les raccords entre configurations, transports, phases et régulation.
+Documenter les simulations, leurs versions, leurs paramètres et leurs incertitudes.
+Définir des observations susceptibles de soutenir ou de mettre en difficulté les correspondances proposées.
+La neurophénoménologie offre une orientation pour cette confrontation, à condition de ne pas supposer d’avance que les descriptions vécues et les mesures disent la même chose.
+4. Proposition finale
+La singularité n’est ni l’isolement absolu ni la transparence intégrale. Elle désigne la possibilité d’entrer en relation sans devenir entièrement interchangeable.
+La question n’est donc pas seulement de localiser une configuration, mais de comprendre comment elle demeure reconnaissable en se transformant et en rencontrant d’autres configurations.
+L’autre n’est pas ce qui achève mon adresse : il est ce qui oblige son champ à rester ouvert.
+Bibliographie de travail
+Les éditions et les pages effectivement mobilisées devront être précisées avant le dépôt. Les références ci-dessous constituent un corpus de travail ; leur présence ne signifie pas que chaque proposition du modèle en découle.
+Phénoménologie et énaction
+Merleau-Ponty, Maurice. Phénoménologie de la perception. Gallimard, 1945.
+Merleau-Ponty, Maurice. Le Visible et l’Invisible. Texte établi par Claude Lefort, Gallimard, 1964.
+Thompson, Evan. Mind in Life: Biology, Phenomenology, and the Sciences of Mind. Harvard University Press, 2007.
+Varela, Francisco J., Evan Thompson et Eleanor Rosch. The Embodied Mind: Cognitive Science and Human Experience. MIT Press, 1991.
+Ordre implicite et modèles holonomiques
+Bohm, David. Wholeness and the Implicate Order. Routledge & Kegan Paul, 1980.
+Pribram, Karl H. Languages of the Brain: Experimental Paradoxes and Principles in Neuropsychology. Prentice-Hall, 1971.
+Pribram, Karl H. Brain and Perception: Holonomy and Structure in Figural Processing. Lawrence Erlbaum Associates, 1991.
+Symbolique et limites de la représentation
+Freud, Sigmund. « Das Unheimliche », 1919.
+Jung, Carl Gustav. Aion: Beiträge zur Symbolik des Selbst, 1951.
+Lacan, Jacques. Écrits. Seuil, 1966.
+Lacan, Jacques. Le Séminaire, livre XI : Les Quatre Concepts fondamentaux de la psychanalyse. Seuil, 1973.
+Spinoza, Baruch. Éthique, 1677.
+Formalisme à deux vecteurs d’état
+Aharonov, Yakir, Peter G. Bergmann et Joel L. Lebowitz. « Time Symmetry of the Quantum Process of Measurement ». Physical Review, 134, 1964, B1410–B1416.
+Aharonov, Yakir et Lev Vaidman. « The Two-State Vector Formalism: An Updated Review ». Prépublication arXiv:quant-ph/0105101.
+Aharonov, Yakir et Lev Vaidman. « The Two-State Vector Formalism ». Prépublication arXiv:0706.1347.
+Comparaison de modèles
+Akaike, Hirotugu. « A New Look at the Statistical Model Identification ». IEEE Transactions on Automatic Control, 19(6), 1974, 716–723.
+Schwarz, Gideon. « Estimating the Dimension of a Model ». The Annals of Statistics, 6(2), 1978, 461–464.
+Corpus numérique à documenter
+vacuite_holotelegraphique.py : version, dépendances, équations discrétisées, conditions initiales et protocole.
+CognitiveOrganism : source, définition des variables, apprentissage, rétroactions et tests comparatifs.
+double_neg : définition de la configuration et calcul du résidu.
+SHC : mémoire, codage, observables et normalisation.
+ST : variables, unités et correspondances biologiques éventuelles.
+Expériences de sélection A/B/C : génération des données, vraisemblance, répétitions, interventions et matrices de confusion.
+Fin de la Partie IV — La relation transforme les configurations sans abolir leur non-coïncidence.
