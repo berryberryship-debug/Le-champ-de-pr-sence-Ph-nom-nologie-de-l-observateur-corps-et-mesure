@@ -106,3 +106,44 @@ Dans la perspective spinoziste, l'adresse que nous avons définie (la position r
 
 ### 3. L'esprit comme idée du corps
 Spinoza définit l'esprit humain comme *l'idée d'un corps existant en acte*. L'esprit n'est pas une substance immatérielle qui piloterait le corps : il est la face pensante de la même organisation. Cette vision résout l'aporie du dualisme et fonde notre concept de *structure relationnelle commune*. Ce qui persiste à travers les changements (la rétention, l'invariance), c'est l'organisation de ce rapport de mouvement et de repos, simultanément vécu comme mémoire (Pensée) et comme trace physiologique (Étendue).
+
+## Chapitre 8 — Le parallélisme spinoziste et le clivage
+
+### 1. L'Éthique de Spinoza
+Contrairement à Descartes qui sépare l'âme et le corps, Spinoza affirme qu'il n'existe qu'une seule substance, la Nature, qui s'exprime sous une infinité d'attributs. Deux nous sont accessibles : l'Étendue (le corps) et la Pensée (l'esprit).
+L'esprit n'est pas une substance immatérielle qui piloterait le corps. Il est l'idée du corps. C'est le parallélisme : « L'ordre et la connexion des idées sont les mêmes que l'ordre et la connexion des choses. »
+
+### 2. Le clivage
+Cependant, nous proposons une distinction radicale. Ce que Spinoza décrit comme un parallélisme parfait, nous le vivons comme un **clivage**. Le clivage (au sens psychanalytique) ne signifie pas que le corps et l'esprit sont séparés, mais qu'ils ne coïncident jamais totalement. 
+Le corps peut être dans un état de tension (trauma, charge allostatique) sans que l'esprit ne trouve les mots correspondants. L'esprit peut anticiper un sens (protention) que le corps n'est pas prêt à vivre. 
+Le parallélisme spinoziste est la structure idéale ; le clivage est la réalité vécue. L'adresse n'est donc pas un point sur une surface lisse, elle est la position d'un sujet qui navigue dans un espace clivé.
+
+## Chapitre 9 — Kierkegaard et les couches d'êtres
+
+### 1. Le soi comme relation
+Dans *La Maladie mortelle*, Kierkegaard définit le soi non comme une substance figée, mais comme une relation qui se rapporte à elle-même. Cette définition rejoint notre modèle du tore : le soi est une structure relationnelle. Mais Kierkegaard ajoute une dimension tragique : cette relation peut échouer à coïncider avec elle-même, et cet échec est le désespoir. C'est la faille structurelle dans le tore.
+
+### 2. Les couches d'êtres et le saut
+Kierkegaard décrit l'existence humaine comme une traversée de couches d'êtres (les stades esthétique, éthique et religieux). Le passage d'une couche à l'autre ne se fait pas par évolution continue, mais par un saut (*Spring*). Ce saut est une disruption. L'observateur ne peut plus rester dans la couche précédente. La perturbation (l'angoisse, la révélation) force un changement irréversible. Mais ce qui persiste, c'est l'invariance de la relation : le soi reste le soi, même s'il change de couche.
+
+## Chapitre 10 — L'hyperesthésie et le cerveau prédictif
+
+### 1. Le cerveau prédictif
+Un enfant qui grandit dans le chaos ne développe pas la même structure d'accueil. Les neurosciences parlent de cerveau prédictif (*predictive processing*) : le cerveau n'est pas un réceptacle passif, il anticipe constamment les causes sensorielles de ses entrées. Confronté à l'imprévisibilité, il calibre ses anticipations avec une précision redoutable. C'est une hypervigilance, une modification profonde de la rétention et de la protention.
+
+### 2. L'hyperesthésie
+Cette acuité s'ancre dans la physiologie. Elle est soutenue par une sensibilité accrue du nerf vague, médiateur de l'intéroception. Elle se manifeste par une plasticité perceptive atypique : sensibilité aux ultraviolets, perception des ondulations de l'air, acuité pour les photons uniques. Cette structure d'accueil n'est pas une anomalie, mais une variation de l'Umwelt (le monde propre). L'hyperesthésie devient un instrument de connaissance.
+
+## Chapitre 11 — L'audit de stabilité cristalline (Script V62)
+
+### 1. La physique de la matière condensée
+Pour vérifier que l'ordre cristallin maintient son invariance face aux perturbations, nous avons soumis le réseau à un audit de stabilité (script `V62`). Le script balaye une grille 3D de la zone de Brillouin et calcule les valeurs propres de la matrice dynamique. 
+Toute valeur propre négative signalerait un effondrement structurel. Le résultat est un succès : aucune instabilité n'est détectée. Le test à \(\Gamma\) confirme la présence de 3 modes nuls (translations rigides).
+
+### 2. Analyse du code
+```python
+def audit_grille(n_points=21):
+    # ... boucle sur qx, qy, qz ...
+    eigvals = np.linalg.eigvalsh(dynamical_matrix(q))
+    current_min = np.min(eigvals)
+    # ... test d'instabilité ...
