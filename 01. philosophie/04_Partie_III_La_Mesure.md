@@ -182,3 +182,23 @@ Ce simulateur ne prouve pas physiquement une ontologie, il explore mathématique
         terme_nonlineaire = self.g * np.abs(psi) ** 2 * psi
         
         return (terme_spatial + terme_nonlineaire - gamma * vitesse) / self.C_field
+
+## Synthèse de la Partie III : Vers l'Identifiabilité
+
+La structure de cette partie n'est pas une simple collection de métaphores quantiques. Elle dessine une grammaire relationnelle :
+\[
+ \text{Potentialité} \rightarrow \text{Interaction} \rightarrow \text{Distinction} \rightarrow \text{Actualisation} \rightarrow \text{Trace} \rightarrow \text{Sédimentation} \rightarrow \text{Action} \rightarrow \text{Mémoire} 
+\]
+
+Cette grammaire prépare directement la Partie IV :
+\[
+ \text{Mémoire} \rightarrow \text{Adresse} \rightarrow \text{Résonance} \rightarrow \text{Identifiabilité} \rightarrow \text{Autre} 
+\]
+
+Le terme qui fait tenir l'ensemble est l'**identifiabilité**. Une configuration n'est pas seulement « présente ». Elle doit pouvoir rester distinguable à travers ses transformations, ses interactions et sa mémoire.
+
+C'est ici que le nombre \(1/64\) de notre instrument SHC cesse d'être une limite mystérieuse pour devenir un paramètre expérimental. La question philosophique devient celle de la loi de décroissance de l'identifiabilité :
+\[
+ I(N) = \text{degré d'identifiabilité d'une configuration après } N \text{ étapes de mémoire.} 
+\]
+C'est cette loi qui fera le pont final entre notre instrument technique et la phénoménologie de l'adresse.
