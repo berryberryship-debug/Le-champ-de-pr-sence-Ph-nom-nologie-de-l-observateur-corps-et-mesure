@@ -64,3 +64,19 @@ Le SHC utilise un modulateur numérique basé sur les 137 premiers nombres premi
 L'une des innovations du SHC est sa capacité à persister l'état de résonance dans un journal JSON (via un filtre exponentiel). Il conserve non seulement la dernière valeur, mais une mémoire glissante des cycles précédents. 
 
 Cette mémoire est la traduction informatique de la rétention husserlienne : l'instrument ne capte pas seulement l'instant présent, il conserve la trace de son propre historique pour évaluer la cohérence. Enfin, en séparant rigoureusement le temps simulé (\(t_s\)), le temps réel de l'horloge (\(t_w\)) et le numéro de génération (\(n\)), le SHC évite de confondre le temps du modèle avec le temps de l'acquisition. L'instrument nous oblige à une décentration : le monde n'est pas ce que le flux affiche, il est ce que la structure relationnelle révèle à travers la perturbation.
+## Chapitre 7 — Kierkegaard et les couches d'êtres : le saut existentiel
+
+### 1. Le soi comme relation
+La phénoménologie du corps et de l'adresse trouve un écho existentiel dans la pensée de Søren Kierkegaard. Dans *La Maladie mortelle*, il définit le soi non comme une substance figée, mais comme une **relation qui se rapporte à elle-même**. Cette définition rejoint directement notre modèle du tore : le soi est une structure relationnelle (la relation entre le sentant et le sensible, entre l'infini et le fini). 
+
+Mais Kierkegaard ajoute une dimension tragique. Cette relation peut échouer à coïncider avec elle-même, et cet échec est le désespoir. Le désespoir n'est pas une maladie accidentelle ; c'est la faille structurelle dans le tore, le "trou" qui empêche le soi de se refermer sur lui-même.
+
+### 2. Les couches d'êtres et le saut qualitatif
+Kierkegaard décrit l'existence humaine comme une traversée de **couches d'êtres** (les stades esthétique, éthique et religieux). Ce qui est crucial pour notre thèse, c'est que le passage d'une couche à l'autre ne se fait pas par une évolution continue. Il se fait par un **saut** (*Spring*). 
+
+Ce saut est une disruption. L'observateur, à un moment donné, ne peut plus rester dans la couche précédente. La perturbation (l'angoisse, la révélation) force un changement d'état irréversible. Mais ce qui persiste à travers ce saut, c'est l'invariance de la relation : le soi reste le soi, même s'il change de couche d'existence.
+
+### 3. L'angoisse comme révélateur de la structure
+L'angoisse (*Angst*) est le vertige de la liberté, le vertige du possible. Dans notre vocabulaire, l'angoisse est le signal que le système perceptif est saturé : les adresses habituelles ne suffisent plus à donner sens au réel. C'est le moment où l'esprit devient disruptif. 
+
+Ainsi, l'apport de Kierkegaard complète notre analyse de l'hyperesthésie : l'hypersensibilité n'est pas seulement une capacité de captation, c'est aussi une source d'angoisse existentielle. Le corps qui perçoit trop perçoit aussi les failles de sa propre structure. Et c'est précisément dans cette faille que l'esprit trouve la possibilité d'un saut vers une nouvelle couche d'être.
