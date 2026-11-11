@@ -150,3 +150,29 @@ L'équation de mise à jour \(\rho_G^{(n+1)} = (1 - \alpha)\rho_G^{(n)} + \alpha
 - \((1 - \alpha)\rho_G^{(n)}\) représente l'affaiblissement passif du passé rétentionnel.
 - \(\alpha \rho_L'\) est la capture du "Maintenant" (Urimpression) qui vient sédimenter l'horizon de pré-donation des expériences futures.
 La répétition d'états locaux biaise l'espace de Hilbert. Le premier projecteur \(\Pi_0\) devient dominant : le système acquiert une **habitude ontologique** (au sens de Merleau-Ponty). Le corps n'est pas un objet spatial, mais une matrice densité \(\rho_G\) stabilisée qui pré-oriente les probabilités d'effondrement du monde vécu.
+
+### 4. La simulation numérique de l'holomouvement (Bloc 44)
+
+Pour valider numériquement la boucle \(A_2\), nous avons développé le moteur `VacuiteHolotelegraphique`. Ce script résout une équation d'onde complexe, non linéaire, amortie et métriquement auto-gravitante sur une grille périodique (un tore). 
+
+Ce modèle capture trois éléments fondamentaux de notre théorie :
+1. **La jauge du tore** (`A_torus`) : Elle représente la contrainte topologique (l'enroulement \(p/q\)) qui empêche l'onde de se propager librement, créant ainsi la structure de l'adresse.
+2. **La métrique auto-gravitante** (`L_field`) : La densité de l'onde courbe sa propre métrique via la courbure (`courbure_densite_lissee`). C'est la traduction physique de la sédimentation : le local modifie le global.
+3. **L'amortissement** (`gamma`) : Il modélise la friction de phase, l'effet Zénon qui ralentit la vitesse de l'information jusqu'à l'état stationnaire.
+
+Voici l'extrait central de la fonction d'accélération, qui montre comment la structure spatiale et la non-linéarité sont couplées :
+
+```python
+    def acceleration(self, psi, vitesse, gamma):
+        # Mise à jour de la métrique en fonction de la densité actuelle (sédimentation)
+        self.mettre_a_jour_metrique(psi)
+        
+        # Dérivée covariante (incluant la jauge du tore)
+        d_psi = self.derivee_covariante(psi)
+        flux = d_psi / self.L_field
+        
+        # Terme spatial (courbure) + Terme non-linéaire (auto-interaction) - Amortissement
+        terme_spatial = -self.derivee_covariante_adjointe(flux)
+        terme_nonlineaire = self.g * np.abs(psi) ** 2 * psi
+        
+        return (terme_spatial + terme_nonlineaire - gamma * vitesse) / self.C_field
