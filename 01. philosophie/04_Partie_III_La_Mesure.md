@@ -271,3 +271,12 @@ Le script `vacuite_holotelegraphique.py` implémente numériquement la dynamique
 
 **[Ajustement]** : La méthode de Verlet favorise la stabilité mais ne la garantit pas pour n'importe quel pas de temps. Une étude de convergence reste nécessaire. 
 Ce script permet de visualiser la sédimentation de l'ordre implicite : les fluctuations initiales s'effondrent progressivement vers un état stationnaire. Il fournit une illustration numérique de la dynamique proposée, sans valider empiriquement l'ontologie de l'ordre implicite.
+
+### 5. La simulation numérique de l'ordre implicite (Bloc 44)
+
+Le script `vacuite_holotelegraphique.py` implémente numériquement cette dynamique. Il résout une équation d'onde complexe, non linéaire, amortie et métriquement auto-gravitante sur une grille périodique (un tore). 
+- La métrique \(L_{\text{field}}\) est couplée à la densité d'énergie via la courbure.
+- La dérivée covariante introduit un champ de jauge \(A_{\text{torus}}\) (le tore topologique).
+- L'intégration de Verlet est employée pour sa stabilité conditionnelle, sa réversibilité temporelle et son comportement symplectique ; la stabilité effective dépend toutefois du pas de temps, de la résolution spatiale et des paramètres non linéaires du modèle.
+
+Ce script permet de visualiser une dynamique de sédimentation proposée : les fluctuations initiales peuvent évoluer vers un état stationnaire dans les paramètres explorés. Il illustre la cohérence numérique de la boucle A2, sans établir par lui-même la validité physique ou ontologique de l'ordre implicite.
