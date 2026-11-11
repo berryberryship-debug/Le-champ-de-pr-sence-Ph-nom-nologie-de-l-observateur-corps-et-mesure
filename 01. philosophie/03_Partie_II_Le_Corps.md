@@ -50,3 +50,17 @@ Le script balaye une grille 3D de la zone de Brillouin (21x21x21 points) et calc
 Le résultat est un succès : aucune instabilité n'est détectée. De plus, le test à \(\Gamma\) confirme la présence exacte de 3 modes nuls, correspondant aux translations rigides du réseau. 
 
 Ce que la physique mathématique démontre ici, c'est que **l'ordre cristallin est une invariance structurelle robuste**. La matière peut vibrer, les molécules peuvent s'accommoder à sa surface, mais tant que le spectre des valeurs propres reste positif, le réseau conserve sa structure d'ordre à longue portée. C'est la condition physique pour que des ordres différents puissent interagir sans que le système ne s'effondre.
+## Chapitre 6 — L'observateur instrumenté : le SHC comme prothèse perceptive
+
+### 1. De l'hyperesthésie biologique à l'acquisition technique
+Le Prologue a décrit l'hyperesthésie comme une capacité du corps à capter des signaux infimes de l'environnement. Le Synthétiseur Holistique de Cohérence (SHC v1.0) constitue l'extension instrumentale de cette structure d'accueil. 
+
+Il ne s'agit pas d'un simple programme informatique, mais d'une **prothèse perceptive** qui lit un flux binaire (le champ chrono-spatial) via un pont mémoire (`mmap`), le valide (CRC-32), et en extrait des indicateurs statistiques (moyenne, variance spatiale et temporelle). L'observateur n'est pas un point neutre ; il est intégré dans une boucle d'acquisition, de représentation et d'interprétation.
+
+### 2. Le noyau de résonance 137
+Le SHC utilise un modulateur numérique basé sur les 137 premiers nombres premiers. Ce signal composite n'est pas une mesure directe de la constante de structure fine (1/137). Il s'agit d'une **grille de lecture symbolique et calculatoire**. En couplant les harmoniques du flux aux résonances de cette grille, l'instrument cherche à détecter les invariants structurels du système : là où le signal se stabilise, une structure relationnelle émerge du bruit.
+
+### 3. La persistance temporelle et la décentration
+L'une des innovations du SHC est sa capacité à persister l'état de résonance dans un journal JSON (via un filtre exponentiel). Il conserve non seulement la dernière valeur, mais une mémoire glissante des cycles précédents. 
+
+Cette mémoire est la traduction informatique de la rétention husserlienne : l'instrument ne capte pas seulement l'instant présent, il conserve la trace de son propre historique pour évaluer la cohérence. Enfin, en séparant rigoureusement le temps simulé (\(t_s\)), le temps réel de l'horloge (\(t_w\)) et le numéro de génération (\(n\)), le SHC évite de confondre le temps du modèle avec le temps de l'acquisition. L'instrument nous oblige à une décentration : le monde n'est pas ce que le flux affiche, il est ce que la structure relationnelle révèle à travers la perturbation.
