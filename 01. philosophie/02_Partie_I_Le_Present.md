@@ -118,3 +118,67 @@ Par conservation de l'information (transformée de Fourier), si l'espace occupé
 \]
 L'événement quitte la ligne de cause à effet. Sa dimension spatiale est asymptotiquement nulle, mais sa tension vibratoire est maximale. Il devient un état propre stationnaire \(|\psi\rangle\), une singularité autopoïétique. 
 C'est la traduction mathématique de la rétention husserlienne : le passé ne cesse pas d'exister (conservation de l'information), il cesse simplement d'agir (vélocité nulle), pour devenir une fréquence pure dans l'épaisseur du présent.
+
+
+## Chapitre 2 — L'exégèse de la rétention : Husserl et le paradoxe du temps
+
+### 1. La critique de la conception ponctuelle du temps
+Pour comprendre l'apport de Husserl, il faut d'abord mesurer l'ampleur de la rupture qu'il opère avec la tradition. Aristote, dans sa *Physique*, définissait le temps comme le nombre du mouvement selon l'avant et l'après. Cette conception, reprise et mathématisée par Newton, fait du temps une ligne composée d'instants ponctuels. Dans cette vision, le passé n'est plus, le futur n'est pas encore, et seul le présent est. Mais si le présent est un point sans épaisseur, comment expliquer que nous percevions une mélodie ? 
+
+Husserl, dans ses *Leçons pour une phénoménologie de la conscience intime du temps* (1905), pose le problème avec une acuité radicale : si la conscience ne saisissait que l'instant présent, elle serait incapable de percevoir un objet temporel (une mélodie, une phrase, un mouvement). Elle n'entendrait que des notes isolées, sans lien. Or, l'expérience nous montre le contraire. Nous entendons la mélodie comme une totalité. Il faut donc que le présent ait une structure interne qui retient ce qui vient de passer et anticipe ce qui vient.
+
+### 2. La structure triadique de la conscience du temps
+Husserl décompose le présent vivant (*lebendige Gegenwart*) en trois moments indissociables :
+1.  **L'impression originaire (*Urimpression*)** : c'est le noyau de l'expérience actuelle, le "maintenant" strict, le point de source.
+2.  **La rétention** : ce n'est pas un souvenir (qui est un acte volontaire de rappel). C'est le maintien du juste-passé dans le présent. La rétention est une intentionnalité primaire. Elle forme une "queue de comète" qui s'étire derrière l'impression originaire.
+3.  **La protention** : c'est l'anticipation ouverte du juste-à-venir. Elle est une intention vide qui tend vers le futur immédiat.
+
+Ce qui est crucial ici, c'est que ces trois moments ne sont pas des actes séparés. Ils sont les dimensions d'un seul et même flux. Comme le dit Husserl, chaque phase de la conscience est déjà chargée de rétentions et de protentions. Le présent n'est pas un point, c'est une **épaisseur**.
+
+### 3. La distinction entre rétention et ressouvenance
+Husserl insiste sur une distinction fondamentale. La rétention n'est pas la ressouvenance (*Wiedererinnerung*). 
+La rétention concerne le tout-juste-passé : la note qui vient de sonner. Elle n'est pas encore un objet, elle est encore vécue dans le présent.
+La ressouvenance, elle, est un acte actif : je me souviens d'une mélodie entendue hier. Je la re-présente, je la pose comme un objet devant moi. 
+Cette distinction est vitale pour notre thèse : elle montre que le passé n'est jamais "perdu" de manière absolue. Il y a une continuité rétentionnelle qui rend possible le souvenir. Sans ce flux rétentionnel, aucune mémoire ne pourrait se constituer.
+
+### 4. La solution du paradoxe de Zénon
+Cette structure permet de résoudre le paradoxe de Zénon. Pour qu'une flèche se déplace, Zénon soutenait qu'elle devait occuper une position définie à chaque instant. Mais si le temps est fait de points, le mouvement est impossible. Husserl répond que le mouvement n'est pas perçu par une série de positions ponctuelles, mais par la continuité du flux rétentionnel. La flèche n'est pas à un point \(x\) à l'instant \(t\) ; elle est perçue comme ayant parcouru un trajet, parce que sa position passée est retenue dans l'instant présent. 
+
+## Chapitre 3 — La physique du présent : analyse du script V78
+
+### 1. Le problème de la décohérence
+Pour illustrer cette épaisseur du présent, nous avons eu recours à une simulation quantique : le script `v78_nonmarkov_physical.py`. Ce script ne prétend pas modéliser la conscience. Il modélise un système ouvert, soumis à une interaction avec un environnement.
+Le point de départ est l'équation de Lindblad :
+\[
+ \frac{d\rho}{dt} = \gamma \left( \sigma_z \rho \sigma_z - \rho \right) 
+\]
+Cette équation décrit le déphasage pur d'un qubit. Si le taux \(\gamma\) est constant et positif, l'information fuit vers l'environnement. La pureté chute de manière monotone.
+
+### 2. Le retour d'information (information backflow)
+Cependant, si le taux \(\gamma\) oscille dans le temps (ce qui est le cas dans un environnement structuré dit "non-markovien"), il peut devenir négatif. 
+Le script implémente une modulation sinusoïdale : \(\gamma(t) = a \omega \sin(\omega t)\). 
+La solution analytique de la cohérence (élément hors-diagonale de la matrice densité) est :
+\[
+ \rho_{01}(t) = \rho_{01}(0) e^{-\Gamma(t)} 
+\]
+avec \(\Gamma(t) = \int_0^t \gamma(\tau) d\tau = a(1 - \cos(\omega t))\). 
+Puisque \(\Gamma(t)\) ne décroît jamais, la cohérence ne remonte pas. Le script calcule la pureté :
+\[
+ P(t) = \frac{1}{2} \left( 1 + e^{-2\Gamma(t)} \right) 
+\]
+On observe que la pureté chute, puis remonte, quand \(\gamma\) change de signe. L'information revient. C'est la signature mathématique de la non-markovianité.
+
+### 3. Analyse ligne par ligne du code
+Voici les éléments clés du script `v78_nonmarkov_physical.py` :
+```python
+def run_v78_nonmarkov_physical():
+    T = 20.0
+    N = 1000
+    time = np.linspace(0.0, T, N + 1)
+    # ... définition de a et omega ...
+    gamma = a * omega * np.sin(omega * time)
+    Gamma = a * (1.0 - np.cos(omega * time))
+    coherence = 0.5 * np.exp(-Gamma)
+    # ... construction de rho ...
+    purities = np.real(np.einsum("tij,tji->t", rho, rho))
+    # ... assertions ...
