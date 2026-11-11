@@ -729,6 +729,37 @@ L'ordre implicite demeure ici une hypothèse ontologique. Sa dynamique
 est une construction mathématique. Sa simulation est une expérience
 numérique. Leur convergence constitue précisément le problème à établir.
 
+Puis, ---
+
+## Annexes : Notes de correction et dettes documentaires
+
+*Ce bloc regroupe les corrections de forme, les précisions terminologiques et les renvois manquants identifiés lors de l'audit de la Partie IV. Le corps du texte ci-dessus demeure la version de référence ; ces notes s'y rattachent.*
+
+**1. Correction de forme (Chapitre 8, §2)**
+Dans la phrase « Le modèle doit *justify* ce que représentent les différences de phase retenues », l'anglicisme a été corrigé dans la version finale. Lire : « Le modèle doit **justifier** ce que représentent les différences de phase retenues. »
+
+**2. Précision terminologique sur la « résonance » (Chapitre 2, §3)**
+Le terme de « résonance » est employé dans cette partie à trois régimes distincts : 
+- (i) **phénoménologique** (Ch. 2) : reconnaissance d'une organisation chez l'autre sans accès à sa première personne ;
+- (ii) **générique** (titre de la partie) : convergence non-identitaire ;
+- (iii) **mathématique** (Ch. 4 §2) : le paramètre d'ordre \(R(t)\) mesure une concentration de phases, et non une reconnaissance intersubjective. 
+Aucune identité n'est postulée entre ces trois emplois.
+
+**3. Dette documentaire — Spectre et élasticité (Chapitre 4, §3)**
+Les valeurs \(\alpha_{\mathrm{eff}}\approx -1{,}642\) et \(-1{,}221\) sont rapportées. Pour être pleinement reproductibles, elles nécessitent de préciser : le signal exact analysé, la convention spectrale, les paramètres de la fenêtre d'ajustement et les incertitudes statistiques.
+
+**4. Dette documentaire — Résidu de transmission (Chapitre 4, §5)**
+La valeur \(R_{\mathrm{trans}}\approx 0{,}37\) (configuration `double_neg`) est un résidu numérique. Son calcul exact, ses unités et le bilan d'information (vérifiant que \(1 = I_{\mathrm{sync}} + R_{\mathrm{trans}}\) est bien une partition exhaustive) doivent être documentés dans les scripts annexes.
+
+**5. Dette documentaire — Critères AIC et BIC (Chapitre 5, §2)**
+Les taux de sélection correcte (76 % → 94 % pour l'AIC, 81,3 % → 92 % pour le BIC) sont issus de « simulations antérieures ». Un renvoi explicite vers les données sources, le nombre de répétitions et les matrices de confusion doit être ajouté pour satisfaire aux exigences d'identifiabilité.
+
+**6. Dette documentaire — Instrument SHC (Chapitre 7, §3 et §4)**
+La « spécification annoncée » de l'instrument SHC (fenêtre \(N_{\mathrm{mem}}=64\)) nécessite une référence ou une définition formelle. Il convient de distinguer clairement \(1/64\) (granularité instrumentale éventuelle) de \(2^{-64}\) (résidu mathématique exact de la série tronquée).
+
+**7. Dette documentaire — Bloc 44 et boucle A2 (Chapitre 8, §5 et Chapitre 10)**
+Les renvois au « Bloc 44 » et à la « boucle A2 » doivent être rattachés aux modules correspondants du corpus (par exemple *Axioms_Base_Labs* ou *Gravitons_et_Coherence*). Les équations du script `vacuite_holotelegraphique.py` (couplage métrique, connexion de jauge, intégrateur de Verlet) doivent être documentées avec leurs paramètres de stabilité (CFL) pour valider la portée des résultats numériques.
+
 ------------------------------------------------------------------------
 
 ## Repères bibliographiques
