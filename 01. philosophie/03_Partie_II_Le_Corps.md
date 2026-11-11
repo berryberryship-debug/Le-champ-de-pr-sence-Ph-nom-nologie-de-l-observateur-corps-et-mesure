@@ -147,3 +147,13 @@ def audit_grille(n_points=21):
     eigvals = np.linalg.eigvalsh(dynamical_matrix(q))
     current_min = np.min(eigvals)
     # ... test d'instabilité ...
+
+### Thompson : Körper, Leib et le problème corps-corps
+
+La phénoménologie distingue le *Körper* (le corps comme objet matériel, mesurable) et le *Leib* (le corps vécu, depuis lequel je perçois et agis). Evan Thompson reprend cette distinction dans *Mind in Life* (2007) pour reformuler le problème corps-esprit.
+
+Il ne s'agit pas de deux substances séparées, ni de deux corps différents. Il s'agit de deux modes d'apparition d'un même corps. Thompson parle d'un **problème corps-corps** (*body–body problem*) : comment un même corps peut-il être à la fois un organisme vivant, étudié de l'extérieur, et un corps vécu, lieu de sensation et d'action ?
+
+La réponse de Thompson passe par la vie corporelle. L'organisme vivant est déjà une organisation autonome qui se maintient et régule ses échanges avec le milieu (l'autopoïèse, l'allostasie). Cette organisation n'est pas une matière inerte : elle est déjà une forme de subjectivité minimale, une perspective centrée sur sa propre survie. Le corps vécu n'est pas ajouté après coup au corps vivant ; il est la dimension d'expérience de cette organisation.
+
+L'articulation entre *Körper* et *Leib* ne se fait donc pas dans une conscience séparée qui observerait le corps de l'extérieur. Elle se fait dans l'activité du vivant : l'autorégulation corporelle, le couplage sensorimoteur et l'interaction avec autrui.
