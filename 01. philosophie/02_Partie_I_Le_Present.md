@@ -2226,3 +2226,387 @@ Citations :
 [6] Henri Bergson https://plato.stanford.edu/archives/sum2014/entries/bergson/
 [7] Bergson, Henri-Louis (1859–1941) https://www.rep.routledge.com/articles/biographical/bergson-henri-louis-1859-1941/v-1/sections/time-and-duration
 [8] Henri Bergson (Stanford Encyclopedia of Philosophy/Spring ... https://plato.stanford.edu/archives/spr2021/entries/bergson/
+
+## Sous-partie complémentaire — Rétention et protention : la double ouverture du présent
+
+### 1. Le présent comme champ de présence
+
+Le présent n’est pas une limite sans extension.
+
+Il n’est pas une frontière entre un passé disparu et un futur inexistant.
+
+Il est un champ de présence.
+
+Il est une étendue.
+
+Il est une épaisseur.
+
+$$
+\boxed{
+\text{Présent}
+=
+\text{Champ de présence}.
+}
+$$
+
+Cette idée est essentielle pour comprendre la structure du temps vécu.
+
+Le présent ne contient pas seulement ce qui est actuellement donné.
+
+Il contient aussi ce qui vient de passer.
+
+Il contient aussi ce qui va venir.
+
+Il contient aussi l’ouverture vers ce qui pourrait advenir.
+
+### 2. La rétention : le juste-passé qui demeure
+
+La rétention est le maintien du juste-passé dans le présent vivant.
+
+Elle n’est pas un souvenir.
+
+Elle n’est pas un acte volontaire de rappel.
+
+Elle est une modalité primaire du présent.
+
+$$
+\boxed{
+\text{Rétention}
+=
+\text{Maintien du juste-passé dans le présent}.
+}
+$$
+
+Prenons l’exemple d’une mélodie.
+
+Le *do* qui vient de résonner n’est plus là physiquement.
+
+Mais il est retenu dans mon expérience du *ré*.
+
+Sans cette rétention, chaque note serait un choc isolé.
+
+La mélodie ne pourrait pas être entendue comme une mélodie.
+
+Elle serait une suite de sons discontinus.
+
+La rétention est donc l’invariance structurelle du flux temporel.
+
+$$
+\boxed{
+\text{Rétention}
+=
+\text{Invariance structurelle du flux temporel}.
+}
+$$
+
+Chez Husserl, la rétention possède une double intentionnalité : elle vise à la fois l’objet temporel qui se constitue et les phases passées du flux de conscience lui-même. 
+
+Elle n’est pas un souvenir.
+
+Elle est une modalité primaire du présent.
+
+### 3. La rétention comme modification continue
+
+La rétention n’est pas un stockage statique.
+
+Elle est une modification continue.
+
+Chaque nouvelle impression repousse la précédente.
+
+Chaque nouvelle impression modifie la précédente.
+
+Chaque nouvelle impression l’enfonce davantage dans le passé.
+
+$$
+\boxed{
+\text{Rétention}
+=
+\text{Modification continue du passé immédiat}.
+}
+$$
+
+Ce processus est appelé modification rétentionnelle.
+
+Il décrit la manière dont le passé immédiat s’enfonce progressivement dans le passé.
+
+Il décrit la manière dont le présent se constitue à travers une modification continue.[1][2]
+
+La rétention n’est donc pas une simple conservation.
+
+Elle est une transformation.
+
+### 4. La protention : le juste-à-venir qui s’ouvre
+
+La protention est le versant futur de l’épaisseur du présent.
+
+Elle est une anticipation passive de l’immédiatement à venir.
+
+Elle est une intention vide, qui peut être remplie ou déçue.
+
+$$
+\boxed{
+\text{Protention}
+=
+\text{Ouverture vers le juste-à-venir}.
+}
+$$
+
+Prenons l’exemple d’une mélodie.
+
+Lorsque j’entends le *do*, j’attends déjà le *ré*.
+
+Cette attente n’est pas une prédiction explicite.
+
+Elle est une structure implicite de la perception.
+
+$$
+\boxed{
+\text{Protention}
+=
+\text{Attente implicite du juste-à-venir}.
+}
+$$
+
+Chez Husserl, la protention est l’intention vide qui tend vers le futur immédiat.[1][2][3]
+
+Elle n’est pas une prédiction.
+
+Elle est une structure vécue du temps.
+
+### 5. La protention comme anticipation indéterminée
+
+La protention n’anticipe pas nécessairement un contenu précis.
+
+Elle anticipe un champ de possibilités.
+
+Elle anticipe une ouverture.
+
+Elle anticipe une direction.
+
+$$
+\boxed{
+\text{Protention}
+=
+\text{Anticipation indéterminée}.
+}
+$$
+
+Cette indétermination est essentielle.
+
+Elle distingue la protention de la prédiction.
+
+La prédiction vise un contenu précis.
+
+La protention vise une ouverture.
+
+$$
+\boxed{
+\text{Protention}
+\neq
+\text{Prédiction}.
+}
+$$
+
+La protention est une structure vécue du temps.
+
+Elle n’est pas un calcul.
+
+### 6. La distinction entre rétention et protention
+
+La rétention et la protention ne sont pas symétriques.
+
+La rétention a un contenu déjà formé.
+
+La protention est ouverte et indéterminée.
+
+$$
+\boxed{
+\text{Rétention}
+\neq
+\text{Protention}.
+}
+$$
+
+La rétention concerne le passé immédiat.
+
+La protention concerne le futur immédiat.
+
+La rétention est passive.
+
+La protention est anticipative.
+
+La rétention est déjà formée.
+
+La protention est encore indéterminée.
+
+| Dimension | Rétention | Protention |
+|---|---|---|
+| Direction | Vers le passé immédiat | Vers le futur immédiat |
+| Contenu | Déjà formé | Encore indéterminé |
+| Modalité | Passive | Anticipative |
+| Statut | Maintien | Ouverture |
+| Exemple | La note qui vient de sonner | La note qui va venir |
+
+### 7. La complémentarité
+
+La rétention et la protention ne sont pas opposées.
+
+Elles sont complémentaires.
+
+Elles constituent ensemble l’épaisseur du présent.
+
+$$
+\boxed{
+\text{Épaisseur du présent}
+=
+\text{Rétention}
++
+\text{Protention}.
+}
+$$
+
+Sans rétention, le présent serait un point isolé.
+
+Sans protention, le présent serait un point fermé.
+
+Avec les deux, le présent devient un champ.
+
+Il devient une ouverture.
+
+Il devient une totalité temporelle.
+
+$$
+\boxed{
+\text{Présent}
+=
+\text{Champ}.
+}
+$$
+
+### 8. La synthèse de la rétention et de la protention
+
+La rétention et la protention ne sont pas deux actes séparés.
+
+Elles sont les dimensions d’un seul et même flux.
+
+Elles constituent ensemble le présent vivant.
+
+$$
+\boxed{
+\text{Présent vivant}
+=
+\text{Rétention}
++
+\text{Impression originaire}
++
+\text{Protention}.
+}
+$$
+
+Cette structure permet de penser le présent comme une épaisseur.
+
+Elle permet de penser le présent comme un champ.
+
+Elle permet de penser le présent comme une totalité temporelle.
+
+### 9. La correspondance avec le modèle
+
+Dans notre modèle, la rétention et la protention peuvent être mises en correspondance avec la structure dynamique du système.
+
+La rétention peut être rapprochée de la mémoire.
+
+La protention peut être rapprochée de l’anticipation.
+
+$$
+\boxed{
+\text{Rétention}
+\widehat{\longrightarrow}
+\text{Mémoire}.
+}
+$$
+
+$$
+\boxed{
+\text{Protention}
+\widehat{\longrightarrow}
+\text{Anticipation}.
+}
+$$
+
+Cette correspondance ne signifie pas que la phénoménologie est réduite à la biologie.
+
+Elle signifie que les deux traditions peuvent se rencontrer.
+
+Elles peuvent se rencontrer autour d’une même question :
+
+Comment le passé devient-il présent ?
+
+Comment le présent ouvre-t-il un futur ?
+
+Comment un système vivant maintient-il son intégrité à travers le changement ?
+
+### 10. La limite de l’analogie
+
+Il faut cependant être prudent.
+
+La rétention et la protention ne se réduisent pas à des mécanismes biologiques.
+
+Elles sont des structures phénoménologiques.
+
+Elles décrivent la manière dont le temps est vécu.
+
+Elles ne se réduisent pas à des fonctions de traitement de l’information.
+
+$$
+\boxed{
+\text{Rétention}
+\neq
+\text{Mémoire biologique}.
+}
+$$
+
+$$
+\boxed{
+\text{Protention}
+\neq
+\text{Prédiction biologique}.
+}
+$$
+
+La correspondance proposée est une analogie structurelle.
+
+Elle ne doit pas être confondue avec une identification.
+
+### 11. La clôture de la sous-partie
+
+La rétention et la protention constituent les deux versants de l’épaisseur du présent.
+
+Elles permettent de penser le présent comme un champ.
+
+Elles permettent de penser le présent comme une totalité temporelle.
+
+Elles permettent de penser le présent comme une ouverture.
+
+$$
+\boxed{
+\text{Présent}
+=
+\text{Rétention}
++
+\text{Protention}
++
+\text{Ouverture}.
+}
+$$
+
+C’est cette structure qui permet de penser le présent comme une épaisseur.
+
+C’est cette structure qui permet de penser le présent comme une totalité temporelle.
+
+C’est cette structure qui permet de penser le présent comme un champ.
+
+Citations :
+[1] What could come before time? Intertwining affectivity and temporality at the basis of intentionality - Phenomenology and the Cognitive Sciences http://www.link.springer.com/article/10.1007/s11097-024-09973-y
+[2] The Future Matters: Protention as more than Inverse Retention https://popups.uliege.be/1782-2041/index.php?id=288&format=print
+[3] Protention as Phenomenon | Springer Nature Link https://link.springer.com/chapter/10.1007/978-3-030-69521-7_4
+[4] Protention in Husserl's Phenomenology https://www.nikossoueltzis.com/wp-content/uploads/2024/11/Dissertation_Soueltzis.pdf
