@@ -506,3 +506,23 @@ L'extrait de code suivant montre comment le système génère une question inter
             "Quelle est la prochaine observation "
             "qui pourrait modifier mon modèle ?"
         )
+
+## Par ailleurs : la juxtaposition rétroactive du Soi (TSVF)
+
+La description du Soi comme structure relationnelle et temporelle (développée dans les chapitres précédents) peut être éclairée par une lecture alternative de la mesure quantique : le **Formalisme des États Deux-Vecteurs (TSVF)** d'Aharonov et Vaidman. 
+
+Loin d'être une simple dissipation passive de l'information vers l'environnement (comme dans la décohérence standard), cette approche propose que le présent soit **co-déterminé** par deux ondes temporelles : un vecteur évoluant du passé vers le futur (\(|\psi\rangle\)), et un vecteur évoluant à rebours depuis le futur (\(\langle\phi|\)). 
+
+Mathématiquement, la réalité du système à l'instant \(t\) n'est plus définie par un seul état, mais par le couple \(\mathcal{R}(t) = \{|\psi(t)\rangle \,;\, \langle\phi(t)|\}\). La probabilité d'une transition dépend alors de la **valeur faible** (*weak value*) d'un opérateur \(A\) :
+\[
+ A_w = \frac{\langle\phi(t)|A|\psi(t)\rangle}{\langle\phi(t)|\psi(t)\rangle} 
+\]
+Cette valeur, qui peut sortir de l'intervalle standard des valeurs propres, témoigne d'une co-détermination entre le point de départ et le point d'arrivée.
+
+Ce formalisme rejoint directement le script `v91_tsvf_codetermination.py` (dépôt *Panpsychisme informationnel*), qui calcule numériquement cette valeur faible pour un qubit post-sélectionné.
+
+**[Hypothèse]** : Dans cette perspective, le Soi local ne serait pas simplement le produit de son passé. Il serait le point d'interférence entre les états dont il vient et un état futur qui le "tire" rétroactivement. L'illusion du choix local serait alors la mesure de cette interférence.
+
+**[Limite]** : Cette interprétation suppose souvent une structure de type "block-universe" (où l'espace-temps 4D est complet et statique). Le TSVF est mathématiquement valide, mais sa lecture rétrocausale reste une hypothèse philosophique et non un résultat physique établi.
+
+Le Soi n'est donc pas une substance, mais une **interface entre deux vecteurs temporels** : le lieu exact où le présent ne coïncide jamais parfaitement avec lui-même.
