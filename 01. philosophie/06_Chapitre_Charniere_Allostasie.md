@@ -755,3 +755,19 @@ Thompson formule cette position ainsi : si l'on définit d'abord le corps en exc
 Cette critique s'adresse moins à l'existence de la matière qu'à la prétention d'une description objectivante à épuiser l'expérience. Elle rejoint notre analyse de la chair comme structure dissipative : la chair n'est pas une substance thermodynamique, elle est un opérateur conceptuel qui décrit le couplage entre l'organisme et son monde. La géométrie de l'allostasie ne remplace pas l'expérience vécue ; elle en propose une formalisation structurelle.
 
 Face à Rovelli, cela permet de distinguer deux questions : comment un événement se produit relativement à un système (la relation physique), et comment une situation est vécue par un sujet corporel (la relation signifiante). Le sens ne s'ajoute pas à la matière comme une substance étrangère ; mais le décrire exige de comprendre une organisation vivante pour laquelle les interactions ont des enjeux.
+
+### F. Irréductibilité explicative et critique du réductionnisme physique
+
+Notre modèle de l'observateur comme invariant de jauge biologique soulève une question philosophique : le corps vécu est-il réductible à une description physique ?
+
+La phénoménologie et l'énaction répondent par une **irréductibilité explicative**. Cela ne signifie pas que le corps vécu serait une substance immatérielle ajoutée au corps physique. Cela signifie que dépendre des processus physiques n'équivaut pas à être entièrement expliqué par leur description.
+
+Thompson formule cette position ainsi : si l'on définit d'abord le corps en excluant tout ce qui relève de la vie vécue, on rend ensuite artificiellement mystérieux le fait que ce corps puisse sentir. Le problème n'est pas de relier un esprit désincarné à un corps matériel, mais de comprendre comment le corps vivant est aussi corps vécu.
+
+Cette critique s'adresse moins à l'existence de la matière qu'à la prétention d'une description objectivante à épuiser l'expérience. Elle rejoint notre analyse de la chair comme structure dissipative : la chair n'est pas une substance thermodynamique, elle est un opérateur conceptuel qui décrit le couplage entre l'organisme et son monde.
+
+Face à Rovelli, cela permet de distinguer deux questions : comment un événement se produit relativement à un système (la relation physique), et comment une situation est vécue par un sujet corporel (la relation signifiante). Le sens ne s'ajoute pas à la matière comme une substance étrangère ; mais le décrire exige de comprendre une organisation vivante pour laquelle les interactions ont des enjeux.
+
+Le corps vécu n'est pas un second corps derrière le corps physique : il est ce même corps en tant qu'il sent, agit et ouvre un monde. Sa dépendance à l'égard des processus physiques n'établit pas que sa dimension vécue soit épuisée par leur description. La critique énactive du réductionnisme porte ainsi moins sur l'existence de la matière que sur la prétention d'une description objectivante à épuiser l'expérience.
+
+C'est une position d'irréductibilité explicative, sans engagement automatique envers une substance non physique — une distinction cohérente avec la reformulation incarnée du problème proposée par Thompson.
