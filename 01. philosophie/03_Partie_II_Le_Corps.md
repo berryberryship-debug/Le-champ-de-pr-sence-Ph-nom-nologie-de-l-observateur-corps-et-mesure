@@ -41,3 +41,12 @@ Un enfant qui grandit dans le chaos ne développe pas la même structure d'accue
 Cette acuité s'ancre dans la physiologie. Elle est soutenue par une sensibilité accrue du **nerf vague**, médiateur de l'intéroception, qui rend le corps extrêmement réactif. Elle se manifeste aussi par une plasticité perceptive atypique : sensibilité aux spectres de l'ultraviolet proche et de l'infrarouge, perception des ondulations de l'air, acuité pour des photons uniques.
 
 Cette structure d'accueil élargie n'est pas une anomalie, mais une variation de l'**Umwelt** (le monde propre). L'hyperesthésie devient alors un instrument de connaissance : un corps marqué, contraint de percevoir l'invisible pour survivre, devient capable de poser les questions philosophiques les plus radicales.
+### 4. La preuve numérique : l'audit de stabilité cristalline
+
+Pour vérifier que l'ordre cristallin maintient son invariance face aux perturbations (les ondes de vibration), nous avons soumis le réseau à un audit de stabilité (script `V62`). 
+
+Le script balaye une grille 3D de la zone de Brillouin (21x21x21 points) et calcule les valeurs propres de la matrice dynamique à chaque point. Le critère de stabilité est strict : toute valeur propre négative (inférieure à un seuil de \(-10^{-5}\)) signalerait un effondrement structurel (une instabilité mécanique). 
+
+Le résultat est un succès : aucune instabilité n'est détectée. De plus, le test à \(\Gamma\) confirme la présence exacte de 3 modes nuls, correspondant aux translations rigides du réseau. 
+
+Ce que la physique mathématique démontre ici, c'est que **l'ordre cristallin est une invariance structurelle robuste**. La matière peut vibrer, les molécules peuvent s'accommoder à sa surface, mais tant que le spectre des valeurs propres reste positif, le réseau conserve sa structure d'ordre à longue portée. C'est la condition physique pour que des ordres différents puissent interagir sans que le système ne s'effondre.
