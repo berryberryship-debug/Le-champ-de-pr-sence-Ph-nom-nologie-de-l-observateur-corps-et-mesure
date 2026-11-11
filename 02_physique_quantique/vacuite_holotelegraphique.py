@@ -1,4 +1,3 @@
-On passe a ceci
 ### 3. La simulation numérique de l'ordre implicite
 Le script `vacuite_holotelegraphique.py` implémente numériquement cette dynamique. Il résout une équation d'onde complexe, non linéaire, amortie et métriquement auto-gravitante sur une grille périodique (un tore). 
 - La métrique \(L_{\text{field}}\) est couplée à la densité d'énergie via la courbure.
