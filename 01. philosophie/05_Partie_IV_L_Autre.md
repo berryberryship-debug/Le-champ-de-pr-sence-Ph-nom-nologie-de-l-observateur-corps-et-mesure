@@ -1,4 +1,4 @@
-# PARTIE IV : L'autre comme résonance et le champ linguistique
+8x8# PARTIE IV : L'autre comme résonance et le champ linguistique
 
 ## Chapitre 1 — La conscience comme adresse : le champ linguistique étendu
 
@@ -121,6 +121,18 @@ L’ensemble du dispositif converge vers une même question : comment une struct
 \text{structure} \rightarrow \text{adresse} \rightarrow \text{résonance} \rightarrow \text{régulation} \rightarrow \text{identifiabilité} \rightarrow \text{transition}
 \]
 
+
+## Transition : du consensus à la décentration
+
+L'analyse de l'intersubjectivité a montré que le partage d'un monde commun repose sur des invariants relationnels. Ce sont ces structures qui permettent à des géométries perceptives différentes de s'accorder et de produire un consensus. L'invariance topologique est ce qui rend le lien possible.
+
+Cependant, ce consensus porte en lui un risque que la phénoménologie doit nommer : l'illusion d'un solipsisme perceptif. Le solipsisme n'est pas nécessairement l'affirmation que l'autre n'existe pas ; il prend la forme plus insidieuse d'une croyance selon laquelle un centre perceptif pourrait constituer à lui seul l'ensemble du réel. Lorsque les perceptions convergent, nous oublions qu'elles sont produites depuis des structures incarnées différentes. Le consensus masque alors les adresses singulières qui l'ont rendu possible.
+
+C'est ici que la disruption de l'esprit intervient. Elle ne détruit pas le monde, elle opère une décentration. Elle force le passage de la certitude "le monde est ainsi" à la question "depuis quelle adresse le monde apparaît-il ainsi ?". Le sujet découvre que ce qu'il prenait pour le centre du réel n'était qu'une position dans le champ. 
+
+En physique, ce qui survit au changement de référentiel, ce sont les lois. En phénoménologie, ce qui survit à cette décentration, c'est la structure relationnelle. En déplaçant le centre, on ne perd pas le monde ; on découvre un invariant plus vaste. 
+
+Ainsi se formule la charnière de cette recherche : **l'invariance est la condition du lien ; la disruption est la condition de la décentration.**
 
 ## Transition : du consensus à la décentration
 
