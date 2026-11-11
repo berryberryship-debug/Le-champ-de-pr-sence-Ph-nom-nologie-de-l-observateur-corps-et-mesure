@@ -35,3 +35,13 @@
 - Aharonov, Y., Albert, D. Z., & Vaidman, L. (1988). How the result of a measurement of a component of the spin of a spin-1/2 particle can turn out to be 100. *Physical Review Letters*, 60(14), 1351–1354.
 - Rovelli, C. (1996). Relational quantum mechanics. *International Journal of Theoretical Physics*, 35(8), 1637–1678.
 - Bitbol, M. (1996). *Mécanique quantique : une introduction philosophique*. Paris : Flammarion.
+
+## Physique quantique : non-markovianité et mesure
+- Li, C.-F., Guo, G.-C., & Piilo, J. (2019). Non-Markovian quantum dynamics: What does it mean? *EPL, 127*(5), 50001.
+- Lonigro, D., & Chruściński, D. (2022). Quantum regression in dephasing phenomena. *Journal of Physics A: Mathematical and Theoretical, 55*, 225308.
+- Rivas, Á., Huelga, S. F., & Plenio, M. B. (2014). Quantum non-Markovianity: Characterization, quantification, and detection. *Reports on Progress in Physics*.
+- Breuer, H.-P., Laine, E.-M., & Piilo, J. (2009). Measure for the degree of non-Markovianity of quantum evolution. *Physical Review Letters*.
+
+## Références logicielles (Code et simulations)
+- Harris, C. R., et al. (2020). Array programming with NumPy. *Nature*, 585(7825), 357-362.
+- Virtanen, P., et al. (2020). SciPy 1.0: fundamental algorithms for scientific computing in Python. *Nature Methods*, 17(3), 261-272.
