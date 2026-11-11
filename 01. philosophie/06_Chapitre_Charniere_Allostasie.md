@@ -1,40 +1,54 @@
 Géométrie de l’allostasie : l’observateur comme invariant de jauge
 Ouverture
+
 Nous avons l’habitude de penser l’observateur comme quelqu’un qui regarde le monde de l’extérieur.
 Il observe, il mesure, il enregistre. Le monde, lui, serait simplement là, avant l’observation, et l’observateur n’aurait qu’à en produire une description fidèle.
 Mais cette image devient fragile dès que nous regardons de plus près la physique contemporaine, les sciences du vivant et la phénoménologie.
+
 En physique, l’observation n’est plus nécessairement une contemplation extérieure. Elle peut être comprise comme une interaction physique, une opération de mesure, ou une relation entre systèmes. Dans la mécanique quantique relationnelle, notamment, les faits sont relatifs aux systèmes qui interagissent, et toute interaction peut jouer le rôle d’une mesure pour les systèmes concernés.�
 En biologie, l’organisme n’est pas non plus un récepteur passif. Il est un système ouvert, dynamique, dissipatif et historiquement structuré. Il ne se contente pas d’enregistrer une perturbation : il la transforme, l’intègre, l’anticipe et modifie les conditions de ses interactions futures.
+
 Et en phénoménologie, le corps n’est pas un simple objet parmi les objets. Il est la condition incarnée par laquelle un monde apparaît, se stabilise et devient signifiant.
 Ce chapitre propose une hypothèse centrale :
 L’observateur biologique peut être modélisé comme une structure dynamique de couplage, dont la continuité réside dans la préservation de relations spécifiques à travers une trajectoire physiologique.
+
 Nous appellerons cette structure un invariant de jauge biologique.
 Ce terme ne signifie pas que l’organisme est littéralement une théorie de jauge de la physique. Il signifie plutôt que nous cherchons à identifier ce qui, dans un organisme, demeure stable, reconnaissable ou fonctionnel malgré des transformations locales de son état, de son contexte ou de sa représentation.
 La question n’est donc plus seulement :
 « Où se trouve l’observateur ? »
 Mais :
 « Quelles relations doivent rester invariantes pour qu’un système vivant puisse reconnaître, mesurer et maintenir un monde à travers ses transformations ? »
+
 I. Le problème de l’observateur
+
 A. L’observateur dans la physique
 Dans les formulations usuelles de la mécanique quantique, le dispositif de mesure est souvent traité comme une abstraction mathématique.
 On distingue le système étudié, l’appareil de mesure et le résultat obtenu. Cette distinction est méthodologiquement utile. Elle permet de calculer, de prédire et de comparer.
 Mais elle laisse dans l’ombre une question importante : que devient l’acte de mesurer lorsque nous réintroduisons le dispositif matériel, sa température, son histoire, ses contraintes et ses échanges avec l’environnement ?
 La réponse n’est pas que la physique ignore ces dimensions. Elle est plutôt que la physique idéalisée et la description thermodynamique complète du dispositif ne sont pas le même niveau de description.
+
 Nous pouvons écrire :
+
 La première isole les degrés de liberté pertinents pour une expérience donnée.
 La seconde considère aussi l’énergie, la matière, l’information, la dissipation, la mémoire et l’environnement.
 Dans cette seconde perspective, l’observateur n’est plus un point abstrait extérieur au monde. Il devient une composante physique active d’un processus de mesure.
+
 B. L’observateur dans la biologie
 La biologie nous offre une autre image de l’observateur.
 Un organisme vivant n’est pas un système clos. Il échange en permanence énergie, matière et information avec son environnement. Il régule sa température, son métabolisme, son équilibre hydrique, son attention, son mouvement et son exposition au monde.
+
 L’allostasie désigne précisément cette forme de régulation.
+
 Elle ne consiste pas à maintenir passivement une valeur fixe. Elle consiste à préserver des conditions fonctionnelles à travers des ajustements continus, anticipatifs et adaptatifs.
 Un organisme ne se contente pas d’enregistrer une perturbation.
 Il la transforme.
+
 Une variation environnementale modifie l’état sensoriel du système. Mais elle modifie aussi les conditions dans lesquelles les perturbations suivantes seront interprétées, régulées et intégrées.
 C’est pourquoi l’organisme possède une histoire.
 Il n’est pas seulement défini par son état présent. Il est défini par la trajectoire qui l’a conduit à cet état.
+
 C. Le problème central
+
 Le problème théorique est alors le suivant :
 Comment une dynamique physiologique peut-elle produire des différences pertinentes, des stabilités, des anticipations et, finalement, des significations vécues ?
 Nous pouvons schématiser ce passage ainsi :
@@ -44,13 +58,18 @@ le niveau physique de l’interaction ;
 le niveau biologique de la régulation ;
 le niveau dynamique de la trajectoire ;
 le niveau phénoménologique de l’expérience vécue.
+
 La phénoménologie de Merleau-Ponty devient ici essentielle. Pour lui, le corps n’est pas un objet simplement placé dans un monde préconstitué. Il est la condition incarnée d’accès au monde. La perception est liée au mouvement, à l’action possible, à l’orientation et à la réversibilité entre le sentant et le sensible.�
 Notre hypothèse est la suivante :
 Il ne s’agit pas d’identifier la chair à une substance physique. Il s’agit de proposer une correspondance structurelle entre une description phénoménologique et une description dynamique.
+
 La chair, chez Merleau-Ponty, exprime l’entrelacement et la réversibilité du sentant et du sensible.�
 Le couplage organisme–monde, dans notre modèle, exprime la manière dont un organisme vivant participe activement à la constitution de son monde.
+
 II. De la régulation à la géométrie
+
 A. L’état ne suffit pas
+
 Supposons que l’état physiologique d’un organisme soit représenté par :
 Ici, [\mathcal{M}] désigne l’espace des états physiologiques pertinents.
 Cet état peut inclure, selon le niveau de description choisi, des variables neurophysiologiques, métaboliques, hormonales, sensorimotrices, comportementales ou écologiques.
@@ -64,7 +83,9 @@ Nous écrivons donc :
 La trajectoire devient fondamentale.
 L’organisme n’est pas seulement un point dans un espace d’états.
 Il est une histoire de passage dans cet espace.
+
 B. La dépendance au chemin
+
 Cette idée rejoint une propriété bien connue en dynamique des systèmes : la dépendance au chemin.
 La réponse actuelle d’un système ne dépend pas uniquement de son état présent.
 Elle dépend aussi du chemin par lequel il est arrivé à cet état.
@@ -75,12 +96,16 @@ C’est ici qu’intervient l’hystérésis.
 L’hystérésis désigne le fait que la réponse d’un système dépend de son histoire. Un même état extérieur peut produire des réponses différentes selon que le système vient d’un état antérieur ou d’un autre.
 Dans notre modèle, cela signifie que l’organisme ne répond pas seulement à ce qui est présent.
 Il répond aussi à ce qui a été.
+
 C. La mémoire dynamique
+
 Nous pouvons représenter cette histoire par une mémoire interne :
 Cette mémoire n’est pas nécessairement une mémoire consciente ou déclarative.
 Elle peut être métabolique, neuronale, immunitaire, développementale, écologique ou comportementale.
 Elle désigne toute modification durable, ou suffisamment persistante, de l’organisation du système, qui modifie ses réponses futures.
+
 L’évolution de cette mémoire peut être formulée ainsi :
+
 Ici :
 [M_t] est la mémoire à l’instant [t] ;
 [x_t] est l’état du système ;
@@ -96,24 +121,34 @@ Nous introduisons maintenant une hypothèse géométrique.
 Supposons qu’il existe une connexion [A], qui représente une règle de transport entre configurations locales.
 Dans le langage de la géométrie différentielle, une connexion permet de comparer des objets situés en des points différents d’un espace.
 Dans notre modèle, elle représente une règle de transformation ou de transport entre états, contextes ou configurations relationnelles.
+
 La courbure associée à cette connexion est :
+
 Dans le cas non abélien, le terme [A \wedge A] devient essentiel.
 Cette courbure ne désigne pas une courbure physique de l’espace-temps.
 Elle désigne une propriété proposée de l’espace relationnel dans lequel évoluent les états du système.
 Elle exprime une obstruction au transport globalement indépendant du chemin.
+
 Autrement dit :
+
 La géométrie ne décrit plus seulement une position.
 Elle décrit une histoire de transformations.
+
 III. L’holonomie : la mémoire du retour
+
 A. Définition formelle
+
 Considérons une trajectoire fermée [C] dans l’espace des configurations.
 Le transport associé à la connexion [A] peut produire une transformation non triviale.
 Cette transformation est appelée holonomie :
 Le symbole [\mathcal{P}] indique que l’ordre des transformations doit être préservé lorsque celles-ci ne commutent pas.
 Dans le cas non abélien, l’ordre compte.
 Transporter un état de [A] vers [B], puis de [B] vers [C], ne produit pas nécessairement le même résultat que de le transporter directement de [A] vers [C].
+
 B. Interprétation biologique prudente
-Dans notre modèle, l’holonomie ne doit pas encore être interprétée comme une observable biologique directement mesurée.
+
+Dans notre modèle, l’holonomie ne 
+doit pas encore être interprétée comme une observable biologique directement mesurée.
 Elle constitue une structure mathématique candidate.
 Elle représente la mémoire géométrique d’un cycle de régulation.
 Une trajectoire fermée peut correspondre, par exemple, à un cycle d’interaction, de perturbation, de régulation et de retour à une configuration apparente.
@@ -123,7 +158,9 @@ C’est cette différence, produite par le cycle lui-même, que l’holonomie ch
 L’holonomie mesure ainsi ce qui a changé après un retour apparent au point de départ.
 Elle ne mesure pas seulement où le système est.
 Elle mesure comment il y est arrivé.
+
 IV. L’articulation phénoménologique
+
 A. L’intentionnalité comme orientation
 La phénoménologie husserlienne décrit la conscience comme intentionnelle.
 Elle est toujours conscience de quelque chose.
