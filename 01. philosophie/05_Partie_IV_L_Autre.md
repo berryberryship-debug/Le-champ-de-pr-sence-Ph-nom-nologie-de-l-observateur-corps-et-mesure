@@ -135,4 +135,21 @@ C'est ici que la disruption de l'esprit intervient. Elle ne détruit pas le mond
 
 En physique, ce qui survit au changement de référentiel, ce sont les lois. En phénoménologie, ce qui survit à cette décentration, c'est la structure relationnelle. En déplaçant le centre, on ne perd pas le monde ; on découvre un invariant plus vaste.
 
-Ainsi se formule la charnière de cette recherche : **l'invariance est la condition du lien ; la disruption est la condition de la décentration.**
+Ainsi se formule la charnière de cette recherche : **l'invariance est la condition du lien ; la disruption est l## Chapitre 6 — Géométrie du champ des adresses et connexion
+
+### 1. Le fibré de Hilbert
+Pour donner une forme mathématique à notre concept d'adresse, nous proposons de le formaliser à l'aide de la géométrie différentielle. Soit \(X\) l'espace des adresses (l'espace des positions relationnelles possibles). À chaque adresse \(x \in X\), nous associons un espace de Hilbert \(\mathcal{H}_x\), qui représente l'espace des états possibles à cette adresse. 
+
+L'ensemble forme un **fibré de Hilbert** :
+\[
+ \mathfrak H = \left( X, \{\mathcal H_x\}_{x \in X}, \Psi, \mathcal R, \nabla \right) 
+\]
+où \(\Psi\) est le champ des configurations (l'état vécu), \(\mathcal R\) est la relation de résonance (le produit scalaire entre les états), et \(\nabla\) est la connexion.
+
+### 2. La connexion et la décentration
+La connexion \(\nabla\) est l'opérateur qui permet de comparer les états à des adresses différentes. C'est elle qui permet le transport parallèle d'une configuration d'une adresse à une autre. C'est l'opérateur mathématique de la **décentration** : il permet de passer de « le monde est ainsi » à « depuis quelle adresse le monde apparaît-il ainsi ? ».
+
+### 3. La courbure : ce qui ne se conserve pas
+La courbure de la connexion, \(\mathcal F_\nabla = \nabla^2\), mesure l'obstruction à un transport indépendant du chemin. Si la courbure est nulle, le transport est intégrable : l'adresse peut être changée sans perte d'information. Mais si la courbure est non nulle, cela signifie que ce qui est transporté dépend du chemin parcouru. La courbure révèle **ce qui ne se conserve pas** lors du déplacement dans le champ des adresses. 
+
+Ainsi, l'adresse *situe*, la résonance *relie*, la connexion *transporte*, et la courbure *révèle* la perte ou la persistance de l'information relationnelle. Ce formalisme reste une construction mathématique proposée pour la recherche, et non un résultat expérimental du modèle ST.a condition de la décentration.**
