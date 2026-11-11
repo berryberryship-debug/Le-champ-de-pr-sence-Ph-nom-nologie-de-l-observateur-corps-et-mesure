@@ -97,3 +97,20 @@ La thèse à défendre demeure plus précise : **les conditions incarnées qui r
 - Stanford Encyclopedia of Philosophy, « Jean-Paul Sartre », particulièrement les sections sur la conscience préréflexive et le regard d’autrui : https://plato.stanford.edu/entries/sartre/
 
 Ces références étayent les points de départ philosophiques. Elles ne sont pas citées comme sources de la formalisation torique proposée ici.
+
+## Chapitre 2 — L'esprit et son véhicule : l'autonomie située
+
+### 1. Le véhicule temporaire
+Pour comprendre la nature de l'observateur, il faut distinguer le corps comme véhicule biologique et l'esprit comme activité d'exploration. Le corps est le lieu de la captation immédiate : il est soumis aux rythmes circadiens, à la fatigue, aux pressions biologiques qui conditionnent notre accès au monde. 
+
+Ce que nous appelons le "véhicule temporaire" est cette structure physiologique qui capte l'immédiat et oriente l'énergie du cerveau. Il détermine en partie ce qui nous est accessible à un moment donné.
+
+### 2. L'autonomie située de l'esprit
+Cependant, la vie de l'esprit ne se réduit pas à ce véhicule. L'esprit suit les rythmes biologiques, mais il n'y est pas entièrement soumis. Il peut veiller toute la nuit, faire fi des processus biologiques qui l'auraient mis au lit, et s'abonder dans un espace d'exploration interne ou externe. 
+
+Comme le note la philosophie de l'imagination, l'esprit a la capacité de viser l'absent, le possible et d'autres perspectives, sans les tenir pour actuellement réalisés. L'esprit n'est pas le simple reflet de ses rythmes biologiques, mais son exploration demeure portée et contrainte par eux. C'est ce que nous nommons une **autonomie située**.
+
+### 3. Le consensus et le vécu
+Cette distinction nous amène à une différence fondamentale dans l'ordre de la connaissance. Il existe un consensus intersubjectif sur les choses que nous voyons : nous pouvons confronter nos perceptions d'un même objet. Mais il n'y a pas de consensus sur la manière dont nous nous vivons intérieurement.
+
+Nous ne pouvons pas accéder au vécu d'autrui exactement comme à notre propre expérience. Cette impossibilité n'est pas un défaut, c'est la condition même de la phénoménologie : la vie de l'esprit est incarnée sans être limitée au présent immédiat, et son exploration ne se partage ni ne se vérifie exactement comme la perception d'un objet commun. C'est précisément dans cet écart que réside la profondeur du sujet.
