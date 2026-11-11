@@ -46,7 +46,7 @@ La dimension temporelle mérite une attention particulière. La rétention conse
 
 ### 3. Le champ des adresses et la transposition spinoziste
 
-Soit $X$ l'espace des adresses. À chaque adresse $x \in X$, associons un espace de configurations $\mathcal{H}_x$. L'état associé à cette adresse est noté $\Psi(x) \in \mathcal{H}_x$.
+Soit \(X\) l'espace des adresses. À chaque adresse \(x \in X\), associons un espace de configurations \(\mathcal{H}_x\). L'état associé à cette adresse est noté \(\Psi(x) \in \mathcal{H}_x\).
 
 Lorsque les espaces associés à deux adresses sont distincts, on introduit une application de transport :
 
@@ -112,45 +112,40 @@ Le terme « inconscient collectif » n'est donc pas employé ici comme synonyme 
 
 ### 1. Équation d'évolution des phases
 
-Pour modéliser la dynamique des adresses collectives, nous utilisons un système de $N$ oscillateurs de phase. Chaque oscillateur représente une strate linguistique. Son évolution dépend de sa fréquence naturelle et de ses interactions avec les autres oscillateurs :
+Pour modéliser la dynamique des adresses collectives, nous utilisons un système de \(N\) oscillateurs de phase. Chaque oscillateur représente une strate linguistique. Son évolution dépend de sa fréquence naturelle et de ses interactions avec les autres oscillateurs :
 
 $$
-\frac{d\theta_i}{dt} = \omega_i
-+ g_R \sum_{j=1}^{N} W_{ij}^{(R)} \sin(\theta_j - \theta_i)
-+ g_A \sum_{j=1}^{N} W_{ij}^{(A)} \sin(\theta_j - \theta_i) .
+\frac{d\theta_i}{dt} = \omega_i + g_R \sum_{j=1}^{N} W_{ij}^{(R)} \sin(\theta_j - \theta_i) + g_A \sum_{j=1}^{N} W_{ij}^{(A)} \sin(\theta_j - \theta_i) .
 $$
 
-Ici, $\theta_i$ est la phase de la strate $i$, $\omega_i$ sa fréquence naturelle, $W_{ij}^{(R)}$ la structure du couplage local, $W_{ij}^{(A)}$ la structure du couplage global, $g_R$ l'intensité du couplage local et $g_A$ celle du couplage global. Les matrices de couplage doivent être définies et normalisées explicitement dans l'implémentation.
+Ici, \(\theta_i\) est la phase de la strate \(i\), \(\omega_i\) sa fréquence naturelle, \(W_{ij}^{(R)}\) la structure du couplage local, \(W_{ij}^{(A)}\) la structure du couplage global, \(g_R\) l'intensité du couplage local et \(g_A\) celle du couplage global. Les matrices de couplage doivent être définies et normalisées explicitement dans l'implémentation.
 
-La convention de normalisation n'est pas un détail secondaire : selon que les sommes sont divisées ou non par le nombre de voisins, par $N$, ou par une norme de matrice, la signification numérique de $g_R$ et $g_A$ change. Toute comparaison de simulations doit conserver la même convention ou documenter le changement.
+La convention de normalisation n'est pas un détail secondaire : selon que les sommes sont divisées ou non par le nombre de voisins, par \(N\), ou par une norme de matrice, la signification numérique de \(g_R\) et \(g_A\) change. Toute comparaison de simulations doit conserver la même convention ou documenter le changement.
 
 ### 2. Paramètre d'ordre et cohérence collective
 
 La synchronisation est mesurée par le paramètre d'ordre complexe :
 
 $$
-Z(t) = R(t)\, e^{i\psi(t)} = \frac{1}{N} \sum_{j=1}^{N} e^{i\theta_j(t)},
-\qquad R(t) = |Z(t)| \in [0,1] .
+Z(t) = R(t)\, e^{i\psi(t)} = \frac{1}{N} \sum_{j=1}^{N} e^{i\theta_j(t)}, \qquad R(t) = |Z(t)| \in [0,1] .
 $$
 
 Une valeur proche de zéro indique une faible concentration collective des phases, tandis qu'une valeur proche de un indique une forte concentration.
 
-Pour un réseau fini de $N=14$ oscillateurs indépendants dont les phases sont uniformes, la cohérence n'est pas exactement nulle en général. On obtient :
+Pour un réseau fini de \(N=14\) oscillateurs indépendants dont les phases sont uniformes, la cohérence n'est pas exactement nulle en général. On obtient :
 
 $$
 \mathbb{E}[R^2] = \frac{1}{N} = \frac{1}{14},
 $$
 
-et, pour $N$ suffisamment grand, une approximation usuelle donne $\mathbb{E}[R] \approx \sqrt{\pi}\,/\,(2\sqrt{N})$. Pour $N=14$, cette dernière expression n'est qu'une approximation. Les résultats doivent donc être comparés à une distribution de référence obtenue par simulation ou par une analyse statistique adaptée, plutôt qu'à un zéro idéal.
+et, pour \(N\) suffisamment grand, une approximation usuelle donne \(\mathbb{E}[R] \approx \sqrt{\pi}\,/\,(2\sqrt{N})\). Pour \(N=14\), cette dernière expression n'est qu'une approximation. Les résultats doivent donc être comparés à une distribution de référence obtenue par simulation ou par une analyse statistique adaptée, plutôt qu'à un zéro idéal.
 
 ### 3. Élasticité et comportement spectral
 
 Les simulations rapportent les résultats suivants :
 
 $$
-\alpha_{\mathrm{eff}} \approx -1{,}642 \quad \text{pour } g_R = 1,
-\qquad
-\alpha_{\mathrm{eff}} \approx -1{,}221 \quad \text{pour } g_A = 1 .
+\alpha_{\mathrm{eff}} \approx -1{,}642 \quad \text{pour } g_R = 1, \qquad \alpha_{\mathrm{eff}} \approx -1{,}221 \quad \text{pour } g_A = 1 .
 $$
 
 Ces valeurs indiquent une différence de pente spectrale entre les deux configurations étudiées. Dans l'interprétation du modèle, le couplage local accentue la pente, tandis que le couplage global produit une pente moins accentuée.
@@ -165,7 +160,7 @@ La différence entre les branches peut révéler une dépendance historique. Il 
 
 ### 5. Le résidu de transmission : la faille du signifiant
 
-Les simulations rapportent $R_{\mathrm{trans}} \approx 0{,}37$, valeur observée dans la configuration utilisant `double_neg`. Ce résidu est interprété comme une fraction de l'information qui ne participe pas à la synchronisation.
+Les simulations rapportent \(R_{\mathrm{trans}} \approx 0{,}37\), valeur observée dans la configuration utilisant `double_neg`. Ce résidu est interprété comme une fraction de l'information qui ne participe pas à la synchronisation.
 
 Si l'information totale est normalisée à l'unité, la relation proposée est :
 
@@ -173,7 +168,7 @@ $$
 1 = I_{\mathrm{sync}} + R_{\mathrm{trans}},
 $$
 
-d'où $I_{\mathrm{sync}} \approx 0{,}63$. Cette égalité suppose que les deux termes constituent une partition exhaustive et non redondante de l'information considérée. Il faut donc définir précisément leur mode de calcul, leur unité, leur domaine de normalisation et vérifier qu'aucune composante n'est comptée deux fois ou laissée hors bilan.
+d'où \(I_{\mathrm{sync}} \approx 0{,}63\). Cette égalité suppose que les deux termes constituent une partition exhaustive et non redondante de l'information considérée. Il faut donc définir précisément leur mode de calcul, leur unité, leur domaine de normalisation et vérifier qu'aucune composante n'est comptée deux fois ou laissée hors bilan.
 
 Sous cette condition, le résidu représente une limite de synchronisation dans les conditions du modèle. Il constitue une analogie mathématique de la faille du signifiant : une organisation collective peut comporter une fraction qui ne s'intègre pas à son état synchronisé. Cette interprétation ne permet pas de conclure à une inaccessibilité universelle de l'information.
 
@@ -189,13 +184,13 @@ $$
 AL(t) = AL_0 + \int_0^t C_{\mathrm{reg}}(\tau)\, d\tau - \int_0^t C_{\mathrm{rec}}(\tau)\, d\tau,
 $$
 
-où $C_{\mathrm{reg}}$ représente le coût de régulation, $C_{\mathrm{rec}}$ la capacité de récupération et $AL_0$ la charge initiale. La dynamique correspondante est :
+où \(C_{\mathrm{reg}}\) représente le coût de régulation, \(C_{\mathrm{rec}}\) la capacité de récupération et \(AL_0\) la charge initiale. La dynamique correspondante est :
 
 $$
 \frac{dAL}{dt} = C_{\mathrm{reg}}(t) - C_{\mathrm{rec}}(t).
 $$
 
-Cette formalisation mesure le bilan cumulatif entre les coûts de maintenance et les capacités de récupération. Elle constitue une variable interne du modèle ST. Pour que $AL$ soit interprétable quantitativement, les unités de $C_{\mathrm{reg}}$, $C_{\mathrm{rec}}$ et du temps doivent être compatibles. Si les termes représentent des indices sans unité physiologique directe, $AL$ doit être présenté comme un indice régulatoire interne.
+Cette formalisation mesure le bilan cumulatif entre les coûts de maintenance et les capacités de récupération. Elle constitue une variable interne du modèle ST. Pour que \(AL\) soit interprétable quantitativement, les unités de \(C_{\mathrm{reg}}\), \(C_{\mathrm{rec}}\) et du temps doivent être compatibles. Si les termes représentent des indices sans unité physiologique directe, \(AL\) doit être présenté comme un indice régulatoire interne.
 
 Son rapprochement avec la charge allostatique physiologique nécessite une validation par des mesures biologiques indépendantes et une justification de la correspondance entre les variables du modèle et les indicateurs physiologiques retenus.
 
@@ -204,16 +199,14 @@ Son rapprochement avec la charge allostatique physiologique nécessite une valid
 Pour distinguer les structures d'adresses représentées par les modèles A, B et C, nous utilisons deux critères d'information :
 
 $$
-\mathrm{AIC} = 2k - 2\ln(\widehat{L}),
-\qquad
-\mathrm{BIC} = k\ln(n) - 2\ln(\widehat{L}),
+\mathrm{AIC} = 2k - 2\ln(\widehat{L}), \qquad \mathrm{BIC} = k\ln(n) - 2\ln(\widehat{L}),
 $$
 
-où $k$ est le nombre de paramètres estimés, $n$ le nombre d'observations et $\widehat{L}$ la vraisemblance maximisée. Ces critères comparent des modèles ajustés aux mêmes données selon une vraisemblance et un protocole cohérents. Une valeur plus faible indique un meilleur compromis relatif entre ajustement et complexité parmi les modèles comparés ; elle ne prouve pas que le modèle retenu soit vrai.
+où \(k\) est le nombre de paramètres estimés, \(n\) le nombre d'observations et \(\widehat{L}\) la vraisemblance maximisée. Ces critères comparent des modèles ajustés aux mêmes données selon une vraisemblance et un protocole cohérents. Une valeur plus faible indique un meilleur compromis relatif entre ajustement et complexité parmi les modèles comparés ; elle ne prouve pas que le modèle retenu soit vrai.
 
-Dans le scénario difficile, avec un bruit relatif de $0{,}30$, les simulations antérieures rapportent des taux de sélection correcte de 76 % (passif) à 94 % (intervention) pour l'AIC, et de 81,3 % à 92 % pour le BIC. Ces pourcentages désignent les taux de sélection correcte des modèles, et non les valeurs des critères AIC et BIC.
+Dans le scénario difficile, avec un bruit relatif de \(0{,}30\), les simulations antérieures rapportent des taux de sélection correcte de 76 % (passif) à 94 % (intervention) pour l'AIC, et de 81,3 % à 92 % pour le BIC. Ces pourcentages désignent les taux de sélection correcte des modèles, et non les valeurs des critères AIC et BIC.
 
-L'intervention sur $\gamma$ améliore la discrimination dans les conditions expérimentales étudiées. Elle suggère que la modification des conditions d'observation peut rendre certaines structures plus identifiables. Pour évaluer la portée du résultat, il faut documenter le nombre de répétitions, les matrices de confusion, les règles de génération des données, la spécification des modèles et les intervalles d'incertitude des taux rapportés.
+L'intervention sur \(\gamma\) améliore la discrimination dans les conditions expérimentales étudiées. Elle suggère que la modification des conditions d'observation peut rendre certaines structures plus identifiables. Pour évaluer la portée du résultat, il faut documenter le nombre de répétitions, les matrices de confusion, les règles de génération des données, la spécification des modèles et les intervalles d'incertitude des taux rapportés.
 
 ---
 
@@ -359,21 +352,21 @@ Trois mécanismes structurent cette architecture.
 
 ### 1. Couplage métrique-densité
 
-Le champ métrique $L_{\mathrm{field}}$ est mis en relation avec la distribution de densité d'énergie au moyen d'un terme de courbure. Dans le modèle décrit, cette rétroaction représente une interaction entre la distribution locale du champ et la structure géométrique qui conditionne sa propagation.
+Le champ métrique \(L_{\mathrm{field}}\) est mis en relation avec la distribution de densité d'énergie au moyen d'un terme de courbure. Dans le modèle décrit, cette rétroaction représente une interaction entre la distribution locale du champ et la structure géométrique qui conditionne sa propagation.
 
-Pour établir précisément ce couplage, le script doit permettre d'identifier la définition de la densité d'énergie, le terme de courbure, la dépendance fonctionnelle de $L_{\mathrm{field}}$ et les conditions aux limites. Le vocabulaire de « rétroaction métrique » est justifié si la métrique évolue effectivement en fonction de la densité et si cette métrique intervient en retour dans l'équation de propagation.
+Pour établir précisément ce couplage, le script doit permettre d'identifier la définition de la densité d'énergie, le terme de courbure, la dépendance fonctionnelle de \(L_{\mathrm{field}}\) et les conditions aux limites. Le vocabulaire de « rétroaction métrique » est justifié si la métrique évolue effectivement en fonction de la densité et si cette métrique intervient en retour dans l'équation de propagation.
 
 ### 2. Connexion de jauge
 
-Le champ $A_{\mathrm{torus}}$ intervient dans la dérivée covariante. Il introduit une structure de connexion dans le calcul des variations spatiales et permet, selon sa définition, de prendre en compte les relations de phase sur le domaine périodique.
+Le champ \(A_{\mathrm{torus}}\) intervient dans la dérivée covariante. Il introduit une structure de connexion dans le calcul des variations spatiales et permet, selon sa définition, de prendre en compte les relations de phase sur le domaine périodique.
 
 Le rôle précis de ce champ dépend de la forme de la dérivée covariante, de la transformation de jauge retenue et des conditions de périodicité. Le caractère torique du domaine ne suffit pas, à lui seul, à établir une structure de jauge : celle-ci dépend de la connexion et de ses règles de transformation. Si le transport dépend du chemin, une holonomie peut être étudiée en comparant les transports le long de chemins fermés.
 
-Cette connexion fournit un point de raccord potentiel avec les applications $U_{xy}$ du Chapitre 1. Pour que le raccord soit mathématiquement effectif, il faut définir les espaces sur lesquels agit le transport et montrer comment la connexion du Bloc 44 engendre ce transport.
+Cette connexion fournit un point de raccord potentiel avec les applications \(U_{xy}\) du Chapitre 1. Pour que le raccord soit mathématiquement effectif, il faut définir les espaces sur lesquels agit le transport et montrer comment la connexion du Bloc 44 engendre ce transport.
 
 ### 3. Intégration temporelle
 
-Le schéma de Verlet est associé à l'évolution de la partie conservative du système, lorsque celle-ci admet une formulation compatible avec cet intégrateur. L'amortissement, représenté par $\gamma$, doit être traité distinctement si l'on souhaite préserver les propriétés géométriques de l'intégration conservative, par exemple au moyen d'une méthode de séparation (*splitting*).
+Le schéma de Verlet est associé à l'évolution de la partie conservative du système, lorsque celle-ci admet une formulation compatible avec cet intégrateur. L'amortissement, représenté par \(\gamma\), doit être traité distinctement si l'on souhaite préserver les propriétés géométriques de l'intégration conservative, par exemple au moyen d'une méthode de séparation (*splitting*).
 
 La symplecticité et la réversibilité temporelle ne peuvent donc pas être attribuées automatiquement à la dynamique amortie dans son ensemble. Elles concernent la partie conservative et dépendent de la formulation exacte ainsi que du schéma effectivement codé.
 
@@ -438,10 +431,10 @@ Le système est structuré en plusieurs couches :
 Le système calcule un indice de cohérence globale (`UG`) en comparant la distribution des fréquences des concepts (loi de Zipf) à différentes échelles (micro et macro). Si la distribution conserve la même pente (même exposant de Zipf) après agrégation, le système considère que sa structure cognitive est cohérente.
 
 $$
-\mathrm{UG} = \frac{1}{3}\left( C_{\mathrm{CG}} + Q_H + S_G \right)
+\mathrm{UG} = \frac{1}{3} \left( C_{\mathrm{CG}} + Q_H + S_G \right)
 $$
 
-où $C_{\mathrm{CG}}$ est la cohérence du coarse-graining, $Q_H$ la qualité des arêtes et $S_G$ la stabilité structurelle. Il s'agit d'un indice interne du modèle : sa définition opérationnelle (calcul de chaque terme, normalisation) doit être documentée avec le script.
+où \(C_{\mathrm{CG}}\) est la cohérence du coarse-graining, \(Q_H\) la qualité des arêtes et \(S_G\) la stabilité structurelle. Il s'agit d'un indice interne du modèle : sa définition opérationnelle doit être documentée avec le script.
 
 ### 4. La boucle métacognitive
 
@@ -453,93 +446,33 @@ Le cycle cognitif se déroule en cinq étapes :
 4. **Métacognition** : il génère une **question interne**.
 5. **Consolidation** : il met à jour ses croyances et son modèle du soi.
 
-L'extrait de code suivant montre comment le système sélectionne une question interne en fonction de son état d'incertitude et de son erreur de prédiction. C'est ici que se matérialise une forme fonctionnelle d'auto-référence : le système prend son propre état comme entrée de sa prochaine action. Les questions sont ici des chaînes prédéfinies choisies par seuils ; il ne s'agit pas d'une génération libre.
+L'extrait de code suivant montre comment le système sélectionne une question interne en fonction de son état d'incertitude et de son erreur de prédiction. Les questions sont ici des chaînes prédéfinies choisies par seuils ; il ne s'agit pas d'une génération libre.
 
 ```python
-    def generate_internal_question(self) -> str:
-        state = self.cognitive_state
+def generate_internal_question(self) -> str:
+    state = self.cognitive_state
 
-        if state.prediction_error > 0.7:
-            return (
-                "Pourquoi ma représentation du monde "
-                "ne correspond-elle pas à ce que j'observe ?"
-            )
-        if state.self_model_confidence < 0.3:
-            return (
-                "Que suis-je capable de savoir "
-                "sur moi-même ?"
-            )
-        if state.ug_score > 0.7:
-            return (
-                "Comment la cohérence de mon modèle "
-                "a-t-elle émergé ?"
-            )
-        if state.curiosity > 0.6:
-            return (
-                "Quelle information me manque "
-                "pour réduire mon incertitude ?"
-            )
+    if state.prediction_error > 0.7:
         return (
-            "Quelle est la prochaine observation "
-            "qui pourrait modifier mon modèle ?"
+            "Pourquoi ma représentation du monde "
+            "ne correspond-elle pas à ce que j'observe ?"
         )
-```
-
----
-
-## Chapitre 12 — La juxtaposition rétroactive du Soi (TSVF)
-
-La description du Soi comme structure relationnelle et temporelle (développée dans les chapitres précédents) peut être éclairée par une lecture alternative de la mesure quantique : le **Formalisme des États Deux-Vecteurs (TSVF)**, développé à partir des travaux d'Aharonov, Bergmann et Lebowitz (1964), puis d'Aharonov et Vaidman.
-
-Loin d'être présenté comme une simple dissipation passive de l'information vers l'environnement (comme dans la décohérence standard), le système est décrit, dans cette approche, par deux vecteurs : un état évoluant du passé vers le futur ($|\psi\rangle$), et un état évoluant à rebours depuis la post-sélection ($\langle\phi|$).
-
-Mathématiquement, le système à l'instant $t$ n'est plus défini par un seul état, mais par le couple $\mathcal{R}(t) = \{ |\psi(t)\rangle \,;\, \langle\phi(t)| \}$. Les probabilités de résultats entre deux mesures s'obtiennent par la règle ABL. La **valeur faible** (*weak value*) d'un opérateur $A$, quant à elle, s'écrit :
-
-$$
-A_w = \frac{\langle \phi(t) | A | \psi(t) \rangle}{\langle \phi(t) | \psi(t) \rangle}
-$$
-
-Cette valeur, qui peut sortir de l'intervalle des valeurs propres de $A$, caractérise la relation entre l'état de départ et l'état d'arrivée post-sélectionné.
-
-Ce formalisme est mis en relation avec le script `v91_tsvf_codetermination.py` (dépôt *Panpsychisme informationnel*), qui calcule numériquement cette valeur faible pour un qubit post-sélectionné.
-
-**[Hypothèse]** Dans cette perspective, le Soi local ne serait pas simplement le produit de son passé. Il serait le point d'interférence entre les états dont il vient et un état futur qui le « tire » rétroactivement. L'illusion du choix local serait alors la mesure de cette interférence.
-
-**[Limite]** Cette interprétation suppose souvent une structure de type « block-universe » (où l'espace-temps à quatre dimensions est complet et statique). Le TSVF est mathématiquement valide, mais sa lecture rétrocausale reste une hypothèse philosophique et non un résultat physique établi.
-
-Le Soi n'est donc pas une substance, mais une **interface entre deux vecteurs temporels** : le lieu exact où le présent ne coïncide jamais parfaitement avec lui-même.
-
----
-
-## Conclusion de la Partie IV
-
-La Partie IV part de la présence phénoménale et examine les opérations par lesquelles un vécu devient adressable, entre en résonance avec d'autres configurations et conserve une singularité qui ne se résorbe pas dans la relation.
-
-Le champ linguistique décrit une dimension transindividuelle de l'adressage. Les modèles de transport et de compatibilité proposent une représentation formelle des relations entre configurations. Les oscillateurs de Kuramoto explorent la cohérence collective et ses limites. Le modèle régulatoire introduit une dynamique cumulative de coût et de récupération. Le SHC représente une capacité instrumentale finie de conservation explicite. Enfin, le Bloc 44 étudie une dynamique de champ couplée à une géométrie périodique.
-
-Ces constructions partagent une question : comment une organisation locale se maintient-elle, se transforme-t-elle et devient-elle identifiable dans un champ de relations plus vaste ?
-
-Leur unité est pour l'instant un programme de recherche. Elle devra être établie par la définition des variables communes, la cohérence des transformations, la reproductibilité des simulations et la confrontation des prédictions à des observations indépendantes.
-
-L'ordre implicite demeure ici une hypothèse ontologique. Sa dynamique est une construction mathématique. Sa simulation est une expérience numérique. Leur convergence constitue précisément le problème à établir.
-
----
-
-## Repères bibliographiques
-
-- Aharonov, Y., Bergmann, P. G., & Lebowitz, J. L. (1964). "Time symmetry in the quantum process of measurement." *Physical Review*, 134, B1410.
-- Aharonov, Y., Albert, D. Z., & Vaidman, L. (1988). "How the result of a measurement of a component of the spin of a spin-1/2 particle can turn out to be 100." *Physical Review Letters*, 60, 1351.
-- Aharonov, Y., & Vaidman, L. (1990). "Properties of a quantum system during the time interval between two measurements." *Physical Review A*, 41, 11.
-- Akaike, H. (1974). "A new look at the statistical model identification." *IEEE Transactions on Automatic Control*, 19(6), 716–723.
-- Acebrón, J. A., et al. (2005). "The Kuramoto model: A simple paradigm for synchronization phenomena." *Reviews of Modern Physics*, 77, 137–185.
-- Freud, S. (1919). "Das Unheimliche" [L'inquiétante étrangeté].
-- Husserl, E. (1928). *Vorlesungen zur Phänomenologie des inneren Zeitbewusstseins*.
-- Jung, C. G. (1951). *Aion: Beiträge zur Symbolik des Selbst*.
-- Kuramoto, Y. (1984). *Chemical Oscillations, Waves, and Turbulence*. Springer.
-- Lacan, J. (1964). *Le Séminaire, livre XI : Les quatre concepts fondamentaux de la psychanalyse*.
-- Lacan, J. (1966). *Écrits*. Seuil.
-- McEwen, B. S., & Stellar, E. (1993). "Stress and the individual: Mechanisms leading to disease." *Archives of Internal Medicine*, 153(18), 2093–2101.
-- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
-- Spinoza, B. (1677). *Éthique*.
-
-*Note éditoriale : les références bibliographiques ci-dessus sont des repères théoriques. Les valeurs numériques rapportées dans les chapitres 4 et 5 ainsi que les propriétés attribuées au Bloc 44 doivent être accompagnées, dans une version de recherche reproductible, des scripts, paramètres, données de sortie et protocoles de validation correspondants.*
+    if state.self_model_confidence < 0.3:
+        return (
+            "Que suis-je capable de savoir "
+            "sur moi-même ?"
+        )
+    if state.ug_score > 0.7:
+        return (
+            "Comment la cohérence de mon modèle "
+            "a-t-elle émergé ?"
+        )
+    if state.curiosity > 0.6:
+        return (
+            "Quelle information me manque "
+            "pour réduire mon incertitude ?"
+        )
+    return (
+        "Quelle est la prochaine observation "
+        "qui pourrait modifier mon modèle ?"
+    )
