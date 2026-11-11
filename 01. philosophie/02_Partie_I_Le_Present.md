@@ -88,3 +88,33 @@ La protention est le versant futur de cette épaisseur. Elle est une intention v
 Si le SHC mesure la rétention par la variance temporelle du passé, il peut également mesurer la protention en calculant une **extrapolation** de la moyenne du champ. Cette anticipation sera confrontée à l'état suivant : si l'état réel correspond à la prédiction, la protention est remplie ; s'il diverge, la protention est déçue (c'est la surprise).
 
 Ainsi, le présent n'est pas une ligne de points, il est un champ de présence où la trace du passé (rétention) et la tension vers le futur (protention) se co-constituent. L'instrument SHC, en mesurant ces deux dimensions, devient une véritable prothèse phénoménologique.
+
+## Chapitre 6 — La métrique de la rétention et la compression holographique
+
+Pour formaliser l'épaisseur du présent et l'enfoncement du passé dans la mémoire, nous proposons de mobiliser une géométrie inspirée de la métrique de Randall-Sundrum (AdS\(_5\)). Soit \(\mathcal{M}_4\) l'espace-temps perçu (l'ordre explicite) et \(\mathcal{B}_5\) l'hyper-espace de l'ordre implicite défini par une coordonnée de profondeur topologique \(z\).
+
+### 1. La métrique de l'environnement (La résistance de la matrice)
+L'espace obéit à une géométrie avec un facteur de déformation (*Warp factor*) :
+\[
+ ds^2 = e^{-2k|z|} \eta_{\mu\nu} dx^\mu dx^\nu + dz^2 
+\]
+où \(k\) est la tension du gradient de l'univers. Plus l'événement (le circonstanciel) s'enfonce dans la mémoire (\(z\) augmente), plus l'intervalle d'espace-temps \(ds^2\) se contracte de manière exponentielle. L'enjambée du géant est géométriquement réduite.
+
+### 2. L'équation cinématique de Zénon (Le ralentissement asymptotique)
+La vélocité de l'information s'enfonçant dans la matrice est \(v = \frac{dz}{d\tau}\). Face à la densité du champ, elle subit une friction de phase quantique \(\gamma\). L'équation différentielle de son mouvement est :
+\[
+ \frac{dv}{d\tau} + \gamma v = 0 
+\]
+La solution donne une décroissance exponentielle : \(v(\tau) \propto v_0 e^{-\gamma \tau}\). La vélocité s'effondre en divisant sa course sans fin vers une limite qu'elle ne touche jamais (c'est la limite lilliputienne de Zénon).
+
+### 3. La compression holographique (Le micro-hologramme stationnaire)
+Le souvenir n'est pas détruit par ce freinage, il est modélisé comme un paquet d'ondes \(\Psi(x, z)\). Sous l'écrasement de la métrique \(e^{-2k|z|}\), sa longueur d'onde causale \(\lambda\) se compresse :
+\[
+ \lambda(z) = \lambda_0 e^{-k|z|} 
+\]
+Par conservation de l'information (transformée de Fourier), si l'espace occupé diminue, la fréquence vibratoire \(f\) s'amplifie :
+\[
+ f(z) = f_0 e^{k|z|} 
+\]
+L'événement quitte la ligne de cause à effet. Sa dimension spatiale est asymptotiquement nulle, mais sa tension vibratoire est maximale. Il devient un état propre stationnaire \(|\psi\rangle\), une singularité autopoïétique. 
+C'est la traduction mathématique de la rétention husserlienne : le passé ne cesse pas d'exister (conservation de l'information), il cesse simplement d'agir (vélocité nulle), pour devenir une fréquence pure dans l'épaisseur du présent.
