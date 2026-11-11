@@ -170,6 +170,35 @@ $$
 \text{Fidélité}.
 $$
 
+## Chapitre 7 — La relation physique et la relation signifiante : Enaction et Réalisme Relationnel
+
+### 1. Le point de friction
+L'énaction (Varela, Thompson) et la mécanique quantique relationnelle (Rovelli) partagent un rejet : celui d'un monde fait de substances isolées possédant des propriétés intrinsèques. Les deux théories affirment que la réalité est relationnelle. 
+
+Cependant, cette convergence ne doit pas masquer une différence fondamentale. Dire que les deux approches sont « relationnelles » ne suffit pas à les rendre équivalentes.
+
+| Question | Rovelli (RQM) | Énaction (Varela, Thompson) |
+|---|---|---|
+| Qu'est-ce qui entre en relation ? | Des systèmes physiques ; aucun sujet conscient n'est requis. | Un organisme autonome et son milieu. |
+| Qu'explique la relation ? | L'actualisation de valeurs de grandeurs physiques relativement aux systèmes en interaction. | L'émergence de significations relatives à l'activité et au maintien du vivant. |
+| Qu'est-ce qu'un « observateur » ? | N'importe quel système physique pouvant interagir avec un autre. | L'agent cognitif dont l'organisation et les possibilités d'action comptent. |
+| La relation comporte-t-elle des enjeux pour le système ? | La théorie n'exige ni intérêt, ni valeur, ni expérience vécue. | Le milieu apparaît comme favorable, dangereux ou pertinent relativement à l'existence de l'organisme. |
+
+### 2. L'objection énactive
+Une interaction peut établir un fait relatif à un système sans que ce fait signifie quoi que ce soit pour lui. Décrire comment les systèmes s'affectent ne suffit donc pas à expliquer comment quelque chose importe à un vivant.
+
+Le terme décisif est **normativité** : pour un organisme, certaines interactions favorisent sa continuation, tandis que d'autres la compromettent. Dans l'énaction autopoïétique, cette différence contribue à la constitution du sens ; ce n'est pas simplement une opinion consciente ajoutée après la perception.
+
+La question adressée à Rovelli est alors : *« Ton réalisme relationnel explique-t-il seulement comment un événement est réel relativement à un système, ou explique-t-il aussi comment cet événement devient pertinent pour un être vivant ? »*
+
+### 3. La réponse possible de Rovelli
+Une réponse compatible avec son approche serait : « Je n'ai pas besoin d'expliquer le sens vécu pour expliquer les événements quantiques. » La notion d'observateur est précisément débarrassée de toute exigence de conscience ou de vie.
+
+L'opposition devient plus forte seulement si l'on conteste une prétention supplémentaire : qu'une ontologie des interactions physiques fournisse, à elle seule, une explication exhaustive de l'expérience. On passe alors d'un débat sur l'interprétation de la mécanique quantique à un débat sur la suffisance philosophique d'une description physique.
+
+### 4. Formulation pour la thèse
+> Je ne conteste pas que les faits physiques soient relationnels ; je conteste que toute relation soit déjà une relation de sens. Une corrélation entre systèmes ne suffit pas à caractériser le rapport d'un vivant à un milieu où sa propre continuation est en jeu. L'énaction ne réfute donc pas le réalisme relationnel de Rovelli : elle en interroge la suffisance pour penser l'expérience.
+
 ### 4. Le contrôle n’est pas la maîtrise
 
 Contrôler une variable n’équivaut pas à contrôler le réel dans son ensemble. Le contrôle est la capacité de produire une transformation visée dans un milieu dont les conditions ne sont pas entièrement déterminées par le contrôleur. Dans le pipeline, l’impulsion est contrôlée, le bruit perturbe son amplitude et la fidélité mesure la conséquence de cette perturbation.
