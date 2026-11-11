@@ -113,3 +113,15 @@ Ce chapitre prépare le raccord avec la Partie IV : l'**adresse** est ce qui dé
 Pour garantir la reproductibilité de nos résultats, l'audit d'intégrité n'est pas seulement une étape manuelle. Le fichier de configuration `.github/workflows/audit.yml` automatise cette vérification. 
 
 À chaque modification du dépôt, un environnement Python isolé est instancié dans le cloud pour exécuter le script `python_integrity_audit.py` sur l'ensemble des fichiers. Ce processus agit comme un **observateur externe** (la machine GitHub) qui valide la structure formelle (la syntaxe du code) avant toute exécution des simulations. C'est la traduction technique du principe de falsifiabilité de Popper : la structure de la thèse est testée en continu, de manière impartiale, par un dispositif automatisé.
+
+## Chapitre 8 — L'entropie d'intrication et le gap structurel (Bose-Hubbard)
+
+Pour illustrer comment l'observateur perd l'accès à l'information locale tout en préservant une structure globale, nous avons implémenté un modèle de Bose-Hubbard à deux sites. Le script `bose_hubbard_entropy.py` calcule deux grandeurs fondamentales : le gap d'énergie et l'entropie de von Neumann.
+
+### 1. Le gap d'énergie : la rigidité de l'invariance
+Le gap d'énergie (différence entre le premier état excité et l'état fondamental) mesure la résistance du système à la perturbation. Lorsque le couplage \(U/J\) augmente, le gap s'ouvre. C'est la traduction physique de l'invariance structurelle : le système maintient son intégrité malgré les fluctuations.
+
+### 2. L'entropie de von Neumann : la faille de l'information
+L'entropie de von Neumann mesure le degré d'intrication entre les deux sous-systèmes. Lorsque le système est dans un état intriqué, l'observateur qui ne regarde qu'un site (le sous-système A) voit un mélange statistique (une perte d'information). C'est exactement la "faille du signifiant" : une part de l'information est délocalisée dans la relation (l'intrication) et n'est plus accessible localement. 
+
+Le code montre que plus l'interaction \(U/J\) est forte, plus l'entropie évolue. Le système conserve une structure globale (le gap), mais l'accès local à l'information est perdu.
