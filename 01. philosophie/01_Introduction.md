@@ -67,3 +67,13 @@ Cette thèse ne prétend pas prouver que la conscience crée la matière, ni que
 Elle prétend seulement élucider la condition philosophique de toute mesure, montrer que le présent n’est pas un point, que le corps est une condition de l’expérience, et que la mesure est une co-constitution.
 
 > **La thèse ne cherche pas à prouver que l’observateur crée le monde. Elle cherche à montrer que le monde ne devient observable qu’à travers une structure incarnée, temporelle et relationnelle.** 
+
+### 12. Le fil conducteur : la relation comme condition d'apparition
+
+La présente thèse ne cherche pas à prouver que la conscience crée le réel. Elle cherche à montrer que le monde ne devient observable qu'à travers une structure incarnée, temporelle et relationnelle.
+
+Cette priorité donnée à la relation trouve un écho philosophique dans la **mécanique quantique relationnelle** de Carlo Rovelli, où les états et les valeurs des grandeurs physiques se définissent relativement à d'autres systèmes avec lesquels ils interagissent. Chez Rovelli, l'« observateur » peut être n'importe quel système physique ; il n'a besoin ni de conscience ni d'intention, et la mesure est une interaction physique, pas nécessairement un acte humain.
+
+Le rapprochement fécond n'est pas « tout dépend de notre conscience », mais : « peut-on décrire les propriétés indépendamment de toute relation ? » Cette question traverse l'ensemble de notre travail. Elle nous oblige à distinguer deux niveaux : la relation physique (l'interaction entre systèmes) et la relation signifiante (l'expérience vécue par un sujet corporel).
+
+La thèse se propose d'explorer cette parenté sans confondre expérience vécue et phénomène quantique. La relation est leur fil conducteur conceptuel, sans que la physique démontre que la conscience crée le réel.
