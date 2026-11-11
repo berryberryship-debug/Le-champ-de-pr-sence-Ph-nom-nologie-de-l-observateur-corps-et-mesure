@@ -107,3 +107,9 @@ L'action apparaît alors non comme le passage direct d'une volonté à un résul
 La fidélité devient la mesure de cet écart — non pour supprimer la différence entre intention et réalisation, mais pour la rendre intelligible. 
 
 Ce chapitre prépare le raccord avec la Partie IV : l'**adresse** est ce qui détermine où l'intention rencontre le milieu, tandis que la **fidélité** mesure ce qui demeure identifiable entre la configuration visée et la configuration réalisée.
+
+### L'automatisation de l'audit (GitHub Actions)
+
+Pour garantir la reproductibilité de nos résultats, l'audit d'intégrité n'est pas seulement une étape manuelle. Le fichier de configuration `.github/workflows/audit.yml` automatise cette vérification. 
+
+À chaque modification du dépôt, un environnement Python isolé est instancié dans le cloud pour exécuter le script `python_integrity_audit.py` sur l'ensemble des fichiers. Ce processus agit comme un **observateur externe** (la machine GitHub) qui valide la structure formelle (la syntaxe du code) avant toute exécution des simulations. C'est la traduction technique du principe de falsifiabilité de Popper : la structure de la thèse est testée en continu, de manière impartiale, par un dispositif automatisé.
