@@ -1,4 +1,4 @@
-# PARTIE II : Le corps comme condition
+li# PARTIE II : Le corps comme condition
 
 ## Chapitre 1 — La stéréophonie phénoménologique et la topologie du chiasme
 
@@ -83,6 +83,20 @@ Ainsi, l'apport de Kierkegaard complète notre analyse de l'hyperesthésie : l'h
 ## Chapitre 8 — Le parallélisme spinoziste : une seule structure, deux registres
 
 L'analyse phénoménologique du corps et de l'adresse trouve son ancrage métaphysique dans le parallélisme de Spinoza (*Éthique*, Partie II). Contrairement à Descartes qui sépare l'âme et le corps, Spinoza affirme qu'il n'existe qu'une seule substance, la Nature, qui s'exprime sous une infinité d'attributs, dont deux nous sont accessibles : l'Étendue (le corps, le physique) et la Pensée (l'esprit, les idées).
+
+### 3. Du parallélisme au clivage : la faille dans l'unité spinoziste
+
+Le parallélisme de Spinoza pose l'identité d'ordre entre l'Étendue et la Pensée. L'esprit est l'idée du corps. Dans une lecture strictement rationnelle, les deux rails avancent exactement à la même vitesse, sans jamais se séparer. 
+
+Cependant, l'expérience incarnée nous oblige à introduire une distinction radicale. Ce que Spinoza décrit comme un parallélisme parfait, nous le vivons comme un **clivage**. 
+
+Le clivage (au sens freudien et lacanien) ne signifie pas que le corps et l'esprit sont séparés (ce que Spinoza refuse), mais qu'ils ne **coïncident jamais totalement**. L'unité de la substance est fendue par l'expérience du sujet. 
+- Le corps peut être dans un état de tension (trauma, charge allostatique) sans que l'esprit ne trouve les mots correspondants (la faille du signifiant).
+- L'esprit peut anticiper un sens (protention) que le corps n'est pas encore prêt à vivre (la résistance du milieu).
+
+Le parallélisme spinoziste est donc la **structure idéale** (l'invariance topologique de l'être), tandis que le clivage est la **réalité vécue** de l'observateur incarné. C'est précisément dans cet écart, dans ce clivage entre la noèse et le noème, entre l'ordre du corps et l'ordre du langage, que se situe notre conscience. 
+
+L'adresse n'est donc pas un point sur une surface lisse ; elle est la position d'un sujet qui navigue dans un espace clivé, dont le centre est troué.
 
 ### 1. L'identité d'ordre
 Le principe fondamental est le suivant : *« L'ordre et la connexion des idées sont les mêmes que l'ordre et la connexion des choses »*. Cela signifie que l'esprit et le corps ne sont pas deux réalités qui interagissent, mais **une seule et même réalité** vue sous deux attributs. Ce qui est ordonné d'une certaine manière dans le corps l'est de la même manière dans l'esprit.
