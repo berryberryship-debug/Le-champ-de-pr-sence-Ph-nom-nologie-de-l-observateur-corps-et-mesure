@@ -125,3 +125,28 @@ Le gap d'énergie (différence entre le premier état excité et l'état fondame
 L'entropie de von Neumann mesure le degré d'intrication entre les deux sous-systèmes. Lorsque le système est dans un état intriqué, l'observateur qui ne regarde qu'un site (le sous-système A) voit un mélange statistique (une perte d'information). C'est exactement la "faille du signifiant" : une part de l'information est délocalisée dans la relation (l'intrication) et n'est plus accessible localement. 
 
 Le code montre que plus l'interaction \(U/J\) est forte, plus l'entropie évolue. Le système conserve une structure globale (le gap), mais l'accès local à l'information est perdu.
+
+## Chapitre 9 — La boucle A2 : la co-émergence autopoïétique
+
+### 1. Résoudre l'aporie de la mesure sans observateur externe
+Cette modélisation résout une aporie classique en philosophie de la physique : comment penser une totalité ordonnée sans postuler un réceptacle transcendantal préexistant (l'espace newtonien ou l'a priori kantien) ? En substituant à l'espace euclidien la géométrie non-commutative de l'espace de Hilbert \(\mathcal{H}\) et sa dynamique de sédimentation matricielle, nous donnons une assise mathématique exacte à la co-émergence autopoïétique (Varela) et à l'ordre implicite (Bohm).
+
+### 2. Formalisation de la boucle A2
+Soit \(\mathcal{H}\) un espace de Hilbert complexe de dimension \(N < \infty\). L'ordre global n'est pas un espace géométrique, mais un état quantique mixte décrit par un opérateur densité \(\rho_G \in \mathcal{S}(\mathcal{H})\) vérifiant \(\rho_G = \rho_G^\dagger\), \(\rho_G \ge 0\), \(\mathrm{Tr}(\rho_G) = 1\).
+Par le théorème spectral, \(\rho_G = \sum_{k=1}^N \lambda_k \Pi_k\) où les projecteurs spectraux \(\{\Pi_k\}\) définissent la base d'admissibilité phénoménologique de l'instant considéré.
+
+**A. Le filtrage (Global \(\to\) Local) :**
+Une configuration locale pure \(|\psi_L\rangle \in \mathcal{H}\) interagit avec la matrice globale par une mesure de von Neumann-Lüders. La probabilité de sélection du projecteur \(\Pi_k\) obéit à la règle de Born : \(p(k) = \mathrm{Tr}(\Pi_k |\psi_L\rangle\langle \psi_L|)\). L'état local post-mesure est projeté sur l'axe propre sélectionné : \(|\psi_L'\rangle = e^{-i\theta_k} \frac{\Pi_k |\psi_L\rangle}{\sqrt{p(k)}} = |e_k\rangle\).
+
+**B. La sédimentation autopoïétique (Local \(\to\) Global) :**
+L'état local modifie la structure globale par un opérateur d'intégration convexe paramétré par le taux de sédimentation \(\alpha \in [0, 1]\) (la plasticité herméneutique) :
+\[
+ \rho_G^{(n+1)} = (1 - \alpha)\rho_G^{(n)} + \alpha |\psi_L'\rangle\langle \psi_L'| 
+\]
+La non-commutativité temporelle de la mémoire s'exprime par \([\rho_G^{(n)}, \rho_G^{(n+1)}] \neq 0\). L'ordre des effondrements historiques détermine la géométrie de l'ordre global actuel.
+
+### 3. La rétention sédimentée
+L'équation de mise à jour \(\rho_G^{(n+1)} = (1 - \alpha)\rho_G^{(n)} + \alpha \rho_L'\) est la formulation quantique exacte de la rétention sédimentée chez Husserl :
+- \((1 - \alpha)\rho_G^{(n)}\) représente l'affaiblissement passif du passé rétentionnel.
+- \(\alpha \rho_L'\) est la capture du "Maintenant" (Urimpression) qui vient sédimenter l'horizon de pré-donation des expériences futures.
+La répétition d'états locaux biaise l'espace de Hilbert. Le premier projecteur \(\Pi_0\) devient dominant : le système acquiert une **habitude ontologique** (au sens de Merleau-Ponty). Le corps n'est pas un objet spatial, mais une matrice densité \(\rho_G\) stabilisée qui pré-oriente les probabilités d'effondrement du monde vécu.
