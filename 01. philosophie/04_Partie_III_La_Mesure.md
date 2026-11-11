@@ -210,3 +210,64 @@ def von_neumann_entropy_reduced(psi, dim_a, dim_b):
     eigenvalues = eigenvalues[eigenvalues > 1e-12]
     entropy = -np.sum(eigenvalues * np.log2(eigenvalues))
     return float(entropy)
+
+## Chapitre 8 — L'intention, le bruit et la fidélité : une structure de l'action
+
+### 1. Une action n’est pas une simple causalité
+Le pipeline ne décrit pas seulement une porte quantique. Il met en scène une structure de l’action : une intention se forme, se traduit en un moyen, rencontre une résistance, puis se mesure à l’écart entre ce qui était visé et ce qui advient.
+
+Dans le modèle, l’intention est la rotation cible :
+\[
+|0\rangle \rightarrow |1\rangle.
+\]
+Le moyen est l’impulsion gaussienne. Elle n’est pas arbitraire : son amplitude est calibrée pour produire une rotation de \(\pi\). Cette calibration exprime une idée philosophique importante : agir, ce n’est pas seulement vouloir ; c’est mettre en forme un moyen proportionné à une fin.
+
+### 2. Le bruit comme résistance
+Le bruit n’est pas ajouté comme un décor. Il module l’amplitude du contrôle :
+\[
+\Omega(t) \rightarrow \Omega(t)\left(1+\eta\,\xi(t)\right).
+\]
+Il introduit ainsi une dispersion entre les réalisations. Même si le protocole est identique, chaque trajectoire devient singulière. Le bruit ne détruit pas l’action : il révèle qu’une action ne se répète jamais exactement dans un milieu qui résiste. Cette résistance n’est pas un échec de l’intention. Elle est la condition même de son apparition comme action. Une intention qui ne rencontrerait aucune résistance ne serait pas une action, mais une pure projection.
+
+### 3. La fidélité comme mesure de l’écart
+La fidélité mesure l’écart entre l’état visé et l’état obtenu :
+\[
+F = |\langle\psi_{\text{cible}}|\psi_{\text{final}}\rangle|^2.
+\]
+Elle ne mesure pas la vérité du monde. Elle mesure la fidélité d’une réalisation à son intention. Cette fidélité n’est pas une identité. Elle est une proximité. Elle dit à quel point ce qui advient reste orienté vers ce qui était visé, sans être confondu avec lui.
+
+### 4. Le contrôle n’est pas la maîtrise
+Le contrôle n’est pas la maîtrise totale du réel. Il est la mise en forme d’une intention dans un milieu qui résiste, dévie et redistribue ce qui advient. Cette phrase ne prétend pas que le cerveau est un qubit. Elle ne prétend pas non plus que la conscience est une onde. Elle propose une structure commune entre l’action vécue et la dynamique modélisée.
+
+### 5. Ce que le code porte
+Le pipeline porte déjà cette idée : l’intention (la rotation cible), la mise en forme (l’impulsion calibrée), la résistance (le bruit), la singularité (les 100 réalisations), la mesure (la fidélité), et la limite (l'aveu que ce n’est pas une validation expérimentale). C’est une architecture philosophique incarnée dans du code.
+
+## Chapitre 9 — L'audit statique : une mesure faible de la structure
+
+### 1. L'analyse statique comme mesure non destructive
+En mécanique quantique, le problème de la mesure oppose l'évolution unitaire et déterministe d'un système à l'acte de mesure, qui opère une projection irréversible. 
+
+Un programme informatique peut être analysé de deux manières :
+- **L'analyse dynamique** : exécuter le code. Cela modifie l'environnement. C'est une mesure forte.
+- **L'analyse statique** : inspecter la structure du code sans l'exécuter. C'est l'analogue d'une **mesure faible** : nous observons la structure formelle sans provoquer de collapse d'état.
+
+### 2. La chaîne de constitution du sens dans le code
+Le script `python_integrity_audit.py` implémente cette mesure faible. Son architecture reproduit la constitution perceptive chez Husserl :
+1. **La matière hylétique brute** : le flux binaire lu sur le disque.
+2. **La noèse / morphé** : la tokenisation et l'analyse AST, qui structurent la matière en objets signifiants. 
+3. **Le noème** : le bytecode exécutable, prêt à interagir avec le processeur.
+
+L'auditeur ne lit pas le sens du code ; il en vérifie la **validité structurelle**. S'il détecte une erreur, il révèle une faille dans le tore. L'intention de l'informaticien rencontre la résistance du langage formel. C'est l'équation de l'action appliquée à la programmation.
+
+### 3. L'audit comme preuve de reproductibilité
+Ce script, en parallélisant l'analyse (via `concurrent.futures`) et en générant des rapports JSON, garantit que les simulations de la présente thèse (le SHC, Kuramoto, la Phase de Berry) ne sont pas des "boîtes noires". L'observateur (le jury) peut vérifier la structure du code avant même de lancer les expériences.
+
+## Chapitre 10 — La simulation numérique de l'ordre implicite (Bloc 44)
+
+Le script `vacuite_holotelegraphique.py` implémente numériquement la dynamique de la boucle A2. Il résout une équation d'onde complexe, non linéaire, amortie et métriquement auto-gravitante sur une grille périodique (un tore). 
+- La métrique \(L_{\text{field}}\) est couplée à la densité d'énergie via la courbure.
+- La dérivée covariante introduit un champ de jauge \(A_{\text{torus}}\) (le tore topologique).
+- L'équation d'évolution utilise une intégration de Verlet pour favoriser une bonne stabilité à long terme.
+
+**[Ajustement]** : La méthode de Verlet favorise la stabilité mais ne la garantit pas pour n'importe quel pas de temps. Une étude de convergence reste nécessaire. 
+Ce script permet de visualiser la sédimentation de l'ordre implicite : les fluctuations initiales s'effondrent progressivement vers un état stationnaire. Il fournit une illustration numérique de la dynamique proposée, sans valider empiriquement l'ontologie de l'ordre implicite.
