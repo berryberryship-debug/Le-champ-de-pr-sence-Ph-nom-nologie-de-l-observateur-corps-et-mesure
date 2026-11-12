@@ -1,120 +1,105 @@
-Voici une refonte radicale du texte. Pour répondre à l’objection, le postulat ne peut plus être une simple pétition de principe épistémologique kantienne ou husserlienne aseptisée (« pour qu'un fait soit mesuré, il faut une structure »). 
-
-Il doit assumer une **ontologie de la chair et du milieu** où convergent :
-* **L’organicisme (Whitehead, Ruyer) :** l'organisme n'est pas dans le monde, il est une prise de forme du monde ;
-* **La phénoménologie de la chair (Merleau-Ponty) :** le voyant est pris dans le visible ;
-* **L’existentialisme (Heidegger, Sartre) :** l’observateur est *In-der-Welt-sein*, jeté, engagé sans extériorité possible ;
-* **L’ethnopsychiatrie (Devereux, Nathan) :** la « présence » sans corps n’est pas un bug perceptif ni un symbole abstrait, c’est une relation écologique avec une altérité active qui fabrique le sujet ;
-* **La synesthésie :** la perception n'est pas modulaire mais une transduction globale d’intensités ;
-* **La métacognition :** l'observation repliée sur elle-même (l'auto-affectation du vivant) ;
-* **Une théologie de la relation (Buber, Panikkar) :** l'être comme don, kénose et interpellation (*Tu* avant le *Ça*).
-
 ---
 
-# L’Apparition et la Chair : Fondements d’une Ontologie Relationnelle de la Mesure
+# Introduction générale
 
----
+## 1. Le point de départ
+Cette thèse part d’une expérience simple, presque ordinaire : la sensation, un soir, d’être rejoint par une présence que l’on reconnaît sans pouvoir la localiser. Il ne s’agit pas d’affirmer qu’un événement surnaturel s’est produit, ni d'évacuer l'événement sous l'étiquette rassurante d'un « bug » perceptif ou d'une hallucination. Comme le rappelle l'ethnopsychiatrie, disqualifier d'emblée ces manifestations procède d'un ethnocentrisme méthodologique qui refuse d'interroger la réalité clinique du lien. Il s’agit plutôt de prendre au sérieux la structure ontologique de cette expérience : une présence sans corps apparent, une frontière nette entre deux espaces, une coïncidence avec un passé qui n’est pourtant pas présent au sens physique, mais qui agit avec la force d'une altérité concrète.
 
-## 1. Le seuil : l’irruption d’une présence sans lieu
+Cette expérience ne sert pas de preuve. Elle sert de seuil. Elle ouvre une question que la philosophie, la phénoménologie et la physique contemporaine permettent de formuler avec précision : qu’est-ce qui fait qu’un moment devient présent, et qu’est-ce qui permet à un passé de revenir comme présence active sans devenir présent au sens chronologique ? 
 
-Cette thèse s’enracine dans une rupture du continuum perceptif : l'expérience d’être saisi, dans l’intimité d’un espace familier, par une présence que l’on reconnaît sans organe sensoriel dédié, sans contour spatialisable et sans localisation géométrique. 
+La thèse ne cherche donc pas à démontrer une théorie physique de plus. Elle cherche à élucider la condition philosophique et organique de toute mesure : avant qu’un fait puisse être mesuré, il faut qu’il puisse apparaître à une chair capable d'en être affectée.
 
-Il ne s’agit ni d’invoquer un arrière-monde spiritualiste, ni de congédier l’événement sous le label commode de l'hallucination ou de la dysfonction cognitive. Il s’agit de prendre acte de son statut phénoménologique strict : **l’évidence d’une altérité agissante précédant sa décomposition en coordonnées objectives.** 
+## 2. Le problème : l’observateur oublié
+La science classique s’est construite sur une séparation fondatrice : d’un côté, un sujet connaissant pur esprit ; de l’autre, un objet connu pur mécanisme. Dans ce cadre, le monde est un ensemble de faits objectifs, mesurables et indépendants. L’observateur y est postulé comme un point neutre, désincarné, extérieur à la scène qu’il décrit ; son corps, son métabolisme, sa sensibilité synesthésique et son temps vécu sont considérés comme des scories subjectives à exclure impérativement de l’équation.
 
-L’ethnopsychiatrie nous l’enseigne : disqualifier la présence comme illusion subjective procède d'un ethnocentrisme méthodologique hérité du positivisme. La présence sans corps apparent matérialise le carrefour où la mémoire cesse d’être un stock de données intérieures pour redevenir une topologie active. Ce n’est pas le passé qui revient sous forme d’image ; c’est le présent qui révèle son épaisseur relationnelle refoulée. 
+Cette posture a produit des succès empiriques considérables. Elle a permis de stabiliser des protocoles, d'assurer la reproductibilité des résultats, de construire des modèles prédictifs d'une redoutable efficacité. Mais elle a aussi laissé dans l’ombre une question essentielle : qu’est-ce qui fait qu’un fait devient observable ? 
 
-Cette expérience ne constitue pas une anomalie en marge du réel : elle opère comme seuil critique. Elle contraint à formuler la question que l’objectivisme s’est interdit de poser : **à quelles conditions ontologiques, organiques et charnelles une altérité peut-elle se manifester, et comment cette manifestation gouverne-t-elle la possibilité même de toute mesure physique ?**
+La physique contemporaine ne permet plus de répondre trop vite en évacuant le sujet. En relativité, il n’existe pas de présent universel ni d'espace absolu : la simultanéité dépend de la trajectoire et de la situation physique concrète du référentiel. En mécanique quantique, la question de la mesure introduit un trouble irréductible : un système ne possède pas de propriétés intrinsèques définies indépendamment de l’interaction matérielle qui les actualise. La physique la plus avancée nous ramène donc à une interrogation que l’on croyait résolue : qu’est-ce qu’observer ? En se heurtant à cette question, le modèle classique mécaniste atteint ses limites ontologiques.
 
----
+## 3. Le postulat central refondé
+Pour sortir de l’aporie entre un objectivisme aveugle qui nie le sujet vivant et un subjectivisme qui dissout le réel dans le rêve, cette recherche pose un postulat à forte assise phénoménologique et organiciste :
 
-## 2. L’aporie fondatrice : l’illusion du spectateur sans monde
+> **L’observateur n’est ni une conscience ponctuelle survolant le monde, ni un simple rouage mécanique au sein du monde. Il est un pli vivant, un organisme incarné, auto-affecté, métacognitif et synesthésique, par lequel l'être s'éprouve lui-même et à travers lequel une portion de réalité s'articule, se fragmente et devient mesurable.**
 
-La science classique a édifié son édifice théorique sur une forclusion métaphysique : l’exclusion méthodique du vivant hors du champ de la nature. En posant un monde constitué de *res extensa* (matière inerte, mécaniquement déterminée) inspecté à distance par une conscience désincarnée (*res cogitans* ou spectateur universel transcendantal), le paradigme mécaniste a confondu l’objectivité avec la désaffectation. L’observateur y est postulé comme un point géométrique aveugle à sa propre corporéité, un pur enregistreur sans chair, sans métabolisme et sans dette envers le milieu.
+Le présent n’est pas un instant géométrique isolé : il est une épaisseur vivante où le passé est retenu corporellement, où le présent est agi et où le futur est anticipé par l'élan de l'organisme. Observer ne consiste donc pas à capter un objet préexistant depuis un mirador d'extériorité, mais à instituer un couplage mutuel où quelque chose et quelqu'un émergent simultanément. 
 
-Cette fiction opératoire a permis l'essor de la métrologie standard. Pourtant, la physique contemporaine la pulvérise de l'intérieur :
-* **En relativité restreinte et générale :** l’illusion d’un temps absolu et d’une simultanéité universelle s’effondre ; toute métrique dépend de la ligne d'univers de l'observateur et du champ gravitationnel dans lequel il est immergé.
-* **En mécanique quantique :** l'indétermination et la décohérence interdisent d’attribuer des propriétés physiques intrinsèques préexistantes à un système isolé. La mesure n'est pas l'extraction passive d'un état latent, mais l'actualisation irréversible issue d'un couplage dynamique.
+Ce postulat ne dit pas que la conscience crée la matière à la manière d'un démiurge. Il ne dit pas non plus que la matière inerte annule l'expérience vécue. Il affirme, dans l'esprit d'une théologie et d'une ontologie relationnelle, que **la relation est première par rapport aux termes qu'elle unit** : pour devenir mesurable, le réel doit s’inscrire dans l'horizon d'un vivant capable d'en éprouver la résistance.
 
-L’objectivisme bute sur son propre refoulé : le fait physique ne préexiste pas dans un vide ontologique. **Avant d'être mesuré, il doit apparaître ; et pour apparaître, il doit s’inscrire dans une chair.**
+## 4. Ce que le postulat n’est pas
+Il est essentiel de border rigoureusement ce que ce postulat n’est pas :
+* **Il n’est pas un solipsisme :** le monde ne dépend pas de l'arbitraire d'un ego isolé ; la matière impose sa contrainte, sa résistance et sa limite physique.
+* **Il n’est pas un idéalisme naïf :** le réel n’est pas un fantasme produit par la pensée ; il résiste, heurte l'organisme et le blesse.
+* **Il n’est pas un mysticisme désordonné :** la présence ressentie n'est pas mobilisée comme preuve dogmatique, mais comme un indicateur phénoménologique de notre réceptivité au champ.
+* **Il n’est pas un réductionnisme computationnel :** le cerveau n'est pas une machine de Turing abstraite ; la cognition est indissociable de la chair, de la régulation métabolique et de l'incarnation.
+* **Il n’est pas un panpsychisme naïf :** il n'attribue pas une psychologie humaine à chaque atome, mais reconnaît que la matière comporte à tous ses niveaux un potentiel d'organisation, de sensibilité différentielle et de couplage.
 
----
+## 5. L’hypothèse directrice : le présent comme champ
+Si l’observateur est un organisme vivant plongé dans son milieu (*In-der-Welt-sein* existentiel), le présent ne peut plus être modélisé comme un point sans épaisseur sur une ligne continue de temps $t$. Il devient un **champ de co-présence**.
 
-## 3. Le postulat refondé : L'observateur comme pli organique et champ d’affectation
+Cette hypothèse s’inscrit dans la continuité de la phénoménologie de Husserl (rétention, impression originaire, protention), mais elle l'élargit à une écologie intégrale du vivant :
+* Le passé persiste comme mémoire musculaire, hystérèse physique, déphasage ou trace affective.
+* Le futur s'annonce par la tension protentionnelle et l'anticipation métacognitive de la survie.
+* Le présent phénoménologique est une durée indivise, un lieu d'interférences où coexistent des régimes temporels asynchrones.
 
-Pour dépasser l'impasse d'un physicalisme réducteur et d'un idéalisme qui dissout la résistance du monde, nous posons le principe ontologique suivant :
+La « présence sans corps » de notre expérience de départ cesse alors d'être un non-sens : elle révèle simplement la capacité de ce champ temporel à réactualiser une résonance sans nécessiter de co-localisation spatiale immédiate.
 
-> **L’observateur n’est ni un esprit survolant le monde, ni un agrégat passif d’atomes au sein du monde. Il est un pli vivant de la réalité — un organisme incarné, auto-affecté, métacognitif et synesthésique —, par lequel l’être s’éprouve lui-même, s’individue et se segmente en grandeurs physiques mesurables.**
+## 6. Le corps et la chair comme condition ontologique
+Le corps n’est pas un objet d'étude neutre posé parmi d'autres objets. Il est le point zéro de toute orientation, le lieu originaire depuis lequel un monde peut advenir comme monde. C’est par le corps que la présence devient sensible ; par lui que le passé s'ancre comme mémoire vive ; par lui que le futur s'ouvre comme horizon moteur.
 
-Ce postulat récuse l'extériorité du sujet connaissant :
-1. **Dimension organiciste et métacognitive :** Tout acte d'observation est l'expression d’un organisme autorégulé maintenant son homéostasie et son identité à travers des boucles de récursion métacognitives. Observer, c’est pour le système vivant moduler son propre couplage à l’environnement. La mesure est un acte de survie et de sens avant d’être une opération de laboratoire.
-2. **Dimension de la chair et synesthésie :** La perception ne commence pas par des canaux sensoriels disjoints qu'un processeur central viendrait recoller. Elle est originairement synesthésique : une résonance sensorimotrice et kinesthésique globale. Le corps percevant (*Leib*) n’est pas un récepteur dans l’espace, il est le lieu d’ancrage depuis lequel l’espace s’ouvre et se spatialise.
-3. **Dimension théologique et relationnelle :** Empruntant à l’ontologie de la relation (Martin Buber, Raimon Panikkar), l’entité n’est pas première par rapport au lien ; **c'est la relation qui institue les termes**. L'observateur et l'observé co-émergent dans un acte d'interpellation réciproque. L’accès au réel ne procède pas d'une saisie unilatérale (*je prends*), mais d'une réceptivité résonante (*je réponds*).
+L'esprit ne se réduit jamais à une pure mécanique d'organes (ce que Sartre pointe sous la tension entre l'en-soi et le pour-soi), mais il ne flotte pas non plus au-dessus d'eux : il en est l'auto-affectation vivante. 
 
----
+De plus, l'accès perceptif de ce corps n'est pas découpé en canaux étanches : il est originairement **synesthésique**. Avant d'analyser séparément un son, une image ou une pression, la chair perçoit des intensités, des rythmes, des densités de présence. Le corps est l'organe même de la transduction du réel.
 
-## 4. Précisions négatives : ce que ce postulat récuse
+## 7. La mesure comme co-constitution et coupure
+La mesure n’est jamais un enregistrement passif ni un constat neutre. C'est une mise en relation active qui force le système à répondre. 
 
-Pour préserver la rigueur épistémologique du propos, quatre dérives doivent être formellement écartées :
+Dans l'esprit des intuitions de Niels Bohr et de John Wheeler :
+* L'appareil expérimental n'est qu'un prolongement prothétique des sens du corps vivant.
+* Définir une mesure, c'est opérer une coupure volontaire (*Schnitt*) au sein de la continuité du réel, décidant de ce qui sera observé et de ce qui sera rejeté dans le bruit.
+* La mesure fixe une propriété au détriment d'autres possibles : elle est une **co-constitution**. 
 
-* **Ce n’est pas un solipsisme ni un idéalisme magique :** La conscience ne décrète pas l'existence de la matière ex nihilo. L'organisme rencontre une altérité qui lui résiste, le blesse et le limite.
-* **Ce n’est pas un réductionnisme neuro-computationnel :** Le cerveau n'est pas un ordinateur décodant un signal neutre. La cognition est incarnée (*embodied*), située (*situated*) et énactive (*enactive*).
-* **Ce n’est pas un panpsychisme naïf :** Il ne s'agit pas de prêter une psychologie humaine, des désirs ou une délibération à l'électron. Il s'agit de reconnaître que la matière porte en elle une capacité fondamentale d’auto-organisation, de transduction et de sensibilité différentielle aux relations.
-* **Ce n’est pas un relativisme radical :** L’invariance des lois physiques et l'accord intersubjectif ne sont pas de pures conventions arbitraires ; ils traduisent la convergence stabilisée de corps partageant une même échelle mésoscopique et un même horizon écologique.
+L'accord intersubjectif sur une valeur mesurée n'est pas la découverte d'une chose en soi coupée de tout regard, mais la convergence réglée d'une communauté d'observateurs partageant la même structure incarnée et le même protocole d'interrogation.
 
----
+## 8. L’autre comme résonance et interpellation
+L’autre n’est pas un objet inerte posé dans mon champ visuel que je décoderais par déduction logique. C’est une présence vivante avec laquelle mon organisme entre immédiatement en écho.
 
-## 5. L'épaisseur temporelle : le présent comme champ de co-présence
+Comme l’a montré Merleau-Ponty à travers la notion d’inter-corporéité (*Interleiblichkeit*), et comme le rappelle la théologie relationnelle de Martin Buber (la relation *Je-Tu* précédant le rapport utilitaire au *Je-Cela*) :
+* L'intersubjectivité est un champ de résonance partagé bien avant d'être un discours rationnel.
+* Percevoir autrui, c'est ajuster inconsciemment sa respiration, sa posture, son tonus affectif.
+* La reconnaissance d'une présence invisible trouve ici son ancrage : notre chair résonne souvent avec des configurations du milieu ou des traces d'autrui bien avant que notre métacognition n'en formule la représentation explicite.
 
-Si l’observateur est un organisme incarné, le temps ne peut être décrit comme une ligne géométrique continue composée d'instants sans dimension ($t \in \mathbb{R}$). 
+## 9. La méthode : une rigueur en tension
+La méthode de cette thèse est tenue par une double exigence d'élucidation :
+1. **La description phénoménologique et clinique :** Elle part de l'expérience vécue brute, suspend momentanément les explications physicalistes réductrices, et s'attache à dégager les invariants de la présence, de la mémoire incarnée et du sentiment d'altérité.
+2. **La mise en tension critique avec la physique théorique :** Elle confronte ces descriptions aux formalismes de la relativité, de la décohérence quantique et des approches relationnelles de l'information.
 
-Le présent physique de la mesure s’enracine dans la structure temporelle de l'existence :
-* **Rétention et mémoire corporelle :** Le passé ne disparaît pas dans un néant abstrait ; il demeure inscrit dans la tension des tissus, l’hystérèse des matériaux, l’état quantique intriqué et la trace affective.
-* **Protention et pulsion du vivant :** L'anticipation métacognitive oriente la saisie perceptive vers ce qui menace ou préserve l’intégrité de l’organisme.
-* **L’épaisseur phénoménale :** Le présent est une durée vécue et indivise, un champ d’interférences où coexistent des régimes temporels asynchrones. 
+La règle déontologique est stricte : **aucun glissement métaphorique ne sera toléré.** Aucune thèse métaphysique ne sera frauduleusement vendue comme un théorème de physique, et aucun formalisme quantique ne sera invoqué pour « prouver » magiquement un ressenti subjectif. Maintenir cette frontière étanche n'est pas une hésitation, c'est le garant absolu de la fécondité du dialogue.
 
-La « présence sans corps » évoquée en ouverture cesse dès lors d'être un paradoxe logique : elle désigne le surgissement, dans l'épaisseur de ce champ, d'une trace mémorielle ou relationnelle active qui n'a pas besoin de co-localisation spatiale pour exercer une efficience causale et affective.
+## 10. Le plan de la thèse
+Le parcours de la recherche se déploie en quatre étapes articulées :
+* **Première partie :** Établir la critique de l'instant ponctuel et fonder le présent comme champ temporel épais (rétention, mémoire et persistance).
+* **Deuxième partie :** Montrer que cette temporalité s'enracine dans un organisme vivant : la chair, la synesthésie, l'auto-affectation et la régulation métacognitive.
+* **Troisième partie :** Réexaminer l'acte de mesure à la lumière de la physique contemporaine (décohérence, relationnalité, coupure d'observation comme co-constitution).
+* **Quatrième partie :** Interroger la présence d'autrui, le statut de l'altérité invisible et les conditions d'un monde intersubjectivement partagé.
 
----
+La conclusion montrera comment le problème initial change dès lors de statut : l'expérience d'ouverture — cette présence sans localisation géométrique — cesse d'être une aberration pour devenir le révélateur le plus limpide de notre condition d'êtres noués au monde par la chair.
 
-## 6. La mesure comme co-constitution et réduction
+## 11. Ce que la thèse ne prétend pas
+Pour écarter tout malentendu académique, rappelons ce que ce travail refuse de soutenir :
+* Il ne prétend pas que la conscience humaine fabrique la matière.
+* Il ne prétend pas dissoudre le déterminisme des lois physiques dans un subjectivisme absolu.
+* Il ne prétend pas que le temps physique n'est qu'une illusion intérieure.
+* Il ne prétend pas que l'expérience d'une présence sans corps constitue en soi une preuve matérielle d'esprits ou d'entités désincarnées.
 
-La mesure physique cesse d’être comprise comme une contemplation passive ; elle est un **acte métabolique et ontologique**. 
+Elle démontre seulement que **le monde n'apparaît, ne prend sens et ne se prête à la mesure qu'à travers l'engagement d'une structure vivante, temporelle, incarnée et relationnelle.**
 
-* Tout appareillage de mesure n’est qu’une extension prothétique du corps vivant, conçu à partir de ses seuils d’intelligibilité.
-* La frontière entre l'appareil et le système mesuré n'est pas pré-tracée dans la nature : elle est le résultat d’une coupure (*Schnitt* heisenbergienne) décidée par l'observateur pour isoler un invariant au détriment de l'intrication globale.
-* La mesure n’enregistre pas un état pur : elle contraint une multiplicité d'états potentiels à se réduire selon une base d’observables dictée par l'architecture corporelle et instrumentale. 
+## 12. Le fil conducteur : la relation comme condition d’apparition
+La priorité accordée à la relation trouve un écho conceptuel direct dans la **mécanique quantique relationnelle** (notamment formulée par Carlo Rovelli), où les grandeurs physiques ne sont pas des propriétés substantielles isolées, mais des valeurs qui s’actualisent uniquement *relativement* à un autre système lors d’une interaction.
 
-La mesure n’est pas un prélèvement : c’est une **co-constitution**. La réalité mesurée est la réponse de l'être à la question concrète que l'organisme lui adresse avec ses mains, ses yeux, ses détecteurs et ses filtres métacognitifs.
+Chez Rovelli, l'interaction physique n'a besoin ni de conscience ni d'intention humaine : deux particules en interaction constituent déjà une relation de mesure au sens strict. Le rapprochement fécond que nous opérons n'est donc pas la thèse idéaliste (« tout dépend de notre esprit »), mais la question ontologique fondamentale : **peut-on encore penser l'être indépendamment de la relation qui le manifeste ?**
 
----
+Ce fil conducteur relie notre réflexion à deux niveaux distincts mais articulés :
+1. **La relation physique d'interaction :** où deux systèmes échangent de l'information et fixent mutuellement des limites.
+2. **La relation phénoménologique et vécue :** où un organisme charnel s'affecte du monde et lui donne sens.
 
-## 7. L’altérité et la résonance intersubjective
-
-L'observateur n'est jamais seul face au monde. L’intersubjectivité ne résulte pas de l'addition laborieuse de monades isolées qui déduiraient l'existence d'autrui par analogie. 
-
-Comme l’ont mis en lumière la phénoménologie de la chair et l’anthropologie clinique :
-* Nous sommes d’emblée pris dans un **tissu d’inter-corporéité** (*Interleiblichkeit*). 
-* L’autre n’est pas un objet du champ perceptif, mais le garant qui valide, conteste et stabilise la structure même de mon monde d’objets.
-* La reconnaissance d'une présence invisible ou l'échange intersubjectif repose sur des mécanismes d'induction synesthésique et de résonance affective : un corps réagit à l’attitude posturale, au silence, au rythme respiratoire et aux micro-indices d’autrui bien avant que l'intellect ne formalise une représentation.
-
-L'objectivité d'une mesure scientifique n'est rien d'autre que l'intersubjectivité stabilisée d'une communauté d'organismes résonnant selon le même protocole incarné.
-
----
-
-## 8. Méthode : La triple tension unifiée
-
-Cette thèse refuse la séparation stérile entre sciences dites « dures » et sciences du sens. Elle déploie une méthode en triple tension :
-
-1. **Phénoménologique et existentielle :** Suspendre le réflexe objectivant pour décrire les structures invariantes de la chair, de la mémoire affective, de la présence et du champ de conscience incarné.
-2. **Physique et relationnelle :** Mobiliser la mécanique quantique (dans son interprétation relationnelle et ses formalismes de décohérence) et la relativité pour expliciter la finitude et la contextualité de toute observable.
-3. **Clinique et anthropologique :** Interroger les seuils limites de l'expérience (présences non incarnées, synesthésies, états modifiés de métacognition) comme des révélateurs privilégiés des lois fondamentales du couplage organisme-monde.
-
-La règle heuristique demeure absolue : **ne jamais rabattre un ordre sur un autre par métaphore paresseuse.** La mécanique quantique ne « prouve » pas la chair merleau-pontienne ; la chair merleau-pontienne n'explique pas l'effondrement de la fonction d'onde. Mais toutes deux découvrent, à leurs frontières respectives, la même vérité structurelle : **la primauté ontologique de la relation sur les substances.**
-
----
-
-## 9. Synthèse programmatique
-
-> **La thèse démontre que la mesure physique n’est pas le dévoilement d’un monde d’objets préexistants à un œil souverain, mais la condensation locale d’un champ relationnel, dont le corps vivant, synesthésique et auto-affecté constitue le foyer originaire d’apparition.**
-
-En réintégrant l'observateur dans sa chair, son histoire et sa réceptivité à l'altérité, l'expérience initiale — cette présence sensible sans corps au seuil d'un espace — quitte le statut de déviance psychique ou de superstition pour devenir le paradigme même de notre condition : **nous sommes des êtres jetés dans un réel qui nous traverse, nous affecte et ne se livre qu'à proportion de notre engagement dans sa trame.**
+C'est dans l'espace tendu entre ces deux pôles que cette thèse déploie son enquête.
