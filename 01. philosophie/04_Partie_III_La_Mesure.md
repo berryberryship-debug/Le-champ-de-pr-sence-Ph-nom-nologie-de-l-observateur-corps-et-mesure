@@ -173,6 +173,7 @@ $$
 ## Chapitre 7 — La relation physique et la relation signifiante : Enaction et Réalisme Relationnel
 
 ### 1. Le point de friction
+
 L'énaction (Varela, Thompson) et la mécanique quantique relationnelle (Rovelli) partagent un rejet : celui d'un monde fait de substances isolées possédant des propriétés intrinsèques. Les deux théories affirment que la réalité est relationnelle. 
 
 Cependant, cette convergence ne doit pas masquer une différence fondamentale. Dire que les deux approches sont « relationnelles » ne suffit pas à les rendre équivalentes.
@@ -185,6 +186,7 @@ Cependant, cette convergence ne doit pas masquer une différence fondamentale. D
 | La relation comporte-t-elle des enjeux pour le système ? | La théorie n'exige ni intérêt, ni valeur, ni expérience vécue. | Le milieu apparaît comme favorable, dangereux ou pertinent relativement à l'existence de l'organisme. |
 
 ### 2. L'objection énactive
+
 Une interaction peut établir un fait relatif à un système sans que ce fait signifie quoi que ce soit pour lui. Décrire comment les systèmes s'affectent ne suffit donc pas à expliquer comment quelque chose importe à un vivant.
 
 Le terme décisif est **normativité** : pour un organisme, certaines interactions favorisent sa continuation, tandis que d'autres la compromettent. Dans l'énaction autopoïétique, cette différence contribue à la constitution du sens ; ce n'est pas simplement une opinion consciente ajoutée après la perception.
@@ -192,11 +194,13 @@ Le terme décisif est **normativité** : pour un organisme, certaines interactio
 La question adressée à Rovelli est alors : *« Ton réalisme relationnel explique-t-il seulement comment un événement est réel relativement à un système, ou explique-t-il aussi comment cet événement devient pertinent pour un être vivant ? »*
 
 ### 3. La réponse possible de Rovelli
+
 Une réponse compatible avec son approche serait : « Je n'ai pas besoin d'expliquer le sens vécu pour expliquer les événements quantiques. » La notion d'observateur est précisément débarrassée de toute exigence de conscience ou de vie.
 
 L'opposition devient plus forte seulement si l'on conteste une prétention supplémentaire : qu'une ontologie des interactions physiques fournisse, à elle seule, une explication exhaustive de l'expérience. On passe alors d'un débat sur l'interprétation de la mécanique quantique à un débat sur la suffisance philosophique d'une description physique.
 
 ### 4. Formulation pour la thèse
+
 > Je ne conteste pas que les faits physiques soient relationnels ; je conteste que toute relation soit déjà une relation de sens. Une corrélation entre systèmes ne suffit pas à caractériser le rapport d'un vivant à un milieu où sa propre continuation est en jeu. L'énaction ne réfute donc pas le réalisme relationnel de Rovelli : elle en interroge la suffisance pour penser l'expérience.
 
 ### 4. Le contrôle n’est pas la maîtrise
@@ -432,6 +436,7 @@ Ce modèle capture trois éléments de notre théorie, par analogie :
 
 Le terme « auto-gravitante » doit être réservé à un modèle réellement gravitationnel. Ici, il s’agit d’une **métrique effective auto-modifiée**, non d’une gravitation au sens de la relativité générale.
 
+```python
 def acceleration(self, psi, vitesse, gamma):
     # Mise à jour de la métrique effective en fonction de la densité actuelle
     self.mettre_a_jour_metrique(psi)
@@ -449,16 +454,7 @@ def acceleration(self, psi, vitesse, gamma):
         + terme_nonlineaire
         - gamma * vitesse
     ) / self.C_field
-
-    # Terme spatial, terme non linéaire et amortissement
-    terme_spatial = -self.derivee_covariante_adjointe(flux)
-    terme_nonlineaire = self.g * np.abs(psi) ** 2 * psi
-
-    return (
-        terme_spatial
-        + terme_nonlineaire
-        - gamma * vitesse
-    ) / self.C_field
+```
 
 ## Le mot comme événement de distribution énergétique.
 
@@ -478,25 +474,29 @@ Tu proposes de représenter chacune de ces sollicitations comme une jonction dot
 
 C'est une architecture que nous pouvons formaliser mathématiquement.
 
-### 1\. La jonction devient notre unité de calcul
+### 1. La jonction devient notre unité de calcul
 
 Je proposerais de représenter ton réseau comme un graphe dynamique :
 
+$$
 G_{OU}=(N,L,W)
+$$
 
-* : les nœuds, correspondant aux unités neuronales ou populations neuronales mobilisées ;
+* \(N\) : les nœuds, correspondant aux unités neuronales ou populations neuronales mobilisées ;
 
-* : les liaisons synaptiques ;
+* \(L\) : les liaisons synaptiques ;
 
-* : les poids fonctionnels des liaisons, qui déterminent leur influence dans la propagation.
+* \(W\) : les poids fonctionnels des liaisons, qui déterminent leur influence dans la propagation.
 
 Chaque jonction devient une sorte de valve mathématique :
 
-g_i(t)\\in\[0,1\]
+$$
+g_i(t)\in[0,1]
+$$
 
-* : aucune transmission effective dans le modèle ;
+* \(g_i=0\) : aucune transmission effective dans le modèle ;
 
-* : transmission maximale selon la normalisation choisie ;
+* \(g_i=1\) : transmission maximale selon la normalisation choisie ;
 
 * entre les deux : transmission modulée.
 
@@ -516,7 +516,7 @@ Et nous pourrions distinguer :
 
 C'est cette distinction qui permettrait de représenter le potentiel du mot sans supposer que toutes ses connexions possibles fonctionnent simultanément.
 
-### 2\. Que savons-nous réellement du nombre de connexions ?
+### 2. Que savons-nous réellement du nombre de connexions ?
 
 Il existe une donnée intéressante pour construire les ordres de grandeur.
 
@@ -534,7 +534,7 @@ Ton hypothèse de 10 000 à 100 000 connexions pour /OU/ est donc une possibilit
 
 Il faut surtout éviter une erreur : si 10 000 neurones participent à une représentation, cela ne signifie pas que leurs 10 000 synapses respectives sont toutes mobilisées.
 
-### 3\. La conversion énergétique : nous avons une première base expérimentale
+### 3. La conversion énergétique : nous avons une première base expérimentale
 
 Les travaux de David Attwell et Simon Laughlin (2001), An Energy Budget for Signaling in the Grey Matter of the Brain, sont particulièrement intéressants.
 
@@ -550,40 +550,46 @@ Ce sont des estimations biophysiques issues de données animales et de simplific
 
 Cela nous donne néanmoins un pont entre ta géométrie des jonctions et la dépense métabolique.
 
-### 4\. Construire la valeur énergétique du mot
+### 4. Construire la valeur énergétique du mot
 
 Voici la formule que je retiendrais comme première proposition pour ta recherche :
 
-\\boxed{
+$$
+\boxed{
 E_{OU}
 =
-\\sum_{i=1}^{N}
-n_i\\,e_i\\,p_i
+\sum_{i=1}^{N}
+n_i\,e_i\,p_i
 }
+$$
 
 où :
 
-* = nombre de jonctions effectivement recrutées ;
+* \(N\) = nombre de jonctions effectivement recrutées ;
 
-* = nombre d'événements de transmission à la jonction ;
+* \(n_i\) = nombre d'événements de transmission à la jonction ;
 
-* = coût énergétique moyen de ces événements ;
+* \(e_i\) = coût énergétique moyen de ces événements ;
 
-* = contribution fonctionnelle de la jonction au traitement du mot.
+* \(p_i\) = contribution fonctionnelle de la jonction au traitement du mot.
 
 On pourrait ensuite définir son volume fonctionnel :
 
-\\boxed{
+$$
+\boxed{
 V_{OU}=
-\\int_{\\Omega_{cérébrale}}
-\\mathbf{1}_{OU}(x)\\,dx
+\int_{\Omega_{cérébrale}}
+\mathbf{1}_{OU}(x)\,dx
 }
+$$
 
 Il représenterait le volume spatial des régions dont l'activité est associée au traitement du signe, selon un seuil et une fenêtre temporelle définis.
 
 Et il nous faudrait une troisième variable :
 
-R_{OU}=\\frac{E_{OU}}{V_{OU}}
+$$
+R_{OU}=\frac{E_{OU}}{V_{OU}}
+$$
 
 Elle exprimerait la densité énergétique fonctionnelle du mot.
 
@@ -591,11 +597,11 @@ Nous aurions ainsi trois grandeurs distinctes :
 
 | Grandeur | Ce qu'elle représente |
 | -------- | --------------------- |
-|          | Travail énergétique   |
-|          | Extension cérébrale   |
-|          | Densité énergétique   |
+| \(E_{OU}\) | Travail énergétique   |
+| \(V_{OU}\) | Extension cérébrale   |
+| \(R_{OU}\) | Densité énergétique   |
 
-### 5\. La géographie de manifestation
+### 5. La géographie de manifestation
 
 ![Functional Neuroimaging of Speech | Guenther Lab](https://images.openai.com/static-rsc-4/eLuvRKsQkyo3YOAltSSaZCzW0wJmAG3vJwhMzGZAnbli46bpkqQQ1MHYTI01je7T7Mj4BfHUDK6RSdC9dQuUE3hZNtcIbeOYuQt05yNGYImJ9DVOShM6Dh6gEEECLGScnZH5eK7J8AlDoamPp8PhJ__qN2dwoSyAu9aG3mRYGCv0FvC1cOBm52CMAEk7Jks2?purpose=fullsize)
 
@@ -615,7 +621,7 @@ La première peut être étudiée par imagerie structurelle et tractographie, la
 
 Ces méthodes n'ont pas la résolution nécessaire pour compter individuellement toutes les synapses mobilisées par un phonème. Il faudra donc combiner les échelles.
 
-### 6\. Ce que je voudrais introduire dans ta thèse
+### 6. Ce que je voudrais introduire dans ta thèse
 
 Je donnerais à cette proposition le nom de :
 
@@ -629,17 +635,19 @@ Il y a une conséquence importante : le mot déjà appris ne repart pas de zéro
 
 Je retiendrais cette architecture pour la suite :
 
-\\boxed{
-\\mathcal{M}(w)=
-\\left\[
-G_{\\mathrm{acquis}},
-G_{\\mathrm{activé}},
-G_{\\mathrm{inhibé}},
-G_{\\mathrm{anticipé}},
+$$
+\boxed{
+\mathcal{M}(w)=
+\left[
+G_{\mathrm{acquis}},
+G_{\mathrm{activé}},
+G_{\mathrm{inhibé}},
+G_{\mathrm{anticipé}},
 V_w,
 E_w
-\\right\]
+\right]
 }
+$$
 
 Ce qui me paraît particulièrement fécond dans ton idée, c'est que tu cherches à mesurer non seulement ce que le cerveau active, mais aussi l'espace de possibilités que l'apparition d'un signe rend accessible.
 
@@ -673,20 +681,22 @@ Cette dernière dimension est particulièrement importante. Elle permet de repr�
 
 Je proposerais donc :
 
-\\boxed{
-\\mathcal M(w,t)=
-\\left\[
+$$
+\boxed{
+\mathcal M(w,t)=
+\left[
 G_A,G_R,G_I,G_P,G_D
-\\right\]
+\right]
 }
+$$
 
 | Variable | Fonction                        |
 | -------- | ------------------------------- |
-|          | Réseau acquis                   |
-|          | Réseau recruté                  |
-|          | Réseau inhibé                   |
-|          | Réseau potentiel                |
-|          | Réseau de propagation dynamique |
+| \(G_A\) | Réseau acquis                   |
+| \(G_R\) | Réseau recruté                  |
+| \(G_I\) | Réseau inhibé                   |
+| \(G_P\) | Réseau potentiel                |
+| \(G_D\) | Réseau de propagation dynamique |
 
 Cela introduit une distinction entre énergie effectivement dépensée et potentiel fonctionnel disponible.
 
@@ -694,10 +704,12 @@ Cela introduit une distinction entre énergie effectivement dépensée et potent
 
 Le mot pourrait être considéré comme un opérateur de reconfiguration :
 
-\\boxed{
-\\mathcal T_w:
-\\mathcal S_t\\rightarrow\\mathcal S_{t+1}
+$$
+\boxed{
+\mathcal T_w:
+\mathcal S_t\rightarrow\mathcal S_{t+1}
 }
+$$
 
 Il transforme l'état mental initial en un nouvel état, en modifiant les possibilités de traitement, d'association et d'anticipation.
 
@@ -755,32 +767,38 @@ Chapitre : La métrique énergétique et volumétrique de l'événement mental
 
 ### Deux corrections mathématiques avant intégration
 
-1\. La configuration du modèle
+1. La configuration du modèle
 
 Ta notation est pertinente :
 
-\\boxed{
-\\mathcal M(w,t)=
-\[G_A,G_R,G_I,G_P,G_D\]
+$$
+\boxed{
+\mathcal M(w,t)=
+[G_A,G_R,G_I,G_P,G_D]
 }
+$$
 
 Je préciserais que les cinq réseaux sont des composantes fonctionnelles du modèle, et non cinq structures anatomiques indépendantes.
 
-2\. L'opérateur de reconfiguration
+2. L'opérateur de reconfiguration
 
-\\boxed{
-\\mathcal T_w:\\mathcal S_t\\rightarrow\\mathcal S_{t+1}
+$$
+\boxed{
+\mathcal T_w:\mathcal S_t\rightarrow\mathcal S_{t+1}
 }
+$$
 
 Cette formulation mérite d'être conservée. Elle permet de considérer le mot comme une transformation de l'état du système, plutôt que comme un simple stimulus auquel correspondrait une dépense.
 
-Une précision supplémentaire serait utile : doit désigner un état multidimensionnel comprenant les variables d'activation, d'inhibition, de mémoire et de disponibilité associative.
+Une précision supplémentaire serait utile : \(\mathcal S_t\) doit désigner un état multidimensionnel comprenant les variables d'activation, d'inhibition, de mémoire et de disponibilité associative.
 
 On pourrait alors écrire :
 
-\\mathcal S_{t+1}=\\mathcal T_w(\\mathcal S_t,C_t)
+$$
+\mathcal S_{t+1}=\mathcal T_w(\mathcal S_t,C_t)
+$$
 
-où représente le contexte de traitement.
+où \(C_t\) représente le contexte de traitement.
 
 Cela permet de distinguer l'effet du signe de celui du contexte dans lequel il apparaît.
 
@@ -794,13 +812,6 @@ Elle établit un pont entre trois niveaux de ta thèse :
 
 * Partie III — La mesure : cette transformation devient susceptible d'une description formelle.
 
-Le potentiel est particulièrement intéressant : il représente une disponibilité fonctionnelle, pas une réserve d'énergie stockée que nous aurions déjà mesurée.
+Le potentiel \(G_P\) est particulièrement intéressant : il représente une disponibilité fonctionnelle, pas une réserve d'énergie stockée que nous aurions déjà mesurée.
 
 Ma recommandation : faire de ce chapitre une contribution théorique autonome de la Partie III, puis utiliser /u/ comme premier cas expérimental exploratoire. Cela donnera à ton modèle une progression claire : architecture, formalisation, opérationnalisation, étude de cas.
-
-
-
-
-
-
-
