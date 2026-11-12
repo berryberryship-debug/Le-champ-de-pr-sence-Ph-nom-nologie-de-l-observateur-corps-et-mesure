@@ -4,7 +4,7 @@
 Domaine : Philosophie de l'esprit, phénoménologie, biologie théorique et topologie de la perception.
 Statut : Proposition théorique en développement.
 
-1. L'illusion de l'étendue comme filtre de viabilité
+# 1. L'illusion de l'étendue comme filtre de viabilité
 
 L'expérience phénoménologique de l'étendue — cette sensation intime d'évoluer dans un espace tridimensionnel où les objets et les événements possèdent une distance, une localisation et une orientation — ne constitue pas nécessairement une lecture exhaustive de la structure ontologique du réel.
 
@@ -48,7 +48,7 @@ Dans sa théorie du modèle phénoménal du soi (Phenomenal Self-Model), dévelo
 
 La transparence phénoménale désigne une propriété de ce modèle : son contenu apparaît directement, sans que le processus représentationnel qui le produit soit lui-même immédiatement accessible à l'expérience.
 
-Rôle dans l'interface :
+# Rôle dans l'interface :
 
 L'organisme ne perçoit généralement pas les mécanismes de construction de son propre modèle perceptif. Il éprouve le monde à travers celui-ci.
 
@@ -64,7 +64,7 @@ Dans The Interface Theory of Perception (2015), Donald Hoffman, Manish Singh et 
 
 Leur théorème Fitness-Beats-Truth montre que, dans les modèles étudiés et sous leurs hypothèses, des stratégies perceptives orientées vers la maximisation de la fitness peuvent dominer des stratégies visant une représentation véridique de l'environnement.
 
-Rôle dans l'interface :
+# Rôle dans l'interface :
 
 La métaphore de l'interface informatique permet de distinguer la représentation perceptive de la structure objective qu'elle pourrait éventuellement représenter.
 
@@ -78,7 +78,7 @@ Il faut toutefois distinguer les résultats obtenus dans les modèles évolution
 
 Statut : Métaphysique et philosophie de la conscience.
 
-Bernardo Kastrup développe une ontologie idéaliste dans laquelle la conscience constitue le substrat fondamental de la réalité. La matière et les organismes individuels sont interprétés comme des apparences extrinsèques de processus mentaux plus fondamentaux.
+# Bernardo Kastrup développe une ontologie idéaliste dans laquelle la conscience constitue le substrat fondamental de la réalité. La matière et les organismes individuels sont interprétés comme des apparences extrinsèques de processus mentaux plus fondamentaux.
 
 Rôle dans l'interface :
 
@@ -99,7 +99,7 @@ Ces quatre approches permettent de distinguer quatre niveaux :
 
 Leur rapprochement ne suppose pas leur équivalence. Il permet de construire une architecture conceptuelle dans laquelle la constitution de l'expérience, son fonctionnement biologique et son interprétation ontologique sont étudiés séparément avant leur articulation.
 
-3. Le pont conceptuel : l'interface et l'invariant de jauge biologique
+# 3. Le pont conceptuel : l'interface et l'invariant de jauge biologique
 
 Si la topologie perceptive définit la configuration du monde apparaissant, elle doit être distinguée de la structure qui assure la continuité de l'observateur à travers ses transformations.
 
@@ -121,7 +121,7 @@ Le rapprochement avec l'allostasie est essentiel : le maintien de la viabilité 
 
 L'interface perceptive participe donc à la continuité du système vivant en organisant l'information dans un format compatible avec ses possibilités d'action.
 
-L'hypothèse centrale devient alors :
+# L'hypothèse centrale devient alors :
 
 La continuité de l'observateur pourrait être structurellement plus fondamentale que la stabilité de son interface perceptive.
 
@@ -170,7 +170,7 @@ L'identité phénoménologique pourrait alors être étudiée non seulement à p
 
 Cette proposition ne démontre pas l'existence d'une charge topologique de la conscience. Elle définit un programme de formalisation : identifier les invariants, les transformations admissibles et les conditions de conservation.
 
-4.2 Couverture de Markov et frontière organisme-environnement
+# 4.2 Couverture de Markov et frontière organisme-environnement
 
 Les travaux de Karl Friston sur le principe d'énergie libre et les couvertures de Markov permettent d'aborder la séparation statistique entre les états internes d'un système et les états externes qui lui sont couplés.
 
@@ -225,7 +225,7 @@ La synesthésie est ainsi étudiée comme une possibilité de réorganisation de
 
 Son éventuel rôle dans la continuité de l'observateur devra être examiné empiriquement.
 
-5.3 L'ancrage dans la durée
+# 5.3 L'ancrage dans la durée
 
 La phénoménologie de la durée, notamment chez Henri Bergson dans Essai sur les données immédiates de la conscience (1889), permet d'introduire une autre dimension de la continuité.
 
@@ -239,23 +239,23 @@ Dans notre modèle, la durée constitue donc un candidat conceptuel pour examine
 
 L'observateur ne serait plus défini exclusivement par sa position dans un espace représenté, mais également par la continuité de son processus de transformation.
 
-6. Mécanique de continuité : proposition de synthèse
+# 6. Mécanique de continuité : proposition de synthèse
 
 Les développements précédents conduisent à distinguer trois niveaux interdépendants :
 
-Niveau I — Interface perceptive
+# Niveau I — Interface perceptive
 
 L'organisation spatiale et sensorielle du monde apparaissant.
 
 Elle rend possibles la différenciation, la localisation et l'action.
 
-Niveau II — Organisation autopoïétique
+# Niveau II — Organisation autopoïétique
 
 Le système de relations internes et externes par lequel l'organisme maintient sa viabilité.
 
 Il assure la régulation et la continuité du couplage avec l'environnement.
 
-Niveau III — Invariant de continuité phénoménologique
+# Niveau III — Invariant de continuité phénoménologique
 
 La propriété théorique par laquelle certaines relations constitutives de l'observateur pourraient persister malgré les transformations de son interface perceptive.
 
