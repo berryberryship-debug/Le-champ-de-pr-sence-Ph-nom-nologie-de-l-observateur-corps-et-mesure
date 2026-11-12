@@ -1,6 +1,6 @@
 # L’étendue comme interface : topologie perceptive et masquage du flux
 
-## Partie II — Le corps comme condition
+# Partie II — Le corps comme condition
 Domaine : Philosophie de l'esprit, phénoménologie, biologie théorique et topologie de la perception.
 Statut : Proposition théorique en développement.
 
