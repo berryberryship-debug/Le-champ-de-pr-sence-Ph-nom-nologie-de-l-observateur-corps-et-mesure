@@ -19,7 +19,7 @@ La question n’est donc plus seulement :
 Mais :
 « Quelles relations doivent rester invariantes pour qu’un système vivant puisse reconnaître, mesurer et maintenir un monde à travers ses transformations ? »
 
-I. Le problème de l’observateur
+## I. Le problème de l’observateur
 
 A. L’observateur dans la physique
 Dans les formulations usuelles de la mécanique quantique, le dispositif de mesure est souvent traité comme une abstraction mathématique.
@@ -47,7 +47,7 @@ Une variation environnementale modifie l’état sensoriel du système. Mais ell
 C’est pourquoi l’organisme possède une histoire.
 Il n’est pas seulement défini par son état présent. Il est défini par la trajectoire qui l’a conduit à cet état.
 
-C. Le problème central
+## C. Le problème central
 
 Le problème théorique est alors le suivant :
 Comment une dynamique physiologique peut-elle produire des différences pertinentes, des stabilités, des anticipations et, finalement, des significations vécues ?
@@ -66,7 +66,7 @@ Il ne s’agit pas d’identifier la chair à une substance physique. Il s’agi
 La chair, chez Merleau-Ponty, exprime l’entrelacement et la réversibilité du sentant et du sensible.�
 Le couplage organisme–monde, dans notre modèle, exprime la manière dont un organisme vivant participe activement à la constitution de son monde.
 
-II. De la régulation à la géométrie
+## II. De la régulation à la géométrie
 
 A. L’état ne suffit pas
 
@@ -84,7 +84,7 @@ La trajectoire devient fondamentale.
 L’organisme n’est pas seulement un point dans un espace d’états.
 Il est une histoire de passage dans cet espace.
 
-B. La dépendance au chemin
+## B. La dépendance au chemin
 
 Cette idée rejoint une propriété bien connue en dynamique des systèmes : la dépendance au chemin.
 La réponse actuelle d’un système ne dépend pas uniquement de son état présent.
@@ -97,7 +97,7 @@ L’hystérésis désigne le fait que la réponse d’un système dépend de son
 Dans notre modèle, cela signifie que l’organisme ne répond pas seulement à ce qui est présent.
 Il répond aussi à ce qui a été.
 
-C. La mémoire dynamique
+## C. La mémoire dynamique
 
 Nous pouvons représenter cette histoire par une mémoire interne :
 Cette mémoire n’est pas nécessairement une mémoire consciente ou déclarative.
@@ -116,7 +116,9 @@ Il est un système historiquement configuré.
 Son passé modifie les trajectoires futures qui lui sont accessibles.
 Nous pouvons écrire :
 L’ensemble des trajectoires accessibles à un instant donné dépend de la mémoire du système.
-D. La courbure comme hypothèse géométrique
+
+## D. La courbure comme hypothèse géométrique
+
 Nous introduisons maintenant une hypothèse géométrique.
 Supposons qu’il existe une connexion [A], qui représente une règle de transport entre configurations locales.
 Dans le langage de la géométrie différentielle, une connexion permet de comparer des objets situés en des points différents d’un espace.
@@ -136,7 +138,7 @@ Elle décrit une histoire de transformations.
 
 III. L’holonomie : la mémoire du retour
 
-A. Définition formelle
+## A. Définition formelle
 
 Considérons une trajectoire fermée [C] dans l’espace des configurations.
 Le transport associé à la connexion [A] peut produire une transformation non triviale.
@@ -145,7 +147,7 @@ Le symbole [\mathcal{P}] indique que l’ordre des transformations doit être pr
 Dans le cas non abélien, l’ordre compte.
 Transporter un état de [A] vers [B], puis de [B] vers [C], ne produit pas nécessairement le même résultat que de le transporter directement de [A] vers [C].
 
-B. Interprétation biologique prudente
+## B. Interprétation biologique prudente
 
 Dans notre modèle, l’holonomie ne 
 doit pas encore être interprétée comme une observable biologique directement mesurée.
@@ -161,7 +163,7 @@ Elle mesure comment il y est arrivé.
 
 IV. L’articulation phénoménologique
 
-A. L’intentionnalité comme orientation
+## A. L’intentionnalité comme orientation
 
 La phénoménologie husserlienne décrit la conscience comme intentionnelle.
 Elle est toujours conscience de quelque chose.
@@ -179,7 +181,7 @@ Elle est une possibilité de m’asseoir, de me relever, de me déplacer, de m�
 La perception possède donc une dimension d’action.
 Elle est inséparable d’un corps qui peut agir.
 
-B. La protention comme direction locale
+## B. La protention comme direction locale
 
 Chez Husserl, la protention désigne l’ouverture anticipative vers ce qui vient.
 Le présent vécu n’est pas un instant ponctuel.
@@ -200,7 +202,7 @@ Mais elle ne réduit pas la protention phénoménologique à une simple erreur d
 La protention n’est pas seulement un calcul.
 Elle est une structure vécue du temps.
 
-C. Temps vécu et irréversibilité
+## C. Temps vécu et irréversibilité
 
 La temporalité vécue et la flèche thermodynamique du temps doivent être distinguées.
 La dissipation fournit une asymétrie physique des processus irréversibles.
@@ -212,9 +214,9 @@ Elle ne doit pas être présupposée comme une identité.
 L’irréversibilité physique ne produit pas automatiquement le temps vécu.
 Mais elle peut en constituer une condition dynamique.
 
-V. La chair comme mémoire relationnelle
+## V. La chair comme mémoire relationnelle
 
-A. Le corps historiquement configuré
+## A. Le corps historiquement configuré
 
 Chaque interaction avec le monde modifie potentiellement les conditions futures d’interaction.
 Dans notre modèle :
@@ -229,7 +231,7 @@ Ici, [\mathcal{G}_i] représente la géométrie relationnelle effective du syst�
 Il devient alors possible de parler, avec prudence, de trajectoires plus ou moins flexibles, de contraintes plus ou moins fortes, ou de régimes de régulation différents.
 Les termes « courbure lisse » et « courbure singulière » doivent toutefois rester des catégories du modèle tant qu’une définition mathématique précise n’a pas été donnée.
 
-B. L’observation comme actualisation
+## B. L’observation comme actualisation
 
 L’observation n’est donc plus une contemplation extérieure.
 Elle devient :
@@ -239,7 +241,7 @@ L’expérience vécue constitue le versant phénoménologique de cette dynamiqu
 Elle n’est pas ajoutée après coup à la physique.
 Elle est la manière dont un organisme vivant participe à la constitution de son monde.
 
-VI. L’invariant de jauge biologique
+## VI. L’invariant de jauge biologique
 
 A. L’invariant n’est plus une propriété isolée
 
@@ -304,7 +306,7 @@ Cohérence mathématique : la notion d’invariance doit être définie formelle
 Cohérence phénoménologique : le formalisme ne doit pas réduire abusivement l’expérience vécue à une variable physique.
 Testabilité empirique : les invariants proposés doivent pouvoir être reliés, au moins en principe, à des observables physiologiques, comportementales ou informationnelles.
 
-IX. Irréductibilité explicative
+## IX. Irréductibilité explicative
 
 Notre modèle soulève une question philosophique centrale :
 Le corps vécu est-il réductible à une description physique ?
