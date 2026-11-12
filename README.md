@@ -1,4 +1,4 @@
-# Thèse — L’Observateur comme condition d’apparition
+# Mémoire — L’Observateur comme condition d’apparition
 
 **Auteur :** Xioranne Lessard  
 **Statut :** En cours de rédaction   
