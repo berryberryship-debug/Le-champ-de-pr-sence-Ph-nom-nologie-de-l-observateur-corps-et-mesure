@@ -1,8 +1,7 @@
 # Thèse — L’Observateur comme condition d’apparition
 
 **Auteur :** Xioranne Lessard  
-**Statut :** En cours de rédaction  
-**Objectif éditorial :** Environ 380 pages  
+**Statut :** En cours de rédaction   
 **Cadre :** Philosophie de la physique, phénoménologie et modélisation des systèmes complexes.
 
 ---
