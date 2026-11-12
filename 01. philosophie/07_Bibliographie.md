@@ -45,3 +45,12 @@
 ## Références logicielles (Code et simulations)
 - Harris, C. R., et al. (2020). Array programming with NumPy. *Nature*, 585(7825), 357-362.
 - Virtanen, P., et al. (2020). SciPy 1.0: fundamental algorithms for scientific computing in Python. *Nature Methods*, 17(3), 261-272.
+
+
+Maurice Merleau-Ponty, Le Visible et l'Invisible, 1964.
+Baruch Spinoza, Éthique, notamment II, propositions 7 et 13, 1677.
+Søren Kierkegaard, Le Concept de l'angoisse, 1844 ; La Maladie mortelle, 1849.
+Jakob von Uexküll, Mondes animaux et monde humain, 1934.
+Humberto Maturana et Francisco Varela, Autopoiesis and Cognition, 1980.
+Evan Thompson, Mind in Life: Biology, Phenomenology, and the Sciences of Mind, 2007.
+Andy Clark, Surfing Uncertainty: Prediction, Action, and the Embodied Mind, 2016.
