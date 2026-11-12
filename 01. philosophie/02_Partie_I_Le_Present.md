@@ -181,7 +181,7 @@ Voici les éléments clés du script `v78_nonmarkov_physical.py` :
     coherence = 0.5 * np.exp(-Gamma)
     # ... construction de rho ...
     purities = np.real(np.einsum("tij,tji->t", rho, rho))
-    # ... assertions ...
+    # ... assertions ...```
 
 ### 4. Contrôle méthodologique : l'absence de mémoire dans un système markovien
 
