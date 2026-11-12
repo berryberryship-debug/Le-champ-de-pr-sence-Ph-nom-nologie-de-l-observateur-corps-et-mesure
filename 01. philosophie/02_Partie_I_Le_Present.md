@@ -2844,6 +2844,8 @@ La présente annexe constitue ainsi la mémoire méthodologique du travail : ell
 
 **La rigueur ne consiste pas à prétendre que le raisonnement n'a jamais changé. Elle consiste à pouvoir montrer pourquoi, comment et sur quelles bases il a évolué.**
 
+# Errata
+
 # Correctifs à amener :
 
 Correction 1
