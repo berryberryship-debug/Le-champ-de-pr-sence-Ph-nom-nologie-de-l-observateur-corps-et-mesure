@@ -2649,3 +2649,116 @@ un maintien de l’organisation malgré le changement.
 Mais :
 Formule finale
 Le graphique ci-dessus condense l’architecture du chapitre : présent vécu, rétention, protention, liaison, organisme, mémoire dynamique, couplage, régulation et observateur. Les flèches indiquent des correspondances structurelles, non des réductions. �
+
+Voici le bloc autonome à ajouter à la fin du dossier, sans modifier rétroactivement les chapitres déjà rédigés.
+
+# ANNEXE — ÉVOLUTIONS THÉORIQUES, OBSERVATIONS ET PRÉCISIONS MÉTHODOLOGIQUES
+
+## 1. Principe de traçabilité du développement théorique
+
+Le présent travail repose sur une démarche évolutive dans laquelle les propositions théoriques, les constructions formelles et les observations numériques sont progressivement confrontées les unes aux autres.
+
+Certaines formulations initiales peuvent ainsi appeler des précisions à mesure que l'analyse avance. Ces précisions ne doivent pas être considérées automatiquement comme des ruptures avec les propositions précédentes. Elles témoignent du développement du cadre conceptuel et de l'affinement de ses conditions de validité.
+
+Il importe donc de conserver la distinction entre le raisonnement initial, les observations ultérieures et les formulations qui résultent de leur confrontation.
+
+Cette démarche répond à une exigence de transparence : ne pas réécrire rétrospectivement l'histoire du raisonnement, mais rendre visible la manière dont les observations contribuent à sa transformation.
+
+## 2. Méthode de consignation des évolutions
+
+Toute correction substantielle, précision conceptuelle ou modification d'une hypothèse issue de l'analyse ultérieure sera consignée dans cette annexe.
+
+Chaque évolution sera présentée selon cinq dimensions :
+
+1. **Proposition initiale :** formulation ou hypothèse présente dans le développement original.
+2. **Observation ultérieure :** résultat, difficulté ou distinction apparue au cours de l'analyse.
+3. **Précision théorique :** formulation affinée à partir de cette observation.
+4. **Justification :** fondement philosophique, mathématique, physique ou biologique de la modification.
+5. **Incidence sur le modèle :** conséquences sur les hypothèses, les formalismes, les simulations ou l'interprétation générale.
+
+Les modifications purement rédactionnelles ne nécessitent pas systématiquement une entrée. Cette annexe concerne principalement les évolutions qui touchent au sens, à la portée ou au statut épistémologique des propositions.
+
+## 3. Première observation : la définition du processus markovien
+
+### Proposition initiale
+
+Le modèle markovien a été mobilisé comme représentation d'un présent sans épaisseur, dans lequel l'information du système ne revient pas depuis son environnement. Le modèle non-markovien a été rapproché d'une dynamique comportant une dépendance historique et un retour d'information.
+
+### Observation ultérieure
+
+L'examen plus approfondi des propriétés markoviennes conduit à préciser cette opposition. Un processus markovien n'est pas nécessairement dépourvu de toute mémoire. La propriété de Markov signifie que, compte tenu de l'état complet retenu pour la description, le futur conditionnel ne dépend plus du passé antérieur.
+
+La présence ou l'absence apparente de mémoire dépend donc notamment de la définition des variables d'état et de la frontière choisie entre le système étudié et son environnement.
+
+### Précision théorique
+
+La distinction pertinente ne porte pas sur une opposition absolue entre mémoire et absence de mémoire. Elle porte sur la manière dont la dépendance historique est représentée dans le modèle.
+
+Un système peut être décrit comme markovien lorsque son état contient suffisamment d'informations pour rendre inutile la connaissance explicite de son histoire antérieure. À l'inverse, une description réduite peut présenter une dynamique non-markovienne lorsque certaines influences historiques demeurent extérieures aux variables d'état retenues.
+
+### Incidence sur le modèle
+
+Les simulations V77 et V78 doivent donc être interprétées en fonction de leurs variables, de leur environnement et de leurs conditions de réduction.
+
+La non-markovianité demeure pertinente pour étudier les effets de mémoire et les retours d'information. Elle ne constitue toutefois pas, à elle seule, une démonstration de la rétention phénoménologique.
+
+Cette précision renforce la distinction entre la structure temporelle du vécu et les propriétés dynamiques des systèmes physiques.
+
+## 4. Principe d'évolution non dichotomique
+
+Les précisions introduites dans le cadre de ce travail ne visent pas à opposer systématiquement une proposition initiale à une proposition ultérieure.
+
+Une observation peut élargir le domaine d'une hypothèse, préciser ses conditions d'application ou révéler une distinction qui n'avait pas encore été explicitée.
+
+Le développement théorique doit donc privilégier une logique de continuité critique.
+
+Une proposition peut être conservée dans son orientation générale tout en voyant sa portée mieux délimitée. Une analogie peut être maintenue tout en distinguant plus précisément les phénomènes qu'elle rapproche. Une formalisation peut rester utile comme instrument d'exploration sans être considérée comme une représentation exhaustive du phénomène étudié.
+
+Cette démarche permet de préserver la cohérence du projet sans confondre cohérence et immobilité conceptuelle.
+
+## 5. Statut des correspondances interdisciplinaires
+
+Le présent travail établit des rapprochements entre plusieurs domaines :
+
+- la phénoménologie de la temporalité ;
+- la physique des systèmes ouverts ;
+- la géométrie et la topologie ;
+- la biologie des organismes ;
+- les philosophies du processus et de l'immanence ;
+- la modélisation numérique des systèmes dynamiques.
+
+Ces rapprochements ne supposent pas que les concepts employés dans ces disciplines possèdent une signification identique.
+
+La rétention phénoménologique, la mémoire dynamique, l'holonomie, l'intrication et le maintien organisationnel appartiennent à des cadres théoriques distincts.
+
+Leur mise en relation vise à identifier des structures comparables, des problèmes communs et des possibilités de formalisation.
+
+Chaque correspondance doit donc être accompagnée de la délimitation de son domaine de validité.
+
+Une analogie structurelle ne constitue pas une identité ontologique. Une simulation numérique ne constitue pas, par elle-même, une validation phénoménologique. Une hypothèse mathématique ne devient pas une propriété physique établie du seul fait qu'elle peut être exprimée formellement.
+
+## 6. Engagement méthodologique pour la suite de la thèse
+
+La progression du travail reposera sur les principes suivants :
+
+1. Préserver les développements initiaux lorsqu'ils conservent une pertinence théorique.
+2. Éviter les suppressions substantielles qui effaceraient les étapes du raisonnement.
+3. Intégrer les approfondissements dans le corps du texte au moyen de transitions conceptuelles continues.
+4. Consigner les corrections et les découvertes ultérieures dans la présente annexe.
+5. Distinguer explicitement les résultats établis, les observations numériques, les hypothèses de travail et les propositions spéculatives.
+6. Conserver les limites des modèles afin que leur portée ne soit jamais supérieure à ce que leurs fondements autorisent.
+7. Documenter les changements de formulation lorsqu'ils modifient réellement le contenu théorique.
+
+## 7. Conclusion — La connaissance comme processus de précision
+
+La cohérence d'une recherche ne repose pas sur l'absence de modifications. Elle repose sur la capacité de rendre intelligibles les transformations de ses propositions.
+
+L'observation ne vient pas simplement confirmer ou réfuter une construction préalable. Elle peut également révéler des dimensions nouvelles, conduire à reformuler une distinction ou ouvrir un niveau d'analyse qui n'était pas encore accessible.
+
+Cette évolution rejoint, sur le plan méthodologique, l'une des intuitions centrales de la thèse : la continuité n'exige pas l'identité.
+
+Le raisonnement conserve son orientation tout en se transformant. Les formulations se précisent, les correspondances se délimitent et les modèles acquièrent progressivement des conditions d'interprétation plus rigoureuses.
+
+La présente annexe constitue ainsi la mémoire méthodologique du travail : elle conserve la trace des propositions, des observations et des transformations qui participent à la construction de son architecture théorique.
+
+**La rigueur ne consiste pas à prétendre que le raisonnement n'a jamais changé. Elle consiste à pouvoir montrer pourquoi, comment et sur quelles bases il a évolué.**
