@@ -2843,3 +2843,27 @@ Le raisonnement conserve son orientation tout en se transformant. Les formulatio
 La présente annexe constitue ainsi la mémoire méthodologique du travail : elle conserve la trace des propositions, des observations et des transformations qui participent à la construction de son architecture théorique.
 
 **La rigueur ne consiste pas à prétendre que le raisonnement n'a jamais changé. Elle consiste à pouvoir montrer pourquoi, comment et sur quelles bases il a évolué.**
+
+Correctifs à amener :
+
+Correction 1
+Cherche : Le point de départ est l'équation de Lindblad :
+→ La ligne à changer est celle qui suit immédiatement, celle qui contient :
+\frac{d\rho}{dt} = \gamma \left( \sigma_z \rho \sigma_z - \rho \right)
+Remplace = \gamma par = \frac{\gamma}{2}.
+
+---
+
+Correction 2
+Cherche : À confirmer par le calcul.
+→ C'est cette ligne-là. Remplace la fin de l'encadré par :
+Remède appliqué : le facteur \gamma/2 figure désormais dans l'équation de Lindblad du §1. Incohérence résolue.
+
+---
+
+Correction 3
+Cherche : **[Formule absente du fichier d'origine.]**
+→ C'est cette ligne-là (dans la section 6 bis). Remplace-la par :
+**[Formule restituée depuis III.C.]**
+puis ajoute en dessous :
+$$\varepsilon(t) = \dot{\gamma}_{\text{attendue}}(t) - \dot{\gamma}_{\text{effective}}(t).$$
