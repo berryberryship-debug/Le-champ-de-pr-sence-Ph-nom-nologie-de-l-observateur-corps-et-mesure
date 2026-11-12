@@ -1,4 +1,4 @@
-# PARTIE I : Le présent comme épaisseu
+# PARTIE I : Le présent comme épaisseur
 
 Rétention husserlienne et héritage relationnel whiteheadien
 Préhension et constitution relationnelle de l'actualité Relier impression et processus
