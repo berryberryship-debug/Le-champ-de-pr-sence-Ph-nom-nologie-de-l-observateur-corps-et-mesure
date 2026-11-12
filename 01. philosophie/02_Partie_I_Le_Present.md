@@ -171,7 +171,7 @@ On observe que la pureté chute, puis remonte, quand \(\gamma\) change de signe.
 ### 3. Analyse ligne par ligne du code
 Voici les éléments clés du script `v78_nonmarkov_physical.py` :
 ```python
-```def run_v78_nonmarkov_physical():
+    def run_v78_nonmarkov_physical():
     T = 20.0
     N = 1000
     time = np.linspace(0.0, T, N + 1)
