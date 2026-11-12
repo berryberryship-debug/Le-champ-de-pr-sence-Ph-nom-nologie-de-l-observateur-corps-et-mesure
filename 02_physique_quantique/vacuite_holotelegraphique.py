@@ -3123,3 +3123,352 @@ def inverser_kappa_newton(
             haut = milieu
     return float(0.5 * (bas + haut))
 
+
+Annexe de correction 
+
+# Spécifications du module de jauge sur le tore
+
+## 1. Objet du module
+
+Le module `champ.py` implémente la dynamique d’un champ complexe $$\psi(x,t)$$ sur le cercle $$S^1$$ de longueur $$L$$, avec couplage minimal à une jauge $$U(1)$$.
+
+Équation de base :
+
+$$
+i\frac{\partial\psi}{\partial t}
+=
+-\frac{1}{2}D^2\psi
++
+g_{\text{eff}}|\psi|^2\psi
++
+V(x)\psi
++
+V_{\text{courbure}}[\rho]\psi,
+$$
+
+avec la dérivée covariante :
+
+$$
+D = \frac{\partial}{\partial x} - iA(x).
+$$
+
+Le module doit séparer clairement :
+
+- la composante topologique de la jauge ;
+- la composante de jauge pure ;
+- la grille spectrale tordue ;
+- les observables physiques.
+
+***
+
+## 2. Structure de la jauge
+
+### 2.1 Décomposition
+
+Le potentiel de jauge est décomposé en :
+
+$$
+A(x) = A_0 + A_{\text{per}}(x),
+$$
+
+où :
+
+- $$A_0$$ est constant, porteur de l’holonomie globale ;
+- $$A_{\text{per}}(x)$$ est périodique, de moyenne nulle, donc de jauge pure.
+
+### 2.2 Composante topologique
+
+$$
+A_0 = \frac{2\pi\theta}{L},
+$$
+
+où $$\theta$$ est le flux en quanta.
+
+Le flux total est :
+
+$$
+\Phi = A_0L = 2\pi\theta.
+$$
+
+Seul $$\Phi \bmod 2\pi$$ est physiquement observable. 
+
+### 2.3 Composante de jauge pure
+
+$$
+A_{\text{per}}(x)
+=
+\frac{2\pi}{\lambda_{\text{jauge}}}
+\left[
+p\cos\left(\frac{2\pi qx}{L}\right)
++
+q\sin\left(\frac{2\pi px}{L}\right)
+\right],
+$$
+
+avec la contrainte :
+
+$$
+\int_0^L A_{\text{per}}(x)\,dx = 0.
+$$
+
+Cette composante est éliminable par une transformation de jauge $$U(1)$$.[1][2][3]
+
+***
+
+## 3. Grille spectrale tordue
+
+### 3.1 Principe
+
+La dérivée covariante s’écrit :
+
+$$
+D\psi
+=
+\left(\frac{\partial}{\partial x} - iA_0\right)\psi
+-
+iA_{\text{per}}(x)\psi.
+$$
+
+Après transformation de jauge :
+
+$$
+\chi(x) = e^{-i\phi(x)}\psi(x),
+$$
+
+avec $$\phi'(x) = A_{\text{per}}(x)$$, la partie périodique est absorbée.
+
+Il reste :
+
+$$
+\left(\frac{\partial}{\partial x} - iA_0\right)\chi.
+$$
+
+### 3.2 Grille tordue
+
+En espace de Fourier :
+
+$$
+k_{\text{tordu}} = k_{\text{base}} - A_0.
+$$
+
+Le pas cinétique s’écrit alors :
+
+$$
+\hat{\chi}(k,t+\Delta t)
+=
+\exp\left[-\frac{i}{2}(k-A_0)^2\Delta t\right]
+\hat{\chi}(k,t).
+$$
+
+Cette grille tordue est la bonne manière de traiter l’holonomie spectralement. 
+
+***
+
+## 4. Conditions aux bords
+
+### 4.1 Champ
+
+$$
+\psi(x+L) = \psi(x).
+$$
+
+### 4.2 Jauge
+
+$$
+A(x+L) = A(x).
+$$
+
+### 4.3 Phase de jauge
+
+$$
+\phi(x+L) = \phi(x).
+$$
+
+### 4.4 Holonomie
+
+$$
+\exp\left(i\oint A\,dx\right)
+=
+\exp(i2\pi\theta).
+$$
+
+L’holonomie est définie modulo $$2\pi$$.[2][3][4][5]
+
+***
+
+## 5. Observables physiques
+
+| Observable | Définition | Rôle |
+|---|---|---|
+| Norme $$L^2$$ | $$\int|\psi|^2dx$$ | Conservation |
+| IPR | $$\int\rho^2dx/(\int\rho dx)^2$$ | Localisation |
+| Contraste de densité | $$\mathrm{Var}(\rho)/\langle\rho\rangle^2$$ | Hétérogénéité |
+| Moyenne complexe | $$\frac{1}{\sqrt{L}}\int\psi dx$$ | Phase globale |
+| Holonomie | $$\Phi \bmod 2\pi$$ | Invariant topologique |
+| Énergie covariante | $$\int[\frac12|D\psi|^2+\frac{g}{2}\rho^2+V\rho]dx$$ | Diagnostic |
+
+La moyenne complexe évite le saut de $$\pm\pi$$ de $$\arg(\sum\psi)$$.
+
+***
+
+## 6. Régimes dynamiques
+
+### 6.1 Régime unitaire
+
+$$
+\gamma = 0.
+$$
+
+Propriétés :
+
+- norme $$L^2$$ exactement conservée ;
+- énergie approximativement conservée ;
+- pas de Strang unitaire.
+
+### 6.2 Régime dissipatif
+
+$$
+\gamma > 0.
+$$
+
+Équation effective :
+
+$$
+i\frac{\partial\psi}{\partial t}
+=
+(1-i\gamma)H\psi.
+$$
+
+Propriétés :
+
+- norme non conservée sans renormalisation ;
+- renormalisation $$L^2$$ imposée ;
+- relaxation vers un état stationnaire ;
+- énergie non conservée.
+
+Le schéma de Strang est d’ordre 2 et préserve la masse dans le régime unitaire. 
+
+***
+
+## 7. Interface du module
+
+### 7.1 Entrées
+
+| Paramètre | Type | Rôle |
+|---|---|---|
+| `resolution` | int | Nombre de points |
+| `etendue_spatiale` | float | Longueur du tore |
+| `flux_theta` | float | Flux en quanta |
+| `lambda_jauge` | float | Échelle de la jauge |
+| `amplitude_jauge` | float | Amplitude de $$A_{\text{per}}$$ |
+| `g_kerr` | float | Couplage Kerr |
+| `alpha_pot` | float | Amplitude du potentiel |
+| `gamma` | float | Amortissement |
+| `coeff_courbure` | float | Couplage densité-potentiel |
+| `graine` | int | Reproductibilité |
+
+### 7.2 Sorties
+
+| Observable | Type | Rôle |
+|---|---|---|
+| `norme_L2` | float | Norme |
+| `norme_avant_renorm` | float | Norme avant renormalisation |
+| `energie_covariante` | float | Énergie |
+| `ipr` | float | Localisation |
+| `contraste_densite` | float | Hétérogénéité |
+| `moyenne_complexe` | complex | Phase globale |
+| `holonomie_mod_2pi` | float | Invariant topologique |
+
+***
+
+## 8. Contraintes de conception
+
+1. La composante topologique $$A_0$$ doit être distinguée de la composante de jauge pure $$A_{\text{per}}$$.
+2. La grille tordue doit absorber $$A_0$$, pas $$A_{\text{per}}$$.
+3. La phase de jauge doit être périodique.
+4. L’holonomie doit être rapportée modulo $$2\pi$$.
+5. La norme doit être mesurée avant renormalisation en régime dissipatif.
+6. L’énergie doit être traitée comme un diagnostic, pas comme un invariant exact.
+7. Le contraste de cohérence ne doit pas être confondu avec une interférence physique.
+
+***
+
+## 9. Limites explicites
+
+Ce module ne prétend pas :
+
+- démontrer l’émergence de la conscience ;
+- démontrer une mémoire phénoménologique ;
+- démontrer une holonomie biologique ;
+- démontrer une théorie de jauge de l’esprit ;
+- démontrer une physique quantique de la conscience.
+
+Il construit une analogie structurelle entre :
+
+- dynamique de champ ;
+- régulation ;
+- mémoire ;
+- anticipation ;
+- cohérence relationnelle.
+
+$$
+\boxed{
+\text{Prototype}
+\neq
+\text{Démonstration}.
+}
+$$
+
+$$
+\boxed{
+\text{Simulation}
+\neq
+\text{Explication}.
+}
+$$
+
+***
+
+## 10. La clôture
+
+Le module de jauge sur le tore repose sur une séparation claire :
+
+$$
+\boxed{
+A = A_0 + A_{\text{per}}.
+}
+$$
+
+$$
+\boxed{
+\Phi = 2\pi\theta \pmod{2\pi}.
+}
+$$
+
+$$
+\boxed{
+k_{\text{tordu}} = k - A_0.
+}
+$$
+
+C’est cette séparation qui porte l’holonomie.
+
+C’est cette séparation qui distingue le topologique du trivial.
+
+C’est cette séparation qui constitue le cœur physique du module.
+
+Citations :
+[1] 1 Introduction https://arxiv.org/html/hep-th/9705137
+[2] 1 Introduction https://arxiv.org/html/hep-th/0207277
+[3] arXiv:hep-th/9406195v1  29 Jun 1994 https://arxiv.org/pdf/hep-th/9406195.pdf
+[4] JHEP12(2017)056 https://link.springer.com/content/pdf/10.1007/JHEP12(2017)056.pdf?error=cookies_not_supported&code=ad068f2b-adee-4b72-9ec3-f9a959d2d581
+[5] arXiv:hep-th/0103057v1  8 Mar 2001 http://arxiv.org/pdf/hep-th/0103057.pdf
+[6] The Schrodinger Equation as a Gauge Theory https://arxiv.org/html/2604.26016
+[7] arXiv:hep-th/0609203v1  28 Sep 2006 http://arxiv.org/pdf/hep-th/0609203.pdf
+[8] Chern–Simons–Schrödinger theory on a one-dimensional lattice https://pelinovsky.mcmaster.ca/PaperBank/Discrete_CSS.pdf
+[9] arXiv:1512.04684v2  [hep-th]  8 Jul 2016 http://arxiv.org/pdf/1512.04684.pdf
+[10] 1Introduction https://ar5iv.labs.arxiv.org/html/hep-ph/9509417
+[11] Revision 0df4c88a-7edd-4335-b56c-8e9966a8cb65 https://physics.stackexchange.com/revisions/0df4c88a-7edd-4335-b56c-8e9966a8cb65/view-source
+[12] Revision addc3781-f29e-42e8-ad6f-7dd0acf6337b https://physics.stackexchange.com/revisions/addc3781-f29e-42e8-ad6f-7dd0acf6337b/view-source
+[13] Contents https://ar5iv.labs.arxiv.org/html/1407.3789
+[14] Revision a79ae70f-c9e3-445a-925d-7bf4c724d49e https://physics.stackexchange.com/revisions/a79ae70f-c9e3-445a-925d-7bf4c724d49e/view-source
