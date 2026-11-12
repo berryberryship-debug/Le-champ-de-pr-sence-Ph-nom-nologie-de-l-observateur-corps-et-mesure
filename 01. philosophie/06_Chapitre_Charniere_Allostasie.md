@@ -68,7 +68,7 @@ Le couplage organisme–monde, dans notre modèle, exprime la manière dont un o
 
 ## II. De la régulation à la géométrie
 
-A. L’état ne suffit pas
+## A. L’état ne suffit pas
 
 Supposons que l’état physiologique d’un organisme soit représenté par :
 Ici, [\mathcal{M}] désigne l’espace des états physiologiques pertinents.
