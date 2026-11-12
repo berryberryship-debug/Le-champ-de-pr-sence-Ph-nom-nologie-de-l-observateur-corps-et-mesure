@@ -9,7 +9,7 @@ Le présent ne peut pas être pensé comme un point mathématique isolé. Si le 
 Le modèle markovien (V77) illustre un présent sans épaisseur : l'information fuit instantanément dans l'environnement. À l'inverse, le modèle non-markovien (V78) montre un *information backflow*. L'environnement retient l'information qui a fui, puis la réinjecte. La pureté chute, puis remonte. Le présent est constitué par la trace structurée de son histoire.
 
 ### 3. Holonomie et parcours : une illustration géométrique
-Le script `v_berry_monodromy.py` construit une famille de matrices évoluant selon un flot de Toda. Il suit l'espace propre le long d'une boucle fermée. Pour les paramètres étudiés, le contrôle numérique donne un recouvrement final voisin de \(-1\), compatible avec une holonomie réelle non triviale (phase de \(\pi\)). 
+Le script `v_berry_monodromy.py` construit une famille de matrices évoluant selon un flot de Toda. Il suit l'espace propre le long d'une boucle fermée. Pour les paramètres étudiés, le contrôle numérique donne un recouvrement final voisin de \(-1\), compatible avec une holonomie réelle non triviale (phase de \(\pi\)).
 
 Un audit de convergence (de 50 à 200 points, pas de temps de \(10^{-3}\) à \(0.25 \times 10^{-3}\)) a confirmé que la monodromie est stable et l'écart spectral négligeable. Cela montre qu'un retour aux mêmes paramètres n'impose pas la trivialité du parcours. Le temps vécu laisse une signature topologique.
 
@@ -30,55 +30,55 @@ Le script `v82_test_memoire_historique.py` applique un test de permutation à un
 ## Chapitre 3 — L'impression primordiale : le présent comme intrication
 
 ### 1. Le maintenant n'est pas un point isolé
-La physique quantique interdit de penser le "maintenant" comme une entité isolée. Un système local ne possède pas d'état défini indépendamment de son environnement. 
+La physique quantique interdit de penser le "maintenant" comme une entité isolée. Un système local ne possède pas d'état défini indépendamment de son environnement.
 
 ### 2. La dissolution du soi dans le fond onirique
-Le script `v90_dissolution_soi.py` simule un système "Soi" (S) intriqué avec un environnement "Fond onirique" (E). À intrication maximale (\(\theta = \pi/4\)), la pureté locale du Soi chute à 0.5 (mélange maximal), tandis que la pureté globale (S+E) reste à 1.0. L'information n'est pas détruite, elle est délocalisée dans la relation. 
+Le script `v90_dissolution_soi.py` simule un système "Soi" (S) intriqué avec un environnement "Fond onirique" (E). À intrication maximale (\(\theta = \pi/4\)), la pureté locale du Soi chute à 0.5 (mélange maximal), tandis que la pureté globale (S+E) reste à 1.0. L'information n'est pas détruite, elle est délocalisée dans la relation.
 
 Le "je" du présent n'est jamais une substance pure. Il est toujours dissous dans un champ plus vaste. L'impression primordiale est l'expérience d'un nœud de relations, pas d'un sujet clos.
 
 ## Chapitre 4 — Le temps de l'esprit et l'articulation du présent
 
-Cette analyse redéfinit notre rapport au temps en distinguant **le moment où nous vivons** de **l’horizon dans lequel nous vivons**. Nous sommes toujours engagés dans une situation présente, mais ce qui nous occupe peut provenir de loin, viser demain ou explorer une possibilité qui ne se réalisera jamais. L’esprit ne sort donc pas du temps : il n’est simplement pas enfermé dans le contenu de l’instant.
+Cette analyse redéfinit notre rapport au temps en distinguant **le moment où nous vivons** de **l'horizon dans lequel nous vivons**. Nous sommes toujours engagés dans une situation présente, mais ce qui nous occupe peut provenir de loin, viser demain ou explorer une possibilité qui ne se réalisera jamais. L'esprit ne sort donc pas du temps : il n'est simplement pas enfermé dans le contenu de l'instant.
 
 ### 1. Le présent comme articulation, et non comme simple captation
-La perception de ce qui est immédiatement là suppose déjà une relation temporelle. Lorsque nous écoutons une phrase, nous ne recevons pas seulement le mot actuel. Les mots précédents demeurent accessibles comme venant de passer, et la phrase ouvre une attente de continuation. C’est la structure que Husserl distingue par la rétention, l’impression présente et la protention. Sans cette articulation, une phrase ou une mélodie ne pourraient être perçues comme des ensembles en train de se dérouler.
+La perception de ce qui est immédiatement là suppose déjà une relation temporelle. Lorsque nous écoutons une phrase, nous ne recevons pas seulement le mot actuel. Les mots précédents demeurent accessibles comme venant de passer, et la phrase ouvre une attente de continuation. C'est la structure que Husserl distingue par la rétention, l'impression présente et la protention. Sans cette articulation, une phrase ou une mélodie ne pourraient être perçues comme des ensembles en train de se dérouler.
 
-Le présent n’est donc pas un point nu auquel l’esprit ajouterait ensuite du passé et de l’avenir. Dans cette description phénoménologique, il est déjà structuré par eux, sans que le passé soit confondu avec l’actuel ni l’avenir avec l’accompli.
+Le présent n'est donc pas un point nu auquel l'esprit ajouterait ensuite du passé et de l'avenir. Dans cette description phénoménologique, il est déjà structuré par eux, sans que le passé soit confondu avec l'actuel ni l'avenir avec l'accompli.
 
-### 2. Le temps de l’exploration et le temps de ce qui est exploré
-L’activité de l’esprit se déroule maintenant, pendant une durée réelle. Cependant, son contenu peut viser une conversation ancienne, un projet pour les prochaines années, une possibilité écartée ou une scène imaginaire sans date déterminée. 
+### 2. Le temps de l'exploration et le temps de ce qui est exploré
+L'activité de l'esprit se déroule maintenant, pendant une durée réelle. Cependant, son contenu peut viser une conversation ancienne, un projet pour les prochaines années, une possibilité écartée ou une scène imaginaire sans date déterminée.
 
-Il faut donc rigoureusement distinguer le déroulement de l’expérience et les temporalités qu’elle vise. Les propriétés temporelles d’un contenu ne sont pas nécessairement celles de l’expérience qui le présente. 
+Il faut donc rigoureusement distinguer le déroulement de l'expérience et les temporalités qu'elle vise. Les propriétés temporelles d'un contenu ne sont pas nécessairement celles de l'expérience qui le présente.
 
-L’esprit est temporel dans son activité, mais il peut viser autre chose que le moment dans lequel cette activité se déroule. Il ne s’agit pas d’une indépendance à l’égard du corps ou du temps physique, mais d’une liberté relative quant à ce qui peut devenir l’objet de l’attention.
+L'esprit est temporel dans son activité, mais il peut viser autre chose que le moment dans lequel cette activité se déroule. Il ne s'agit pas d'une indépendance à l'égard du corps ou du temps physique, mais d'une liberté relative quant à ce qui peut devenir l'objet de l'attention.
 
 ### 3. Provenance, horizon et ancrage
 Cette structure permet de distinguer trois dimensions fondamentales de l'expérience temporelle :
 
 | Dimension | Question |
 |---|---|
-| Provenance | D’où vient cette préoccupation, ce souvenir ou cette possibilité ? |
-| Horizon | Vers quoi m’oriente-t-elle ? |
-| Ancrage | Pourquoi prend-elle de l’importance maintenant ? |
+| Provenance | D'où vient cette préoccupation, ce souvenir ou cette possibilité ? |
+| Horizon | Vers quoi m'oriente-t-elle ? |
+| Ancrage | Pourquoi prend-elle de l'importance maintenant ? |
 
-Une question ancienne peut ainsi devenir actuelle sans que son événement d’origine se reproduise. Ce qui change, c’est sa place dans la situation présente : elle devient pertinente, intelligible ou susceptible d’orienter une action.
+Une question ancienne peut ainsi devenir actuelle sans que son événement d'origine se reproduise. Ce qui change, c'est sa place dans la situation présente : elle devient pertinente, intelligible ou susceptible d'orienter une action.
 
-Il convient de maintenir une distinction stricte : le retour d’une préoccupation vieille de plusieurs années relève du souvenir et de la reprise de sens, et non de la rétention immédiate au sens husserlien. La rétention concerne le tout-juste-passé et se distingue du souvenir ordinaire.
+Il convient de maintenir une distinction stricte : le retour d'une préoccupation vieille de plusieurs années relève du souvenir et de la reprise de sens, et non de la rétention immédiate au sens husserlien. La rétention concerne le tout-juste-passé et se distingue du souvenir ordinaire.
 
 ### 4. L'ouverture des possibles
-La structure des possibilités devient alors une manière de penser l’ouverture du vécu : le présent ne contient pas seulement ce qui se manifeste, il comporte aussi une orientation vers ce qui pourrait venir. Cette ouverture n’exige pas que l’avenir existe déjà comme un ensemble d’événements accomplis. Chez Husserl, la protention peut être une attente précise, mais aussi simplement l’ouverture à une suite encore indéterminée.
+La structure des possibilités devient alors une manière de penser l'ouverture du vécu : le présent ne contient pas seulement ce qui se manifeste, il comporte aussi une orientation vers ce qui pourrait venir. Cette ouverture n'exige pas que l'avenir existe déjà comme un ensemble d'événements accomplis. Chez Husserl, la protention peut être une attente précise, mais aussi simplement l'ouverture à une suite encore indéterminée.
 
-Notre rapport au temps ne consiste donc pas seulement à subir une succession. Il consiste à reprendre ce qui a été, à rencontrer ce qui arrive et à ouvrir ce qui pourrait être, depuis une situation corporelle que nous ne quittons jamais. 
+Notre rapport au temps ne consiste donc pas seulement à subir une succession. Il consiste à reprendre ce qui a été, à rencontrer ce qui arrive et à ouvrir ce qui pourrait être, depuis une situation corporelle que nous ne quittons jamais.
 
-Il s’agit d’une redéfinition de notre manière d’habiter le temps, et non d’une nouvelle théorie physique du temps : nous ne choisissons pas librement le moment où nous sommes, mais ce moment n’épuise pas ce à quoi nous pouvons être présents.
+Il s'agit d'une redéfinition de notre manière d'habiter le temps, et non d'une nouvelle théorie physique du temps : nous ne choisissons pas librement le moment où nous sommes, mais ce moment n'épuise pas ce à quoi nous pouvons être présents.
 
 ## Chapitre 5 — Rétention et Protention : la validation numérique du présent vivant
 
 L'analyse de la conscience intime du temps chez Husserl décompose le présent vivant (*lebendige Gegenwart*) en trois moments indissociables : l'impression originaire, la rétention et la protention.
 
 ### 1. La rétention : la queue de comète
-La rétention n'est pas un souvenir actif ; c'est une intentionnalité primaire qui retient le juste-passé dans le présent. Elle forme un continuum où chaque nouvelle impression repousse la précédente. L'expérience du SHC (Synthétiseur Holistique de Cohérence) fournit une traduction numérique de cette structure. 
+La rétention n'est pas un souvenir actif ; c'est une intentionnalité primaire qui retient le juste-passé dans le présent. Elle forme un continuum où chaque nouvelle impression repousse la précédente. L'expérience du SHC (Synthétiseur Holistique de Cohérence) fournit une traduction numérique de cette structure.
 
 Lorsque le flux est statique (aucune modification du fichier), la variance temporelle est nulle (\(Var_{Tps} = 0.0000\)). Le système est dans un présent ponctuel sans mémoire. Lorsque le flux est actif, le SHC utilise une mémoire glissante (un historique de 64 états) pour calculer la variance temporelle. La chute de l'indice de cohérence (de \(1.0000\) à \(0.9970\)) mesure l'épaisseur que la rétention introduit. L'instrument ne capte pas seulement l'instant \(t\), il retient la traîne de son propre écoulement.
 
@@ -96,34 +96,36 @@ Pour formaliser l'épaisseur du présent et l'enfoncement du passé dans la mém
 ### 1. La métrique de l'environnement (La résistance de la matrice)
 L'espace obéit à une géométrie avec un facteur de déformation (*Warp factor*) :
 \[
- ds^2 = e^{-2k|z|} \eta_{\mu\nu} dx^\mu dx^\nu + dz^2 
+ ds^2 = e^{-2k|z|} \eta_{\mu\nu} dx^\mu dx^\nu + dz^2
 \]
 où \(k\) est la tension du gradient de l'univers. Plus l'événement (le circonstanciel) s'enfonce dans la mémoire (\(z\) augmente), plus l'intervalle d'espace-temps \(ds^2\) se contracte de manière exponentielle. L'enjambée du géant est géométriquement réduite.
 
 ### 2. L'équation cinématique de Zénon (Le ralentissement asymptotique)
 La vélocité de l'information s'enfonçant dans la matrice est \(v = \frac{dz}{d\tau}\). Face à la densité du champ, elle subit une friction de phase quantique \(\gamma\). L'équation différentielle de son mouvement est :
 \[
- \frac{dv}{d\tau} + \gamma v = 0 
+ \frac{dv}{d\tau} + \gamma v = 0
 \]
 La solution donne une décroissance exponentielle : \(v(\tau) \propto v_0 e^{-\gamma \tau}\). La vélocité s'effondre en divisant sa course sans fin vers une limite qu'elle ne touche jamais (c'est la limite lilliputienne de Zénon).
 
 ### 3. La compression holographique (Le micro-hologramme stationnaire)
 Le souvenir n'est pas détruit par ce freinage, il est modélisé comme un paquet d'ondes \(\Psi(x, z)\). Sous l'écrasement de la métrique \(e^{-2k|z|}\), sa longueur d'onde causale \(\lambda\) se compresse :
 \[
- \lambda(z) = \lambda_0 e^{-k|z|} 
+ \lambda(z) = \lambda_0 e^{-k|z|}
 \]
 Par conservation de l'information (transformée de Fourier), si l'espace occupé diminue, la fréquence vibratoire \(f\) s'amplifie :
 \[
- f(z) = f_0 e^{k|z|} 
+ f(z) = f_0 e^{k|z|}
 \]
-L'événement quitte la ligne de cause à effet. Sa dimension spatiale est asymptotiquement nulle, mais sa tension vibratoire est maximale. Il devient un état propre stationnaire \(|\psi\rangle\), une singularité autopoïétique. 
+L'événement quitte la ligne de cause à effet. Sa dimension spatiale est asymptotiquement nulle, mais sa tension vibratoire est maximale. Il devient un état propre stationnaire \(|\psi\rangle\), une singularité autopoïétique.
+
 C'est la traduction mathématique de la rétention husserlienne : le passé ne cesse pas d'exister (conservation de l'information), il cesse simplement d'agir (vélocité nulle), pour devenir une fréquence pure dans l'épaisseur du présent.
 
+*Statut : hypothèse spéculative, non une description physique établie.*
 
-## Chapitre 2 — L'exégèse de la rétention : Husserl et le paradoxe du temps
+## Chapitre 7 — L'exégèse de la rétention : Husserl et le paradoxe du temps
 
 ### 1. La critique de la conception ponctuelle du temps
-Pour comprendre l'apport de Husserl, il faut d'abord mesurer l'ampleur de la rupture qu'il opère avec la tradition. Aristote, dans sa *Physique*, définissait le temps comme le nombre du mouvement selon l'avant et l'après. Cette conception, reprise et mathématisée par Newton, fait du temps une ligne composée d'instants ponctuels. Dans cette vision, le passé n'est plus, le futur n'est pas encore, et seul le présent est. Mais si le présent est un point sans épaisseur, comment expliquer que nous percevions une mélodie ? 
+Pour comprendre l'apport de Husserl, il faut d'abord mesurer l'ampleur de la rupture qu'il opère avec la tradition. Aristote, dans sa *Physique*, définissait le temps comme le nombre du mouvement selon l'avant et l'après. Cette conception, reprise et mathématisée par Newton, fait du temps une ligne composée d'instants ponctuels. Dans cette vision, le passé n'est plus, le futur n'est pas encore, et seul le présent est. Mais si le présent est un point sans épaisseur, comment expliquer que nous percevions une mélodie ?
 
 Husserl, dans ses *Leçons pour une phénoménologie de la conscience intime du temps* (1905), pose le problème avec une acuité radicale : si la conscience ne saisissait que l'instant présent, elle serait incapable de percevoir un objet temporel (une mélodie, une phrase, un mouvement). Elle n'entendrait que des notes isolées, sans lien. Or, l'expérience nous montre le contraire. Nous entendons la mélodie comme une totalité. Il faut donc que le présent ait une structure interne qui retient ce qui vient de passer et anticipe ce qui vient.
 
@@ -136,42 +138,45 @@ Husserl décompose le présent vivant (*lebendige Gegenwart*) en trois moments i
 Ce qui est crucial ici, c'est que ces trois moments ne sont pas des actes séparés. Ils sont les dimensions d'un seul et même flux. Comme le dit Husserl, chaque phase de la conscience est déjà chargée de rétentions et de protentions. Le présent n'est pas un point, c'est une **épaisseur**.
 
 ### 3. La distinction entre rétention et ressouvenance
-Husserl insiste sur une distinction fondamentale. La rétention n'est pas la ressouvenance (*Wiedererinnerung*). 
+Husserl insiste sur une distinction fondamentale. La rétention n'est pas la ressouvenance (*Wiedererinnerung*).
 La rétention concerne le tout-juste-passé : la note qui vient de sonner. Elle n'est pas encore un objet, elle est encore vécue dans le présent.
-La ressouvenance, elle, est un acte actif : je me souviens d'une mélodie entendue hier. Je la re-présente, je la pose comme un objet devant moi. 
+La ressouvenance, elle, est un acte actif : je me souviens d'une mélodie entendue hier. Je la re-présente, je la pose comme un objet devant moi.
 Cette distinction est vitale pour notre thèse : elle montre que le passé n'est jamais "perdu" de manière absolue. Il y a une continuité rétentionnelle qui rend possible le souvenir. Sans ce flux rétentionnel, aucune mémoire ne pourrait se constituer.
 
 ### 4. La solution du paradoxe de Zénon
-Cette structure permet de résoudre le paradoxe de Zénon. Pour qu'une flèche se déplace, Zénon soutenait qu'elle devait occuper une position définie à chaque instant. Mais si le temps est fait de points, le mouvement est impossible. Husserl répond que le mouvement n'est pas perçu par une série de positions ponctuelles, mais par la continuité du flux rétentionnel. La flèche n'est pas à un point \(x\) à l'instant \(t\) ; elle est perçue comme ayant parcouru un trajet, parce que sa position passée est retenue dans l'instant présent. 
+Cette structure permet de résoudre le paradoxe de Zénon. Pour qu'une flèche se déplace, Zénon soutenait qu'elle devait occuper une position définie à chaque instant. Mais si le temps est fait de points, le mouvement est impossible. Husserl répond que le mouvement n'est pas perçu par une série de positions ponctuelles, mais par la continuité du flux rétentionnel. La flèche n'est pas à un point \(x\) à l'instant \(t\) ; elle est perçue comme ayant parcouru un trajet, parce que sa position passée est retenue dans l'instant présent.
 
-## Chapitre 3 — La physique du présent : analyse du script V78
+## Chapitre 8 — La physique du présent : analyse du script V78
 
 ### 1. Le problème de la décohérence
 Pour illustrer cette épaisseur du présent, nous avons eu recours à une simulation quantique : le script `v78_nonmarkov_physical.py`. Ce script ne prétend pas modéliser la conscience. Il modélise un système ouvert, soumis à une interaction avec un environnement.
 Le point de départ est l'équation de Lindblad :
 \[
- \frac{d\rho}{dt} = \gamma \left( \sigma_z \rho \sigma_z - \rho \right) 
+ \frac{d\rho}{dt} = \gamma \left( \sigma_z \rho \sigma_z - \rho \right)
 \]
 Cette équation décrit le déphasage pur d'un qubit. Si le taux \(\gamma\) est constant et positif, l'information fuit vers l'environnement. La pureté chute de manière monotone.
 
 ### 2. Le retour d'information (information backflow)
-Cependant, si le taux \(\gamma\) oscille dans le temps (ce qui est le cas dans un environnement structuré dit "non-markovien"), il peut devenir négatif. 
-Le script implémente une modulation sinusoïdale : \(\gamma(t) = a \omega \sin(\omega t)\). 
+Cependant, si le taux \(\gamma\) oscille dans le temps (ce qui est le cas dans un environnement structuré dit "non-markovien"), il peut devenir négatif.
+Le script implémente une modulation sinusoïdale : \(\gamma(t) = a \omega \sin(\omega t)\).
 La solution analytique de la cohérence (élément hors-diagonale de la matrice densité) est :
 \[
- \rho_{01}(t) = \rho_{01}(0) e^{-\Gamma(t)} 
+ \rho_{01}(t) = \rho_{01}(0) e^{-\Gamma(t)}
 \]
-avec \(\Gamma(t) = \int_0^t \gamma(\tau) d\tau = a(1 - \cos(\omega t))\). 
-Puisque \(\Gamma(t)\) ne décroît jamais, la cohérence ne remonte pas. Le script calcule la pureté :
+avec \(\Gamma(t) = \int_0^t \gamma(\tau) d\tau = a(1 - \cos(\omega t))\).
+
+> **[Correction — voir Annexe, entrée 2]** Le texte d'origine affirmait ici : « Puisque \(\Gamma(t)\) ne décroît jamais, la cohérence ne remonte pas. » C'est inexact : \(\Gamma(t) = a(1-\cos\omega t)\) oscille entre 0 et \(2a\) et décroît lorsque \(\gamma<0\). C'est précisément cette décroissance de \(\Gamma\) qui fait remonter la cohérence.
+
+Le script calcule la pureté :
 \[
- P(t) = \frac{1}{2} \left( 1 + e^{-2\Gamma(t)} \right) 
+ P(t) = \frac{1}{2} \left( 1 + e^{-2\Gamma(t)} \right)
 \]
 On observe que la pureté chute, puis remonte, quand \(\gamma\) change de signe. L'information revient. C'est la signature mathématique de la non-markovianité.
 
 ### 3. Analyse ligne par ligne du code
 Voici les éléments clés du script `v78_nonmarkov_physical.py` :
 ```python
-    def run_v78_nonmarkov_physical():
+def run_v78_nonmarkov_physical():
     T = 20.0
     N = 1000
     time = np.linspace(0.0, T, N + 1)
@@ -181,10 +186,10 @@ Voici les éléments clés du script `v78_nonmarkov_physical.py` :
     coherence = 0.5 * np.exp(-Gamma)
     # ... construction de rho ...
     purities = np.real(np.einsum("tij,tji->t", rho, rho))
-    # ... assertions ...```
+    # ... assertions ...
+```
 
 ### 4. Contrôle méthodologique : l'absence de mémoire dans un système markovien
-
 Pour valider la robustesse de nos outils de détection, nous avons implémenté un **contrôle négatif** : le script `v82_test_memoire_historique.py`. Ce script génère une série temporelle issue d'une dynamique purement markovienne (un processus autorégressif d'ordre 1, AR(1)) et lui applique un test de permutation.
 
 L'algorithme du test de permutation est le suivant :
@@ -194,33 +199,34 @@ def test_permutation_memoire(x, n_permutations=1000):
     lag = 5
     # Statistique observée (autocorrélation)
     obs_stat = np.corrcoef(x[:-lag], x[lag:])[0, 1]
-    
+
     # Statistiques sous permutations (mélange de l'ordre temporel)
     perm_stats = []
     for _ in range(n_permutations):
         x_perm = np.random.permutation(x)
         perm_stat = np.corrcoef(x_perm[:-lag], x_perm[lag:])[0, 1]
         perm_stats.append(perm_stat)
-        
+
     perm_stats = np.array(perm_stats)
-    
+
     # Calcul de la p-valeur (test bilatéral)
     p_value = np.mean(np.abs(perm_stats) >= np.abs(obs_stat))
     return obs_stat, p_value
+```
 
-# Approfondissement de la conclusion — Le présent comme épaisseur et l’ouverture philosophique
+# Approfondissement de la conclusion — Le présent comme épaisseur et l'ouverture philosophique
 
-## I. Le présent n’est pas un instant
+## I. Le présent n'est pas un instant
 
 La conclusion doit maintenant assumer pleinement le déplacement opéré par la première partie.
 
 Nous ne pouvons plus penser le présent comme un point mathématique isolé.
 
-Si le présent était un instant sans durée, il serait impossible d’expliquer comment nous entendons une mélodie, comprenons une phrase ou percevons un mouvement.
+Si le présent était un instant sans durée, il serait impossible d'expliquer comment nous entendons une mélodie, comprenons une phrase ou percevons un mouvement.
 
-Pour qu’une succession soit perçue *comme* une succession, il faut que l’instant présent contienne en lui-même la trace de ce qui vient de s’écouler.
+Pour qu'une succession soit perçue *comme* une succession, il faut que l'instant présent contienne en lui-même la trace de ce qui vient de s'écouler.
 
-Le présent n’est donc pas une frontière entre un passé disparu et un futur inexistant.
+Le présent n'est donc pas une frontière entre un passé disparu et un futur inexistant.
 
 Il est une épaisseur.
 
@@ -244,9 +250,9 @@ $$
 }
 $$
 
-Cette idée n’est pas une simple métaphore.
+Cette idée n'est pas une simple métaphore.
 
-Elle est le point de départ d’une ontologie du temps vécu.
+Elle est le point de départ d'une ontologie du temps vécu.
 
 ***
 
@@ -254,15 +260,15 @@ Elle est le point de départ d’une ontologie du temps vécu.
 
 ### A. La rétention selon Husserl
 
-La rétention n’est pas le souvenir.
+La rétention n'est pas le souvenir.
 
-Elle n’est pas un acte volontaire de rappel.
+Elle n'est pas un acte volontaire de rappel.
 
 Elle est le maintien du passé immédiat dans le présent vivant.
 
-Prenons l’exemple d’une mélodie.
+Prenons l'exemple d'une mélodie.
 
-Le *do* qui vient de résonner n’est plus là physiquement.
+Le *do* qui vient de résonner n'est plus là physiquement.
 
 Mais il est retenu dans mon expérience du *ré*.
 
@@ -272,7 +278,7 @@ La mélodie ne pourrait pas être entendue comme une mélodie.
 
 Elle serait une suite de sons discontinus.
 
-La rétention est donc l’invariance structurelle du flux temporel.
+La rétention est donc l'invariance structurelle du flux temporel.
 
 $$
 \boxed{
@@ -282,9 +288,9 @@ $$
 }
 $$
 
-Chez Husserl, la rétention possède une double intentionnalité : elle vise à la fois l’objet temporel qui se constitue et les phases passées du flux de conscience lui-même.[1]
+Chez Husserl, la rétention possède une double intentionnalité : elle vise à la fois l'objet temporel qui se constitue et les phases passées du flux de conscience lui-même.[1]
 
-Elle n’est pas un souvenir.
+Elle n'est pas un souvenir.
 
 Elle est une modalité primaire du présent.
 
@@ -314,7 +320,7 @@ $$
 
 Cette distinction est vitale pour notre thèse.
 
-Elle montre que le passé n’est jamais perdu de manière absolue.
+Elle montre que le passé n'est jamais perdu de manière absolue.
 
 Il y a une continuité rétentionnelle qui rend possible le souvenir.
 
@@ -322,13 +328,13 @@ Sans ce flux rétentionnel, aucune mémoire ne pourrait se constituer.
 
 ***
 
-## III. La protention : l’ouverture vers l’à-venir
+## III. La protention : l'ouverture vers l'à-venir
 
 ### A. La protention comme anticipation
 
-La protention est le versant futur de l’épaisseur du présent.
+La protention est le versant futur de l'épaisseur du présent.
 
-Elle est une anticipation passive de l’immédiatement à venir.
+Elle est une anticipation passive de l'immédiatement à venir.
 
 Elle est une intention vide, qui peut être remplie ou déçue.
 
@@ -342,11 +348,11 @@ $$
 }
 $$
 
-Chez Husserl, la structure du présent vivant comprend trois moments inséparables : l’impression originaire, la rétention et la protention.[2][3][4]
+Chez Husserl, la structure du présent vivant comprend trois moments inséparables : l'impression originaire, la rétention et la protention.[2][3][4]
 
 Ces trois moments ne sont pas des actes séparés.
 
-Ils sont les dimensions d’un seul et même flux.
+Ils sont les dimensions d'un seul et même flux.
 
 ### B. La protention comme direction locale
 
@@ -382,7 +388,7 @@ La flèche large indique une correspondance, non une identité.
 
 ### C. La déception protentionnelle
 
-La déception protentionnelle peut être rapprochée d’un écart entre la trajectoire attendue et la trajectoire effective :
+La déception protentionnelle peut être rapprochée d'un écart entre la trajectoire attendue et la trajectoire effective :
 
 $$
 \varepsilon(t)
@@ -396,23 +402,23 @@ Cette formulation ouvre un pont avec les modèles prédictifs.
 
 Mais elle ne réduit pas la protention phénoménologique à une simple erreur de prédiction.
 
-La protention n’est pas seulement un calcul.
+La protention n'est pas seulement un calcul.
 
 Elle est une structure vécue du temps.
 
 ***
 
-## IV. La physique du présent : mémoire et retour d’information
+## IV. La physique du présent : mémoire et retour d'information
 
 ### A. Le modèle markovien et le modèle non-markovien
 
 Le modèle markovien illustre un présent sans épaisseur.
 
-L’information fuit instantanément dans l’environnement.
+L'information fuit instantanément dans l'environnement.
 
-À l’inverse, le modèle non-markovien montre un *information backflow*.
+À l'inverse, le modèle non-markovien montre un *information backflow*.
 
-L’environnement retient l’information qui a fui, puis la réinjecte.
+L'environnement retient l'information qui a fui, puis la réinjecte.
 
 La pureté chute, puis remonte.
 
@@ -422,15 +428,15 @@ $$
 \boxed{
 \text{Présent}
 =
-\text{Trace structurée de l’histoire}.
+\text{Trace structurée de l'histoire}.
 }
 $$
 
-Dans les dynamiques quantiques ouvertes, la non-markovianité se manifeste par des effets de mémoire, où l’information quitte temporairement le système pour revenir ensuite depuis l’environnement.[5][6]
+Dans les dynamiques quantiques ouvertes, la non-markovianité se manifeste par des effets de mémoire, où l'information quitte temporairement le système pour revenir ensuite depuis l'environnement.[5][6]
 
-Ce retour d’information constitue une signature opérationnelle de la non-markovianité.[5][6]
+Ce retour d'information constitue une signature opérationnelle de la non-markovianité.[5][6]
 
-### B. La limite de l’analogie
+### B. La limite de l'analogie
 
 Il faut cependant être prudent.
 
@@ -446,7 +452,7 @@ $$
 \boxed{
 \text{Rétention phénoménologique}
 \widehat{\longrightarrow}
-\text{Mémoire dynamique d’un système ouvert}.
+\text{Mémoire dynamique d'un système ouvert}.
 }
 $$
 
@@ -458,13 +464,13 @@ Elle doit être comprise comme une hypothèse de modélisation.
 
 La durée bergsonienne peut être rapprochée de cette structure.
 
-Le présent n’est pas un instant ponctuel.
+Le présent n'est pas un instant ponctuel.
 
-Il est l’épaississement de tout ce qui l’a précédé.
+Il est l'épaississement de tout ce qui l'a précédé.
 
 Deux environnements avec des histoires différentes peuvent présenter des états présents similaires, tout en ayant des trajectoires divergentes.
 
-La différence ne réside pas dans l’état présent.
+La différence ne réside pas dans l'état présent.
 
 Elle réside dans la trajectoire.
 
@@ -472,25 +478,25 @@ $$
 \boxed{
 \text{Durée}
 =
-\text{Épaisseur de l’histoire dans le présent}.
+\text{Épaisseur de l'histoire dans le présent}.
 }
 $$
 
 ***
 
-## V. L’holonomie : la signature topologique du temps vécu
+## V. L'holonomie : la signature topologique du temps vécu
 
-### A. Le retour n’est jamais identique
+### A. Le retour n'est jamais identique
 
 Le script `v_berry_monodromy.py` construit une famille de matrices évoluant selon un flot de Toda.
 
-Il suit l’espace propre le long d’une boucle fermée.
+Il suit l'espace propre le long d'une boucle fermée.
 
-Pour les paramètres étudiés, le contrôle numérique donne un recouvrement final voisin de $$-1$$, compatible avec une holonomie réelle non triviale, c’est-à-dire une phase de $$\pi$$.
+Pour les paramètres étudiés, le contrôle numérique donne un recouvrement final voisin de $$-1$$, compatible avec une holonomie réelle non triviale, c'est-à-dire une phase de $$\pi$$.
 
-Un audit de convergence a confirmé que la monodromie est stable et l’écart spectral négligeable.
+Un audit de convergence a confirmé que la monodromie est stable et l'écart spectral négligeable.
 
-Cela montre qu’un retour aux mêmes paramètres n’impose pas la trivialité du parcours.
+Cela montre qu'un retour aux mêmes paramètres n'impose pas la trivialité du parcours.
 
 Le temps vécu laisse une signature topologique.
 
@@ -502,9 +508,9 @@ $$
 }
 $$
 
-### B. L’holonomie comme mémoire géométrique
+### B. L'holonomie comme mémoire géométrique
 
-L’holonomie mesure ce qui a changé après un retour apparent au point de départ.
+L'holonomie mesure ce qui a changé après un retour apparent au point de départ.
 
 Elle ne mesure pas seulement où le système est.
 
@@ -514,25 +520,25 @@ $$
 \boxed{
 \text{Holonomie}
 \equiv
-\text{Trace géométrique d’un cycle de régulation}.
+\text{Trace géométrique d'un cycle de régulation}.
 }
 $$
 
 Cette idée rejoint directement notre modèle de la mémoire.
 
-La mémoire n’est pas un simple stockage.
+La mémoire n'est pas un simple stockage.
 
-Elle est une modification durable de l’espace des trajectoires accessibles.
+Elle est une modification durable de l'espace des trajectoires accessibles.
 
-### C. La limite de l’analogie
+### C. La limite de l'analogie
 
 Il faut cependant être prudent.
 
-L’holonomie ne doit pas être interprétée comme une observable biologique directement mesurée.
+L'holonomie ne doit pas être interprétée comme une observable biologique directement mesurée.
 
 Elle constitue une structure mathématique candidate.
 
-Elle représente la mémoire géométrique d’un cycle de régulation.
+Elle représente la mémoire géométrique d'un cycle de régulation.
 
 Elle ne prétend pas expliquer la rétention phénoménologique.
 
@@ -548,15 +554,15 @@ $$
 
 ***
 
-## VI. L’impression primordiale : le présent comme intrication
+## VI. L'impression primordiale : le présent comme intrication
 
-### A. Le maintenant n’est pas isolé
+### A. Le maintenant n'est pas isolé
 
 La physique quantique interdit de penser le « maintenant » comme une entité isolée.
 
-Un système local ne possède pas d’état défini indépendamment de son environnement.
+Un système local ne possède pas d'état défini indépendamment de son environnement.
 
-Le présent n’est pas un point isolé.
+Le présent n'est pas un point isolé.
 
 Il est un nœud de relations.
 
@@ -574,11 +580,11 @@ Le script `v90_dissolution_soi.py` simule un système « Soi » intriqué avec u
 
 À intrication maximale, la pureté locale du Soi chute, tandis que la pureté globale reste constante.
 
-L’information n’est pas détruite.
+L'information n'est pas détruite.
 
 Elle est délocalisée dans la relation.
 
-Le « je » du présent n’est jamais une substance pure.
+Le « je » du présent n'est jamais une substance pure.
 
 Il est toujours dissous dans un champ plus vaste.
 
@@ -598,11 +604,11 @@ $$
 }
 $$
 
-### C. La limite de l’analogie
+### C. La limite de l'analogie
 
 Il faut cependant être prudent.
 
-L’intrication quantique ne modélise pas la conscience.
+L'intrication quantique ne modélise pas la conscience.
 
 Elle modélise une corrélation entre systèmes.
 
@@ -624,25 +630,25 @@ Elle doit être comprise comme une hypothèse de modélisation.
 
 ***
 
-## VII. Le temps de l’esprit et l’articulation du présent
+## VII. Le temps de l'esprit et l'articulation du présent
 
-### A. Le moment et l’horizon
+### A. Le moment et l'horizon
 
-Cette analyse redéfinit notre rapport au temps en distinguant le moment où nous vivons de l’horizon dans lequel nous vivons.
+Cette analyse redéfinit notre rapport au temps en distinguant le moment où nous vivons de l'horizon dans lequel nous vivons.
 
 Nous sommes toujours engagés dans une situation présente.
 
 Mais ce qui nous occupe peut provenir de loin, viser demain ou explorer une possibilité qui ne se réalisera jamais.
 
-L’esprit ne sort donc pas du temps.
+L'esprit ne sort donc pas du temps.
 
-Il n’est simplement pas enfermé dans le contenu de l’instant.
+Il n'est simplement pas enfermé dans le contenu de l'instant.
 
 $$
 \boxed{
 \text{Présent}
 \neq
-\text{Contenu de l’instant}.
+\text{Contenu de l'instant}.
 }
 $$
 
@@ -650,7 +656,7 @@ $$
 \boxed{
 \text{Présent}
 =
-\text{Horizon d’ouverture}.
+\text{Horizon d'ouverture}.
 }
 $$
 
@@ -664,7 +670,7 @@ Les mots précédents demeurent accessibles comme venant de passer.
 
 La phrase ouvre une attente de continuation.
 
-C’est la structure que Husserl distingue par la rétention, l’impression présente et la protention.[2][3][4]
+C'est la structure que Husserl distingue par la rétention, l'impression présente et la protention.[2][3][4]
 
 Sans cette articulation, une phrase ou une mélodie ne pourraient être perçues comme des ensembles en train de se dérouler.
 
@@ -676,31 +682,31 @@ $$
 }
 $$
 
-### C. Le temps de l’exploration et le temps de ce qui est exploré
+### C. Le temps de l'exploration et le temps de ce qui est exploré
 
-L’activité de l’esprit se déroule maintenant, pendant une durée réelle.
+L'activité de l'esprit se déroule maintenant, pendant une durée réelle.
 
 Cependant, son contenu peut viser une conversation ancienne, un projet pour les prochaines années, une possibilité écartée ou une scène imaginaire sans date déterminée.
 
-Il faut donc rigoureusement distinguer le déroulement de l’expérience et les temporalités qu’elle vise.
+Il faut donc rigoureusement distinguer le déroulement de l'expérience et les temporalités qu'elle vise.
 
-Les propriétés temporelles d’un contenu ne sont pas nécessairement celles de l’expérience qui le présente.
+Les propriétés temporelles d'un contenu ne sont pas nécessairement celles de l'expérience qui le présente.
 
 $$
 \boxed{
-\text{Temps de l’expérience}
+\text{Temps de l'expérience}
 \neq
 \text{Temps du contenu}.
 }
 $$
 
-L’esprit est temporel dans son activité.
+L'esprit est temporel dans son activité.
 
 Mais il peut viser autre chose que le moment dans lequel cette activité se déroule.
 
-Il ne s’agit pas d’une indépendance à l’égard du corps ou du temps physique.
+Il ne s'agit pas d'une indépendance à l'égard du corps ou du temps physique.
 
-Il s’agit d’une liberté relative quant à ce qui peut devenir l’objet de l’attention.
+Il s'agit d'une liberté relative quant à ce qui peut devenir l'objet de l'attention.
 
 ***
 
@@ -708,19 +714,19 @@ Il s’agit d’une liberté relative quant à ce qui peut devenir l’objet de 
 
 ### A. Les trois dimensions
 
-Cette structure permet de distinguer trois dimensions fondamentales de l’expérience temporelle.
+Cette structure permet de distinguer trois dimensions fondamentales de l'expérience temporelle.
 
 | Dimension | Question |
 |---|---|
-| Provenance | D’où vient cette préoccupation, ce souvenir ou cette possibilité ? |
-| Horizon | Vers quoi m’oriente-t-elle ? |
-| Ancrage | Pourquoi prend-elle de l’importance maintenant ? |
+| Provenance | D'où vient cette préoccupation, ce souvenir ou cette possibilité ? |
+| Horizon | Vers quoi m'oriente-t-elle ? |
+| Ancrage | Pourquoi prend-elle de l'importance maintenant ? |
 
-Une question ancienne peut devenir actuelle sans que son événement d’origine se reproduise.
+Une question ancienne peut devenir actuelle sans que son événement d'origine se reproduise.
 
-Ce qui change, c’est sa place dans la situation présente.
+Ce qui change, c'est sa place dans la situation présente.
 
-Elle devient pertinente, intelligible ou susceptible d’orienter une action.
+Elle devient pertinente, intelligible ou susceptible d'orienter une action.
 
 $$
 \boxed{
@@ -738,7 +744,7 @@ $$
 
 Il convient de maintenir une distinction stricte.
 
-Le retour d’une préoccupation vieille de plusieurs années relève du souvenir et de la reprise de sens.
+Le retour d'une préoccupation vieille de plusieurs années relève du souvenir et de la reprise de sens.
 
 Il ne relève pas de la rétention immédiate au sens husserlien.
 
@@ -754,17 +760,17 @@ $$
 }
 $$
 
-### C. L’ouverture des possibles
+### C. L'ouverture des possibles
 
-La structure des possibilités devient alors une manière de penser l’ouverture du vécu.
+La structure des possibilités devient alors une manière de penser l'ouverture du vécu.
 
 Le présent ne contient pas seulement ce qui se manifeste.
 
 Il comporte aussi une orientation vers ce qui pourrait venir.
 
-Cette ouverture n’exige pas que l’avenir existe déjà comme un ensemble d’événements accomplis.
+Cette ouverture n'exige pas que l'avenir existe déjà comme un ensemble d'événements accomplis.
 
-Chez Husserl, la protention peut être une attente précise, mais aussi simplement l’ouverture à une suite encore indéterminée.[2][3][4]
+Chez Husserl, la protention peut être une attente précise, mais aussi simplement l'ouverture à une suite encore indéterminée.[2][3][4]
 
 Notre rapport au temps ne consiste donc pas seulement à subir une succession.
 
@@ -782,19 +788,19 @@ $$
 
 ## IX. La métrique de la rétention : une hypothèse spéculative
 
-### A. La métrique de l’environnement
+### A. La métrique de l'environnement
 
-Pour formaliser l’épaisseur du présent et l’enfoncement du passé dans la mémoire, nous proposons de mobiliser une géométrie inspirée de la métrique de Randall-Sundrum.
+Pour formaliser l'épaisseur du présent et l'enfoncement du passé dans la mémoire, nous proposons de mobiliser une géométrie inspirée de la métrique de Randall-Sundrum.
 
-Soit $$\mathcal{M}_4$$ l’espace-temps perçu, et $$\mathcal{B}_5$$ l’hyper-espace de l’ordre implicite, défini par une coordonnée de profondeur topologique $$z$$.
+Soit $$\mathcal{M}_4$$ l'espace-temps perçu, et $$\mathcal{B}_5$$ l'hyper-espace de l'ordre implicite, défini par une coordonnée de profondeur topologique $$z$$.
 
-L’espace obéit à une géométrie avec un facteur de déformation :
+L'espace obéit à une géométrie avec un facteur de déformation :
 
 $$
 ds^2 = e^{-2k|z|} \eta_{\mu\nu} dx^\mu dx^\nu + dz^2.
 $$
 
-Plus l’événement s’enfonce dans la mémoire, plus l’intervalle d’espace-temps se contracte de manière exponentielle.
+Plus l'événement s'enfonce dans la mémoire, plus l'intervalle d'espace-temps se contracte de manière exponentielle.
 
 $$
 \boxed{
@@ -804,9 +810,9 @@ $$
 }
 $$
 
-### B. L’équation cinématique de Zénon
+### B. L'équation cinématique de Zénon
 
-La vélocité de l’information s’enfonçant dans la matrice est :
+La vélocité de l'information s'enfonçant dans la matrice est :
 
 $$
 v = \frac{dz}{d\tau}.
@@ -814,7 +820,7 @@ $$
 
 Face à la densité du champ, elle subit une friction de phase quantique $$\gamma$$.
 
-L’équation différentielle de son mouvement est :
+L'équation différentielle de son mouvement est :
 
 $$
 \frac{dv}{d\tau} + \gamma v = 0.
@@ -826,7 +832,7 @@ $$
 v(\tau) \propto v_0 e^{-\gamma \tau}.
 $$
 
-La vélocité s’effondre en divisant sa course sans fin vers une limite qu’elle ne touche jamais.
+La vélocité s'effondre en divisant sa course sans fin vers une limite qu'elle ne touche jamais.
 
 $$
 \boxed{
@@ -838,23 +844,23 @@ $$
 
 ### C. La compression holographique
 
-Le souvenir n’est pas détruit par ce freinage.
+Le souvenir n'est pas détruit par ce freinage.
 
-Il est modélisé comme un paquet d’ondes $$\Psi(x,z)$$.
+Il est modélisé comme un paquet d'ondes $$\Psi(x,z)$$.
 
-Sous l’écrasement de la métrique, sa longueur d’onde causale se compresse :
+Sous l'écrasement de la métrique, sa longueur d'onde causale se compresse :
 
 $$
 \lambda(z) = \lambda_0 e^{-k|z|}.
 $$
 
-Par conservation de l’information, si l’espace occupé diminue, la fréquence vibratoire s’amplifie :
+Par conservation de l'information, si l'espace occupé diminue, la fréquence vibratoire s'amplifie :
 
 $$
 f(z) = f_0 e^{k|z|}.
 $$
 
-L’événement quitte la ligne de cause à effet.
+L'événement quitte la ligne de cause à effet.
 
 Sa dimension spatiale est asymptotiquement nulle.
 
@@ -870,7 +876,7 @@ $$
 }
 $$
 
-### D. La limite de l’analogie
+### D. La limite de l'analogie
 
 Il faut cependant être prudent.
 
@@ -894,7 +900,7 @@ Elle doit être comprise comme une hypothèse de modélisation.
 
 ***
 
-## X. L’ouverture philosophique
+## X. L'ouverture philosophique
 
 ### A. La question philosophique ouverte
 
@@ -903,21 +909,21 @@ La question philosophique ouverte peut être formulée ainsi :
 $$
 \boxed{
 \text{Si le présent est une épaisseur,}
-\text{ alors qu’est-ce qui fonde son unité ?}
+\text{ alors qu'est-ce qui fonde son unité ?}
 }
 $$
 
-Cette question n’est pas secondaire.
+Cette question n'est pas secondaire.
 
 Elle est centrale.
 
-Car si le présent n’est pas un point, s’il est une épaisseur, alors il faut expliquer ce qui fait qu’il demeure un.
+Car si le présent n'est pas un point, s'il est une épaisseur, alors il faut expliquer ce qui fait qu'il demeure un.
 
-Il faut expliquer ce qui fait qu’il persiste.
+Il faut expliquer ce qui fait qu'il persiste.
 
-Il faut expliquer ce qui fait qu’il se reconnaît.
+Il faut expliquer ce qui fait qu'il se reconnaît.
 
-Il faut expliquer ce qui fait qu’il maintient une continuité à travers le changement.
+Il faut expliquer ce qui fait qu'il maintient une continuité à travers le changement.
 
 ### B. Trois réponses philosophiques possibles
 
@@ -932,7 +938,7 @@ La troisième est processuelle.
 | Réponse | Formule | Limite |
 |---|---|---|
 | Substantialiste | Unité = Substance | Ne rend pas compte du changement |
-| Relationnelle | Unité = Réseau de relations | Ne rend pas compte de l’unité du réseau |
+| Relationnelle | Unité = Réseau de relations | Ne rend pas compte de l'unité du réseau |
 | Processuelle | Unité = Processus | Demande une ontologie du devenir |
 
 ### C. La réponse processuelle
@@ -957,19 +963,19 @@ $$
 
 ***
 
-## XI. L’ouverture vers Whitehead
+## XI. L'ouverture vers Whitehead
 
 ### A. La philosophie du processus
 
-La philosophie du processus, notamment chez Alfred North Whitehead, propose de penser la réalité non comme un ensemble de substances statiques, mais comme un ensemble de processus, d’événements et d’occasions.[3][7][8][9]
+La philosophie du processus, notamment chez Alfred North Whitehead, propose de penser la réalité non comme un ensemble de substances statiques, mais comme un ensemble de processus, d'événements et d'occasions.[3][7][8][9]
 
-Dans cette perspective, ce qui est réel n’est pas d’abord une chose.
+Dans cette perspective, ce qui est réel n'est pas d'abord une chose.
 
-C’est un événement.
+C'est un événement.
 
-C’est un processus.
+C'est un processus.
 
-C’est une occasion.
+C'est une occasion.
 
 $$
 \boxed{
@@ -983,7 +989,7 @@ $$
 
 Whitehead introduit la notion de préhension pour décrire la manière dont une occasion saisit, intègre et transforme les occasions passées.[3][7][8][9]
 
-La préhension n’est pas une simple perception.
+La préhension n'est pas une simple perception.
 
 Elle est une inclusion.
 
@@ -1015,7 +1021,7 @@ Cette correspondance ne signifie pas que la phénoménologie est réduite à la 
 
 Elle signifie que les deux traditions peuvent se rencontrer.
 
-Elles peuvent se rencontrer autour d’une même question :
+Elles peuvent se rencontrer autour d'une même question :
 
 Comment le passé devient-il présent ?
 
@@ -1025,17 +1031,17 @@ Comment le présent ouvre-t-il un futur ?
 
 ***
 
-## XII. L’ouverture vers Spinoza
+## XII. L'ouverture vers Spinoza
 
 ### A. Le conatus
 
 Spinoza propose une autre ouverture philosophique.
 
-Il introduit la notion de *conatus*, qui désigne l’effort par lequel chaque chose s’efforce de persévérer dans son être. 
+Il introduit la notion de *conatus*, qui désigne l'effort par lequel chaque chose s'efforce de persévérer dans son être.
 
 Cette notion ne se limite pas aux êtres vivants.
 
-Elle s’applique à tout ce qui existe.
+Elle s'applique à tout ce qui existe.
 
 Mais elle prend une signification particulière dans le cas des organismes vivants.
 
@@ -1063,7 +1069,7 @@ Cette correspondance ne signifie pas que la biologie est réduite à la philosop
 
 Elle signifie que les deux traditions peuvent se rencontrer.
 
-Elles peuvent se rencontrer autour d’une même question :
+Elles peuvent se rencontrer autour d'une même question :
 
 Comment un système vivant maintient-il son intégrité à travers le changement ?
 
@@ -1075,11 +1081,11 @@ Comment un système vivant transforme-t-il les perturbations en opportunités ?
 
 Dans notre modèle, la normativité peut être pensée comme une forme de conatus.
 
-Elle désigne l’effort par lequel un organisme s’efforce de persévérer dans son être.
+Elle désigne l'effort par lequel un organisme s'efforce de persévérer dans son être.
 
-Elle désigne l’effort par lequel un organisme sélectionne les trajectoires qui favorisent son maintien.
+Elle désigne l'effort par lequel un organisme sélectionne les trajectoires qui favorisent son maintien.
 
-Elle désigne l’effort par lequel un organisme transforme les perturbations en opportunités.
+Elle désigne l'effort par lequel un organisme transforme les perturbations en opportunités.
 
 $$
 \boxed{
@@ -1091,21 +1097,21 @@ $$
 
 ***
 
-## XIII. L’ouverture vers Deleuze
+## XIII. L'ouverture vers Deleuze
 
-### A. L’immanence
+### A. L'immanence
 
 Deleuze propose une troisième ouverture philosophique.
 
-Il propose une philosophie de l’immanence, qui refuse de poser un transcendant extérieur au monde. 
+Il propose une philosophie de l'immanence, qui refuse de poser un transcendant extérieur au monde.
 
 Dans cette perspective, tout ce qui existe est immanent au monde.
 
-Il n’y a pas de fondement extérieur.
+Il n'y a pas de fondement extérieur.
 
-Il n’y a pas de substance transcendante.
+Il n'y a pas de substance transcendante.
 
-Il n’y a que des processus, des devenirs, des différences.
+Il n'y a que des processus, des devenirs, des différences.
 
 $$
 \boxed{
@@ -1115,15 +1121,15 @@ $$
 }
 $$
 
-### B. Le virtuel et l’actuel
+### B. Le virtuel et l'actuel
 
-Deleuze distingue le virtuel de l’actuel.
+Deleuze distingue le virtuel de l'actuel.
 
-Le virtuel n’est pas le possible.
+Le virtuel n'est pas le possible.
 
-Il est un champ de différences, de tensions et de potentialités. 
+Il est un champ de différences, de tensions et de potentialités.
 
-L’actuel est ce qui est actualisé à partir du virtuel.
+L'actuel est ce qui est actualisé à partir du virtuel.
 
 $$
 \boxed{
@@ -1157,7 +1163,7 @@ Cette correspondance ne signifie pas que la biologie est réduite à la philosop
 
 Elle signifie que les deux traditions peuvent se rencontrer.
 
-Elles peuvent se rencontrer autour d’une même question :
+Elles peuvent se rencontrer autour d'une même question :
 
 Comment un champ de potentialités devient-il une trajectoire effective ?
 
@@ -1173,19 +1179,19 @@ Comment un devenir devient-il un événement ?
 
 Les trois ouvertures philosophiques que nous avons proposées — Whitehead, Spinoza, Deleuze — ne sont pas contradictoires.
 
-Elles se rencontrent autour d’une même question.
+Elles se rencontrent autour d'une même question.
 
-Comment penser l’unité d’un système vivant à travers le changement ?
+Comment penser l'unité d'un système vivant à travers le changement ?
 
-Comment penser la continuité d’un observateur à travers la transformation ?
+Comment penser la continuité d'un observateur à travers la transformation ?
 
-Comment penser la stabilité d’un monde à travers le flux ?
+Comment penser la stabilité d'un monde à travers le flux ?
 
 Les trois traditions proposent des réponses différentes.
 
 Mais elles partagent une intuition commune.
 
-L’unité n’est pas donnée d’avance.
+L'unité n'est pas donnée d'avance.
 
 Elle est produite.
 
@@ -1221,7 +1227,7 @@ Elle décrit une ontologie.
 
 Cette synthèse rejoint directement notre modèle.
 
-L’observateur est un processus.
+L'observateur est un processus.
 
 Il est un conatus.
 
@@ -1257,23 +1263,23 @@ $$
 
 Nous avons commencé par une question simple :
 
-Où se trouve l’observateur ?
+Où se trouve l'observateur ?
 
 Nous avons montré que cette question est trop étroite.
 
 Nous avons proposé une réponse plus complexe.
 
-L’observateur est une structure dynamique de couplage.
+L'observateur est une structure dynamique de couplage.
 
 Mais cette réponse ouvre une question plus profonde.
 
-Qu’est-ce qui fonde l’unité de cette structure ?
+Qu'est-ce qui fonde l'unité de cette structure ?
 
 La réponse proposée est la suivante :
 
 $$
 \boxed{
-\text{L’unité de l’observateur}
+\text{L'unité de l'observateur}
 \text{ est fondée par un processus}
 \text{ de production, de maintien et de transformation.}
 }
@@ -1285,7 +1291,7 @@ La réponse philosophique finale peut être formulée ainsi :
 
 $$
 \boxed{
-\text{L’observateur est un processus vivant}
+\text{L'observateur est un processus vivant}
 \text{ qui se produit, se maintient et se transforme}
 \text{ à travers un couplage dynamique avec son monde.}
 }
@@ -1297,7 +1303,7 @@ La clôture de ce travail peut être formulée ainsi :
 
 $$
 \boxed{
-\text{L’observateur n’est pas un point.}
+\text{L'observateur n'est pas un point.}
 }
 $$
 
@@ -1355,11 +1361,11 @@ $$
 }
 $$
 
-C’est cette multiplicité qui constitue la richesse du modèle.
+C'est cette multiplicité qui constitue la richesse du modèle.
 
-C’est cette multiplicité qui constitue la robustesse du modèle.
+C'est cette multiplicité qui constitue la robustesse du modèle.
 
-C’est cette multiplicité qui constitue la profondeur du modèle.
+C'est cette multiplicité qui constitue la profondeur du modèle.
 
 ***
 
@@ -1372,7 +1378,7 @@ Pour maintenir la rigueur du modèle, il est essentiel de conserver les distinct
 | Présent | Instant ponctuel | Épaisseur temporelle |
 | Rétention | Souvenir | Maintien du juste-passé |
 | Protention | Prédiction | Ouverture vers le juste-à-venir |
-| Holonomie | Simple mémoire biologique | Trace géométrique d’un cycle |
+| Holonomie | Simple mémoire biologique | Trace géométrique d'un cycle |
 | Non-markovianité | Modèle de la conscience | Analogie structurelle |
 | Intrication | Sentiment de soi | Analogie structurelle |
 | Métrique de Randall-Sundrum | Description physique établie | Hypothèse spéculative |
@@ -1383,47 +1389,47 @@ Pour maintenir la rigueur du modèle, il est essentiel de conserver les distinct
 
 La phénoménologie de Husserl fournit une structure temporelle fine de la conscience, articulant rétention, impression originaire et protention.[1][2][3][4]
 
-La philosophie du processus de Whitehead propose de penser la réalité comme un ensemble de processus, d’événements et d’occasions, articulés par la préhension.[3][7][8][9]
+La philosophie du processus de Whitehead propose de penser la réalité comme un ensemble de processus, d'événements et d'occasions, articulés par la préhension.[3][7][8][9]
 
-La philosophie de Spinoza propose de penser la persévérance dans l’être comme un principe métaphysique fondamental, le *conatus*. 
+La philosophie de Spinoza propose de penser la persévérance dans l'être comme un principe métaphysique fondamental, le *conatus*.
 
-La philosophie de Deleuze propose de penser l’immanence, le virtuel et l’actuel comme des concepts centraux pour penser le devenir et la différence. 
+La philosophie de Deleuze propose de penser l'immanence, le virtuel et l'actuel comme des concepts centraux pour penser le devenir et la différence.
 
-La physique quantique non-markovienne fournit une analogie structurelle pour penser la mémoire et le retour d’information.[5][6]
+La physique quantique non-markovienne fournit une analogie structurelle pour penser la mémoire et le retour d'information.[5][6]
 
-Le modèle proposé se situe à l’intersection de ces quatre exigences :
+Le modèle proposé se situe à l'intersection de ces quatre exigences :
 
 - une exigence phénoménologique de préservation du sens vécu ;
 - une exigence physique de formalisation ;
-- une exigence biologique de régulation et d’histoire ;
-- une exigence philosophique d’ontologie du processus.
+- une exigence biologique de régulation et d'histoire ;
+- une exigence philosophique d'ontologie du processus.
 
-C’est cette quadruple exigence qui constitue la robustesse du modèle.
+C'est cette quadruple exigence qui constitue la robustesse du modèle.
 
-Et c’est cette robustesse qui permet de penser l’observateur non comme un point extérieur, mais comme une structure vivante, incarnée, historiquement couplée, normativement orientée et relationnellement stabilisée.
+Et c'est cette robustesse qui permet de penser l'observateur non comme un point extérieur, mais comme une structure vivante, incarnée, historiquement couplée, normativement orientée et relationnellement stabilisée.
 
-Citations :
+Citations :
 [1] Retention or Primary Memory https://link.springer.com/10.1007/978-3-030-69521-7_3
 [2] Split Mind in a Split Time https://www.eur.nl/en/esphil/media/2021-01-1921
 [3] Process Philosophy (Stanford Encyclopedia of Philosophy/Fall ... https://plato.stanford.edu/archives/fall2026/entries/process-philosophy/
-[4] Husserl’s classical analysis of time-consciousness http://www.ummoss.org/gallZahavi12.pdf
+[4] Husserl's classical analysis of time-consciousness http://www.ummoss.org/gallZahavi12.pdf
 [5] Genuine and Non-Genuine Quantum Non-Markovianity: A Unified Information-Theoretic Review https://arxiv.org/html/2603.28277v2
 [6] Non-Markovianity, information backflow and system ... https://arxiv.org/html/1906.08086v1
 [7] Process Philosophy (Stanford Encyclopedia of Philosophy ... https://plato.stanford.edu/archives/spr2026/entries/process-philosophy/
 [8] Alfred North Whitehead (1861—1947) https://iep.utm.edu/whitehead/
 [9] [PDF] A.N. Whitehead and Process Thought - Open Research Online https://oro.open.ac.uk/98878/18/98878final.pdf
 
-Poursuivre la rédaction de ce premier chapitre
+---
 
-# Poursuite du chapitre 1 — Le mythe de l’instant
+# Poursuite du chapitre 1 — Le mythe de l'instant
 
 ## 4. Le présent comme champ, non comme point
 
-Si le présent n’est pas un point, alors il faut rethinker sa structure.
+Si le présent n'est pas un point, alors il faut repenser sa structure.
 
-Le présent n’est pas une frontière.
+Le présent n'est pas une frontière.
 
-Il n’est pas une ligne de séparation entre un passé disparu et un futur inexistant.
+Il n'est pas une ligne de séparation entre un passé disparu et un futur inexistant.
 
 Il est un champ.
 
@@ -1441,7 +1447,7 @@ $$
 
 Cette idée peut être formulée de plusieurs manières.
 
-Elle peut être pensée comme une densité d’information.
+Elle peut être pensée comme une densité d'information.
 
 Elle peut être pensée comme une densité de mémoire.
 
@@ -1449,7 +1455,7 @@ Elle peut être pensée comme une densité de relations.
 
 Elle peut être pensée comme une densité de possibilités.
 
-Dans tous les cas, le présent n’est pas vide.
+Dans tous les cas, le présent n'est pas vide.
 
 Il est plein.
 
@@ -1457,19 +1463,19 @@ Il est saturé.
 
 Il est structuré.
 
-### A. La densité d’information
+### A. La densité d'information
 
-Le présent peut être pensé comme une densité d’information.
+Le présent peut être pensé comme une densité d'information.
 
-Il ne contient pas seulement l’information présente.
+Il ne contient pas seulement l'information présente.
 
-Il contient aussi la trace de l’information passée.
+Il contient aussi la trace de l'information passée.
 
-Il contient aussi l’anticipation de l’information future.
+Il contient aussi l'anticipation de l'information future.
 
 $$
 \boxed{
-\text{Densité d’information}
+\text{Densité d'information}
 =
 \text{Présent}
 +
@@ -1479,7 +1485,7 @@ $$
 }
 $$
 
-Cette densité n’est pas une simple somme.
+Cette densité n'est pas une simple somme.
 
 Elle est une intégration.
 
@@ -1509,7 +1515,7 @@ $$
 }
 $$
 
-Cette densité n’est pas une simple accumulation.
+Cette densité n'est pas une simple accumulation.
 
 Elle est une sélection.
 
@@ -1541,7 +1547,7 @@ $$
 }
 $$
 
-Cette densité n’est pas une simple juxtaposition.
+Cette densité n'est pas une simple juxtaposition.
 
 Elle est une intégration.
 
@@ -1573,7 +1579,7 @@ $$
 }
 $$
 
-Cette densité n’est pas une simple liste.
+Cette densité n'est pas une simple liste.
 
 Elle est un champ.
 
@@ -1585,9 +1591,9 @@ Elle est une ouverture.
 
 ## 5. La critique du présent ponctuel
 
-### A. Le mythe de l’instant
+### A. Le mythe de l'instant
 
-Le mythe de l’instant consiste à penser le présent comme un point mathématique isolé.
+Le mythe de l'instant consiste à penser le présent comme un point mathématique isolé.
 
 Ce mythe repose sur une abstraction.
 
@@ -1599,7 +1605,7 @@ Il suppose que le présent est une frontière nette entre un passé disparu et u
 
 $$
 \boxed{
-\text{Mythe de l’instant}
+\text{Mythe de l'instant}
 =
 \text{Présent comme point}.
 }
@@ -1617,13 +1623,13 @@ Il permet de comparer.
 
 Mais il rencontre une limite fondamentale.
 
-Il ne rend pas compte de l’expérience vécue.
+Il ne rend pas compte de l'expérience vécue.
 
-### B. L’expérience de la mélodie
+### B. L'expérience de la mélodie
 
-Prenons l’exemple d’une mélodie.
+Prenons l'exemple d'une mélodie.
 
-Si le présent était un point, nous ne pourrions entendre qu’une note à la fois.
+Si le présent était un point, nous ne pourrions entendre qu'une note à la fois.
 
 Nous ne pourrions pas entendre la mélodie comme une totalité.
 
@@ -1647,19 +1653,19 @@ $$
 }
 $$
 
-Cette totalité n’est pas donnée d’avance.
+Cette totalité n'est pas donnée d'avance.
 
 Elle est constituée à travers la rétention.
 
 Elle est constituée à travers la protention.
 
-Elle est constituée à travers l’impression originaire.
+Elle est constituée à travers l'impression originaire.
 
-### C. L’expérience de la phrase
+### C. L'expérience de la phrase
 
-Prenons l’exemple d’une phrase.
+Prenons l'exemple d'une phrase.
 
-Si le présent était un point, nous ne pourrions comprendre qu’un mot à la fois.
+Si le présent était un point, nous ne pourrions comprendre qu'un mot à la fois.
 
 Nous ne pourrions pas comprendre la phrase comme une totalité.
 
@@ -1683,19 +1689,19 @@ $$
 }
 $$
 
-Cette totalité n’est pas donnée d’avance.
+Cette totalité n'est pas donnée d'avance.
 
 Elle est constituée à travers la rétention.
 
 Elle est constituée à travers la protention.
 
-Elle est constituée à travers l’impression originaire.
+Elle est constituée à travers l'impression originaire.
 
-### D. L’expérience du mouvement
+### D. L'expérience du mouvement
 
-Prenons l’exemple du mouvement.
+Prenons l'exemple du mouvement.
 
-Si le présent était un point, nous ne pourrions percevoir qu’une position à la fois.
+Si le présent était un point, nous ne pourrions percevoir qu'une position à la fois.
 
 Nous ne pourrions pas percevoir le mouvement comme un mouvement.
 
@@ -1719,13 +1725,13 @@ $$
 }
 $$
 
-Cette totalité n’est pas donnée d’avance.
+Cette totalité n'est pas donnée d'avance.
 
 Elle est constituée à travers la rétention.
 
 Elle est constituée à travers la protention.
 
-Elle est constituée à travers l’impression originaire.
+Elle est constituée à travers l'impression originaire.
 
 ***
 
@@ -1737,13 +1743,13 @@ Husserl propose une solution à ce problème.
 
 Il décompose le présent vivant en trois moments indissociables.
 
-1. L’impression originaire.
+1. L'impression originaire.
 2. La rétention.
 3. La protention.
 
 Ces trois moments ne sont pas des actes séparés.
 
-Ils sont les dimensions d’un seul et même flux.
+Ils sont les dimensions d'un seul et même flux.
 
 $$
 \boxed{
@@ -1763,13 +1769,13 @@ Elle permet de penser le présent comme un champ.
 
 Elle permet de penser le présent comme une totalité temporelle.
 
-### B. L’impression originaire
+### B. L'impression originaire
 
-L’impression originaire est le noyau de l’expérience actuelle.
+L'impression originaire est le noyau de l'expérience actuelle.
 
-C’est le « maintenant » strict.
+C'est le « maintenant » strict.
 
-C’est le point de source.
+C'est le point de source.
 
 $$
 \boxed{
@@ -1779,7 +1785,7 @@ $$
 }
 $$
 
-Mais ce noyau n’est pas isolé.
+Mais ce noyau n'est pas isolé.
 
 Il est toujours accompagné de rétention et de protention.
 
@@ -1787,7 +1793,7 @@ Il est toujours accompagné de rétention et de protention.
 
 La rétention est le maintien du juste-passé dans le présent.
 
-Elle forme une « queue de comète » qui s’étire derrière l’impression originaire.
+Elle forme une « queue de comète » qui s'étire derrière l'impression originaire.
 
 $$
 \boxed{
@@ -1797,13 +1803,13 @@ $$
 }
 $$
 
-La rétention n’est pas un souvenir.
+La rétention n'est pas un souvenir.
 
 Elle est une modalité primaire du présent.
 
 ### D. La protention
 
-La protention est l’anticipation ouverte du juste-à-venir.
+La protention est l'anticipation ouverte du juste-à-venir.
 
 Elle est une intention vide qui tend vers le futur immédiat.
 
@@ -1815,7 +1821,7 @@ $$
 }
 $$
 
-La protention n’est pas une prédiction.
+La protention n'est pas une prédiction.
 
 Elle est une structure vécue du temps.
 
@@ -1829,7 +1835,7 @@ Bergson propose une autre solution.
 
 Il propose de penser le temps comme une durée.
 
-La durée n’est pas une succession de points.
+La durée n'est pas une succession de points.
 
 Elle est une continuité.
 
@@ -1849,7 +1855,7 @@ $$
 
 Cette idée rejoint directement notre modèle.
 
-Le présent n’est pas un point.
+Le présent n'est pas un point.
 
 Il est une durée.
 
@@ -1861,7 +1867,7 @@ Il est une hétérogénéité.
 
 Pour Bergson, la durée implique une conservation du passé.
 
-La mémoire ne conserve pas le passé à l’identique.
+La mémoire ne conserve pas le passé à l'identique.
 
 Elle le conserve comme différence.
 
@@ -1875,15 +1881,15 @@ $$
 
 Cette idée rejoint directement notre modèle.
 
-La mémoire n’est pas un simple stockage.
+La mémoire n'est pas un simple stockage.
 
-Elle est une transformation de l’espace des trajectoires accessibles.
+Elle est une transformation de l'espace des trajectoires accessibles.
 
 ### C. La durée comme prolongation
 
 La durée est la prolongation du passé dans le présent.
 
-Le passé n’est pas perdu.
+Le passé n'est pas perdu.
 
 Il est prolongé.
 
@@ -1901,7 +1907,7 @@ $$
 
 Cette idée rejoint directement notre modèle.
 
-La mémoire n’est pas un simple stockage.
+La mémoire n'est pas un simple stockage.
 
 Elle est une prolongation du passé dans le présent.
 
@@ -1913,7 +1919,7 @@ Elle est une prolongation du passé dans le présent.
 
 Le modèle markovien illustre un présent sans épaisseur.
 
-L’information fuit instantanément dans l’environnement.
+L'information fuit instantanément dans l'environnement.
 
 Le présent est un point.
 
@@ -1929,11 +1935,13 @@ $$
 }
 $$
 
+*(Précision : voir Annexe, entrée 3. La propriété de Markov dépend du choix des variables d'état.)*
+
 ### B. Le modèle non-markovien
 
 Le modèle non-markovien montre un *information backflow*.
 
-L’environnement retient l’information qui a fui, puis la réinjecte.
+L'environnement retient l'information qui a fui, puis la réinjecte.
 
 La pureté chute, puis remonte.
 
@@ -1947,11 +1955,11 @@ $$
 }
 $$
 
-Dans les dynamiques quantiques ouvertes, la non-markovianité se manifeste par des effets de mémoire, où l’information quitte temporairement le système pour revenir ensuite depuis l’environnement.[1]
+Dans les dynamiques quantiques ouvertes, la non-markovianité se manifeste par des effets de mémoire, où l'information quitte temporairement le système pour revenir ensuite depuis l'environnement.[1]
 
-Ce retour d’information constitue une signature opérationnelle de la non-markovianité.[1]
+Ce retour d'information constitue une signature opérationnelle de la non-markovianité.[1]
 
-### C. La limite de l’analogie
+### C. La limite de l'analogie
 
 Il faut cependant être prudent.
 
@@ -1967,7 +1975,7 @@ $$
 \boxed{
 \text{Rétention phénoménologique}
 \widehat{\longrightarrow}
-\text{Mémoire dynamique d’un système ouvert}.
+\text{Mémoire dynamique d'un système ouvert}.
 }
 $$
 
@@ -1983,7 +1991,7 @@ Elle doit être comprise comme une hypothèse de modélisation.
 
 Les trois solutions que nous avons proposées — Husserl, Bergson, physique non-markovienne — ne sont pas contradictoires.
 
-Elles se rencontrent autour d’une même question.
+Elles se rencontrent autour d'une même question.
 
 Comment penser le présent comme une épaisseur ?
 
@@ -1995,7 +2003,7 @@ Les trois traditions proposent des réponses différentes.
 
 Mais elles partagent une intuition commune.
 
-Le présent n’est pas un point.
+Le présent n'est pas un point.
 
 Il est une structure.
 
@@ -2124,7 +2132,7 @@ La clôture du chapitre peut être formulée ainsi :
 
 $$
 \boxed{
-\text{Le présent n’est pas un point.}
+\text{Le présent n'est pas un point.}
 }
 $$
 
@@ -2176,11 +2184,11 @@ $$
 }
 $$
 
-C’est cette multiplicité qui constitue la richesse du chapitre.
+C'est cette multiplicité qui constitue la richesse du chapitre.
 
-C’est cette multiplicité qui constitue la robustesse du chapitre.
+C'est cette multiplicité qui constitue la robustesse du chapitre.
 
-C’est cette multiplicité qui constitue la profondeur du chapitre.
+C'est cette multiplicité qui constitue la profondeur du chapitre.
 
 ***
 
@@ -2194,46 +2202,48 @@ Pour maintenir la rigueur du chapitre, il est essentiel de conserver les distinc
 | Rétention | Souvenir | Maintien du juste-passé |
 | Protention | Prédiction | Ouverture vers le juste-à-venir |
 | Durée | Succession de points | Continuité et hétérogénéité |
-| Mémoire | Simple stockage | Transformation de l’espace des possibles |
+| Mémoire | Simple stockage | Transformation de l'espace des possibles |
 | Non-markovianité | Modèle de la conscience | Analogie structurelle |
-| Holonomie | Simple mémoire biologique | Trace géométrique d’un cycle |
+| Holonomie | Simple mémoire biologique | Trace géométrique d'un cycle |
 | Impression originaire | Point isolé | Noyau du présent |
 | Couplage | Simple interaction | Relation dynamique organisme–monde |
-| Normativité | Simple préférence subjective | Enjeu d’auto-maintien |
+| Normativité | Simple préférence subjective | Enjeu d'auto-maintien |
 
-La phénoménologie de Husserl fournit une structure temporelle fine de la conscience, articulant rétention, impression originaire et protention. 
+La phénoménologie de Husserl fournit une structure temporelle fine de la conscience, articulant rétention, impression originaire et protention.
 
 La philosophie de Bergson fournit une ontologie de la durée, articulant continuité, hétérogénéité et mémoire.[2][3][4][5][6][7][8]
 
-La physique quantique non-markovienne fournit une analogie structurelle pour penser la mémoire et le retour d’information.[1]
+La physique quantique non-markovienne fournit une analogie structurelle pour penser la mémoire et le retour d'information.[1]
 
-Le chapitre se situe à l’intersection de ces trois exigences :
+Le chapitre se situe à l'intersection de ces trois exigences :
 
 - une exigence phénoménologique de préservation du sens vécu ;
-- une exigence philosophique d’ontologie de la durée ;
+- une exigence philosophique d'ontologie de la durée ;
 - une exigence physique de formalisation de la mémoire.
 
-C’est cette triple exigence qui constitue la robustesse du chapitre.
+C'est cette triple exigence qui constitue la robustesse du chapitre.
 
-Et c’est cette robustesse qui permet de penser le présent non comme un point, mais comme une structure vivante, incarnée, historiquement couplée et relationnellement stabilisée.
+Et c'est cette robustesse qui permet de penser le présent non comme un point, mais comme une structure vivante, incarnée, historiquement couplée et relationnellement stabilisée.
 
-Citations :
+Citations :
 [1] Quantum Non-Markovian Environment-to-System Backflows of Information: Nonoperational vs. Operational Approaches https://pmc.ncbi.nlm.nih.gov/articles/PMC9140462/
 [2] Henri Bergson https://plato.stanford.edu/archives/Win2012/entries/bergson/
 [3] Henri Bergson - Stanford Encyclopedia of Philosophy https://plato.stanford.edu/entries/bergson/
 [4] BERGSON ON MEMORY - The University of Warwick https://warwick.ac.uk/fac/soc/philosophy/people/pearson/bergson_on_memory_final_version.doc
-[5] “A Memory within Change Itself.” Bergson and the Memory Theory of ... https://journals.openedition.org/bergsoniana/286?lang=en
+[5] "A Memory within Change Itself." Bergson and the Memory Theory of ... https://journals.openedition.org/bergsoniana/286?lang=en
 [6] Henri Bergson https://plato.stanford.edu/archives/sum2014/entries/bergson/
 [7] Bergson, Henri-Louis (1859–1941) https://www.rep.routledge.com/articles/biographical/bergson-henri-louis-1859-1941/v-1/sections/time-and-duration
 [8] Henri Bergson (Stanford Encyclopedia of Philosophy/Spring ... https://plato.stanford.edu/archives/spr2021/entries/bergson/
+
+---
 
 ## Sous-partie complémentaire — Rétention et protention : la double ouverture du présent
 
 ### 1. Le présent comme champ de présence
 
-Le présent n’est pas une limite sans extension.
+Le présent n'est pas une limite sans extension.
 
-Il n’est pas une frontière entre un passé disparu et un futur inexistant.
+Il n'est pas une frontière entre un passé disparu et un futur inexistant.
 
 Il est un champ de présence.
 
@@ -2257,15 +2267,15 @@ Il contient aussi ce qui vient de passer.
 
 Il contient aussi ce qui va venir.
 
-Il contient aussi l’ouverture vers ce qui pourrait advenir.
+Il contient aussi l'ouverture vers ce qui pourrait advenir.
 
 ### 2. La rétention : le juste-passé qui demeure
 
 La rétention est le maintien du juste-passé dans le présent vivant.
 
-Elle n’est pas un souvenir.
+Elle n'est pas un souvenir.
 
-Elle n’est pas un acte volontaire de rappel.
+Elle n'est pas un acte volontaire de rappel.
 
 Elle est une modalité primaire du présent.
 
@@ -2277,9 +2287,9 @@ $$
 }
 $$
 
-Prenons l’exemple d’une mélodie.
+Prenons l'exemple d'une mélodie.
 
-Le *do* qui vient de résonner n’est plus là physiquement.
+Le *do* qui vient de résonner n'est plus là physiquement.
 
 Mais il est retenu dans mon expérience du *ré*.
 
@@ -2289,7 +2299,7 @@ La mélodie ne pourrait pas être entendue comme une mélodie.
 
 Elle serait une suite de sons discontinus.
 
-La rétention est donc l’invariance structurelle du flux temporel.
+La rétention est donc l'invariance structurelle du flux temporel.
 
 $$
 \boxed{
@@ -2299,15 +2309,15 @@ $$
 }
 $$
 
-Chez Husserl, la rétention possède une double intentionnalité : elle vise à la fois l’objet temporel qui se constitue et les phases passées du flux de conscience lui-même. 
+Chez Husserl, la rétention possède une double intentionnalité : elle vise à la fois l'objet temporel qui se constitue et les phases passées du flux de conscience lui-même.
 
-Elle n’est pas un souvenir.
+Elle n'est pas un souvenir.
 
 Elle est une modalité primaire du présent.
 
 ### 3. La rétention comme modification continue
 
-La rétention n’est pas un stockage statique.
+La rétention n'est pas un stockage statique.
 
 Elle est une modification continue.
 
@@ -2315,7 +2325,7 @@ Chaque nouvelle impression repousse la précédente.
 
 Chaque nouvelle impression modifie la précédente.
 
-Chaque nouvelle impression l’enfonce davantage dans le passé.
+Chaque nouvelle impression l'enfonce davantage dans le passé.
 
 $$
 \boxed{
@@ -2327,19 +2337,19 @@ $$
 
 Ce processus est appelé modification rétentionnelle.
 
-Il décrit la manière dont le passé immédiat s’enfonce progressivement dans le passé.
+Il décrit la manière dont le passé immédiat s'enfonce progressivement dans le passé.
 
 Il décrit la manière dont le présent se constitue à travers une modification continue.[1][2]
 
-La rétention n’est donc pas une simple conservation.
+La rétention n'est donc pas une simple conservation.
 
 Elle est une transformation.
 
-### 4. La protention : le juste-à-venir qui s’ouvre
+### 4. La protention : le juste-à-venir qui s'ouvre
 
-La protention est le versant futur de l’épaisseur du présent.
+La protention est le versant futur de l'épaisseur du présent.
 
-Elle est une anticipation passive de l’immédiatement à venir.
+Elle est une anticipation passive de l'immédiatement à venir.
 
 Elle est une intention vide, qui peut être remplie ou déçue.
 
@@ -2351,11 +2361,11 @@ $$
 }
 $$
 
-Prenons l’exemple d’une mélodie.
+Prenons l'exemple d'une mélodie.
 
-Lorsque j’entends le *do*, j’attends déjà le *ré*.
+Lorsque j'entends le *do*, j'attends déjà le *ré*.
 
-Cette attente n’est pas une prédiction explicite.
+Cette attente n'est pas une prédiction explicite.
 
 Elle est une structure implicite de la perception.
 
@@ -2367,15 +2377,15 @@ $$
 }
 $$
 
-Chez Husserl, la protention est l’intention vide qui tend vers le futur immédiat.[1][2][3]
+Chez Husserl, la protention est l'intention vide qui tend vers le futur immédiat.[1][2][3]
 
-Elle n’est pas une prédiction.
+Elle n'est pas une prédiction.
 
 Elle est une structure vécue du temps.
 
 ### 5. La protention comme anticipation indéterminée
 
-La protention n’anticipe pas nécessairement un contenu précis.
+La protention n'anticipe pas nécessairement un contenu précis.
 
 Elle anticipe un champ de possibilités.
 
@@ -2409,7 +2419,7 @@ $$
 
 La protention est une structure vécue du temps.
 
-Elle n’est pas un calcul.
+Elle n'est pas un calcul.
 
 ### 6. La distinction entre rétention et protention
 
@@ -2453,7 +2463,7 @@ La rétention et la protention ne sont pas opposées.
 
 Elles sont complémentaires.
 
-Elles constituent ensemble l’épaisseur du présent.
+Elles constituent ensemble l'épaisseur du présent.
 
 $$
 \boxed{
@@ -2487,7 +2497,7 @@ $$
 
 La rétention et la protention ne sont pas deux actes séparés.
 
-Elles sont les dimensions d’un seul et même flux.
+Elles sont les dimensions d'un seul et même flux.
 
 Elles constituent ensemble le présent vivant.
 
@@ -2515,7 +2525,7 @@ Dans notre modèle, la rétention et la protention peuvent être mises en corres
 
 La rétention peut être rapprochée de la mémoire.
 
-La protention peut être rapprochée de l’anticipation.
+La protention peut être rapprochée de l'anticipation.
 
 $$
 \boxed{
@@ -2537,7 +2547,7 @@ Cette correspondance ne signifie pas que la phénoménologie est réduite à la 
 
 Elle signifie que les deux traditions peuvent se rencontrer.
 
-Elles peuvent se rencontrer autour d’une même question :
+Elles peuvent se rencontrer autour d'une même question :
 
 Comment le passé devient-il présent ?
 
@@ -2545,7 +2555,7 @@ Comment le présent ouvre-t-il un futur ?
 
 Comment un système vivant maintient-il son intégrité à travers le changement ?
 
-### 10. La limite de l’analogie
+### 10. La limite de l'analogie
 
 Il faut cependant être prudent.
 
@@ -2555,7 +2565,7 @@ Elles sont des structures phénoménologiques.
 
 Elles décrivent la manière dont le temps est vécu.
 
-Elles ne se réduisent pas à des fonctions de traitement de l’information.
+Elles ne se réduisent pas à des fonctions de traitement de l'information.
 
 $$
 \boxed{
@@ -2579,7 +2589,7 @@ Elle ne doit pas être confondue avec une identification.
 
 ### 11. La clôture de la sous-partie
 
-La rétention et la protention constituent les deux versants de l’épaisseur du présent.
+La rétention et la protention constituent les deux versants de l'épaisseur du présent.
 
 Elles permettent de penser le présent comme un champ.
 
@@ -2599,58 +2609,96 @@ $$
 }
 $$
 
-C’est cette structure qui permet de penser le présent comme une épaisseur.
+C'est cette structure qui permet de penser le présent comme une épaisseur.
 
-C’est cette structure qui permet de penser le présent comme une totalité temporelle.
+C'est cette structure qui permet de penser le présent comme une totalité temporelle.
 
-C’est cette structure qui permet de penser le présent comme un champ.
+C'est cette structure qui permet de penser le présent comme un champ.
 
-
-
-Citations :
+Citations :
 [1] What could come before time? Intertwining affectivity and temporality at the basis of intentionality - Phenomenology and the Cognitive Sciences http://www.link.springer.com/article/10.1007/s11097-024-09973-y
 [2] The Future Matters: Protention as more than Inverse Retention https://popups.uliege.be/1782-2041/index.php?id=288&format=print
 [3] Protention as Phenomenon | Springer Nature Link https://link.springer.com/chapter/10.1007/978-3-030-69521-7_4
 [4] Protention in Husserl's Phenomenology https://www.nikossoueltzis.com/wp-content/uploads/2024/11/Dissertation_Soueltzis.pdf
 
-4. Le présent comme champ, non comme point
-Le présent n’est pas un point. Il est une structure de liaison entre ce qui vient de passer, ce qui est donné maintenant et ce qui peut advenir.
-Le présent ponctuel est une position mathématique. Le présent vécu est une organisation temporelle.
-L’épaisseur du présent n’est pas une durée cachée. C’est la manière dont des phases différentes restent liées sans devenir identiques.
-5. Rétention
-La rétention maintient le juste-passé comme passé.
-Elle n’est pas un stockage. Elle est une modification continue du présent par ce qui vient de passer.
-6. Protention
-La protention ouvre le présent vers sa continuation.
-Elle n’est pas nécessairement une prédiction explicite.
-Lorsqu’une attente est déçue, un écart apparaît :
-Cette équation ne mesure pas la protention. Elle représente seulement l’écart entre une anticipation formalisable et ce qui advient.
-7. Le présent comme liaison
-Le présent relie le passé, l’actuel et le possible.
-La continuité n’est pas l’identité.
-8. Vers l’organisme
-Un organisme ne persiste pas en restant identique à lui-même. Il persiste en se transformant tout en maintenant son organisation.
-9. Mémoire dynamique
-Un système non-markovien dépend de son histoire.
-Cette dépendance n’est pas une conscience du passé.
-La mémoire dynamique peut être représentée par :
-Le système transforme les conditions de sa propre évolution.
-10. Couplage et régulation
-Un organisme n’est pas isolé. Il est couplé à son environnement.
-La régulation ne conserve pas simplement un état. Elle modifie les conditions futures du maintien.
-11. Mise en situation : implémentations
-Une implémentation ne produit pas la conscience. Elle peut seulement représenter certaines structures du présent.
-Une implémentation minimale doit comporter :
-une dépendance à l’histoire ;
-une ouverture vers la suite ;
-un couplage avec l’environnement ;
-une régulation de ses propres conditions ;
-un maintien de l’organisation malgré le changement.
-Mais :
-Formule finale
-Le graphique ci-dessus condense l’architecture du chapitre : présent vécu, rétention, protention, liaison, organisme, mémoire dynamique, couplage, régulation et observateur. Les flèches indiquent des correspondances structurelles, non des réductions. �
+---
 
-Voici le bloc autonome à ajouter à la fin du dossier, sans modifier rétroactivement les chapitres déjà rédigés.
+## 4 bis. Le présent comme champ, non comme point (version condensée)
+
+Le présent n'est pas un point. Il est une structure de liaison entre ce qui vient de passer, ce qui est donné maintenant et ce qui peut advenir.
+
+Le présent ponctuel est une position mathématique. Le présent vécu est une organisation temporelle.
+
+L'épaisseur du présent n'est pas une durée cachée. C'est la manière dont des phases différentes restent liées sans devenir identiques.
+
+## 5 bis. Rétention
+
+La rétention maintient le juste-passé comme passé.
+
+Elle n'est pas un stockage. Elle est une modification continue du présent par ce qui vient de passer.
+
+## 6 bis. Protention
+
+La protention ouvre le présent vers sa continuation.
+
+Elle n'est pas nécessairement une prédiction explicite.
+
+Lorsqu'une attente est déçue, un écart apparaît :
+
+> **[Formule absente du fichier d'origine.]** Le dépôt contient ici une ligne vide à la place de l'équation. À partir de la section III.C, on peut y remettre :
+> $$\varepsilon(t) = \dot{\gamma}_{\text{attendue}}(t) - \dot{\gamma}_{\text{effective}}(t).$$
+
+Cette équation ne mesure pas la protention. Elle représente seulement l'écart entre une anticipation formalisable et ce qui advient.
+
+## 7 bis. Le présent comme liaison
+
+Le présent relie le passé, l'actuel et le possible.
+
+La continuité n'est pas l'identité.
+
+## 8 bis. Vers l'organisme
+
+Un organisme ne persiste pas en restant identique à lui-même. Il persiste en se transformant tout en maintenant son organisation.
+
+## 9 bis. Mémoire dynamique
+
+Un système non-markovien dépend de son histoire.
+
+Cette dépendance n'est pas une conscience du passé.
+
+La mémoire dynamique peut être représentée par :
+
+> **[Formule absente du fichier d'origine.]** Le dépôt contient ici une ligne vide. Aucune formule n'a été inventée à sa place.
+
+Le système transforme les conditions de sa propre évolution.
+
+## 10 bis. Couplage et régulation
+
+Un organisme n'est pas isolé. Il est couplé à son environnement.
+
+La régulation ne conserve pas simplement un état. Elle modifie les conditions futures du maintien.
+
+## 11 bis. Mise en situation : implémentations
+
+Une implémentation ne produit pas la conscience. Elle peut seulement représenter certaines structures du présent.
+
+Une implémentation minimale doit comporter :
+
+- une dépendance à l'histoire ;
+- une ouverture vers la suite ;
+- un couplage avec l'environnement ;
+- une régulation de ses propres conditions ;
+- un maintien de l'organisation malgré le changement.
+
+Mais :
+
+> **[Phrase interrompue dans le fichier d'origine.]** La suite après « Mais : » manque.
+
+### Formule finale
+
+Le graphique ci-dessous (absent du fichier d'origine) condenserait l'architecture du chapitre : présent vécu, rétention, protention, liaison, organisme, mémoire dynamique, couplage, régulation et observateur. Les flèches indiquent des correspondances structurelles, non des réductions.
+
+---
 
 # ANNEXE — ÉVOLUTIONS THÉORIQUES, OBSERVATIONS ET PRÉCISIONS MÉTHODOLOGIQUES
 
@@ -2703,6 +2751,30 @@ Les simulations V77 et V78 doivent donc être interprétées en fonction de leur
 La non-markovianité demeure pertinente pour étudier les effets de mémoire et les retours d'information. Elle ne constitue toutefois pas, à elle seule, une démonstration de la rétention phénoménologique.
 
 Cette précision renforce la distinction entre la structure temporelle du vécu et les propriétés dynamiques des systèmes physiques.
+
+## 3 bis. Deuxième observation : le signe de Γ(t) dans le script V78
+
+*(Entrée ajoutée lors de cette reconstruction.)*
+
+### Proposition initiale
+
+Le chapitre 8 affirmait : « Puisque Γ(t) ne décroît jamais, la cohérence ne remonte pas. »
+
+### Observation ultérieure
+
+Avec γ(t) = aω sin(ωt), on obtient Γ(t) = a(1 − cos ωt). Cette fonction oscille entre 0 et 2a et décroît chaque fois que γ(t) < 0. L'énoncé était donc inexact, et il contredisait la phrase suivante du même chapitre (la pureté chute puis remonte).
+
+### Précision théorique
+
+La cohérence ρ₀₁(t) = ρ₀₁(0)·e^(−Γ(t)) remonte précisément lorsque Γ décroît, c'est-à-dire lorsque γ < 0. C'est la signature du backflow.
+
+### Justification
+
+Calcul direct : Γ'(t) = γ(t) = aω sin(ωt), négatif sur les demi-périodes où sin(ωt) < 0.
+
+### Incidence sur le modèle
+
+Aucune sur les simulations ni sur la conclusion (la pureté chute puis remonte). Seule la phrase explicative est corrigée.
 
 ## 4. Principe d'évolution non dichotomique
 
@@ -2761,4 +2833,4 @@ Le raisonnement conserve son orientation tout en se transformant. Les formulatio
 
 La présente annexe constitue ainsi la mémoire méthodologique du travail : elle conserve la trace des propositions, des observations et des transformations qui participent à la construction de son architecture théorique.
 
-**La rigueur ne consiste pas à prétendre que le raisonnement n'a jamais changé. Elle consiste à pouvoir montrer pourquoi, comment et sur quelles bases il a évolué.**```
+**La rigueur ne consiste pas à prétendre que le raisonnement n'a jamais changé. Elle consiste à pouvoir montrer pourquoi, comment et sur quelles bases il a évolué.**
