@@ -1,4 +1,4 @@
-# Géométrie de l’allostasie : l’observateur comme invariant de jauge"
+# Géométrie de l’allostasie : l’observateur comme invariant de jauge
 
 ## Ouverture
 
