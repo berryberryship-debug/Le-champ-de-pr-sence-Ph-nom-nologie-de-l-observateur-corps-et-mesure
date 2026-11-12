@@ -1,4 +1,4 @@
-# Thèse de Doctorat : L'Observateur comme Condition d'Apparition
+# Thèse : L'Observateur comme Condition d'Apparition
 
 **Auteur :** Xioranne Lessard
 **Statut :** En cours de rédaction (Objectif : ~380 pages)
