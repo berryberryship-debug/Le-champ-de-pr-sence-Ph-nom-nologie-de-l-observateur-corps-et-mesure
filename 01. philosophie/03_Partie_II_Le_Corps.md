@@ -439,3 +439,11 @@ Si le corps est la condition de l'observation, il reste à examiner comment l'ob
 L'observateur ne disparaît pas derrière l'instrument. Il entre dans une nouvelle configuration relationnelle avec lui.
 
 La mesure devient alors le lieu où l'expérience, l'organisation matérielle et la formalisation computationnelle peuvent être mises en relation, à condition de maintenir leurs critères de validité respectifs.
+
+Maurice Merleau-Ponty, Le Visible et l'Invisible, 1964.
+Baruch Spinoza, Éthique, notamment II, propositions 7 et 13, 1677.
+Søren Kierkegaard, Le Concept de l'angoisse, 1844 ; La Maladie mortelle, 1849.
+Jakob von Uexküll, Mondes animaux et monde humain, 1934.
+Humberto Maturana et Francisco Varela, Autopoiesis and Cognition, 1980.
+Evan Thompson, Mind in Life: Biology, Phenomenology, and the Sciences of Mind, 2007.
+Andy Clark, Surfing Uncertainty: Prediction, Action, and the Embodied Mind, 2016.
