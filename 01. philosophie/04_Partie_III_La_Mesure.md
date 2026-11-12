@@ -432,14 +432,23 @@ Ce modèle capture trois éléments de notre théorie, par analogie :
 
 Le terme « auto-gravitante » doit être réservé à un modèle réellement gravitationnel. Ici, il s’agit d’une **métrique effective auto-modifiée**, non d’une gravitation au sens de la relativité générale.
 
-```python
 def acceleration(self, psi, vitesse, gamma):
-    # Mise_à_jour de la métrique effective en fonction de la densité actuelle
+    # Mise à jour de la métrique effective en fonction de la densité actuelle
     self.mettre_a_jour_metrique(psi)
 
     # Dérivée covariante incluant la jauge du tore
     d_psi = self.derivee_covariante(psi)
     flux = d_psi / self.L_field
+
+    # Terme spatial, terme non linéaire et amortissement
+    terme_spatial = -self.derivee_covariante_adjointe(flux)
+    terme_nonlineaire = self.g * np.abs(psi) ** 2 * psi
+
+    return (
+        terme_spatial
+        + terme_nonlineaire
+        - gamma * vitesse
+    ) / self.C_field
 
     # Terme spatial, terme non linéaire et amortissement
     terme_spatial = -self.derivee_covariante_adjointe(flux)
