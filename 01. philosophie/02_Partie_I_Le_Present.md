@@ -2605,8 +2605,47 @@ C’est cette structure qui permet de penser le présent comme une totalité tem
 
 C’est cette structure qui permet de penser le présent comme un champ.
 
+
+
 Citations :
 [1] What could come before time? Intertwining affectivity and temporality at the basis of intentionality - Phenomenology and the Cognitive Sciences http://www.link.springer.com/article/10.1007/s11097-024-09973-y
 [2] The Future Matters: Protention as more than Inverse Retention https://popups.uliege.be/1782-2041/index.php?id=288&format=print
 [3] Protention as Phenomenon | Springer Nature Link https://link.springer.com/chapter/10.1007/978-3-030-69521-7_4
 [4] Protention in Husserl's Phenomenology https://www.nikossoueltzis.com/wp-content/uploads/2024/11/Dissertation_Soueltzis.pdf
+
+4. Le présent comme champ, non comme point
+Le présent n’est pas un point. Il est une structure de liaison entre ce qui vient de passer, ce qui est donné maintenant et ce qui peut advenir.
+Le présent ponctuel est une position mathématique. Le présent vécu est une organisation temporelle.
+L’épaisseur du présent n’est pas une durée cachée. C’est la manière dont des phases différentes restent liées sans devenir identiques.
+5. Rétention
+La rétention maintient le juste-passé comme passé.
+Elle n’est pas un stockage. Elle est une modification continue du présent par ce qui vient de passer.
+6. Protention
+La protention ouvre le présent vers sa continuation.
+Elle n’est pas nécessairement une prédiction explicite.
+Lorsqu’une attente est déçue, un écart apparaît :
+Cette équation ne mesure pas la protention. Elle représente seulement l’écart entre une anticipation formalisable et ce qui advient.
+7. Le présent comme liaison
+Le présent relie le passé, l’actuel et le possible.
+La continuité n’est pas l’identité.
+8. Vers l’organisme
+Un organisme ne persiste pas en restant identique à lui-même. Il persiste en se transformant tout en maintenant son organisation.
+9. Mémoire dynamique
+Un système non-markovien dépend de son histoire.
+Cette dépendance n’est pas une conscience du passé.
+La mémoire dynamique peut être représentée par :
+Le système transforme les conditions de sa propre évolution.
+10. Couplage et régulation
+Un organisme n’est pas isolé. Il est couplé à son environnement.
+La régulation ne conserve pas simplement un état. Elle modifie les conditions futures du maintien.
+11. Mise en situation : implémentations
+Une implémentation ne produit pas la conscience. Elle peut seulement représenter certaines structures du présent.
+Une implémentation minimale doit comporter :
+une dépendance à l’histoire ;
+une ouverture vers la suite ;
+un couplage avec l’environnement ;
+une régulation de ses propres conditions ;
+un maintien de l’organisation malgré le changement.
+Mais :
+Formule finale
+Le graphique ci-dessus condense l’architecture du chapitre : présent vécu, rétention, protention, liaison, organisme, mémoire dynamique, couplage, régulation et observateur. Les flèches indiquent des correspondances structurelles, non des réductions. �
