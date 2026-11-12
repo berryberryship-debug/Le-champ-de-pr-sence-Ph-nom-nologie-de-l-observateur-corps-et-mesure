@@ -1,4 +1,12 @@
-# PARTIE I : Le présent comme épaisseur
+# PARTIE I : Le présent comme épaisseu
+
+Rétention husserlienne et héritage relationnel whiteheadien
+Préhension et constitution relationnelle de l'actualité Relier impression et processus
+Temporalité vécue, durée et horizon des possibles Distinguer temps de l'expérience et temps de son contenu
+Rétention, protention et concrescence Comparer les structures sans les confondre
+Géométrisation de la mémoire et statut des hypothèses Délimiter le formalisme
+Husserl, Bergson et Whitehead Établir le dialogue philosophique
+Analyse physique de V78 et contrôles méthodologiques Séparer résultats numériques et interprétation philosophique
 
 ## Chapitre 1 — Le mythe de l'instant
 
