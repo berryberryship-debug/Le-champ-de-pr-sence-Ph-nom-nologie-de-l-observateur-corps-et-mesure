@@ -2844,7 +2844,7 @@ La présente annexe constitue ainsi la mémoire méthodologique du travail : ell
 
 **La rigueur ne consiste pas à prétendre que le raisonnement n'a jamais changé. Elle consiste à pouvoir montrer pourquoi, comment et sur quelles bases il a évolué.**
 
-Correctifs à amener :
+# Correctifs à amener :
 
 Correction 1
 Cherche : Le point de départ est l'équation de Lindblad :
