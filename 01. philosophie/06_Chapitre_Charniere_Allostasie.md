@@ -4014,6 +4014,20 @@ Le modèle proposé se situe à l’intersection de ces trois traditions.
 
 Il propose de penser l’observateur comme un processus vivant, qui se produit, se maintient et se transforme à travers un couplage dynamique avec son monde.
 
+Ce chapitre n’introduit pas un concept isolé. Il reformule le problème de l’observateur de manière à le rendre travaillable.
+
+Jusqu’ici, deux constats s’imposaient. Premièrement, l’observateur ne peut plus être pensé comme un point de vue extérieur détaché du monde. Deuxièmement, le corps, compris phénoménologiquement, constitue une condition d’apparition et non un simple support matériel. Ces deux acquis laissaient pourtant ouverte une question de fond : comment formaliser la continuité d’un observateur vivant sans le réduire ni à un dispositif physique abstrait, ni à une pure description du vécu ?
+
+C’est cette question que le concept d’invariant de jauge biologique cherche à rendre opératoire. Il ne prétend pas identifier l’organisme à une théorie de jauge. Il nomme une exigence : identifier ce qui, dans un système vivant, doit rester invariant pour que des relations puissent être reconnues, mesurées et maintenues à travers le changement.
+
+Autour de cette exigence, trois niveaux jusqu’ici largement séparés sont mis en correspondance : le niveau physiologique de la régulation allostatique (dépendance au chemin, mémoire dynamique, hystérésis), le niveau géométrique (connexion, courbure, holonomie), et le niveau phénoménologique (intentionnalité, protention, chair, normativité). L’enjeu n’est pas de les fusionner. Il est de construire un espace dans lequel ils puissent dialoguer sans que l’un absorbe les autres.
+
+Deux risques persistent si cette médiation fait défaut. Le risque réductionniste, qui transforme l’expérience vécue en simple variable d’un modèle physique ou informationnel. Et le risque subjectiviste, qui laisse la phénoménologie sans ancrage formel capable de dialoguer avec les sciences de la régulation et de la mesure. Le présent développement se situe entre ces deux écueils. Il refuse à la fois la réduction pure et le retrait dans une pure description du vécu.
+
+Ce qui change, dès lors, n’est pas seulement la définition de l’observateur. C’est la question elle-même. Elle n’est plus : « Où se trouve l’observateur ? ». Elle devient : quelles relations doivent rester invariantes pour qu’un système vivant puisse reconnaître, mesurer et maintenir un monde à travers ses transformations ?
+
+C’est cette reformulation qui oriente la suite du travail.
+
 C’est cette proposition qui constitue la clôture philosophique de ce travail.
 
 Et c’est cette proposition qui ouvre un horizon pour penser l’observateur non comme un point extérieur, mais comme une structure vivante, incarnée, historiquement couplée, normativement orientée et relationnellement stabilisée.
