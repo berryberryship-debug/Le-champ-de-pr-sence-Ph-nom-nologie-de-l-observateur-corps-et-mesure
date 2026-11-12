@@ -23,6 +23,7 @@ Un audit de convergence (de 50 à 200 points, pas de temps de \(10^{-3}\) à \(0
 
 ## Chapitre 2 — La rétention : le passé qui ne passe pas
 
+
 ### 1. La rétention selon Husserl
 La rétention n'est pas le souvenir (acte volontaire). C'est le maintien du passé immédiat dans le présent vivant. Prenons l'exemple d'une mélodie : le *do* qui vient de résonner n'est plus là physiquement, mais il est retenu dans mon expérience du *ré*. Sans cette rétention, chaque note serait un choc isolé. La rétention est l'invariance structurelle du flux temporel.
 
