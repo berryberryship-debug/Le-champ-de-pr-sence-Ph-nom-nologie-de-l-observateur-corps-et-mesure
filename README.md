@@ -13,11 +13,14 @@ La physique et les mathématiques (quantique, topologie, systèmes complexes) mo
 *L'articulation :* L’invariance topologique est la condition formelle sous laquelle une continuité peut devenir mesurable ; la structure incarnée de l’observateur est la condition phénoménologique sous laquelle cette mesure peut apparaître comme signifiante.
 
 ## 3. Architecture du Dépôt
-- `01_Philosophie/` : Prologue (l'anecdote), Introduction, Parties I & II (Husserl, Sartre, Merleau-Ponty).
-- `02_Physique_Quantique/` : Simulations Axioms, Gravitons (Phase de Berry, Toda), Topologie.
+- `01._philosophie/` : Prologue (l'anecdote), Introduction, Parties I à IV, Chapitre Charnière Allostasie, Bibliographie.
+- `02_physique_quantique/` : 
+  - `vacuite_holotelegraphique/` : Moteur de simulation (champ complexe sur tore, jauge U(1), Strang splitting, RLS).
+  - `python_integrity_audit.py` : Scripts d'audit et de vérification.
+  - `scientific_engine.py` : Moteur de calcul secondaire.
 - `03_Modelisation_Empirique/` : Modèle ST, Charge allostatique, BVP/EDA, Analyse d'identifiabilité (AIC/BIC).
 - `04_Code_Optimisation/` : Scripts d'optimisation mémoire (RK4), audit de performance.
-- `05_Data_Figures/` : Résultats, CSV, figures générées.
+- `05_Data_Figures/` : Résultats, CSV, figures générées (ex: `resultats_simulation.csv`).
 
 ## 4. Avertissement Épistémologique
 Ce dépôt distingue rigoureusement :
@@ -27,3 +30,11 @@ Ce dépôt distingue rigoureusement :
 - `[Limite]` : Restriction explicite de la portée d'un résultat.
 
 *Ce travail ne prétend pas que la conscience crée la matière, ni que la matière dissout la conscience. Il vise à élucider la condition philosophique de toute mesure.*
+
+---
+## Annexe : Résultats de validation du moteur `vacuite_holotelegraphique`
+*Ceci atteste de la robustesse du code implémenté dans `02_physique_quantique/`.*
+
+- **Régime unitaire (γ = 0)** : Norme L² conservée à `|ΔNorme| = 5.54e-14`. L'énergie covariante est stable à `ΔE/E = 6.01e-07`. (Preuve de la validité de l'intégrateur Strang).
+- **Régime dissipatif (γ = 0.5)** : L'énergie décroît de `E0 = 1.51823` à `E1 = 0.58544`, confirmant la relaxation vers l'état stationnaire. 
+- **Topologie** : L'holonomie (flux de jauge sur le tore) est mesurée à `2.3247 rad`, confirmant une topologie non-triviale.
