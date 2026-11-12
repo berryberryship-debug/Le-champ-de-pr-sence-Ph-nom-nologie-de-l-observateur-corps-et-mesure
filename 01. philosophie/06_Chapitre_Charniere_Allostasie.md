@@ -4034,7 +4034,9 @@ C’est cette proposition qui constitue la clôture philosophique de ce travail.
 
 Et c’est cette proposition qui ouvre un horizon pour penser l’observateur non comme un point extérieur, mais comme une structure vivante, incarnée, historiquement couplée, normativement orientée et relationnellement stabilisée.
 
-D'ailleurs je rattacherai un autre point de vue à la discussion. Je revise souvent et des choses se sont pointées : 
+
+
+## D'ailleurs, après révision j'yrattacherai un autre point de vue sur cette longue discussion en me laissant de questionner les i.a., mais l'unes d'elles m'a pointé ceci : 
 
 # Géométrie de l’allostasie : l’observateur comme invariant de jauge
 
