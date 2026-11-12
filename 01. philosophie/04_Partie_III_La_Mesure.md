@@ -434,7 +434,7 @@ Le terme « auto-gravitante » doit être réservé à un modèle réellement gr
 
 ```python
 def acceleration(self, psi, vitesse, gamma):
-    # Mise à jour de la métrique effective en fonction de la densité actuelle
+    # Mise_à_jour de la métrique effective en fonction de la densité actuelle
     self.mettre_a_jour_metrique(psi)
 
     # Dérivée covariante incluant la jauge du tore
