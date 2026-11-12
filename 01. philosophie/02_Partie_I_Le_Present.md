@@ -171,7 +171,7 @@ On observe que la pureté chute, puis remonte, quand \(\gamma\) change de signe.
 ### 3. Analyse ligne par ligne du code
 Voici les éléments clés du script `v78_nonmarkov_physical.py` :
 ```python
-def run_v78_nonmarkov_physical():
+```def run_v78_nonmarkov_physical():
     T = 20.0
     N = 1000
     time = np.linspace(0.0, T, N + 1)
@@ -2761,4 +2761,4 @@ Le raisonnement conserve son orientation tout en se transformant. Les formulatio
 
 La présente annexe constitue ainsi la mémoire méthodologique du travail : elle conserve la trace des propositions, des observations et des transformations qui participent à la construction de son architecture théorique.
 
-**La rigueur ne consiste pas à prétendre que le raisonnement n'a jamais changé. Elle consiste à pouvoir montrer pourquoi, comment et sur quelles bases il a évolué.**
+**La rigueur ne consiste pas à prétendre que le raisonnement n'a jamais changé. Elle consiste à pouvoir montrer pourquoi, comment et sur quelles bases il a évolué.**```
