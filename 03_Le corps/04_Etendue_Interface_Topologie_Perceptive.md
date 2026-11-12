@@ -20,7 +20,7 @@ L'hypothèse développée ici est que cette interface possède une fonction auto
 
 Le masquage ne signifie donc pas nécessairement dissimulation d'une réalité quantique directement accessible. Il désigne la sélection structurelle des dimensions du réel qui deviennent pertinentes dans l'expérience incarnée.
 
-2. Cartographie des statuts épistémiques de l'interface
+# 2. Cartographie des statuts épistémiques de l'interface
 
 Plusieurs architectures conceptuelles permettent d'examiner les rapports entre perception, réalité et construction de l'expérience. Elles ne possèdent cependant ni le même statut épistémologique ni les mêmes engagements ontologiques.
 
