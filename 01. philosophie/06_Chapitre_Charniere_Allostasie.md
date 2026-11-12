@@ -1,5 +1,3 @@
----
-
 # Géométrie de l’allostasie : l’observateur comme invariant de jauge"
 
 ## Ouverture
