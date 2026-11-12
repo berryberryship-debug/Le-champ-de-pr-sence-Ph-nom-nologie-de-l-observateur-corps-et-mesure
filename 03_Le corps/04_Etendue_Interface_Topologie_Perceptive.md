@@ -1,6 +1,6 @@
-L’étendue comme interface : topologie perceptive et masquage du flux
+# L’étendue comme interface : topologie perceptive et masquage du flux
 
-Partie II — Le corps comme condition
+## Partie II — Le corps comme condition
 Domaine : Philosophie de l'esprit, phénoménologie, biologie théorique et topologie de la perception.
 Statut : Proposition théorique en développement.
 
@@ -24,7 +24,7 @@ Le masquage ne signifie donc pas nécessairement dissimulation d'une réalité q
 
 Plusieurs architectures conceptuelles permettent d'examiner les rapports entre perception, réalité et construction de l'expérience. Elles ne possèdent cependant ni le même statut épistémologique ni les mêmes engagements ontologiques.
 
-2.1 Emmanuel Kant : la condition transcendantale
+# 2.1 Emmanuel Kant : la condition transcendantale
 
 Statut : Philosophie critique et théorie transcendantale de la connaissance.
 
@@ -40,7 +40,7 @@ L'interface spatiale n'est donc pas uniquement une représentation empirique. El
 
 Cette proposition fournit un premier niveau à notre architecture : celui des conditions de constitution du phénomène.
 
-2.2 Thomas Metzinger : la transparence phénoménale
+# 2.2 Thomas Metzinger : la transparence phénoménale
 
 Statut : Philosophie de l'esprit et théorie représentationnelle du soi.
 
@@ -56,7 +56,7 @@ Cette transparence permet d'interroger la distinction entre le contenu phénomé
 
 Dans notre architecture, elle constitue le mécanisme conceptuel du masquage : l'interface est fonctionnelle précisément parce que ses opérations constitutives ne sont pas nécessairement présentes comme objets de conscience.
 
-2.3 Donald Hoffman : l'interface évolutionniste
+# 2.3 Donald Hoffman : l'interface évolutionniste
 
 Statut : Théorie évolutionniste de la perception et modélisation mathématique.
 
@@ -74,7 +74,7 @@ L'intérêt de cette approche réside dans la possibilité d'étudier mathémati
 
 Il faut toutefois distinguer les résultats obtenus dans les modèles évolutionnistes de leur généralisation à l'ensemble des systèmes perceptifs.
 
-2.4 Bernardo Kastrup : l'idéalisme analytique
+# 2.4 Bernardo Kastrup : l'idéalisme analytique
 
 Statut : Métaphysique et philosophie de la conscience.
 
@@ -88,7 +88,7 @@ L'étendue physique n'est plus considérée comme une réalité fondamentale ind
 
 Son intégration dans notre architecture doit demeurer explicitement métaphysique : elle ne constitue pas une conséquence démontrée des modèles perceptifs ou neurobiologiques précédents.
 
-2.5 Synthèse comparative
+# 2.5 Synthèse comparative
 
 Ces quatre approches permettent de distinguer quatre niveaux :
 
@@ -107,7 +107,7 @@ Nous proposons de désigner cette seconde dimension par le concept d'invariant d
 
 Cette expression constitue ici un concept théorique propre à notre architecture. Elle ne désigne pas une symétrie de jauge physique déjà démontrée.
 
-L'hypothèse est la suivante :
+# L'hypothèse est la suivante :
 
 L'identité biologique et phénoménologique ne dépend pas nécessairement de la conservation d'une configuration perceptive particulière. Elle dépendrait plutôt du maintien de certaines relations constitutives du système vivant.
 
@@ -127,7 +127,7 @@ La continuité de l'observateur pourrait être structurellement plus fondamental
 
 Cette proposition ouvre la possibilité d'étudier les transformations de l'expérience spatiale sans présupposer que toute modification de la géométrie phénoménale entraîne une rupture de l'identité du sujet.
 
-4. Transformation de l'interface : de la métrique à la topologie
+# 4. Transformation de l'interface : de la métrique à la topologie
 
 Dans l'expérience ordinaire, le monde apparaît sous une organisation spatiale relativement stable.
 
@@ -153,7 +153,7 @@ La question théorique devient alors :
 
 Quelles propriétés de l'organisation du sujet peuvent demeurer continues lorsque son organisation métrique phénoménale se transforme ?
 
-4.1 Conservation hypothétique des invariants topologiques
+# 4.1 Conservation hypothétique des invariants topologiques
 
 En physique de la matière condensée, certains systèmes présentent des propriétés topologiques robustes sous des transformations continues qui préservent les conditions nécessaires à leur invariance.
 
@@ -187,7 +187,7 @@ Notre proposition consiste à examiner si la frontière fonctionnelle d'un obser
 
 L'idée d'une frontière fréquentielle ou noétique constitue une extension hypothétique de ce cadre, qui devra recevoir une définition mathématique indépendante.
 
-5. Le modèle phénoménologique : synesthésie et reconfiguration de l'interface
+# 5. Le modèle phénoménologique : synesthésie et reconfiguration de l'interface
 
 Lorsque l'organisation spatiale habituelle se transforme, l'expérience peut présenter d'autres formes de structuration.
 
@@ -199,7 +199,7 @@ Ils ne démontrent cependant pas un accès direct à un substrat ontologique ou 
 
 Nous proposons de les examiner comme des manifestations possibles de transformations dans les mécanismes de construction et d'intégration perceptives.
 
-5.1 Opacification de l'interface
+# 5.1 Opacification de l'interface
 
 La transparence phénoménale décrite par Metzinger peut être mise en relation conceptuelle avec les expériences dans lesquelles les mécanismes de représentation semblent devenir eux-mêmes perceptibles.
 
@@ -209,7 +209,7 @@ Les formes géométriques, les motifs répétitifs et les transformations visuel
 
 L'hypothèse d'une prise de conscience du processus de construction perceptive constitue une interprétation phénoménologique possible, non une identification neurophysiologique déjà établie.
 
-5.2 Basculement synesthésique
+# 5.2 Basculement synesthésique
 
 La synesthésie constitue un autre domaine pertinent pour examiner la reconfiguration des relations entre modalités perceptives.
 
@@ -265,7 +265,7 @@ Il ne s'agit pas de supposer que l'observateur impose au réel une géométrie p
 
 L'étendue serait alors une modalité de manifestation de cette organisation, et non nécessairement sa condition ontologique ultime.
 
-Proposition centrale
+# Proposition centrale
 
 L'autopoïèse pourrait précéder, au sens fonctionnel, la configuration particulière de l'espace phénoménal qu'elle contribue à maintenir.
 
@@ -279,7 +279,7 @@ Il est de comprendre comment un organisme constitue une organisation perceptive 
 
 ---
 
-Références bibliographiques
+# Références bibliographiques
 
 1. Kant, I. (1781/1787). Critique de la raison pure. Esthétique transcendantale.
 2. Metzinger, T. (2003). Being No One: The Self-Model Theory of Subjectivity. MIT Press.
