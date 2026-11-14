@@ -4,7 +4,6 @@ import csv
 import numpy as np
 import networkx as nx
 from collections import deque
-from scipy import stats
 
 # =============================================================================
 # 1. CONFIGURATION
@@ -150,26 +149,26 @@ def test_cas_analytiques():
     L = 41
     tests = []
     
-    # Tore plein (doit être (2,0) ou (0,2) selon la couleur majoritaire)
+    # Tore plein (doit être 2)
     B = np.ones((L, L), dtype=int)
-    tests.append(("Tore plein (1)", B, 2))
-    tests.append(("Tore plein (0)", 1-B, 2))
+    tests.append(("Tore plein (1)", B, 1, 2)) # On cherche les 1
+    tests.append(("Tore plein (0)", B, 0, 2)) # On cherche les 0
     
     # Bande horizontale (doit être 1)
     B = np.zeros((L, L), dtype=int); B[15:25, :] = 1
-    tests.append(("Bande horizontale", B, 1))
+    tests.append(("Bande horizontale", B, 1, 1))
     
     # Bande verticale (doit être 1)
     B = np.zeros((L, L), dtype=int); B[:, 15:25] = 1
-    tests.append(("Bande verticale", B, 1))
+    tests.append(("Bande verticale", B, 1, 1))
     
     # Îlot (doit être 0)
     B = np.zeros((L, L), dtype=int); B[15:25, 15:25] = 1
-    tests.append(("Îlot contractile", B, 0))
+    tests.append(("Îlot contractile", B, 1, 0))
     
-    for nom, B, attendu in tests:
-        rA = analyse_rang_A(B, 1, 4, L)
-        rB = analyse_rang_B(B, 1, 4, L)
+    for nom, B, val, attendu in tests:
+        rA = analyse_rang_A(B, val, 4, L)
+        rB = analyse_rang_B(B, val, 4, L)
         status = "OK" if (rA == attendu and rB == attendu) else "ECHEC"
         print(f"  {nom:<20} | Attendu: {attendu} | A: {rA} | B: {rB} -> {status}")
 
