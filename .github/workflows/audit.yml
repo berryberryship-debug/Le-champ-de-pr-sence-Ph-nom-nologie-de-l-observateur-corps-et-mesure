@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   audit:
-    name: Audit d’intégrité scientifique
+    name: Audit d’intégrité et Tests V8
     runs-on: ubuntu-latest
 
     steps:
@@ -31,6 +31,14 @@ jobs:
             pip install -r requirements.txt
           fi
 
+      # --- NOUVEAU : Tests unitaires de la V8 ---
+      - name: Exécution des tests unitaires (pytest)
+        run: |
+          python -m pytest tests/ -v
+
+      # --- TON AUDIT EXISTANT ---
+      # Note : assure-toi que le chemin vers python_integrity_audit.py 
+      # est toujours correct après la réorganisation (ex: src/tools/...)
       - name: Exécution de l’audit d’intégrité
         run: |
           python 03_tools/python_integrity_audit.py . --json -o audit_report.json
