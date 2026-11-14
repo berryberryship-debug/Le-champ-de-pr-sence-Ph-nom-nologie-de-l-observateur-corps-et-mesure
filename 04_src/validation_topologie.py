@@ -149,10 +149,13 @@ def test_cas_analytiques():
     L = 41
     tests = []
     
-    # Tore plein (doit être 2)
-    B = np.ones((L, L), dtype=int)
-    tests.append(("Tore plein (1)", B, 1, 2)) # On cherche les 1
-    tests.append(("Tore plein (0)", B, 0, 2)) # On cherche les 0
+    # Tore plein de 1 : on cherche les 1 -> doit donner 2
+    B_plein = np.ones((L, L), dtype=int)
+    tests.append(("Tore plein (1)", B_plein, 1, 2))
+    
+    # Tore plein de 0 : on cherche les 1 (qui sont absents) -> doit donner 0
+    B_vide = np.zeros((L, L), dtype=int)
+    tests.append(("Tore plein (complément vide)", B_vide, 1, 0))
     
     # Bande horizontale (doit être 1)
     B = np.zeros((L, L), dtype=int); B[15:25, :] = 1
@@ -170,7 +173,7 @@ def test_cas_analytiques():
         rA = analyse_rang_A(B, val, 4, L)
         rB = analyse_rang_B(B, val, 4, L)
         status = "OK" if (rA == attendu and rB == attendu) else "ECHEC"
-        print(f"  {nom:<20} | Attendu: {attendu} | A: {rA} | B: {rB} -> {status}")
+        print(f"  {nom:<30} | Attendu: {attendu} | A: {rA} | B: {rB} -> {status}")
 
 def run_validation_A_B():
     print("\n=== NIVEAU 2 : CONCORDANCE A vs B SUR CHAMPS ALÉATOIRES ===")
@@ -182,7 +185,6 @@ def run_validation_A_B():
             for val, conn in CAS:
                 div = nz = 0
                 for s in range(50):
-                    # Générateur indépendant de celui de la dynamique
                     M = (np.random.default_rng(s + L*100).random((L, L)) < p).astype(int)
                     a, b = analyse_rang_A(M, val, conn, L), analyse_rang_B(M, val, conn, L)
                     div += (a != b); nz += (a > 0)
