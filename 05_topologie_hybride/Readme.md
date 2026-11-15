@@ -16,8 +16,8 @@ Pour tester cette hypothèse de manière rigoureuse, nous avons construit un ban
 - `v9_metaplectic_dynamo.py` : Test du transfert d'information spatial (le "dynamo").
 - `v11_full_audit.py` : Analyse du Jacobien global et balayage de la diffusion (D_F).
 - `v12_convergence_relative.py` : Validation numérique de la convergence du Jacobien.
-- `v13_holographie_PR.py` : Analyse du Rapport de Participation (PR) des modes propres.
-- `v14_redundance.py` : Le test final : prédiction locale de l'état global via Machine Learning (SVM).
+- `v13_2_holographie_PR.py` : Analyse du Rapport de Participation (PR) des modes propres et contrôles spectraux.
+- `redundancy.py` : Le test final : prédiction locale de l'état global via Machine Learning (SVM).
 
 ## Statut
 Le pipeline d'analyse est complet. Les résultats numériques valident l'hypothèse d'une redondance spatiale forte (holographie). 
