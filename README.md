@@ -43,7 +43,7 @@ Ces deux niveaux ne sont pas identiques. Leur articulation constitue un problèm
 
 Le dépôt rassemble les développements philosophiques, les modèles mathématiques, les simulations numériques et les documents de vérification associés à la thèse.
 
-### `01. philosophie/`
+### `01_philosophie/`
 
 Développements philosophiques et phénoménologiques :
 
@@ -77,6 +77,19 @@ Espace consacré aux développements relatifs au corps et à ses conditions phé
 
 La cartographie détaillée de ce répertoire sera complétée à partir de ses fichiers effectivement publiés.
 
+### `05_topologie_hybride/`
+
+Modèles numériques explorant la persistance des structures spatiales et la résilience des systèmes dynamiques sous compression.
+
+Fichiers identifiés dans le dépôt :
+
+- `fib_core.py` : Noyau central vectorisé de la dynamique F-I-B (champs continus F, I et variable binaire B).
+- `v9_metaplectic_dynamo.py`, `v11_full_audit.py`, `v12_convergence_relative.py`, `v13_2_holographie_PR.py` : Outils d'analyse du Jacobien global, validation de convergence, cartographie du transport historique et statistiques de participation (PR).
+- `redundancy.py` : Test de prédiction locale de l'état topologique global (encodage distribué dit "holographique") par Machine Learning (SVM).
+- `analyse_degre.py`, `predicteur_a_priori.py`, `stereomorphogenese.py` : Protocoles de compression des interfaces du système (retrait d'arêtes pondérées ou aléatoires), prédiction de la perte de mémoire de forme et mesures de relaxation 3D.
+
+L’architecture de cette branche est complète. Les scripts sont reproductibles et documentés dans leurs en-têtes respectifs.
+
 ### Organisation documentaire
 
 Les répertoires de modélisation empirique, d’optimisation et de données ne sont pas présentés ici comme des espaces autonomes tant que leur présence et leur contenu ne sont pas confirmés dans l’arborescence publiée.
@@ -105,7 +118,7 @@ De même, une observable calculée à partir d’un paramètre imposé ne consti
 
 Ce travail ne prétend pas que la conscience crée la matière, ni que la matière dissout la conscience. Il vise à examiner les conditions phénoménologiques, formelles et physiques de l’apparition, de l’observation et de la mesure.
 
-## 5. Annexe — Résultats numériques rapportés pour le moteur `vacuite_holotelegraphique`
+## 5. Annexe A — Résultats numériques pour `vacuite_holotelegraphique`
 
 Cette annexe rassemble les résultats numériques communiqués pour le moteur implémenté dans `02_physique_quantique/`.
 
@@ -216,9 +229,30 @@ La norme L² doit être rapportée avant et après toute renormalisation lorsque
 
 Les valeurs présentées dans cette annexe constituent les résultats rapportés pour les simulations indiquées. Une reproduction indépendante exige de disposer du code correspondant et de sa configuration exacte.
 
+## 5bis. Annexe B — Résultats numériques pour `05_topologie_hybride`
+
+Cette annexe rassemble les résultats numériques concernant la résilience topologique et la prédiction de la mémoire de forme du modèle F-I-B.
+
+### 5bis.1. Encodage de l'information spatiale
+
+- **Prédiction locale de l'état global** : Un classifieur non linéaire (SVM) entraîné sur un patch local de \(7 \times 7\) pixels prédit l'état macroscopique du système avec une précision de **81.2%** (contre 60.6% pour un contrôle spectral aléatoire). `[Observé numériquement]`
+- **Limite** : La précision dépend de la définition de l'état macroscopique (taille des domaines). La correspondance avec une "holographie" au sens physique ou cognitif reste une hypothèse `[Hypothèse]`.
+
+### 5bis.2. Prédiction de la perte de mémoire de forme
+
+- **Protocole** : Le système évolue vers un cycle stable, subit une compression de ses interfaces, puis est relâché. L'écart de retour est mesuré.
+- **Indicateur** : La marge de sécurité minimale (\(m_{min}\)) calculée avant compression sépare les systèmes qui retrouvent leur cycle de ceux qui basculent (AUC de 0.69 à 0.98 selon les paramètres). `[Observé numériquement]`
+- **Mécanisme** : L'échec de retour n'est pas dû à un franchissement brutal de seuil, mais à l'érosion de cette marge positive (perte de résilience). `[Observé numériquement]`
+- **Limite** : L'avantage d'une compression pondérée par l'état dynamique sur une compression aléatoire n'est pas universel et dépend fortement des paramètres d'amortissement (\(D_I\)). `[Limite]`
+
+### 5bis.3. Stéréomorphogenèse
+
+- **Protocole** : Les nœuds du graphe sont assimilés à des points 3D reliés par des ressorts. La compression physique modifie leur relaxation.
+- **Résultat** : Les nœuds de haut degré (les hubs) agissent comme des ancres géométriques, déviant beaucoup moins de leur référence (Spearman = -0.49). `[Observé numériquement]`
+
 ## 6. Orientation générale de la recherche
 
-La thèse explore une articulation entre trois dimensions.
+La thèse explore une articulation entre quatre dimensions.
 
 **1. Dimension phénoménologique**
 
@@ -232,22 +266,10 @@ Les invariants, les symétries, les structures topologiques et les relations mat
 
 Les simulations, les modèles dynamiques et les procédures de vérification permettant d’évaluer la cohérence interne des propositions formalisées.
 
+**4. Dimension topologique et résilience**
+
+Les travaux menés dans `05_topologie_hybride` explorent comment une structure (qu'elle soit physique, biologique ou cognitive) maintient son identité sous la contrainte. La découverte que la mémoire de forme repose sur des "marges de sécurité" locales (et non sur une conservation globale rigide) éclaire d'un jour nouveau l'idée d'une continuité sous transformation. La structure ne survit pas parce qu'elle est inerte, mais parce que ses interfaces critiques conservent une marge de viabilité dynamique.
+
 L’enjeu est de construire un cadre dans lequel l’observateur ne soit ni un point extérieur au système, ni une variable ajoutée après coup, mais une composante du problème de l’apparition et de la mesure.
 
 L’observateur n’est pas simplement celui qui regarde le réel : il appartient aux conditions relationnelles par lesquelles le réel devient observable.
-
-Modifications effectuées :
-
-* Postulat conservé, avec distinction entre apparition, objectivation et mesure.
-
-* Invariance clarifiée par rapport à conservation et stabilité.
-
-* Arborescence corrigée selon les fichiers présents.
-
-* Incohérences documentaires du moteur signalées.
-
-* Holonomie requalifiée comme flux calculé à partir du paramètre imposé.
-
-* Résultats numériques conservés, avec leur statut et leurs limites précisés.
-
-* Reproductibilité renforcée par les exigences de traçabilité.
